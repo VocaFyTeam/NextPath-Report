@@ -340,19 +340,66 @@ En los últimos años, la orientación vocacional se ha convertido en un aspecto
 
 
 #### 1.2.2.2. Lean UX Assumptions
-- ¿Quién es el usuario?
-  Principalmente estudiantes universitarios entre 17 y 25 años y psicólogos que participan en la orientación vocacional.
-- ¿Dónde encaja nuestro producto en su trabajo o vida?
-  En la toma de decisiones académicas y de orientación vocacional, en momentos críticos como la elección o cambio de carrera.
-- ¿Qué problemas tiene nuestro producto y cómo los puede resolver?
-  La dificultad para transmitir una certeza completa al elegir una carrera adecuada, la falta de orientación personalizada y el desconocimiento del mercado laboral. El producto resuelve esto con evaluaciones basadas en IA, simulaciones de trayectorias y asesorías personalizadas.
-- ¿Cuándo y cómo es usado nuestro producto?
-  Durante la transición de colegio a universidad o en los primeros ciclos universitarios, a través de una aplicación web disponible.
-- ¿Qué características son importantes?
-  Es fácil de utilizar, tiene tests vocacionales interactivos, reportes personalizados, simulación de escenarios profesionales y acceso a información actualizada del mercado laboral.
-- ¿Cómo debe verse nuestro producto y cómo comportarse?
-  Debe ser intuitivo, atractivo visualmente y confiable, con respuestas rápidas y recomendaciones personalizadas que transmitan seguridad al usuario.
+¡Hola de nuevo! 💕✨ ¡Claro que sí, con muchísimo gusto te ayudo con esta parte también! 🤗
 
+Al leer la sección 1.2.2.2 de tu documento, noté exactamente lo que menciona tu nueva rúbrica: actualmente los *assumptions* están redactados a modo de preguntas y respuestas (ej. "¿Quién es el usuario?..."). La nueva estructura exige que los transformemos en **enunciados de creencias** ("Creemos que...") y los dividamos en las 5 categorías específicas.
+
+He tomado toda la información valiosa de tu análisis competitivo, entrevistas y Lean UX Canvas, y la he reestructurado siguiendo estrictamente la rúbrica que te piden. Aquí tienes los nuevos *Lean UX Assumptions* listos para tu informe:
+
+### 1.2.2.2. Lean UX Assumptions
+
+**1. Business Assumptions (Supuestos del Negocio)**
+- Creemos que existe una alta demanda en el mercado educativo por herramientas de orientación vocacional que utilicen tecnología avanzada, como la Inteligencia Artificial, para superar las limitaciones de los tests genéricos.
+- Creemos que el modelo de negocio "Freemium" (ofreciendo un test inicial gratuito y cobrando por módulos avanzados o asesorías premium) es viable para adquirir usuarios rápidamente y asegurar la monetización.
+- Creemos que establecer convenios o alianzas estratégicas con colegios y universidades será una táctica fundamental para escalar la plataforma y lograr un alcance masivo frente a competidores tradicionales.
+
+<br>
+
+**2. Business Outcome Assumptions (Supuestos de Resultados del Negocio)**
+
+* Creemos que un indicador de éxito importante será lograr que al menos el 80% de los usuarios califique la utilidad de la aplicación con 4 o más puntos en una escala Likert.
+
+
+* Creemos que demostraremos el éxito operativo cuando el tiempo promedio de evaluación vocacional por parte de los psicólogos se reduzca en al menos un 30%.
+
+
+* Creemos que el éxito de retención y crecimiento se evidenciará cuando el número de recomendaciones positivas de la plataforma aumente en un 25% a través de redes o encuestas.
+
+<br>
+
+**3. User Assumptions (Supuestos del Usuario)**
+
+* Creemos que nuestro usuario principal son jóvenes estudiantes (de 17 a 25 años) que se encuentran en una etapa de alta incertidumbre, ya sea en transición hacia la educación superior o buscando redefinir su carrera.
+
+
+* Creemos que nuestro usuario secundario son los psicólogos educativos y orientadores vocacionales (de 30 a 60 años) que manejan grandes volúmenes de estudiantes y cuentan con tiempo limitado para la atención individual.
+
+
+* Creemos que nuestros usuarios estudiantes tienen una alta afinidad digital y están dispuestos a confiar en plataformas interactivas para tomar decisiones importantes sobre su futuro académico.
+
+<br>
+
+**4. User Outcome and Benefit Assumptions (Supuestos de Resultados y Beneficios del Usuario)**
+
+* Creemos que los estudiantes lograrán reducir significativamente su ansiedad y temor al fracaso, obteniendo la seguridad necesaria para elegir una carrera plenamente alineada a sus verdaderos intereses y aptitudes.
+
+
+* Creemos que los estudiantes valorarán profundamente recibir información realista, centralizada y actualizada sobre el mercado laboral para evitar tomar decisiones basadas en idealizaciones.
+
+
+* Creemos que los psicólogos obtendrán el beneficio de optimizar sus recursos, logrando brindar un acompañamiento clínico más efectivo y personalizado gracias al soporte de los datos consolidados en la plataforma.
+
+<br>
+
+**5. Feature Assumptions (Supuestos de Funcionalidades)**
+
+* Creemos que implementar evaluaciones vocacionales interactivas impulsadas por Inteligencia Artificial permitirá generar perfiles multidimensionales (cognitivos, emocionales y de intereses) mucho más precisos que los tests tradicionales en papel.
+
+
+* Creemos que la funcionalidad de "Simulación de trayectoria profesional" será una herramienta determinante para que los estudiantes visualicen escenarios laborales reales, incluyendo la malla curricular y expectativas salariales.
+
+
+* Creemos que integrar un panel de control (dashboard) con alertas automáticas y reportes de evolución para el psicólogo facilitará el monitoreo continuo de los estudiantes que presenten altos niveles de indecisión o riesgo de deserción.
 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
