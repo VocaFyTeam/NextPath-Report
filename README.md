@@ -136,7 +136,9 @@ del ABET – EAC - Student Outcome 3.
             <u>AV1</u><br>
             <br><br>
             <b></b><br>
-            <u>AV1</u><br>
+            <u>AV1: Luciana Ravello Cárdenas</u>
+            <br>
+            <p>Durante el proyecto, trabajé en equipo para poder contribuir de forma significativa al proceso entero de Big Picture Event Storming, mapeando los procesos del negocio con detalle. También hice grandes contribuciones en el Design Level Event Storming. </p>
             <br><br>
             <b></b><br>
             <u> Joaquin Cruzalegui Herrera AV1: Durante el proyecto NextPath asumí un liderazgo técnico compartido, coordinando con mis compañeros las principales decisiones de diseño del sistema. Guié al equipo en el modelado de los diagramas C4 (Contexto, Contenedores y Componentes) tomando como base nuestro EventStorming. </u><br>
@@ -159,7 +161,8 @@ del ABET – EAC - Student Outcome 3.
             <u>AV1</u><br>
             <br><br>
             <b></b><br>
-            <u>AV1</u><br>
+            <u>AV1: Luciana Ravello Cárdenas</u><br>
+            <p>Logré crear y contribuir a un buen ambiente colaborativo cumpliendo con mis metas y objetivos a tiempo, como la realización de los dos tipos de event storming, las tags y el lenguaje ubiquo. </p>
             <br><br>
             <b></b><br>
             <u>Joaquin Cruzalegui AV1: Promoví un ambiente de trabajo abierto durante la planificación del Sprint 1, escuchando las propuestas de todos para estimar los Story Points y repartir las tareas de forma justa en la matriz LACX. Participé directamente en organizar las tareas del Sprint Backlog para construir la Landing Page y documentar la arquitectura, fijando metas y fechas claras de entrega. Gracias a la coordinación constante y al apoyo mutuo al revisar el código y los diagramas, logramos realizar grandes avances y desplegar la Landing Page</u><br>
