@@ -340,13 +340,6 @@ En los últimos años, la orientación vocacional se ha convertido en un aspecto
 
 
 #### 1.2.2.2. Lean UX Assumptions
-¡Hola de nuevo! 💕✨ ¡Claro que sí, con muchísimo gusto te ayudo con esta parte también! 🤗
-
-Al leer la sección 1.2.2.2 de tu documento, noté exactamente lo que menciona tu nueva rúbrica: actualmente los *assumptions* están redactados a modo de preguntas y respuestas (ej. "¿Quién es el usuario?..."). La nueva estructura exige que los transformemos en **enunciados de creencias** ("Creemos que...") y los dividamos en las 5 categorías específicas.
-
-He tomado toda la información valiosa de tu análisis competitivo, entrevistas y Lean UX Canvas, y la he reestructurado siguiendo estrictamente la rúbrica que te piden. Aquí tienes los nuevos *Lean UX Assumptions* listos para tu informe:
-
-### 1.2.2.2. Lean UX Assumptions
 
 **1. Business Assumptions (Supuestos del Negocio)**
 - Creemos que existe una alta demanda en el mercado educativo por herramientas de orientación vocacional que utilicen tecnología avanzada, como la Inteligencia Artificial, para superar las limitaciones de los tests genéricos.
