@@ -322,8 +322,21 @@ En los últimos años, la orientación vocacional se ha convertido en un aspecto
 
 ### 1.2.2. Lean UX Process
 
-#### 1.2.2.1. Lean UX Problem Statements
-Actualmente, se necesita una herramienta que facilite la orientación académica y profesional de los estudiantes. A través de esta aplicación, los jóvenes podrán identificar sus intereses, habilidades y rasgos de personalidad, explorar carreras afines, acceder a información del mercado laboral y simular posibles trayectorias profesionales. Hemos observado un factor crítico que afecta a la población estudiantil, el cual se manifiesta en la desinformación, el uso de pruebas vocacionales genéricas y la falta de acompañamiento personalizado, lo que genera decisiones poco informadas, deserción universitaria y pérdida de recursos. ¿Cómo lograr que más estudiantes elijan carreras adecuadas a su perfil y accedan a una orientación confiable que facilite su futuro académico y profesional?
+#### 1.2.2.1. Lean UX Problem Statement
+
+**El estado actual de** la orientación vocacional y académica **se ha centrado principalmente en** flujos de trabajo tradicionales, como la aplicación de pruebas estandarizadas o genéricas para los estudiantes, y en procesos de calificación y seguimiento manuales para los psicólogos. Estos métodos generan frustración y ansiedad, ya que ofrecen resultados ambiguos, desactualizados y carecen de un acompañamiento verdaderamente personalizado. 
+<br>
+
+**Lo que los productos y servicios existentes (como plataformas gubernamentales o tests gratuitos en línea) no logran abordar es** la falta de un acompañamiento verdaderamente personalizado que conecte el perfil del estudiante con datos reales y actualizados del mercado laboral, así como la carencia de herramientas centralizadas que optimicen la evaluación y seguimiento por parte de los psicólogos sin reemplazar su criterio clínico.
+<br>
+
+**Nuestro producto, NextPath, abordará esta brecha mediante** una aplicación web interactiva impulsada por inteligencia artificial que integra evaluaciones vocacionales dinámicas, simulaciones de proyecciones y trayectorias profesionales, y un panel de gestión integral para que los psicólogos brinden retroalimentación, organicen sesiones y realicen un seguimiento longitudinal.
+<br>
+
+**Nuestro enfoque inicial serán** los jóvenes estudiantes (de 17 a 25 años) en etapa de transición a la educación superior o redefinición de carrera, junto con los psicólogos educativos y vocacionales encargados de guiarlos.
+<br>
+
+**Sabremos que tenemos éxito cuando veamos** que el 70% de los estudiantes reporta mayor seguridad en su decisión vocacional, el 80% califica positivamente la utilidad de la aplicación (con 4 o más puntos), y los psicólogos logran reducir su tiempo de evaluación manual en al menos un 30% para enfocarse en la asesoría directa.
 
 
 #### 1.2.2.2. Lean UX Assumptions
