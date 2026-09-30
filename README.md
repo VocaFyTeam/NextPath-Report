@@ -664,7 +664,7 @@ Datos del entrevistado:
 
 
 **Resumen descriptivo:**
-La entrevista con Joaquin, un estudiante, muestra que investiga pors su cuenta de forma básica :a dado algunos test por parte de su colegio, pero aun se siente inseguro con respecto a que carreras escoger y a su futuro. El considera que sería útil contar con una plataforma con IA, que le ayude a ampliar sus conocimientos sobre carreras que le podrían interesar.
+La entrevista con Joaquin, un estudiante, muestra que investiga por su cuenta de forma básica ,ha dado algunos test por parte de su colegio, pero aun se siente inseguro con respecto a que carreras escoger y a su futuro. El considera que sería útil contar con una plataforma con IA, que le ayude a ampliar sus conocimientos sobre carreras que le podrían interesar.
 
 **Segmento 2**
 **Entrevista 1:**
