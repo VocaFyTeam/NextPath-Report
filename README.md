@@ -3503,7 +3503,7 @@ El Context Diagram presenta a VocaFy como el sistema central de la solución, mo
 El Container Diagram representa los principales elementos de alto nivel que conforman la arquitectura de software de VocaFy. En este nivel se muestran los containers, las tecnologías utilizadas y la distribución de responsabilidades, así como las principales interacciones y comunicaciones entre ellos.
 
 <div align="center">
-  <img src="images/container.png.png" alt="Software Architecture Container Diagram">
+  <img src="images/container.png" alt="Software Architecture Container Diagram">
 </div>
 
 ### 4.6.4. Software Architecture Components Diagrams
