@@ -395,10 +395,35 @@ En los últimos años, la orientación vocacional se ha convertido en un aspecto
 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-Creemos que tanto los estudiantes como los orientadores (psicólogos) valorarán de manera positiva una aplicación que combine inteligencia artificial con orientación vocacional personalizada, especialmente considerando la creciente demanda de decisiones académicas más informadas y alineadas con el mercado laboral actual. Sabremos que esto es cierto cuando observemos que al menos el 80 % de los usuarios califica la utilidad de la app con 4 o más puntos en una escala Likert de 1 a 5, medido mediante encuesta post-uso durante las primeras 4 semanas de implementación.
-Creemos que los psicólogos valorarán una aplicación que les permita acceder a reportes vocacionales completos y personalizados de sus pacientes/estudiantes, ya que esto reducirá su tiempo de evaluación y aumentará la precisión en las recomendaciones. Sabremos que esto es cierto cuando el tiempo promedio de evaluación se reduzca en al menos un 30 % y el 75 % de los psicólogos manifieste que la herramienta mejora la calidad de sus sesiones, medido mediante observación directa y encuesta de satisfacción durante un periodo piloto de 2 meses.
-Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán una aplicación que les brinde evaluaciones personalizadas y simulaciones de escenarios profesionales, porque esto les permitirá decidir con mayor confianza. Sabremos que esto es cierto cuando el 70 % de los usuarios reportan mayor seguridad en su decisión vocacional y el número de recomendaciones positivas aumenta un 25 % en redes o encuestas, medido durante 8 semanas de prueba beta.
+### Hipótesis 1: Test vocacional adaptativo con IA
+**Creemos** que lograremos un incremento del 25 % en las recomendaciones de la plataforma y en el crecimiento de la base de usuarios
+**Si** los estudiantes de secundaria y educación superior de 17 a 25 años
+**Logran** mayor certeza, claridad y menor ansiedad en sus decisiones de elección académica
+**Con** un test vocacional adaptativo e interactivo impulsado por inteligencia artificial
 
+### Hipótesis 2: Simulaciones de trayectoria profesional
+**Creemos** que lograremos una tasa de satisfacción de usuarios del 80 % (calificación >= 4/5 en escala Likert) sobre la utilidad de la aplicación
+**Si** los estudiantes en etapa de elección o cambio de carrera profesional
+**Logran** expectativas reales sobre el mercado laboral actual y mayor seguridad en su futuro profesional
+**Con** simulaciones interactivas de escenarios profesionales con información de empleabilidad en tiempo real
+
+### Hipótesis 3: Reportes automatizados de diagnóstico para psicólogos
+**Creemos** que lograremos una reducción del 30 % en el tiempo promedio de evaluación vocacional por estudiante
+**Si** los psicólogos educativos y orientadores vocacionales de 30 a 60 años
+**Logran** optimizar su flujo de trabajo diagnóstico y elevar la precisión de sus recomendaciones clínicas
+**Con** un generador de reportes automatizados de evaluación vocacional consolidados por la plataforma
+
+### Hipótesis 4: Panel de Control y seguimiento de sesiones
+**Creemos** que lograremos un incremento del 35 % en la retención y uso activo de la plataforma por parte de los profesionales
+**Si** los psicólogos educativos y orientadores vocacionales
+**Logran** una gestión eficiente de sus consultas y un monitoreo continuo del progreso y nivel de indecisión de sus estudiantes
+**Con** un panel de control con alertas automáticas y seguimiento de sesiones vocacionales
+
+### Hipótesis 5: Comunidad y foros de orientación vocacional
+**Creemos** que lograremos un incremento en los usuarios activos mensuales y la obtención de reseñas y evaluaciones positivas
+**Si** los estudiantes en búsqueda de orientación académica
+**Logran** disminuir el temor al fracaso y la ansiedad compartiendo experiencias y dudas con sus pares
+**Con** foros comunitarios e interactivos de orientación vocacional entre estudiantes
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -411,22 +436,26 @@ Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán
 
   <tr>
     <td>
-      Los estudiantes presentan dudas al momento de elegir una carrera debido
-      a la falta de herramientas personalizadas, información actualizada y
-      orientación integral.
+      • Los <b>estudiantes (17 a 25 años)</b> experimentan alta indecisión y ansiedad al elegir carrera debido a la falta de orientación integral y datos laborales actualizados.
+      <br><br>
+      • Los <b>psicólogos</b> enfrentan procesos de evaluación manuales y repetitivos que reducen el tiempo útil dedicado a la intervención directa en sus sesiones.
     </td>
     <td>
       <ul>
-        <li>Aplicación de orientación vocacional basada en IA.</li>
-        <li>Tests vocacionales tradicionales.</li>
-        <li>Comunidades y grupos de orientación profesional.</li>
+        <li>Test vocacional adaptativo impulsado por inteligencia artificial.</li>
+        <li>Simulador interactivo de escenarios profesionales y datos de mercado laboral en tiempo real.</li>
+        <li>Generador de reportes automatizados de diagnóstico vocacional.</li>
+        <li>Panel de control (dashboard) con alertas automáticas y seguimiento de sesiones.</li>
+        <li>Comunidad y foros interactivos de orientación vocacional entre pares.</li>
       </ul>
     </td>
     <td>
       <ul>
-        <li>Obtener reseñas positivas.</li>
-        <li>Incrementar las recomendaciones de la plataforma.</li>
-        <li>Aumentar el crecimiento de usuarios.</li>
+        <li>Reducir el tiempo promedio de evaluación por estudiante en al menos un 30 % para psicólogos.</li>
+        <li>Alcanzar una tasa de satisfacción de utilidad de la plataforma del 80 % (calificación ≥ 4/5 en escala Likert).</li>
+        <li>Incrementar en un 25 % las recomendaciones y el crecimiento de la base de usuarios.</li>
+        <li>Aumentar un 35 % la retención y uso activo por parte de los orientadores.</li>
+        <li>Aumentar los usuarios activos mensuales (MAU) y obtener reseñas positivas.</li>
       </ul>
     </td>
   </tr>
@@ -440,15 +469,14 @@ Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán
   <tr>
     <td>
       <ul>
-        <li>Estudiantes de 17 a 25 años que están eligiendo o cambiando de carrera.</li>
-        <li>Psicólogos educativos de 30 a 60 años.</li>
+        <li><b>Estudiantes (17 a 25 años):</b> Jóvenes de secundaria y educación superior en etapa de elección o cambio de carrera profesional.</li>
+        <li><b>Psicólogos (30 a 60 años):</b> Profesionales dedicados al acompañamiento, diagnóstico y evaluación vocacional.</li>
       </ul>
     </td>
     <td>
       <ul>
-        <li>Tomar mejores decisiones académicas y profesionales.</li>
-        <li>Mejorar el apoyo psicológico durante la orientación.</li>
-        <li>Acceder a mejor información y atención personalizada.</li>
+        <li><b>Estudiantes:</b> Tomar decisiones académicas y profesionales informadas con mayor certeza, claridad, expectativas reales del mercado y menor ansiedad.</li>
+        <li><b>Psicólogos:</b> Optimizar su flujo de trabajo diagnóstico, ahorrar tiempo en evaluaciones manuales, elevar la precisión de sus recomendaciones clínicas y realizar un seguimiento eficiente de sus estudiantes.</li>
       </ul>
     </td>
   </tr>
@@ -461,22 +489,22 @@ Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán
 
   <tr>
     <td>
-      Creemos que los estudiantes podrán tomar mejores decisiones académicas
-      y profesionales si reciben orientación personalizada mediante una
-      aplicación de IA que integre evaluaciones vocacionales, simulaciones e
-      información del mercado laboral.
-    </td>
-    <td>
       <ul>
-        <li>Validar si los psicólogos están dispuestos a integrar la herramienta.</li>
-        <li>Validar el nivel de confianza de los estudiantes en la IA.</li>
-        <li>Determinar si la aplicación reduce la indecisión y ansiedad.</li>
+        <li><b>H1:</b> Creemos que lograremos un incremento del 25 % en las recomendaciones de la plataforma y en el crecimiento de la base de usuarios Si los estudiantes de secundaria y educación superior de 17 a 25 años Logran mayor certeza, claridad y menor ansiedad en sus decisiones de elección académica Con un test vocacional adaptativo e interactivo impulsado por inteligencia artificial.</li>
+        <li><b>H2:</b> Creemos que lograremos una tasa de satisfacción de usuarios del 80 % (calificación ≥ 4/5 en escala Likert) sobre la utilidad de la aplicación Si los estudiantes en etapa de elección o cambio de carrera profesional Logran expectativas reales sobre el mercado laboral actual y mayor seguridad en su futuro profesional Con simulaciones interactivas de escenarios profesionales con información de empleabilidad en tiempo real.</li>
+        <li><b>H3:</b> Creemos que lograremos una reducción del 30 % en el tiempo promedio de evaluación vocacional por estudiante Si los psicólogos educativos y orientadores vocacionales de 30 a 60 años Logran optimizar su flujo de trabajo diagnóstico y elevar la precisión de sus recomendaciones clínicas Con un generador de reportes automatizados de evaluación vocacional consolidados por la plataforma.</li>
+        <li><b>H4:</b> Creemos que lograremos un incremento del 35 % en la retención y uso activo de la plataforma por parte de los profesionales Si los psicólogos educativos y orientadores vocacionales Logran una gestión eficiente de sus consultas y un monitoreo continuo del progreso y nivel de indecisión de sus estudiantes Con un panel de control (dashboard) con alertas automáticas y seguimiento de sesiones vocacionales.</li>
+        <li><b>H5:</b> Creemos que lograremos un incremento en los usuarios activos mensuales y la obtención de reseñas y evaluaciones positivas Si los estudiantes en búsqueda de orientación académica Logran disminuir el temor al fracaso y la ansiedad compartiendo experiencias y dudas con sus pares Con foros comunitarios e interactivos de orientación vocacional entre estudiantes.</li>
       </ul>
     </td>
     <td>
-      Investigar y validar el apoyo de profesionales de psicología en la
-      orientación vocacional y realizar pruebas con estudiantes para conocer
-      su percepción y confianza en la solución.
+      <ul>
+        <li>Validar si los estudiantes confían en las recomendaciones, diagnósticos y simulaciones generadas por la IA.</li>
+        <li>Validar si los psicólogos están dispuestos a integrar los reportes automatizados en su práctica profesional diaria para reducir su tiempo operativo en un 30 %.</li>
+      </ul>
+    </td>
+    <td>
+      Ejecutar un piloto con un <b>Prototipo Mínimo Viable (MVP Concierge/Interactive)</b> que incluya una <i>Landing Page</i> explicativa y un prototipo navegable del test de IA y reporte diagnóstico. Probar con una muestra controlada de <b>20 estudiantes</b> y <b>5 psicólogos</b> para medir percepción de valor, nivel de confianza en el diagnóstico y tasa de ahorro de tiempo.
     </td>
   </tr>
 </table>
