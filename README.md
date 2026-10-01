@@ -324,20 +324,19 @@ En los últimos años, la orientación vocacional se ha convertido en un aspecto
 
 #### 1.2.2.1. Lean UX Problem Statement
 
-**El estado actual de** la orientación vocacional y académica **se ha centrado principalmente en** flujos de trabajo tradicionales, como la aplicación de pruebas estandarizadas o genéricas para los estudiantes, y en procesos de calificación y seguimiento manuales para los psicólogos. Estos métodos generan frustración y ansiedad, ya que ofrecen resultados ambiguos, desactualizados y carecen de un acompañamiento verdaderamente personalizado. 
+**El estado actual del dominio de la orientación vocacional se enfoca principalmente en estudiantes que atraviesan la etapa de elección o cambio de carrera**, así como en profesores y psicólogos que participan en su proceso de orientación. Estos usuarios enfrentan dificultades relacionadas con la falta de herramientas personalizadas, información actualizada sobre las alternativas profesionales y mecanismos que permitan realizar un seguimiento integral del proceso de orientación.
 <br>
 
-**Lo que los productos y servicios existentes (como plataformas gubernamentales o tests gratuitos en línea) no logran abordar es** la falta de un acompañamiento verdaderamente personalizado que conecte el perfil del estudiante con datos reales y actualizados del mercado laboral, así como la carencia de herramientas centralizadas que optimicen la evaluación y seguimiento por parte de los psicólogos sin reemplazar su criterio clínico.
+**Los productos y servicios existentes no cubren completamente esta necesidad**, debido a que suelen ofrecer evaluaciones vocacionales aisladas, información general sobre carreras o asesorías que no integran en una misma experiencia la evaluación personalizada, el análisis de intereses, la simulación de escenarios profesionales y la información relacionada con el mercado laboral.
 <br>
 
-**Nuestro producto, NextPath, abordará esta brecha mediante** una aplicación web interactiva impulsada por inteligencia artificial que integra evaluaciones vocacionales dinámicas, simulaciones de proyecciones y trayectorias profesionales, y un panel de gestión integral para que los psicólogos brinden retroalimentación, organicen sesiones y realicen un seguimiento longitudinal.
+**NextPath busca cubrir esta brecha mediante una plataforma digital de orientación vocacional que integre evaluaciones basadas en inteligencia artificial**, recomendaciones personalizadas, simulaciones de trayectorias profesionales e información actualizada del mercado laboral. La solución permitirá que los estudiantes obtengan información que facilite su proceso de toma de decisiones y que profesores y psicólogos dispongan de información que contribuya al acompañamiento y seguimiento de los estudiantes.
 <br>
 
-**Nuestro enfoque inicial serán** los jóvenes estudiantes (de 17 a 25 años) en etapa de transición a la educación superior o redefinición de carrera, junto con los psicólogos educativos y vocacionales encargados de guiarlos.
+**Nuestro enfoque inicial estará dirigido a estudiantes que se encuentran en la etapa de elección o cambio de carrera**, considerando también la participación de profesores y psicólogos como actores relacionados con el proceso de orientación vocacional.
 <br>
 
-**Sabremos que tenemos éxito cuando veamos** que el 70% de los estudiantes reporta mayor seguridad en su decisión vocacional, el 80% califica positivamente la utilidad de la aplicación (con 4 o más puntos), y los psicólogos logran reducir su tiempo de evaluación manual en al menos un 30% para enfocarse en la asesoría directa.
-
+**Sabremos que estamos teniendo éxito cuando observemos resultados medibles en los diferentes segmentos involucrados**: un incremento en el número de usuarios registrados y activos, una mayor proporción de estudiantes que completan las evaluaciones vocacionales, una valoración positiva de la utilidad de la plataforma por parte de los usuarios, una mayor participación de profesores y psicólogos en el proceso de orientación y un incremento en las alianzas con instituciones educativas.
 
 #### 1.2.2.2. Lean UX Assumptions
 
