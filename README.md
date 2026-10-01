@@ -2951,7 +2951,168 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
   </tbody>
 </table>
 
+<!-- HU LP-01 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU-LP01</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-LP</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Visualizar propuesta de valor y Hero Banner</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO visitante interesado (estudiante o psicólogo) QUIERO visualizar un banner principal claro y persuasivo con un llamado a la acción destacado PARA entender inmediatamente de qué trata NextPath y acceder a la plataforma.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Hero Banner y Propuesta de Valor</b><br><br>
+        <b>Scenario 1: Despliegue correcto de encabezado y mensaje central</b><br>
+        GIVEN que ingreso a la URL principal de la Landing Page,<br>
+        WHEN carga la pantalla de inicio,<br>
+        THEN visualizo el lema "Conviértete en un profesional", un subtítulo descriptivo sobre autoconocimiento vocacional con IA y un botón CTA "Comenzar" visible arriba del pliegue (above the fold).<br><br>
+        <b>Scenario 2: Interacción con el botón CTA</b><br>
+        GIVEN que me encuentro en la cabecera de la Landing Page,<br>
+        WHEN hago clic en el botón "Comenzar",<br>
+        THEN la página ejecuta un desplazamiento suave (smooth scroll) directamente hacia la sección de conversión "Comenzar ahora".
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU LP-02 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU-LP02</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-LP</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Consultar información institucional y misión (Sobre Nosotros)</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO usuario visitante QUIERO leer la sección institucional y el propósito de NextPath PARA conocer el respaldo metodológico y la misión del servicio.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Sección Sobre Nosotros</b><br><br>
+        <b>Scenario 1: Lectura de la propuesta institucional</b><br>
+        GIVEN que me desplazo por la Landing Page o presiono "Sobre Nosotros" en la barra de navegación,<br>
+        WHEN visualizo el contenedor institucional,<br>
+        THEN el sistema despliega el texto descriptivo de VocaFy/NextPath explicando cómo la IA y la orientación psicológica reducen la deserción académica, acompañado del logotipo oficial y la mascota Panda.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU LP-03 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU-LP03</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-LP</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Explicar el flujo del servicio (¿Cómo Funciona?)</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO estudiante o tutor visitante QUIERO conocer las etapas del proceso vocacional estructuradas paso a paso PARA comprender cómo la plataforma me guiará antes de registrarme.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Sección Metodología y Pasos</b><br><br>
+        <b>Scenario 1: Visualización modular de las 3 etapas</b><br>
+        GIVEN que accedo a la sección "¿Cómo Funciona?",<br>
+        WHEN reviso el contenido visual,<br>
+        THEN observo 3 tarjetas secuenciales tituladas "Descúbrete" (evaluación), "Conecta" (asesoría con psicólogos) y "Traza tu plan" (simulación laboral), cada una con íconos descriptivos y microinteracciones visuales (:hover).
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU LP-04 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU-LP04</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-LP</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Acceder a canales de descarga o registro (Comenzar Ahora)</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO usuario decidido a utilizar la plataforma QUIERO contar con accesos directos de registro e ingreso PARA iniciar mi proceso de orientación de inmediato.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Bloque de Conversión y Disponibilidad</b><br><br>
+        <b>Scenario 1: Interacción con botones de acceso</b><br>
+        GIVEN que llego al bloque "Comenzar Ahora",<br>
+        WHEN hago clic sobre los botones de acceso/descarga,<br>
+        THEN el sistema me redirige a la aplicación web de NextPath para crear mi cuenta o muestra un aviso accesible de disponibilidad del servicio.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU LP-05 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU-LP05</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-LP</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Consultar canales de contacto y redes sociales en el Footer</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO visitante QUIERO disponer de enlaces directos a las redes sociales oficiales y créditos de NextPath PARA resolver dudas institucionales y validar la legitimidad del proyecto.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Pie de Página y Canales de Contacto</b><br><br>
+        <b>Scenario 1: Acceso a enlaces externos seguros</b><br>
+        GIVEN que me sitúo en el pie de página institucional,<br>
+        WHEN presiono los enlaces de Instagram, Facebook o LinkedIn,<br>
+        THEN cada red social abre en una nueva pestaña del navegador mediante atributos de seguridad <code>target="_blank"</code> y <code>rel="noopener noreferrer"</code>.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
 ## 3.2. Impact Mapping
+
+### Escenario 1: Incremento de la Participación Activa de Psicólogos
 
 El objetivo de este escenario es incrementar la participación activa de los psicólogos registrados en NextPath, promoviendo una interacción constante y de valor con los estudiantes que utilizan la plataforma. Actualmente, se identifica que ciertos profesionales mantienen perfiles con baja frecuencia de uso o inactividad prolongada, lo cual limita el impacto del acompañamiento vocacional personalizado.
 
@@ -2959,8 +3120,17 @@ Para revertir esta situación, el propósito es lograr que al menos el 40% de lo
 
 Este objetivo refuerza la propuesta de valor de NextPath al asegurar un seguimiento psicopedagógico cercano, riguroso y humano, sustentado en la confianza y la continuidad. Asimismo, consolida una relación de beneficio mutuo: mientras los estudiantes reciben orientación profesional adaptada a sus perfiles vocacionales, los psicólogos potencian su visibilidad, reputación profesional y oportunidades de consulta dentro de la plataforma.
 
-![ImpactMapping2](images/impact-mapping/Impact-map-1.png)
+![ImpactMapping1](images/impact-mapping/Impact-map-1.png)
 
+### Escenario 2: Captación, Finalización y Satisfacción del Test Vocacional con IA
+
+El objetivo de este segundo escenario es maximizar la tasa de activación, completitud y satisfacción de los estudiantes que ingresan a NextPath. Uno de los problemas más comunes en las plataformas vocacionales tradicionales es el abandono del test por fatiga, desinterés o resultados ambiguos.
+
+Para revertir esta situación, el propósito es lograr que el 75% de los estudiantes registrados completen el test vocacional con IA y que más del 80% califique la utilidad de la experiencia con más de 3/5 puntos durante los primeros 2 meses de uso.
+
+Este objetivo refuerza la propuesta de valor central de NextPath al asegurar que los estudiantes reconozcan un valor diferenciador inmediato gracias a la personalización con Inteligencia Artificial. Asimismo, consolida el ciclo de vida del usuario en la plataforma: un diagnóstico fluido y motivador incrementa la confianza en los resultados obtenidos, impulsando a los alumnos a explorar activamente carreras afines, simular escenarios profesionales futuros y solicitar acompañamiento especializado.
+
+![ImpactMapping2](images/impact-mapping/Impact-map-2.png)
 ## 3.3. Product Backlog
 
 | N° | Story ID | Épica | Título | Descripción | Story Points |
