@@ -3507,7 +3507,8 @@ El Container Diagram representa los principales elementos de alto nivel que conf
 </div>
 
 ### 4.6.4. Software Architecture Components Diagrams
-#### IAM & Auth Service
+
+IAM & Auth Service
 
 El Component Diagram de IAM & Auth Service muestra la descomposición del servicio encargado de gestionar la identidad, autenticación y autorización de los usuarios de VocaFy. Sus componentes permiten administrar el acceso de los usuarios y controlar los permisos necesarios para utilizar las funcionalidades de la plataforma.
 
@@ -3525,7 +3526,7 @@ El Component Diagram de Assessment Service muestra la descomposición del servic
 </div>
 
 
-#### Career Planning Service
+Career Planning Service
 
 El Component Diagram de Career Planning Service muestra la descomposición del servicio encargado de apoyar la exploración y planificación de la trayectoria profesional de los estudiantes. Sus componentes permiten gestionar la exploración de carreras, la planificación de objetivos profesionales y el seguimiento de las decisiones relacionadas con el desarrollo profesional.
 
@@ -3534,7 +3535,7 @@ El Component Diagram de Career Planning Service muestra la descomposición del s
 </div>
 
 
-#### Billing Service
+Billing Service
 
 El Component Diagram de Billing Service representa los componentes encargados de gestionar las suscripciones premium, el procesamiento de pagos y el registro de las transacciones. El servicio mantiene la información relacionada con la facturación y se comunica con el Payment Gateway para procesar los pagos.
 
@@ -3543,7 +3544,7 @@ El Component Diagram de Billing Service representa los componentes encargados de
 </div>
 
 
-#### Community Service
+Community Service
 
 El Component Diagram de Community Service representa los componentes responsables de gestionar las comunidades, publicaciones, comentarios, reacciones, moderación, mensajería privada y recomendaciones de hilos. Los componentes interactúan entre sí y utilizan la base de datos del servicio para almacenar la información relacionada con las actividades de la comunidad.
 
@@ -3552,7 +3553,7 @@ El Component Diagram de Community Service representa los componentes responsable
 </div>
 
 
-#### Advisory Service
+Advisory Service
 
 El Component Diagram de Advisory Service muestra los componentes relacionados con la gestión de sesiones de orientación, la vinculación entre estudiantes y psicólogos, la comunicación durante las sesiones, el registro de notas y reportes y el seguimiento de los estudiantes. Estos componentes trabajan conjuntamente para gestionar el proceso de orientación dentro de VocaFy.
 
@@ -3561,7 +3562,7 @@ El Component Diagram de Advisory Service muestra los componentes relacionados co
 </div>
 
 
-#### Analytics & AI Service
+Analytics & AI Service
 
 El Component Diagram de Analytics & AI Service representa los componentes encargados de recopilar y procesar datos, realizar análisis, generar recomendaciones mediante capacidades de inteligencia artificial, producir reportes y administrar modelos de machine learning. El servicio utiliza una base de datos para almacenar información analítica y se comunica con la AI API para utilizar capacidades de inteligencia artificial.
 
