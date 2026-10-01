@@ -2251,6 +2251,7 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
   </tbody>
 </table>
 
+<!-- HU 42 -->
 <table>
   <tbody>
     <tr>
@@ -2271,12 +2272,10 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
       <td><b>Acceptance criteria:</b></td>
       <td colspan="3">
         <b>Feature: Presentación de la propuesta de valor</b><br><br>
-
         <b>Scenario 1: Consulta de la propuesta de valor</b><br>
         GIVEN que el visitante accede a la Landing Page de NextPath,<br>
         WHEN consulta la sección de inicio,<br>
         THEN el sistema presenta información sobre la propuesta de valor de NextPath y su enfoque de orientación vocacional.<br><br>
-
         <b>Scenario 2: Acceso a la sección de inicio</b><br>
         GIVEN que el visitante se encuentra en otra sección de la Landing Page,<br>
         WHEN selecciona la opción Inicio,<br>
@@ -2285,7 +2284,9 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
     </tr>
   </tbody>
 </table>
+<br>
 
+<!-- HU 43 -->
 <table>
   <tbody>
     <tr>
@@ -2306,12 +2307,10 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
       <td><b>Acceptance criteria:</b></td>
       <td colspan="3">
         <b>Feature: Información sobre NextPath</b><br><br>
-
         <b>Scenario 1: Consulta de información institucional</b><br>
         GIVEN que el visitante accede a la sección Sobre nosotros,<br>
         WHEN consulta la información disponible,<br>
         THEN el sistema presenta información sobre el propósito de NextPath y su enfoque de orientación vocacional asistida por tecnología.<br><br>
-
         <b>Scenario 2: Acceso a la sección Sobre nosotros</b><br>
         GIVEN que el visitante se encuentra en la Landing Page,<br>
         WHEN selecciona la opción Sobre nosotros,<br>
@@ -2320,7 +2319,9 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
     </tr>
   </tbody>
 </table>
+<br>
 
+<!-- HU 44 -->
 <table>
   <tbody>
     <tr>
@@ -2341,12 +2342,10 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
       <td><b>Acceptance criteria:</b></td>
       <td colspan="3">
         <b>Feature: Explicación del funcionamiento de NextPath</b><br><br>
-
         <b>Scenario 1: Consulta del proceso de orientación</b><br>
         GIVEN que el visitante accede a la sección ¿Cómo funciona?,<br>
         WHEN consulta la información disponible,<br>
         THEN el sistema presenta las etapas principales del proceso de NextPath: Descúbrete, Conecta y Traza tu plan.<br><br>
-
         <b>Scenario 2: Acceso a la sección ¿Cómo funciona?</b><br>
         GIVEN que el visitante se encuentra en la Landing Page,<br>
         WHEN selecciona la opción ¿Cómo funciona?,<br>
@@ -2355,7 +2354,9 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
     </tr>
   </tbody>
 </table>
+<br>
 
+<!-- HU 45 -->
 <table>
   <tbody>
     <tr>
@@ -2376,12 +2377,10 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
       <td><b>Acceptance criteria:</b></td>
       <td colspan="3">
         <b>Feature: Acceso a la experiencia de NextPath</b><br><br>
-
         <b>Scenario 1: Consulta de las opciones para comenzar</b><br>
         GIVEN que el visitante accede a la sección Comenzar ahora,<br>
         WHEN consulta las opciones disponibles,<br>
         THEN el sistema presenta los enlaces disponibles para acceder a la experiencia de NextPath.<br><br>
-
         <b>Scenario 2: Acceso mediante una opción disponible</b><br>
         GIVEN que el visitante consulta las opciones disponibles para comenzar,<br>
         WHEN selecciona una de ellas,<br>
@@ -2390,7 +2389,9 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
     </tr>
   </tbody>
 </table>
+<br>
 
+<!-- HU 46 -->
 <table>
   <tbody>
     <tr>
@@ -2411,12 +2412,10 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
       <td><b>Acceptance criteria:</b></td>
       <td colspan="3">
         <b>Feature: Canales de contacto</b><br><br>
-
         <b>Scenario 1: Consulta de los canales de contacto</b><br>
         GIVEN que el visitante accede a la sección Contáctanos,<br>
         WHEN consulta la información disponible,<br>
         THEN el sistema presenta los canales digitales oficiales de contacto de NextPath.<br><br>
-
         <b>Scenario 2: Acceso a un canal externo</b><br>
         GIVEN que el visitante consulta los canales de contacto disponibles,<br>
         WHEN selecciona uno de los canales publicados,<br>
