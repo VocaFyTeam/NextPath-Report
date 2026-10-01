@@ -2252,6 +2252,181 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
   </tbody>
 </table>
 
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 42</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-11</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Conocer la propuesta de valor de NextPath</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO visitante QUIERO conocer la propuesta de valor de NextPath PARA comprender cómo la plataforma puede ayudarme en mi proceso de orientación vocacional.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Presentación de la propuesta de valor</b><br><br>
+
+        <b>Scenario 1: Consulta de la propuesta de valor</b><br>
+        GIVEN que el visitante accede a la Landing Page de NextPath,<br>
+        WHEN consulta la sección de inicio,<br>
+        THEN el sistema presenta información sobre la propuesta de valor de NextPath y su enfoque de orientación vocacional.<br><br>
+
+        <b>Scenario 2: Acceso a la sección de inicio</b><br>
+        GIVEN que el visitante se encuentra en otra sección de la Landing Page,<br>
+        WHEN selecciona la opción Inicio,<br>
+        THEN el sistema dirige al visitante a la sección principal de la Landing Page.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 43</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-11</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Conocer el propósito de NextPath</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO visitante QUIERO conocer el propósito y enfoque de NextPath PARA comprender cómo la plataforma contribuye a la orientación vocacional de los estudiantes.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Información sobre NextPath</b><br><br>
+
+        <b>Scenario 1: Consulta de información institucional</b><br>
+        GIVEN que el visitante accede a la sección Sobre nosotros,<br>
+        WHEN consulta la información disponible,<br>
+        THEN el sistema presenta información sobre el propósito de NextPath y su enfoque de orientación vocacional asistida por tecnología.<br><br>
+
+        <b>Scenario 2: Acceso a la sección Sobre nosotros</b><br>
+        GIVEN que el visitante se encuentra en la Landing Page,<br>
+        WHEN selecciona la opción Sobre nosotros,<br>
+        THEN el sistema dirige al visitante a la sección correspondiente.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 44</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-11</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Comprender cómo funciona NextPath</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO visitante QUIERO conocer cómo funciona NextPath PARA comprender las etapas que forman parte de su proceso de orientación vocacional.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Explicación del funcionamiento de NextPath</b><br><br>
+
+        <b>Scenario 1: Consulta del proceso de orientación</b><br>
+        GIVEN que el visitante accede a la sección ¿Cómo funciona?,<br>
+        WHEN consulta la información disponible,<br>
+        THEN el sistema presenta las etapas principales del proceso de NextPath: Descúbrete, Conecta y Traza tu plan.<br><br>
+
+        <b>Scenario 2: Acceso a la sección ¿Cómo funciona?</b><br>
+        GIVEN que el visitante se encuentra en la Landing Page,<br>
+        WHEN selecciona la opción ¿Cómo funciona?,<br>
+        THEN el sistema dirige al visitante a la sección que explica el proceso de NextPath.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 45</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-11</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Acceder a la experiencia de NextPath</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO visitante QUIERO acceder a la experiencia de NextPath PARA comenzar a utilizar la solución de orientación vocacional.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Acceso a la experiencia de NextPath</b><br><br>
+
+        <b>Scenario 1: Consulta de las opciones para comenzar</b><br>
+        GIVEN que el visitante accede a la sección Comenzar ahora,<br>
+        WHEN consulta las opciones disponibles,<br>
+        THEN el sistema presenta los enlaces disponibles para acceder a la experiencia de NextPath.<br><br>
+
+        <b>Scenario 2: Acceso mediante una opción disponible</b><br>
+        GIVEN que el visitante consulta las opciones disponibles para comenzar,<br>
+        WHEN selecciona una de ellas,<br>
+        THEN el sistema dirige al visitante al recurso correspondiente para iniciar la experiencia de NextPath.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 46</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-11</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Acceder a los canales de contacto de NextPath</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO visitante QUIERO acceder a los canales de contacto de NextPath PARA obtener información adicional sobre la solución.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Canales de contacto</b><br><br>
+
+        <b>Scenario 1: Consulta de los canales de contacto</b><br>
+        GIVEN que el visitante accede a la sección Contáctanos,<br>
+        WHEN consulta la información disponible,<br>
+        THEN el sistema presenta los canales digitales oficiales de contacto de NextPath.<br><br>
+
+        <b>Scenario 2: Acceso a un canal externo</b><br>
+        GIVEN que el visitante consulta los canales de contacto disponibles,<br>
+        WHEN selecciona uno de los canales publicados,<br>
+        THEN el sistema dirige al visitante al recurso externo correspondiente.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 <!--TECHNICAL STORIES-->
 <br>
 <table>
@@ -2832,6 +3007,11 @@ Este objetivo refuerza la propuesta de valor de NextPath al asegurar un seguimie
 | 39 | US39 | E-10 – Monitoreo e Intervención Temprana | Aplicar filtros de riesgo y participación | COMO psicólogo QUIERO aplicar filtros de riesgo o baja participación PARA priorizar mi acompañamiento en los casos más críticos. | 3 |
 | 40 | US40 | E-10 – Monitoreo e Intervención Temprana | Registrar observaciones e intervenciones | COMO psicólogo QUIERO registrar observaciones e intervenciones en la ficha del alumno PARA dar seguimiento a sus avances y acuerdos. | 3 |
 | 41 | US41 | E-10 – Monitoreo e Intervención Temprana | Recibir recomendaciones de acción | COMO psicólogo QUIERO recibir sugerencias automáticas de intervención PARA actuar oportunamente ante bajas de participación o alertas de indecisión. | 5 |
+| 42 | US42 | E-11 – Landing Page | Conocer la propuesta de valor de NextPath | COMO visitante QUIERO conocer la propuesta de valor de NextPath PARA comprender cómo la plataforma puede ayudarme en mi proceso de orientación vocacional. | 3 |
+| 43 | US43 | E-11 – Landing Page | Conocer el propósito de NextPath | COMO visitante QUIERO conocer el propósito y enfoque de NextPath PARA comprender cómo la plataforma contribuye a la orientación vocacional de los estudiantes. | 3 |
+| 44 | US44 | E-11 – Landing Page | Comprender cómo funciona NextPath | COMO visitante QUIERO conocer cómo funciona NextPath PARA comprender las etapas que forman parte de su proceso de orientación vocacional. | 3 |
+| 45 | US45 | E-11 – Landing Page | Acceder a la experiencia de NextPath | COMO visitante QUIERO acceder a la experiencia de NextPath PARA comenzar a utilizar la solución de orientación vocacional. | 5 |
+| 46 | US46 | E-11 – Landing Page | Acceder a los canales de contacto de NextPath | COMO visitante QUIERO acceder a los canales de contacto de NextPath PARA obtener información adicional sobre la solución. | 2 |
 
 # Capítulo IV: Product Design
 
