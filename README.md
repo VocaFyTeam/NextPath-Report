@@ -3251,37 +3251,61 @@ El sistema de navegación de NextPath está diseñado para guiar al usuario de f
 
 En esta sección se presenta la propuesta de diseño de la interfaz de usuario para la Landing Page de NextPath. El objetivo es reflejar de manera visual las decisiones tomadas durante la fase de arquitectura de información, garantizando una experiencia clara, atractiva y coherente con la identidad de marca.
 
-### 4.3.1. Landing Page Wireframe
+### 4.3.1. Landing Page MockUp
 
 **Desktop Web browser:**
 
 * **Inicio:**
   Presenta el hero banner con la frase “Conviértete en un profesional” y el CTA “Comenzar”. El fondo con imagen de aula refuerza el contexto educativo. Los principios aplicados son el de jerarquía visual y contraste.
 
-  ![Landing Page Wireframe - Inicio](images/style-guidelines/landing-page-preview.png)
+  ![Landing Page MockUp - Inicio](images/landing%20WandM/m1.png)
 
 * **Sobre nosotros:**
   Integra texto informativo con el personaje panda como elemento visual que genera empatía. Los principios aplicados son el de consistencia visual y relación con el mundo real.
 
-  ![Landing Page Wireframe - Sobre Nosotros](images/style-guidelines/Quienes-Somos.png)
+  ![Landing Page MockUp - Sobre Nosotros](images/landing%20WandM/m2.png)
 
 * **¿Cómo funciona?:**
   Se divide en tres tarjetas explicativas: *Descúbrete*, *Conecta*, *Traza tu plan*, cada una con ícono y texto breve. El principio aplicado es el de relación con el mundo real.
 
-  ![Landing Page Wireframe - Cómo Funciona](images/style-guidelines/Como-Funciona.png)
+  ![Landing Page MockUp - Cómo Funciona](images/landing%20WandM/m3.png)
 
 * **Descargar (Comenzar ahora):**
   Presenta botones de descarga y reitera el valor de la app, acompañada del panda. Los principios aplicados son minimalismo, accesibilidad y claridad.
 
-  ![Landing Page Wireframe - Descargar](images/style-guidelines/Comenzar-Ahora.png)
+  ![Landing Page MockUp - Descargar](images/landing%20WandM/m4.png)
 
 * **Contáctanos:**
   Sección inferior con accesos a redes sociales.
 
-  ![Landing Page Wireframe - Contáctanos](images/style-guidelines/Contactanos.png)
+  ![Landing Page MockUp - Contáctanos](images/landing%20WandM/m5.png)
 
-### 4.3.2. Landing Page Mock-up
+### 4.3.2. Landing Page WireFrame
 
+* **Inicio:**
+  Presenta el hero banner con la frase “Conviértete en un profesional” y el CTA “Comenzar”. El fondo con imagen de aula refuerza el contexto educativo. Los principios aplicados son el de jerarquía visual y contraste.
+
+  ![Landing Page Wirefrmae - Inicio](images/landing%20WandM/w1.png)
+
+* **Sobre nosotros:**
+  Integra texto informativo con el personaje panda como elemento visual que genera empatía. Los principios aplicados son el de consistencia visual y relación con el mundo real.
+
+  ![Landing Page Wirefrmae - Sobre Nosotros](images/landing%20WandM/w2.png)
+
+* **¿Cómo funciona?:**
+  Se divide en tres tarjetas explicativas: *Descúbrete*, *Conecta*, *Traza tu plan*, cada una con ícono y texto breve. El principio aplicado es el de relación con el mundo real.
+
+  ![Landing Page Wirefrmae - Cómo Funciona](images/landing%20WandM/w3.png)
+
+* **Descargar (Comenzar ahora):**
+  Presenta botones de descarga y reitera el valor de la app, acompañada del panda. Los principios aplicados son minimalismo, accesibilidad y claridad.
+
+  ![Landing Page Wirefrmae - Descargar](images/landing%20WandM/w4.png)
+
+* **Contáctanos:**
+  Sección inferior con accesos a redes sociales.
+
+  ![Landing Page Wirefrmae - Contáctanos](images/landing%20WandM/w5.png)
 
 
 ## 4.4. Web Applications UX/UI Design
