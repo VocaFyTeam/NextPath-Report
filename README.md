@@ -133,7 +133,9 @@ del ABET – EAC - Student Outcome 3.
             <u>AV1</u><br>
             <br><br>
             <b></b><br>
-            <u>AV1</u><br>
+            <u>AV1: Alisee Muriel Torres Juárez</u>
+            <br>
+            <p>Contribuí al liderazgo técnico del equipo asumiendo la responsabilidad del diseño y modelado de los diagramas de clases y de base de datos para el sistema.</p>
             <br><br>
             <b></b><br>
             <u>AV1: Luciana Ravello Cárdenas</u>
@@ -158,7 +160,8 @@ del ABET – EAC - Student Outcome 3.
             <u>AV1</u><br>
             <br><br>
             <b></b><br>
-            <u>AV1</u><br>
+            <u>AV1: Alisee Muriel Torres Juárez</u><br>
+            <p>Colaboré en la realización de los diagramas de clase en conjunto al igual que el diagrama de base de datos.</p>            
             <br><br>
             <b></b><br>
             <u>AV1: Luciana Ravello Cárdenas</u><br>
