@@ -2253,7 +2253,7 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
 </table>
 
 <!--TECHNICAL STORIES-->
-
+<br>
 <table>
   <tbody>
     <tr>
@@ -2278,15 +2278,14 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
         GIVEN que existen credenciales válidas de un usuario registrado,<br>
         WHEN el cliente envía una solicitud POST con las credenciales al endpoint de autenticación,<br>
         THEN la API responde con código HTTP 200 y devuelve la información necesaria para mantener la sesión autenticada.<br><br>
-
         <b>Scenario 2: Credenciales inválidas</b><br>
         GIVEN que las credenciales enviadas no corresponden a un usuario registrado,<br>
         WHEN el cliente realiza una solicitud POST al endpoint de autenticación,<br>
         THEN la API responde con código HTTP 401 indicando que las credenciales no son válidas.
-      </td>
-    </tr>
-  </tbody>
-</table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
 <br>
 
@@ -2314,7 +2313,6 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
         GIVEN que existe un estudiante y una pregunta válida del test vocacional,<br>
         WHEN el cliente envía una solicitud POST con la respuesta seleccionada,<br>
         THEN la API responde con código HTTP 201 y registra correctamente la respuesta asociada al estudiante.<br><br>
-
         <b>Scenario 2: Datos de respuesta inválidos</b><br>
         GIVEN que la solicitud contiene una pregunta o respuesta que no corresponde al test,<br>
         WHEN el cliente envía la solicitud POST,<br>
@@ -2350,7 +2348,6 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
         GIVEN que el estudiante ha registrado todas las respuestas requeridas del test,<br>
         WHEN el cliente envía una solicitud para procesar los resultados,<br>
         THEN la API responde con código HTTP 200 y devuelve el perfil vocacional calculado.<br><br>
-
         <b>Scenario 2: Test incompleto</b><br>
         GIVEN que el estudiante no ha completado todas las respuestas requeridas,<br>
         WHEN el cliente solicita procesar el perfil vocacional,<br>
@@ -2386,7 +2383,6 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
         GIVEN que el estudiante posee resultados vocacionales registrados,<br>
         WHEN el cliente realiza una solicitud GET al endpoint de resultados,<br>
         THEN la API responde con código HTTP 200 y devuelve el perfil vocacional, porcentajes y recomendaciones correspondientes.<br><br>
-
         <b>Scenario 2: Resultados no encontrados</b><br>
         GIVEN que el estudiante no posee resultados vocacionales registrados,<br>
         WHEN el cliente realiza una solicitud GET al endpoint de resultados,<br>
@@ -2422,7 +2418,6 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
         GIVEN que el psicólogo autenticado tiene asignado al estudiante consultado,<br>
         WHEN el cliente realiza una solicitud GET al endpoint correspondiente,<br>
         THEN la API responde con código HTTP 200 y devuelve la información vocacional autorizada del estudiante.<br><br>
-
         <b>Scenario 2: Consultar estudiante no asignado</b><br>
         GIVEN que el estudiante consultado no pertenece a los estudiantes asignados al psicólogo,<br>
         WHEN el cliente realiza una solicitud GET al endpoint correspondiente,<br>
@@ -2458,7 +2453,6 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
         GIVEN que existe un psicólogo y un estudiante válidamente registrados,<br>
         WHEN el cliente envía una solicitud POST con los datos de la sesión,<br>
         THEN la API responde con código HTTP 201 y registra la sesión de orientación.<br><br>
-
         <b>Scenario 2: Datos de sesión inválidos</b><br>
         GIVEN que la solicitud contiene una fecha, hora o estudiante inválido,<br>
         WHEN el cliente envía la solicitud POST,<br>
@@ -2494,7 +2488,6 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
         GIVEN que los datos de la actividad o recurso son válidos,<br>
         WHEN el cliente envía una solicitud POST al endpoint correspondiente,<br>
         THEN la API responde con código HTTP 201 y registra el nuevo recurso.<br><br>
-
         <b>Scenario 2: Consultar recursos vocacionales</b><br>
         GIVEN que existen recursos registrados,<br>
         WHEN el cliente realiza una solicitud GET al endpoint de recursos,<br>
@@ -2530,7 +2523,6 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
         GIVEN que existe un estudiante asignado al psicólogo autenticado,<br>
         WHEN el cliente envía una solicitud POST con una observación válida,<br>
         THEN la API responde con código HTTP 201 y registra la observación en el historial del estudiante.<br><br>
-
         <b>Scenario 2: Usuario no autorizado</b><br>
         GIVEN que el usuario autenticado no tiene autorización para modificar el historial del estudiante,<br>
         WHEN el cliente envía la solicitud POST,<br>
@@ -2566,7 +2558,6 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
         GIVEN que existen carreras registradas que coinciden con los criterios de búsqueda,<br>
         WHEN el cliente realiza una solicitud GET enviando los filtros correspondientes,<br>
         THEN la API responde con código HTTP 200 y devuelve las carreras que cumplen con los criterios.<br><br>
-
         <b>Scenario 2: Búsqueda sin coincidencias</b><br>
         GIVEN que ninguna carrera coincide con los filtros proporcionados,<br>
         WHEN el cliente realiza una solicitud GET,<br>
@@ -2602,7 +2593,6 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
         GIVEN que el estudiante posee un perfil vocacional y la carrera posee información registrada,<br>
         WHEN el cliente solicita la compatibilidad entre ambos elementos,<br>
         THEN la API responde con código HTTP 200 y devuelve el porcentaje de compatibilidad correspondiente.<br><br>
-
         <b>Scenario 2: Perfil vocacional inexistente</b><br>
         GIVEN que el estudiante no posee un perfil vocacional generado,<br>
         WHEN el cliente solicita el cálculo de compatibilidad,<br>
@@ -2638,7 +2628,6 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
         GIVEN que existe una carrera válida y un estudiante autenticado,<br>
         WHEN el cliente envía una solicitud POST para agregar la carrera a favoritos,<br>
         THEN la API responde con código HTTP 201 y registra la relación entre el estudiante y la carrera.<br><br>
-
         <b>Scenario 2: Eliminar carrera favorita</b><br>
         GIVEN que la carrera se encuentra registrada como favorita del estudiante,<br>
         WHEN el cliente envía una solicitud DELETE,<br>
@@ -2674,7 +2663,6 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
         GIVEN que existe un estudiante con un perfil vocacional registrado,<br>
         WHEN el cliente envía una solicitud POST con los datos del plan,<br>
         THEN la API responde con código HTTP 201 y registra el plan vocacional personalizado.<br><br>
-
         <b>Scenario 2: Actualizar plan vocacional</b><br>
         GIVEN que el estudiante posee un plan vocacional registrado,<br>
         WHEN el cliente envía una solicitud PUT con los nuevos datos del plan,<br>
@@ -2710,7 +2698,6 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
         GIVEN que el estudiante y el psicólogo se encuentran registrados y tienen una relación de orientación válida,<br>
         WHEN el cliente envía una solicitud POST con el contenido del mensaje,<br>
         THEN la API responde con código HTTP 201 y registra el mensaje para el destinatario.<br><br>
-
         <b>Scenario 2: Destinatario no autorizado</b><br>
         GIVEN que el destinatario no tiene una relación válida de orientación con el remitente,<br>
         WHEN el cliente intenta registrar el mensaje,<br>
@@ -2746,7 +2733,6 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
         GIVEN que existe un usuario destinatario y un evento válido de la plataforma,<br>
         WHEN el sistema envía una solicitud para registrar la notificación,<br>
         THEN la API responde con código HTTP 201 y almacena la notificación asociada al usuario.<br><br>
-
         <b>Scenario 2: Consultar notificaciones</b><br>
         GIVEN que el usuario posee notificaciones registradas,<br>
         WHEN el cliente realiza una solicitud GET al endpoint correspondiente,<br>
@@ -2782,7 +2768,6 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
         GIVEN que el usuario autenticado posee permisos para consultar información analítica,<br>
         WHEN el cliente realiza una solicitud GET al endpoint de métricas,<br>
         THEN la API responde con código HTTP 200 y devuelve los indicadores correspondientes.<br><br>
-
         <b>Scenario 2: Consulta sin autorización</b><br>
         GIVEN que el usuario autenticado no posee permisos para consultar las métricas,<br>
         WHEN el cliente realiza una solicitud GET al endpoint analítico,<br>
