@@ -2954,14 +2954,25 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
 
 ## 3.2. Impact Mapping
 
+### Escenario 1: Incremento de la Participación Activa de Psicólogos
+
 El objetivo de este escenario es incrementar la participación activa de los psicólogos registrados en NextPath, promoviendo una interacción constante y de valor con los estudiantes que utilizan la plataforma. Actualmente, se identifica que ciertos profesionales mantienen perfiles con baja frecuencia de uso o inactividad prolongada, lo cual limita el impacto del acompañamiento vocacional personalizado.
 
 Para revertir esta situación, el propósito es lograr que al menos el 40% de los psicólogos con cuenta activa atiendan a un mínimo de 5 estudiantes diferentes durante un lapso de 1 mes, dinamizando el ecosistema y fortaleciendo la vinculación entre la oferta y la demanda de orientación.
 
 Este objetivo refuerza la propuesta de valor de NextPath al asegurar un seguimiento psicopedagógico cercano, riguroso y humano, sustentado en la confianza y la continuidad. Asimismo, consolida una relación de beneficio mutuo: mientras los estudiantes reciben orientación profesional adaptada a sus perfiles vocacionales, los psicólogos potencian su visibilidad, reputación profesional y oportunidades de consulta dentro de la plataforma.
 
-![ImpactMapping2](images/impact-mapping/Impact-map-1.png)
+![ImpactMapping1](images/impact-mapping/Impact-map-1.png)
 
+### Escenario 2: Captación, Finalización y Satisfacción del Test Vocacional con IA
+
+El objetivo de este segundo escenario es maximizar la tasa de activación, completitud y satisfacción de los estudiantes que ingresan a NextPath. Uno de los problemas más comunes en las plataformas vocacionales tradicionales es el abandono del test por fatiga, desinterés o resultados ambiguos.
+
+Para revertir esta situación, el propósito es lograr que el 75% de los estudiantes registrados completen el test vocacional con IA y que más del 80% califique la utilidad de la experiencia con más de 3/5 puntos durante los primeros 2 meses de uso.
+
+Este objetivo refuerza la propuesta de valor central de NextPath al asegurar que los estudiantes reconozcan un valor diferenciador inmediato gracias a la personalización con Inteligencia Artificial. Asimismo, consolida el ciclo de vida del usuario en la plataforma: un diagnóstico fluido y motivador incrementa la confianza en los resultados obtenidos, impulsando a los alumnos a explorar activamente carreras afines, simular escenarios profesionales futuros y solicitar acompañamiento especializado.
+
+![ImpactMapping2](images/impact-mapping/Impact-map-2.png)
 ## 3.3. Product Backlog
 
 | N° | Story ID | Épica | Título | Descripción | Story Points |
