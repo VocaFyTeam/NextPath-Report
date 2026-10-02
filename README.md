@@ -4179,11 +4179,20 @@ A continuación, se presenta la matriz LACX (*Leadership-and-Collaboration Matri
 
 #### 5.2.1.3. Sprint Backlog 1
 
-**Objetivo del Sprint:** Publicar la landing page funcional de NextPath que comunique la propuesta de valor de orientación vocacional asistida por IA, permita a estudiantes y psicólogos conocer la plataforma y habilite los primeros canales de captación y contacto — convirtiendo visitantes en usuarios potenciales registrados[cite: 9, 10, 18].
+**Objetivo del Sprint:** Publicar la landing page funcional de NextPath que comunique la propuesta de valor de orientación vocacional asistida por IA, permita a estudiantes y psicólogos conocer la plataforma y habilite los primeros canales de captación y contacto — convirtiendo visitantes en usuarios potenciales registrados.
 
-**Sprint Goal:** *Un estudiante o psicólogo educativo puede ingresar a la landing page, comprender qué resuelve NextPath, explorar cómo funciona el proceso vocacional guiado, interactuar con el llamado a la acción y acceder a los canales de contacto — todo de manera fluida y responsive[cite: 9, 10, 18].*
+**Sprint Goal:** *Un estudiante o psicólogo educativo puede ingresar a la landing page, comprender qué resuelve NextPath, explorar cómo funciona el proceso vocacional guiado, interactuar con el llamado a la acción y acceder a los canales de contacto — todo de manera fluida y responsive.*
 
-**Story Points comprometidos: 9 SP | Duración: 2 semanas | Stack: HTML5 / CSS3 / JavaScript vanilla**[cite: 9, 10]
+**Story Points comprometidos: 9 SP | Duración: 2 semanas | Stack: HTML5 / CSS3 / JavaScript vanilla**
+
+>Evidencia del Board:
+<div align="center">
+  <img src="images/sprint-backlog-1.png" alt="sprint"><br><br>
+</div>
+
+>URL público del Board:
+https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2cb06a2a0cB717020D/nextpath
+
 
 | Sprint # | User Story ID | User Story Título | SP | Work-Item / Task ID | Task Título | Descripción | Estimación | Asignado a | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
