@@ -3004,6 +3004,21 @@ Este objetivo refuerza la propuesta de valor central de NextPath al asegurar que
 ![ImpactMapping2](images/impact-mapping/Impact-map-2.png)
 ## 3.3. Product Backlog
 
+A continuación, se presenta el Product Backlog del proyecto incluyendo las User Stories ordenadas, con su Épica correspondiente y sus Story Point designados. 
+
+>Evidencia del uso de la herramienta (Trello):
+
+![Product Backlog 1](images/product-backlog-1.png)
+![Product Backlog 2](images/product-backlog-2.png)
+![Product Backlog 3](images/product-backlog-3.png)
+
+
+>URL Público del board:
+https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2cb06a2a0cB717020D/nextpath
+
+
+
+
 | N° | Story ID | Épica | Título | Descripción | Story Points |
 |:---:|:---:|:---:|---|---|:---:|
 | 1 | US01 | E-01 – Evaluación Vocacional | Realizar test vocacional | COMO estudiante QUIERO realizar un test vocacional dentro de la plataforma PARA crear un perfil de intereses y aptitudes con recomendaciones personalizadas. | 5 |
