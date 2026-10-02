@@ -172,7 +172,7 @@ del ABET – EAC - Student Outcome 3.
             <br><br>
         </td>
         <td>
-            <u>Se dsarrolló hasta el cpitulo 5 en conjunto con la landing page y su despliegue</u><br>
+            <u>Se desarrolló hasta el capitulo 5 en conjunto con la landing page y su despliegue</u><br>
         </td>
     </tr>
 </table>
