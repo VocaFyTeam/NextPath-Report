@@ -3508,37 +3508,38 @@ Esta sección incluye secciones internas donde se presenta y explica la propuest
 <img src="images/mock-ups/mock-up-16.png" alt="Mock-up 17" size = 500><br>
 ### 4.4.4. Web Applications User Flow Diagrams
 1) **User flow 1:**  Como usuario, quiero iniciar sesion en la plataforma
-<img src="images/user-flow/user-flow-1.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 1.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 1-2.png" alt="User-flow 1" size = 500><br>
 2) **User flow 2:**  Como usuario, quiero Registrarme en la plataforma
-<img src="images/user-flow/user-flow-2.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 2.png" alt="User-flow 1" size = 500><br>
 3) **User flow 3:**  Como Estudiante, quiero Realizar un Test Vocacional con IA y Obtener Resultados
-<img src="images/user-flow/user-flow-3.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 3.png" alt="User-flow 1" size = 500><br>
 4) **User flow 4:**  Como Estudiante, quiero Tener acceso a la simulación de futuro profesional
-<img src="images/user-flow/user-flow-4.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 4.png" alt="User-flow 1" size = 500><br>
 5) **User flow 5:**  Como Estudiante, quiero Tener acceso a la comparacion de carreras
-<img src="images/user-flow/user-flow-5.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 5.png" alt="User-flow 1" size = 500><br>
 6) **User flow 6:**  Como Estudiante, quiero agregar carreras a mis favoritos
-<img src="images/user-flow/user-flow-6.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 6.png" alt="User-flow 1" size = 500><br>
 7) **User flow 7:**  Como estudiante, quiero visualizar mis tareas y recomendaciones 
-<img src="images/user-flow/user-flow-7.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 7.png" alt="User-flow 1" size = 500><br>
 8) **User flow 8:**  Como Estudiante, quiero unirme a una sesión en vivo con mi psicólogo
-<img src="images/user-flow/user-flow-8.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 8.png" alt="User-flow 1" size = 500><br>
 9) **User flow 9:**  Como Estudiante, quiero acceder a la comunidad
-<img src="images/user-flow/user-flow-9.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 9.png" alt="User-flow 1" size = 500><br>
 10) **User flow 10:** Como Estudiante, quiero acceder al Centro de Mensajería
-<img src="images/user-flow/user-flow-10.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 10.png" alt="User-flow 1" size = 500><br>
 11) **User flow 11:** Como Psicologo, quiero monitorear el desempeño de un estudiante
-<img src="images/user-flow/user-flow-11.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 11.png" alt="User-flow 1" size = 500><br>
 12) **User flow 12:** Como Psicologo, quiero acceder a una comparativa grupal de los estudiantes
-<img src="images/user-flow/user-flow-12.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 12.png" alt="User-flow 1" size = 500><br>
 13) **User flow 13:** Como Psicólogo, quiero unirme a las sesiones ya agendadas
-<img src="images/user-flow/user-flow-13.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 13.png" alt="User-flow 1" size = 500><br>
 14) **User flow 14:** Como Psicólogo, quiero crear una nueva sesión y agendarla
-<img src="images/user-flow/user-flow-14.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 14.png" alt="User-flow 1" size = 500><br>
 15) **User flow 15:** Como Psicólogo, quiero compartir material didáctico con los estudiantes
-<img src="images/user-flow/user-flow-1.png" alt="User-flow 1" size = 500><br>
-15) **User flow 16:** Como Psicólogo, quiero comunicarme directamente con los estudiantes
-<img src="images/user-flow/user-flow-1.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 15.png" alt="User-flow 1" size = 500><br>
+16) **User flow 16:** Como Psicólogo, quiero comunicarme directamente con los estudiantes
+<img src="images/user-flow/user-flow-Frame 16.png" alt="User-flow 1" size = 500><br>
  
 
 ## 4.5. Web Applications Prototyping
