@@ -4392,6 +4392,37 @@ Durante el Sprint también se utilizaron mensajes de commit bajo el estándar de
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
 #### 5.2.2.3. Sprint Backlog 2
+**Objetivo del Sprint:**  
+Desarrollar, maquetar e implementar la primera versión funcional (MVP) de la aplicación web **NextPath**, desplegando las vistas principales e interfaces de usuario tanto para el módulo del **Estudiante** (test con IA, explorador/simulador de carreras, plan vocacional y comunidad) como para el módulo del **Psicólogo / Tutor** (tablero de monitoreo de riesgo, ficha diagnóstica, agenda de citas y analítica grupal).
+
+**Sprint Goal:**  
+*"Un estudiante puede completar su test vocacional con IA, explorar y simular su futuro profesional en carreras afines, mientras que un psicólogo asignado puede visualizar el tablero de monitoreo de alumnos en riesgo, revisar diagnósticos automáticos e interactuar mediante la agenda de sesiones y mensajería en vivo dentro de la plataforma web."*
+
+**Métricas y Configuración del Sprint 2:**
+* **Story Points comprometidos:** 32 SP
+* **Esfuerzo Total Estimado:** 39.0 Horas Hombre
+* **Duración:** 2 semanas
+
+| Sprint | US ID | Requerimiento / Título de US | Task ID | Título y Descripción de la Tarea | Responsable | SP | Estimación (Horas) | Estado |
+| :---: | :--- | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| **Sprint 2** | `SETUP-AUTH` | Autenticación y acceso a la plataforma | **T1.1** | **Maquetar Login y Registro:** Formulario responsivo para acceso y registro segregando roles (Estudiante / Psicólogo). | Pérez Bellido, Fernando Sebastián | 2 SP | 2.5 h | Done |
+| **Sprint 2** | `SETUP-AUTH` | Recuperación de cuenta | **T1.2** | **Implementar Recuperación de Contraseña:** Modal para solicitud de restauración de clave vía correo. | Pérez Bellido, Fernando Sebastián | 1 SP | 1.5 h | Done |
+| **Sprint 2** | `HU 06, HU 25` | Recuperación de cuenta | **T1.2** | **Implementar Centro de Mensajería e Intervención**  Chat en vivo 1 a 1 entre Psicólogo y Estudiante,  | Pérez Bellido, Fernando Sebastián | 1 SP | 3.5 h | Done |
+| **Sprint 2** | `HU01` | Realizar test vocacional | **T2.1** | **Maquetar Catálogo de Tests:** Vista de selección con Test NextPath (IA) y pruebas estandarizadas (Holland, MBTI). | Cruzalegui Herrera, Joaquin | 2 SP | 1.5 h | Done |
+| **Sprint 2** | `HU01` | Realizar test vocacional | **T2.2** | **Desarrollar Cuestionario Dinámico:** Interfaz de preguntas paso a paso con barra de progreso % y navegación. | Cruzalegui Herrera, Joaquin | 3 SP | 2.5 h | Done |
+| **Sprint 2** | `HU02, HU26` | Visualizar resultados y feedback inmediato | **T2.3** | **Implementar Pantalla de Resultados RIASEC:** Renderizar gráfico de araña, diagnóstico de IA y carreras afines. | Cruzalegui Herrera, Joaquin | 2 SP | 2.5 h | Done |
+| **Sprint 2** | `HU03` | Realizar test de seguimiento | **T2.4** | **Módulo de Tests de Seguimiento:** Historial comparativo entre evaluaciones pasadas para medir evolución. | Cruzalegui Herrera, Joaquin | 1 SP | 1.5 h | Done |
+| **Sprint 2** | `HU15, HU17` | Búsqueda con filtros e indicador de compatibilidad | **T3.1** | **Construir Explorador de Carreras:** Buscador con filtros (Área, Duración, Modalidad) y badge de % de compatibilidad. | Miranda Cordova, Jesus Angel Yvan | 1 SP | 2.0 h | Done |
+| **Sprint 2** | `HU16, HU19` | Ficha de carrera y guardar favoritos | **T3.2** | **Desarrollar Ficha Detallada:** Malla curricular, empleabilidad, universidades, salarios y botón de favorito. | Miranda Cordova, Jesus Angel Yvan | 1 SP | 1.5 h | Done |
+| **Sprint 2** | `HU18` | Comparar carreras seleccionadas | **T3.3** | **Implementar Tabla Comparativa:** Matriz comparativa lado a lado para evaluar hasta 3 carreras seleccionadas desde Favoritos. | Miranda Cordova, Jesus Angel Yvan | 1 SP | 1.5 h | Done |
+| **Sprint 2** | `HU20` | Simular futuro profesional según perfil | **T3.4** | **Construir Simulador de Futuro Profesional:** Timeline de progresión laboral e indicadores. | Miranda Cordova, Jesus Angel Yvan | 3 SP | 3.0 h | Done |
+| **Sprint 2** | `HU21` | Visualizar dashboard de progreso | **T4.1** | **Maquetar Dashboard Principal:** Saludo, accesos directos rápidos, barra de avance % y resumen de actividades. | Ravello Cárdenas, Luciana Angelina | 1 SP | 1.5 h | Done |
+| **Sprint 2** | `HU22, HU24` | Plan personalizado e historial de logros | **T4.2** | **Desarrollar Gestor de Plan Vocacional:** Lista de tareas cronológicas con fechas límite e historial de logros. | Ravello Cárdenas, Luciana Angelina | 2 SP | 2.5 h | Done |
+| **Sprint 2** | `HU34, HU35` | Unirse a comunidades y publicar | **T4.3** | **Implementar Muro de Comunidad:** Catálogo de grupos por carrera, creador de publicaciones y comentarios. | Ravello Cárdenas, Luciana Angelina | 2 SP | 2.0 h | Done |
+| **Sprint 2** | `HU39, HU40, HU42`| Tablero de alumnos, filtros y sugerencias IA | **T5.1** | **Desarrollar Tablero de Monitoreo:** Lista de alumnos, barras de avance, filtros de riesgo y sugerencias automáticas de IA. | Torres Juárez, Alisee Muriel | 2 SP | 2.0 h | Done |
+| **Sprint 2** | `HU04, HU12, HU14`| Consulta de resultados, historial y reporte | **T5.2** | **Construir Ficha Diagnóstica:** Expediente individual con gráfico RIASEC, notas profesionales y reporte automático de IA. | Torres Juárez, Alisee Muriel | 2 SP | 2.0 h | Done |
+| **Sprint 2** | `HU05, HU13, HU28, HU30`| Programar sesiones, alertas y citas | **T5.3** | **Implementar Agenda de Sesiones:** Gestor de citas individuales/grupales y solicitudes de citas enviadas por estudiantes. | Torres Juárez, Alisee Muriel | 1 SP | 1.5 h | Done |
+| **Sprint 2** | `HU08, HU10, HU32`| Reportes estadísticos y analítica grupal | **T5.4** | **Desarrollar Panel Analítico Grupal:** Gráficos de tendencias por cohorte y exportación a formatos PDF/Excel. | Torres Juárez, Alisee Muriel | 1 SP | 2.0 h | Done |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
