@@ -3802,7 +3802,6 @@ El entorno de desarrollo de NextPath ha sido configurado considerando la colabor
 Las herramientas utilizadas se organizan de acuerdo con las siguientes actividades: Project Management, Requirements Management, Product UX/UI Design, Software Development, Software Deployment y Software Documentation.
 
 Project Management
-
 <table>
 <thead>
 <tr>
@@ -3813,8 +3812,13 @@ Project Management
 </thead>
 <tbody>
 <tr>
-<td>GitHub Projects</td>
-<td>Planificación, organización y seguimiento de las actividades, issues, user stories y tareas relacionadas con el desarrollo de NextPath.</td>
+<td>Trello</td>
+<td>Herramienta de soporte para Agile Development utilizada para la planificación, asignación y seguimiento del Product Backlog y Sprint Backlog (User Stories y Engineering Tasks). Permite evidenciar la evolución del tablero a través de los estados: <b>To Do, In Process, To Review y Done</b>.</td>
+<td>https://trello.com/</td>
+</tr>
+<tr>
+<td>GitHub Projects / Issues</td>
+<td>Registro, organización y seguimiento de requerimientos técnicos, control de incidencias a nivel de repositorio y problemas identificados durante la integración del código fuente.</td>
 <td>https://github.com/features/issues</td>
 </tr>
 </tbody>
@@ -4393,20 +4397,20 @@ Durante el Sprint también se utilizaron mensajes de commit bajo el estándar de
 
 #### 5.2.2.3. Sprint Backlog 2
 **Objetivo del Sprint:**  
-Desarrollar, maquetar e implementar la primera versión funcional (MVP) de la aplicación web **NextPath**, desplegando las vistas principales e interfaces de usuario tanto para el módulo del **Estudiante** (test con IA, explorador/simulador de carreras, plan vocacional y comunidad) como para el módulo del **Psicólogo / Tutor** (tablero de monitoreo de riesgo, ficha diagnóstica, agenda de citas y analítica grupal).
+Desarrollar, maquetar e implementar la primera versión funcional (MVP) de la aplicación web **NextPath**, desplegando las vistas principales e interfaces de usuario tanto para el módulo del **Estudiante** (test con IA, explorador/simulador de carreras, plan vocacional y comunidad) como para el módulo del **Psicólogo** (tablero de monitoreo de riesgo, ficha diagnóstica, agenda de citas y analítica grupal).
 
 **Sprint Goal:**  
 *"Un estudiante puede completar su test vocacional con IA, explorar y simular su futuro profesional en carreras afines, mientras que un psicólogo asignado puede visualizar el tablero de monitoreo de alumnos en riesgo, revisar diagnósticos automáticos e interactuar mediante la agenda de sesiones y mensajería en vivo dentro de la plataforma web."*
 
 **Métricas y Configuración del Sprint 2:**
 * **Story Points comprometidos:** 32 SP
-* **Esfuerzo Total Estimado:** 39.0 Horas Hombre
+
 * **Duración:** 2 semanas
 
 | Sprint | US ID | Requerimiento / Título de US | Task ID | Título y Descripción de la Tarea | Responsable | SP | Estimación (Horas) | Estado |
 | :---: | :--- | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
-| **Sprint 2** | `SETUP-AUTH` | Autenticación y acceso a la plataforma | **T1.1** | **Maquetar Login y Registro:** Formulario responsivo para acceso y registro segregando roles (Estudiante / Psicólogo). | Pérez Bellido, Fernando Sebastián | 2 SP | 2.5 h | Done |
-| **Sprint 2** | `SETUP-AUTH` | Recuperación de cuenta | **T1.2** | **Implementar Recuperación de Contraseña:** Modal para solicitud de restauración de clave vía correo. | Pérez Bellido, Fernando Sebastián | 1 SP | 1.5 h | Done |
+| **Sprint 2** | `TS 01` | Autenticación y acceso a la plataforma | **T1.1** | **Maquetar Login y Registro:** Formulario responsivo para acceso y registro segregando roles (Estudiante / Psicólogo). | Pérez Bellido, Fernando Sebastián | 2 SP | 2.5 h | Done |
+| **Sprint 2** | `TS 01` | Recuperación de cuenta | **T1.2** | **Implementar Recuperación de Contraseña:** Modal para solicitud de restauración de clave vía correo. | Pérez Bellido, Fernando Sebastián | 1 SP | 1.5 h | Done |
 | **Sprint 2** | `HU 06, HU 25` | Recuperación de cuenta | **T1.2** | **Implementar Centro de Mensajería e Intervención**  Chat en vivo 1 a 1 entre Psicólogo y Estudiante,  | Pérez Bellido, Fernando Sebastián | 1 SP | 3.5 h | Done |
 | **Sprint 2** | `HU01` | Realizar test vocacional | **T2.1** | **Maquetar Catálogo de Tests:** Vista de selección con Test NextPath (IA) y pruebas estandarizadas (Holland, MBTI). | Cruzalegui Herrera, Joaquin | 2 SP | 1.5 h | Done |
 | **Sprint 2** | `HU01` | Realizar test vocacional | **T2.2** | **Desarrollar Cuestionario Dinámico:** Interfaz de preguntas paso a paso con barra de progreso % y navegación. | Cruzalegui Herrera, Joaquin | 3 SP | 2.5 h | Done |
@@ -4422,7 +4426,7 @@ Desarrollar, maquetar e implementar la primera versión funcional (MVP) de la ap
 | **Sprint 2** | `HU39, HU40, HU42`| Tablero de alumnos, filtros y sugerencias IA | **T5.1** | **Desarrollar Tablero de Monitoreo:** Lista de alumnos, barras de avance, filtros de riesgo y sugerencias automáticas de IA. | Torres Juárez, Alisee Muriel | 2 SP | 2.0 h | Done |
 | **Sprint 2** | `HU04, HU12, HU14`| Consulta de resultados, historial y reporte | **T5.2** | **Construir Ficha Diagnóstica:** Expediente individual con gráfico RIASEC, notas profesionales y reporte automático de IA. | Torres Juárez, Alisee Muriel | 2 SP | 2.0 h | Done |
 | **Sprint 2** | `HU05, HU13, HU28, HU30`| Programar sesiones, alertas y citas | **T5.3** | **Implementar Agenda de Sesiones:** Gestor de citas individuales/grupales y solicitudes de citas enviadas por estudiantes. | Torres Juárez, Alisee Muriel | 1 SP | 1.5 h | Done |
-| **Sprint 2** | `HU08, HU10, HU32`| Reportes estadísticos y analítica grupal | **T5.4** | **Desarrollar Panel Analítico Grupal:** Gráficos de tendencias por cohorte y exportación a formatos PDF/Excel. | Torres Juárez, Alisee Muriel | 1 SP | 2.0 h | Done |
+| **Sprint 2** | `HU08, HU10, HU32`| Reportes estadísticos y analítica grupal | **T5.4** | **Desarrollar Panel Analítico Grupal:** Gráficos de tendencias por corte y exportación a formatos PDF/Excel. | Torres Juárez, Alisee Muriel | 1 SP | 2.0 h | Done |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
