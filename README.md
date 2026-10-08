@@ -63,21 +63,21 @@ Proyecto:
 
   <tr>
     <td><b>Primera Entrega (AV1)</b></td>
-    <td>XX/09/2026</td>
+    <td>18/09/2026</td>
     <td>
-       <br>
+     Fernando Sebastian Pérez Bellido
       <br>
       <p></p>
-       <br>
+     Joaquin Cruzalegui Herrera
       <br>
       <p></p>
-     <br>
+      Miranda Cordova, Jesus Angel Yvan
       <br>
       <p></p>
-       <br>
+      Luciana Angelina Ravello Cárdenas
       <br>
       <p></p>
-       <br>
+      Alisee Muriel Torres Juárez
     </td>
     <td>
       Capítulo I: 
@@ -97,14 +97,60 @@ Proyecto:
     <br>
     </td>
   </tr>
+  <tr>
+    <td><b>Segunda Entrega (TB1)</b></td>
+    <td>09/10/2026</td>
+    <td>
+     Fernando Sebastian Pérez Bellido
+      <br>
+      <p></p>
+     Joaquin Cruzalegui Herrera
+      <br>
+      <p></p>
+      Miranda Cordova, Jesus Angel Yvan
+      <br>
+      <p></p>
+      Luciana Angelina Ravello Cárdenas
+      <br>
+      <p></p>
+      Alisee Muriel Torres Juárez
+    </td>
+    <td>
+      Corrección del reporte AV1
+    <br> 
+      Primera versión desplegada de Frontend Web Applications
+    <br>
+      Capítulo V:
+      Product Implementation, Validation & Deployment (sprint 2)
+    <br>
+    </td>
+  </tr>
   </table>
 
  ---
  # Project Report Collaboration Insights
 
-
+URL del repositorio (report): https://github.com/VocaFyTeam/NextPath-Report.git<br>
 
 **Primera Entrega (AV1)**
+
+El equipo elaboró el Project Report mediante un trabajo coordinado, distribuyendo las distintas secciones entre los integrantes. Cada participante aportó activamente en la redacción de contenidos, el diseño y ajuste de diagramas, la recopilación de evidencias, el control de formato y la revisión integral del documento previo a la entrega.
+
+En paralelo, se avanzó con el diseño y construcción de la landing page de StockIA. Dicha labor quedó registrada en el informe y respaldada en su respectivo repositorio, incorporando pruebas de su implementación, despliegue técnico y alineación con la propuesta de valor de la solución.
+
+Para la gestión colaborativa se empleó GitHub, plataforma que facilitó el seguimiento de modificaciones mediante commits, la estructuración de las tareas y el respaldo cronológico del avance, tanto del reporte como de la página web. De igual forma, las métricas de colaboración y el historial de versiones sirven como constancia de la participación de cada integrante.
+
+
+**Trabajo Parcial (TB1)**
+
+El equipo realizó la corrección del reporte AV1, afinando la redacción, ajustando el formato y reforzando la coherencia entre las secciones para garantizar un documento más sólido y alineado con los objetivos del curso. Esta nueva versión quedó registrada en el repositorio y constituye la base documental del avance del proyecto.
+
+
+El progreso quedó documentado en el Capítulo V: Product Implementation, Validation & Deployment (sprint 2), donde se detallan las pruebas realizadas, la validación de funcionalidades y el proceso de despliegue técnico. Dicho capítulo evidencia la integración entre la propuesta de valor y su materialización en artefactos funcionales.
+
+Para la gestión colaborativa se continuó utilizando GitHub, que permitió coordinar commits, organizar tareas y mantener un historial cronológico del avance. Las métricas de colaboración y el registro de versiones respaldan la participación activa de cada integrante, asegurando transparencia y trazabilidad en el desarrollo del proyecto
+
+
 
 ---
 # Student Outcome
