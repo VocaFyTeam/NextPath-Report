@@ -4469,3 +4469,19 @@ Desarrollar, maquetar e implementar la primera versión funcional (MVP) de la ap
 # Bibliografía
 
 # Anexos
+**URL del repositorio (NextPath-report):** https://github.com/VocaFyTeam/NextPath-Report.git
+
+**URL del repositorio (NextPath-LandingPage)** https://github.com/VocaFyTeam/NextPath-LandingPage.git
+
+**URL de landing page :** https://vocafyteam.github.io/NextPath-LandingPage/
+
+**URL de webapp:** 
+
+**Link del EventStorming (Miro):** https://miro.com/welcomeonboard/MEljTU1nWW9FSEhGU2RvcnRPQWJ0VFVxOGlzME9QR2M2a3kxdFRGVWUvUjMzU0RGN21qM3cyWjExV1krQSsvalVoblhxZlplK3BSUU0xV29mTGRtbUY3bEhWV2hMWDN1UjZ1bkVieUYyREtkcnR2eFBCb3dIcFFPRUdMZStsYlBBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=62509929931.
+
+**Repositorio de la API simulada:** https://github.com/VocaFyTeam/NextPath-Mockups-Api.git
+
+**Repositorio de la webApp en Github:** 
+**TB1 Expo:**  
+
+**URL de la API simulada desplegada:** https://nextpath-mockups-api.onrender.com/
