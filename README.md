@@ -4403,9 +4403,16 @@ Desarrollar, maquetar e implementar la primera versión funcional (MVP) de la ap
 *"Un estudiante puede completar su test vocacional con IA, explorar y simular su futuro profesional en carreras afines, mientras que un psicólogo asignado puede visualizar el tablero de monitoreo de alumnos en riesgo, revisar diagnósticos automáticos e interactuar mediante la agenda de sesiones y mensajería en vivo dentro de la plataforma web."*
 
 **Métricas y Configuración del Sprint 2:**
-* **Story Points comprometidos:** 32 SP
 
-* **Duración:** 2 semanas
+**Story Points comprometidos: 29 SP | Duración: 2 semanas **
+
+>Evidencia del Board:
+<div align="center">
+  <img src="images/Sprint-backlog-2.png" alt="sprint"><br><br>
+</div>
+
+>URL público del Board:
+https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2cb06a2a0cB717020D/nextpath
 
 | Sprint | User Story ID | User Story Título | Task ID | Task Título | Descripción | SP | Estimación | Asignado a | Status |
 | :--- | :--- | :--- | :---: | :--- | :--- | :---: | :---: | :--- | :---: |
@@ -4414,9 +4421,9 @@ Desarrollar, maquetar e implementar la primera versión funcional (MVP) de la ap
 | **Sprint 2** | HU 01 | Realizar test vocacional | T2.1 | Catálogo y Cuestionario | Catálogo de tests (NextPath IA, Holland, MBTI) y cuestionario dinámico con barra de progreso y navegación. | 5 | 4h | Cruzalegui, Joaquin (JoaquinCruzalegui) | Done |
 | **Sprint 2** | HU 02, HU 03, HU 26 | Resultados, feedback y seguimiento | T2.2 | Resultados RIASEC y Seguimiento | Gráfico de araña, diagnóstico de IA, carreras afines e historial comparativo de evaluaciones. | 3 | 4h | Cruzalegui, Joaquin (JoaquinCruzalegui) | Done |
 | **Sprint 2** | HU 15, HU 16, HU 17, HU 19 | Explorar carreras | T3.1 | Explorador y Ficha de Carrera | Buscador con filtros (Área, Duración, Modalidad), badge de % de compatibilidad, ficha detallada y favoritos. | 2 | 4h* | Miranda, Jesús (Jesus-Miranda-678) | Done |
-| **Sprint 2** | HU 18, HU 20 | Comparar y simular carreras | T3.2 | Comparador y Simulador | Tabla comparativa de hasta 3 carreras y timeline de simulación del futuro profesional. | 4 | 4.5h | Miranda, Jesús (Jesus-Miranda-678) | Done |
+| **Sprint 2** | HU 18, HU 20 | Comparar y simular carreras | T3.2 | Comparador y Simulador | Tabla comparativa de hasta 3 carreras y timeline de simulación del futuro profesional. | 3 | 4.5h | Miranda, Jesús (Jesus-Miranda-678) | Done |
 | **Sprint 2** | HU 21, HU 22, HU 24, HU 33, HU 34, HU 35 | Progreso, plan vocacional y comunidad | T4.1 | Dashboard, Plan y Comunidad | Dashboard de progreso, plan con tareas e historial de logros y muro de comunidad con publicaciones y comentarios. | 5 | 6h | Ravello, Luciana (Lucyrcar-ID) | Done |
-| **Sprint 2** | HU 04, HU 12, HU 14, HU 38, HU 39, HU 40, HU 41 | Monitoreo y diagnóstico | T5.1 | Tablero y Ficha Diagnóstica |Lista de alumnos, barras de avance, filtros de riesgo y sugerencias de IA, y expediente individual con reporte automático. | 4 | 4h | Torres, Alisee (lLisee1) | Done |
+| **Sprint 2** | HU 04, HU 12, HU 14, HU 38, HU 39, HU 40, HU 41 | Monitoreo y diagnóstico | T5.1 | Tablero y Ficha Diagnóstica |Lista de alumnos, barras de avance, filtros de riesgo y sugerencias de IA, y expediente individual con reporte automático. | 3 | 4h | Torres, Alisee (lLisee1) | Done |
 | **Sprint 2** | HU 05, HU 08, HU 10, HU 13, HU 28, HU 30, HU 32 | Sesiones y analítica grupal | T5.2 | Agenda y Panel Analítico | Citas individuales/grupales,  Gráficos de tendencias por corte y exportación a PDF/Excel. | 2 | 4h* | Torres, Alisee (lLisee1) | Done |
 
 
