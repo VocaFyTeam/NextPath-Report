@@ -63,7 +63,7 @@ Proyecto:
 
   <tr>
     <td><b>Primera Entrega (AV1)</b></td>
-    <td>17/09/2026</td>
+    <td>18/09/2026</td>
     <td>
      Fernando Sebastian Pérez Bellido
       <br>
@@ -99,7 +99,7 @@ Proyecto:
   </tr>
   <tr>
     <td><b>Segunda Entrega (TB1)</b></td>
-    <td>06/10/2026</td>
+    <td>09/10/2026</td>
     <td>
      Fernando Sebastian Pérez Bellido
       <br>
