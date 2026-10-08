@@ -679,8 +679,31 @@ deserción o insatisfacción académica?
 
 
 ### 2.2.2. Registro de entrevistas
-**Segmento 1**
+**Segmento 1: ESTUDIANTES**
+<br>
+
+**Entrevista 1:**
+<br>
+**Entrevistador(a):** >Luciana Angielina Ravello Cárdenas
+<br>
+
+Datos del entrevistada:
+  * **Nombre:** Liz
+  * **Apellido:** Anahua
+  * **Edad:** 22 años
+  * **Distrito:** –
+  * **Timing:** 00:03
+
+<p align="center"><img alt="Entrevista-Luciana1" src="images/entrevista-luciana-ev2.png" /></p>
+  <p align="center"><img alt="Entrevista-Luciana1" src="images/entrevista-luciana-ev1.png" /></p>
+<p align="center"><i>Evidencia de entrevista: Liz </i></p>
+
+**Resumen descriptivo:**
+En la entrevista con Liz, una estudiante, ella misma nos dice que la elección de carrera le generó mucha ansiedad por expectativas externas y temor al error. Ella se sintió perdida debido a la gran cantidad de información en internet que resulta poco confiable y difícil de interpretar, además de un mercado laboral cambiante donde las carreras tradicionales ofrecen menores oportunidades. A Liz le agrada la idea de una aplicación que cuente con Inteligencia Artificial (IA) que la ayude con un simulador de trayectoria profesional para tener la decisión mucho más clara.
+
+
 **Entrevista 2:**
+<br>
 **Entrevistador(a):** >Jesus Angel Yvan Miranda Cordova
 
 Datos del entrevistado:
@@ -696,7 +719,9 @@ Datos del entrevistado:
 **Resumen descriptivo:**
 La entrevista con Joaquin, un estudiante, muestra que investiga por su cuenta de forma básica ,ha dado algunos test por parte de su colegio, pero aun se siente inseguro con respecto a que carreras escoger y a su futuro. El considera que sería útil contar con una plataforma con IA, que le ayude a ampliar sus conocimientos sobre carreras que le podrían interesar.
 
-**Segmento 2**
+**Segmento 2: PSICÓLOGOS**
+<br>
+
 **Entrevista 1:**
 **Entrevistador(a):** >Joaquin Cruzalegui Herrera
 
