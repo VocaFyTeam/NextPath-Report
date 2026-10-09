@@ -201,6 +201,11 @@ del ABET – EAC - Student Outcome 3.
             <b></b><br>
             <u> Fernando Sebastian Perez Bellido AV1: Realice en conjunto la landing page, diagrama de componentes y parte del capitulo 5</u><br>
             <br><br>
+		  <b></b><br>
+		  <u>Tb1: Luciana Angielina Ravello Cárdenas</u>
+		  <br>
+		  <p>Asumió un liderazgo compartido al exponer de forma clara en las reuniones de coordinación el progreso visual del frontend y la Landing Page. Explicó a sus compañeros de equipo qué capturas de pantalla (screenshots) y evidencias debían priorizarse para el informe.</p>
+		  <br><br>
         </td>
         <td>
             <u>AV1: Se desarrolló hasta el capitulo 5 en conjunto con la landing page y su despliegue</u><br>
@@ -229,7 +234,13 @@ del ABET – EAC - Student Outcome 3.
 <u>Tb1: Jesus Angel Yvan Miranda Cordova</u><br>
 <p>Planifiqué y ejecuté mis tareas del Sprint 2 (T3.1 y T3.2), cumpliendo las estimaciones definidas en el Sprint Backlog y las metas del sprint. Trabajé con el flujo de ramas y commits del equipo en GitHub y coordiné con mis compañeros el consumo de los recursos de carreras y favoritos de la API simulada, para integrar mi módulo sin afectar los demás.</p>
 <br><br>
-            <b></b><br>
+<b></b><br>
+<u>Tb1: Luciana Angielina Ravello Cárdenas </u><br>
+<p>Redactó las secciones de evidencias de desarrollo y ejecución (5.2.2.4 y 5.2.2.5). Se encargó de elaborar explicaciones detalladas y fáciles de entender para cada captura de pantalla del frontend, logrando que el lector comprenda la interacción del usuario. Además, documentó de forma clara y organizada la tabla de commits de GitHub, asegurando un registro profesional del esfuerzo del equipo sin afectar negativamente a nadie del equipo.</p>
+<br><br>
+<b></b><br>
+
+ <b></b><br>
             <u>Fernando Sebastian Perez Bellido AV1: colaboré en la realización de los diagramas de C4</u><br>
             <br><br>
         </td>
