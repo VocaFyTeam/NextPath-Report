@@ -4234,7 +4234,7 @@ Entre las actividades principales planificadas se incluyeron:
 | **Time** | 6:00 PM |
 | **Location** | Reunión virtual mediante la plataforma Google Meet |
 | **Prepared By** | Equipo NextPath |
-| **Attendees (to planning meeting)** | [Nombres de los integrantes de tu equipo] |
+| **Attendees (to planning meeting)** | Cruzalegui, Joaquin; Ravello, Luciana; Miranda, Jesús; Torres, Alisee; Pérez, Sebastián. |
 | **Sprint 0 Review Summary** | Durante el Sprint 0 se completó la fase de investigación, definición de arquitectura base (modelo C4) y especificación de requerimientos del sistema. Se definieron las épicas, historias de usuario y prototipos de alta fidelidad, permitiendo al equipo iniciar la fase de implementación de la Landing Page con especificaciones claras de UI/UX. |
 | **Sprint 0 Retrospective Summary** | El equipo demostró sincronización y compromiso técnico en el Sprint 0; no obstante, se identificó la necesidad de reforzar la gestión de ramas bajo GitFlow y la coordinación en la integración de estilos para evitar conflictos en el desarrollo colaborativo del código frontend. |
 | **Sprint 1 Goal** | Desarrollar, maquetar e implementar completamente la Landing Page institucional de NextPath y realizar su despliegue continuo. El resultado permitirá dar a conocer la solución, explicar el proceso de orientación vocacional asistida por IA y captar el interés tanto de estudiantes como de psicólogos orientadores. Esto se validará cuando las secciones de Inicio, Sobre nosotros, Cómo funciona, Comenzar ahora y Contáctanos se encuentren completamente publicadas y accesibles vía web. |
@@ -4461,10 +4461,54 @@ Durante el Sprint también se utilizaron mensajes de commit bajo el estándar de
 
 ### 5.2.2. Sprint 2
 
-#### 5.2.2.1. Sprint Planning 2
+### 5.2.2.1. Sprint Planning 2
 
+El Sprint Planning 2 tiene como objetivo organizar el desarrollo del frontend de NextPath a partir de los wireframes y mockups de la plataforma. Este sprint comprende las interfaces de estudiantes y psicólogos, así como la navegación y las interacciones necesarias para recorrer los principales flujos de orientación vocacional.
 
-#### 5.2.2.2. Aspect Leaders and Collaborators
+Durante este sprint, el equipo implementará las pantallas de autenticación, perfil, evaluación vocacional, exploración de carreras, seguimiento de metas y acompañamiento profesional. Se mantendrá una identidad visual consistente mediante componentes reutilizables, estilos compartidos y un diseño adaptable a pantallas de escritorio y dispositivos móviles.
+
+El alcance contempla la maquetación, la navegación entre vistas, las validaciones de formularios en el cliente y la representación de los estados de cada interfaz. Para demostrar los flujos que dependan de servicios de backend, se utilizarán datos de prueba y respuestas simuladas.
+
+Entre las actividades principales planificadas se incluyen:
+
+- Implementación de las pantallas de **inicio de sesión, registro y recuperación de contraseña**, junto con las vistas de **perfil y configuración** del usuario.
+- Desarrollo del **menú de tests vocacionales**, el **formulario dinámico** de preguntas y la presentación de **resultados y feedback**.
+- Construcción del **catálogo de carreras**, la **ficha técnica**, el **comparador** y la interfaz de **simulación**.
+- Implementación del **dashboard del estudiante**, el **plan vocacional**, la gestión visual de **metas** y el **feed de comunidad**.
+- Desarrollo del **dashboard del psicólogo**, el **monitoreo de estudiantes**, la **agenda de citas** y la interfaz de **chat**.
+- Integración de las pantallas mediante rutas y elementos de navegación para los perfiles de estudiante y psicólogo.
+- Incorporación de validaciones, mensajes de error, estados vacíos, indicadores de carga y confirmaciones de acciones.
+- Revisión del diseño responsive y de la consistencia de botones, formularios, tarjetas y menús.
+- Integración del trabajo de los cinco integrantes en el repositorio y publicación de una versión de prueba del frontend.
+
+| Campo | Detalle |
+|---|---|
+| **Sprint #** | Sprint 2 |
+| **Sprint Planning Background** | Tras el desarrollo de la Landing Page en el Sprint 1, este sprint aborda la construcción del frontend de la plataforma NextPath. Se tomarán como referencia los wireframes y mockups de los módulos asignados a cada integrante para implementar las interfaces de estudiantes y psicólogos. El propósito es disponer de una versión navegable que permita demostrar los flujos de evaluación vocacional, exploración de carreras, seguimiento de metas y acompañamiento profesional, utilizando datos de prueba cuando sea necesario. |
+| **Date** | 2026/09/28 |
+| **Time** | 6:00 PM |
+| **Location** | Reunión virtual mediante la plataforma Google Meet. |
+| **Prepared By** | Equipo NextPath. |
+| **Attendees (to planning meeting)** | Cruzalegui, Joaquin; Ravello, Luciana; Miranda, Jesús; Torres, Alisee; Pérez, Sebastián. |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 se completó la Landing Page de NextPath con las secciones de Inicio, Sobre nosotros, Cómo funciona, Comenzar ahora y Contáctanos. El resultado cumplió con lo esperado por el equipo y no se identificaron cambios necesarios en la Landing Page. Con esta etapa finalizada, el Sprint 2 se enfocará en el desarrollo del frontend de los módulos para estudiantes y psicólogos. |
+| **Sprint 1 Retrospective Summary** | El desarrollo del Sprint 1 fue satisfactorio, ya que la Landing Page cumplió con los objetivos establecidos y no requirió modificaciones. Para el Sprint 2, se propone mantener las prácticas de trabajo que dieron buenos resultados y una distribución clara de responsabilidades. La comunicación entre integrantes y la revisión conjunta de los avances permitirán coordinar la integración de los módulos del frontend. |
+| **Sprint 2 Goal** | Implementar e integrar una versión navegable y responsive del frontend de NextPath que permita recorrer los principales flujos de estudiantes y psicólogos. El objetivo se considerará alcanzado cuando las pantallas de los cinco módulos estén conectadas, los formularios incluyan validaciones en el cliente y las interacciones puedan demostrarse con datos de prueba, sin enlaces internos rotos ni errores que impidan completar los recorridos definidos. |
+| **Sprint 2 Velocity** | 27 |
+| **Sum of Story Points** | 27 |
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+A continuación, se presenta la matriz LACX (*Leadership-and-Collaboration Matrix*) para la asignación de responsabilidades durante el desarrollo del frontend de NextPath. Cada integrante liderará el módulo asignado y colaborará en la revisión e integración de los demás módulos, con el fin de mantener una experiencia de usuario consistente.
+
+| Team Member | GitHub Username | A1: Autenticación, perfil y configuración | A2: Test vocacional y feedback | A3: Explorador, comparador y simulación | A4: Dashboard estudiante, metas y comunidad | A5: Panel de psicólogo, monitoreo y citas |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| Cruzalegui, Joaquin | JoaquinCruzalegui | **L** | C | C | C | C |
+| Ravello, Luciana | Lucyrcar-ID | C | **L** | C | C | C |
+| Miranda, Jesús | Jesus-Miranda-678 | C | C | **L** | C | C |
+| Torres, Alisee | ILisee1 | C | C | C | **L** | C |
+| Pérez, Sebastián | FernBellido22 | C | C | C | C | **L** |
+
+> **L = Leader | C = Collaborator**
 
 #### 5.2.2.3. Sprint Backlog 2
 **Objetivo del Sprint:**  
