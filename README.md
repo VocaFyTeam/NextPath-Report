@@ -63,21 +63,21 @@ Proyecto:
 
   <tr>
     <td><b>Primera Entrega (AV1)</b></td>
-    <td>XX/09/2026</td>
+    <td>18/09/2026</td>
     <td>
-       <br>
+     Fernando Sebastian Pérez Bellido
       <br>
       <p></p>
-       <br>
+     Joaquin Cruzalegui Herrera
       <br>
       <p></p>
-     <br>
+      Miranda Cordova, Jesus Angel Yvan
       <br>
       <p></p>
-       <br>
+      Luciana Angelina Ravello Cárdenas
       <br>
       <p></p>
-       <br>
+      Alisee Muriel Torres Juárez
     </td>
     <td>
       Capítulo I: 
@@ -97,14 +97,60 @@ Proyecto:
     <br>
     </td>
   </tr>
+  <tr>
+    <td><b>Segunda Entrega (TB1)</b></td>
+    <td>09/10/2026</td>
+    <td>
+     Fernando Sebastian Pérez Bellido
+      <br>
+      <p></p>
+     Joaquin Cruzalegui Herrera
+      <br>
+      <p></p>
+      Miranda Cordova, Jesus Angel Yvan
+      <br>
+      <p></p>
+      Luciana Angelina Ravello Cárdenas
+      <br>
+      <p></p>
+      Alisee Muriel Torres Juárez
+    </td>
+    <td>
+      Corrección del reporte AV1
+    <br> 
+      Primera versión desplegada de Frontend Web Applications
+    <br>
+      Capítulo V:
+      Product Implementation, Validation & Deployment (sprint 2)
+    <br>
+    </td>
+  </tr>
   </table>
 
  ---
  # Project Report Collaboration Insights
 
-
+URL del repositorio (report): https://github.com/VocaFyTeam/NextPath-Report.git<br>
 
 **Primera Entrega (AV1)**
+
+El equipo elaboró el Project Report mediante un trabajo coordinado, distribuyendo las distintas secciones entre los integrantes. Cada participante aportó activamente en la redacción de contenidos, el diseño y ajuste de diagramas, la recopilación de evidencias, el control de formato y la revisión integral del documento previo a la entrega.
+
+En paralelo, se avanzó con el diseño y construcción de la landing page de StockIA. Dicha labor quedó registrada en el informe y respaldada en su respectivo repositorio, incorporando pruebas de su implementación, despliegue técnico y alineación con la propuesta de valor de la solución.
+
+Para la gestión colaborativa se empleó GitHub, plataforma que facilitó el seguimiento de modificaciones mediante commits, la estructuración de las tareas y el respaldo cronológico del avance, tanto del reporte como de la página web. De igual forma, las métricas de colaboración y el historial de versiones sirven como constancia de la participación de cada integrante.
+
+
+**Trabajo Parcial (TB1)**
+
+El equipo realizó la corrección del reporte AV1, afinando la redacción, ajustando el formato y reforzando la coherencia entre las secciones para garantizar un documento más sólido y alineado con los objetivos del curso. Esta nueva versión quedó registrada en el repositorio y constituye la base documental del avance del proyecto.
+
+
+El progreso quedó documentado en el Capítulo V: Product Implementation, Validation & Deployment (sprint 2), donde se detallan las pruebas realizadas, la validación de funcionalidades y el proceso de despliegue técnico. Dicho capítulo evidencia la integración entre la propuesta de valor y su materialización en artefactos funcionales.
+
+Para la gestión colaborativa se continuó utilizando GitHub, que permitió coordinar commits, organizar tareas y mantener un historial cronológico del avance. Las métricas de colaboración y el registro de versiones respaldan la participación activa de cada integrante, asegurando transparencia y trazabilidad en el desarrollo del proyecto
+
+
 
 ---
 # Student Outcome
@@ -133,7 +179,9 @@ del ABET – EAC - Student Outcome 3.
             <u>AV1</u><br>
             <br><br>
             <b></b><br>
-            <u>AV1</u><br>
+            <u>AV1: Alisee Muriel Torres Juárez</u>
+            <br>
+            <p>Contribuí al liderazgo técnico del equipo asumiendo la responsabilidad del diseño y modelado de los diagramas de clases y de base de datos para el sistema.</p>
             <br><br>
             <b></b><br>
             <u>AV1: Luciana Ravello Cárdenas</u>
@@ -148,7 +196,7 @@ del ABET – EAC - Student Outcome 3.
             <br><br>
         </td>
         <td>
-            <u>AV1: Se dsarrolló hasta el cpitulo 5 en conjunto con la landing page y su despliegue</u><br>
+            <u>AV1: Se desarrolló hasta el capitulo 5 en conjunto con la landing page y su despliegue</u><br>
         </td>
     </tr>
       <tr>
@@ -158,7 +206,8 @@ del ABET – EAC - Student Outcome 3.
             <u>AV1</u><br>
             <br><br>
             <b></b><br>
-            <u>AV1</u><br>
+            <u>AV1: Alisee Muriel Torres Juárez</u><br>
+            <p>Colaboré en la realización de los diagramas de clase en conjunto al igual que el diagrama de base de datos.</p>            
             <br><br>
             <b></b><br>
             <u>AV1: Luciana Ravello Cárdenas</u><br>
@@ -172,7 +221,7 @@ del ABET – EAC - Student Outcome 3.
             <br><br>
         </td>
         <td>
-            <u>Se dsarrolló hasta el cpitulo 5 en conjunto con la landing page y su despliegue</u><br>
+            <u>Se desarrolló hasta el capitulo 5 en conjunto con la landing page y su despliegue</u><br>
         </td>
     </tr>
 </table>
@@ -324,20 +373,19 @@ En los últimos años, la orientación vocacional se ha convertido en un aspecto
 
 #### 1.2.2.1. Lean UX Problem Statement
 
-**El estado actual de** la orientación vocacional y académica **se ha centrado principalmente en** flujos de trabajo tradicionales, como la aplicación de pruebas estandarizadas o genéricas para los estudiantes, y en procesos de calificación y seguimiento manuales para los psicólogos. Estos métodos generan frustración y ansiedad, ya que ofrecen resultados ambiguos, desactualizados y carecen de un acompañamiento verdaderamente personalizado. 
+**El estado actual del dominio de la orientación vocacional se enfoca principalmente en estudiantes que atraviesan la etapa de elección o cambio de carrera**, así como en profesores y psicólogos que participan en su proceso de orientación. Estos usuarios enfrentan dificultades relacionadas con la falta de herramientas personalizadas, información actualizada sobre las alternativas profesionales y mecanismos que permitan realizar un seguimiento integral del proceso de orientación.
 <br>
 
-**Lo que los productos y servicios existentes (como plataformas gubernamentales o tests gratuitos en línea) no logran abordar es** la falta de un acompañamiento verdaderamente personalizado que conecte el perfil del estudiante con datos reales y actualizados del mercado laboral, así como la carencia de herramientas centralizadas que optimicen la evaluación y seguimiento por parte de los psicólogos sin reemplazar su criterio clínico.
+**Los productos y servicios existentes no cubren completamente esta necesidad**, debido a que suelen ofrecer evaluaciones vocacionales aisladas, información general sobre carreras o asesorías que no integran en una misma experiencia la evaluación personalizada, el análisis de intereses, la simulación de escenarios profesionales y la información relacionada con el mercado laboral.
 <br>
 
-**Nuestro producto, NextPath, abordará esta brecha mediante** una aplicación web interactiva impulsada por inteligencia artificial que integra evaluaciones vocacionales dinámicas, simulaciones de proyecciones y trayectorias profesionales, y un panel de gestión integral para que los psicólogos brinden retroalimentación, organicen sesiones y realicen un seguimiento longitudinal.
+**NextPath busca cubrir esta brecha mediante una plataforma digital de orientación vocacional que integre evaluaciones basadas en inteligencia artificial**, recomendaciones personalizadas, simulaciones de trayectorias profesionales e información actualizada del mercado laboral. La solución permitirá que los estudiantes obtengan información que facilite su proceso de toma de decisiones y que profesores y psicólogos dispongan de información que contribuya al acompañamiento y seguimiento de los estudiantes.
 <br>
 
-**Nuestro enfoque inicial serán** los jóvenes estudiantes (de 17 a 25 años) en etapa de transición a la educación superior o redefinición de carrera, junto con los psicólogos educativos y vocacionales encargados de guiarlos.
+**Nuestro enfoque inicial estará dirigido a estudiantes que se encuentran en la etapa de elección o cambio de carrera**, considerando también la participación de profesores y psicólogos como actores relacionados con el proceso de orientación vocacional.
 <br>
 
-**Sabremos que tenemos éxito cuando veamos** que el 70% de los estudiantes reporta mayor seguridad en su decisión vocacional, el 80% califica positivamente la utilidad de la aplicación (con 4 o más puntos), y los psicólogos logran reducir su tiempo de evaluación manual en al menos un 30% para enfocarse en la asesoría directa.
-
+**Sabremos que estamos teniendo éxito cuando observemos resultados medibles en los diferentes segmentos involucrados**: un incremento en el número de usuarios registrados y activos, una mayor proporción de estudiantes que completan las evaluaciones vocacionales, una valoración positiva de la utilidad de la plataforma por parte de los usuarios, una mayor participación de profesores y psicólogos en el proceso de orientación y un incremento en las alianzas con instituciones educativas.
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -396,10 +444,35 @@ En los últimos años, la orientación vocacional se ha convertido en un aspecto
 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-Creemos que tanto los estudiantes como los orientadores (psicólogos) valorarán de manera positiva una aplicación que combine inteligencia artificial con orientación vocacional personalizada, especialmente considerando la creciente demanda de decisiones académicas más informadas y alineadas con el mercado laboral actual. Sabremos que esto es cierto cuando observemos que al menos el 80 % de los usuarios califica la utilidad de la app con 4 o más puntos en una escala Likert de 1 a 5, medido mediante encuesta post-uso durante las primeras 4 semanas de implementación.
-Creemos que los psicólogos valorarán una aplicación que les permita acceder a reportes vocacionales completos y personalizados de sus pacientes/estudiantes, ya que esto reducirá su tiempo de evaluación y aumentará la precisión en las recomendaciones. Sabremos que esto es cierto cuando el tiempo promedio de evaluación se reduzca en al menos un 30 % y el 75 % de los psicólogos manifieste que la herramienta mejora la calidad de sus sesiones, medido mediante observación directa y encuesta de satisfacción durante un periodo piloto de 2 meses.
-Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán una aplicación que les brinde evaluaciones personalizadas y simulaciones de escenarios profesionales, porque esto les permitirá decidir con mayor confianza. Sabremos que esto es cierto cuando el 70 % de los usuarios reportan mayor seguridad en su decisión vocacional y el número de recomendaciones positivas aumenta un 25 % en redes o encuestas, medido durante 8 semanas de prueba beta.
+### Hipótesis 1: Test vocacional adaptativo con IA
+**Creemos** que lograremos un incremento del 25 % en las recomendaciones de la plataforma y en el crecimiento de la base de usuarios
+**Si** los estudiantes de secundaria y educación superior de 17 a 25 años
+**Logran** mayor certeza, claridad y menor ansiedad en sus decisiones de elección académica
+**Con** un test vocacional adaptativo e interactivo impulsado por inteligencia artificial
 
+### Hipótesis 2: Simulaciones de trayectoria profesional
+**Creemos** que lograremos una tasa de satisfacción de usuarios del 80 % (calificación >= 4/5 en escala Likert) sobre la utilidad de la aplicación
+**Si** los estudiantes en etapa de elección o cambio de carrera profesional
+**Logran** expectativas reales sobre el mercado laboral actual y mayor seguridad en su futuro profesional
+**Con** simulaciones interactivas de escenarios profesionales con información de empleabilidad en tiempo real
+
+### Hipótesis 3: Reportes automatizados de diagnóstico para psicólogos
+**Creemos** que lograremos una reducción del 30 % en el tiempo promedio de evaluación vocacional por estudiante
+**Si** los psicólogos educativos y orientadores vocacionales de 30 a 60 años
+**Logran** optimizar su flujo de trabajo diagnóstico y elevar la precisión de sus recomendaciones clínicas
+**Con** un generador de reportes automatizados de evaluación vocacional consolidados por la plataforma
+
+### Hipótesis 4: Panel de Control y seguimiento de sesiones
+**Creemos** que lograremos un incremento del 35 % en la retención y uso activo de la plataforma por parte de los profesionales
+**Si** los psicólogos educativos y orientadores vocacionales
+**Logran** una gestión eficiente de sus consultas y un monitoreo continuo del progreso y nivel de indecisión de sus estudiantes
+**Con** un panel de control con alertas automáticas y seguimiento de sesiones vocacionales
+
+### Hipótesis 5: Comunidad y foros de orientación vocacional
+**Creemos** que lograremos un incremento en los usuarios activos mensuales y la obtención de reseñas y evaluaciones positivas
+**Si** los estudiantes en búsqueda de orientación académica
+**Logran** disminuir el temor al fracaso y la ansiedad compartiendo experiencias y dudas con sus pares
+**Con** foros comunitarios e interactivos de orientación vocacional entre estudiantes
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -412,22 +485,26 @@ Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán
 
   <tr>
     <td>
-      Los estudiantes presentan dudas al momento de elegir una carrera debido
-      a la falta de herramientas personalizadas, información actualizada y
-      orientación integral.
+      • Los <b>estudiantes (17 a 25 años)</b> experimentan alta indecisión y ansiedad al elegir carrera debido a la falta de orientación integral y datos laborales actualizados.
+      <br><br>
+      • Los <b>psicólogos</b> enfrentan procesos de evaluación manuales y repetitivos que reducen el tiempo útil dedicado a la intervención directa en sus sesiones.
     </td>
     <td>
       <ul>
-        <li>Aplicación de orientación vocacional basada en IA.</li>
-        <li>Tests vocacionales tradicionales.</li>
-        <li>Comunidades y grupos de orientación profesional.</li>
+        <li>Test vocacional adaptativo impulsado por inteligencia artificial.</li>
+        <li>Simulador interactivo de escenarios profesionales y datos de mercado laboral en tiempo real.</li>
+        <li>Generador de reportes automatizados de diagnóstico vocacional.</li>
+        <li>Panel de control (dashboard) con alertas automáticas y seguimiento de sesiones.</li>
+        <li>Comunidad y foros interactivos de orientación vocacional entre pares.</li>
       </ul>
     </td>
     <td>
       <ul>
-        <li>Obtener reseñas positivas.</li>
-        <li>Incrementar las recomendaciones de la plataforma.</li>
-        <li>Aumentar el crecimiento de usuarios.</li>
+        <li>Reducir el tiempo promedio de evaluación por estudiante en al menos un 30 % para psicólogos.</li>
+        <li>Alcanzar una tasa de satisfacción de utilidad de la plataforma del 80 % (calificación ≥ 4/5 en escala Likert).</li>
+        <li>Incrementar en un 25 % las recomendaciones y el crecimiento de la base de usuarios.</li>
+        <li>Aumentar un 35 % la retención y uso activo por parte de los orientadores.</li>
+        <li>Aumentar los usuarios activos mensuales (MAU) y obtener reseñas positivas.</li>
       </ul>
     </td>
   </tr>
@@ -441,15 +518,14 @@ Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán
   <tr>
     <td>
       <ul>
-        <li>Estudiantes de 17 a 25 años que están eligiendo o cambiando de carrera.</li>
-        <li>Psicólogos educativos de 30 a 60 años.</li>
+        <li><b>Estudiantes (17 a 25 años):</b> Jóvenes de secundaria y educación superior en etapa de elección o cambio de carrera profesional.</li>
+        <li><b>Psicólogos (30 a 60 años):</b> Profesionales dedicados al acompañamiento, diagnóstico y evaluación vocacional.</li>
       </ul>
     </td>
     <td>
       <ul>
-        <li>Tomar mejores decisiones académicas y profesionales.</li>
-        <li>Mejorar el apoyo psicológico durante la orientación.</li>
-        <li>Acceder a mejor información y atención personalizada.</li>
+        <li><b>Estudiantes:</b> Tomar decisiones académicas y profesionales informadas con mayor certeza, claridad, expectativas reales del mercado y menor ansiedad.</li>
+        <li><b>Psicólogos:</b> Optimizar su flujo de trabajo diagnóstico, ahorrar tiempo en evaluaciones manuales, elevar la precisión de sus recomendaciones clínicas y realizar un seguimiento eficiente de sus estudiantes.</li>
       </ul>
     </td>
   </tr>
@@ -462,22 +538,22 @@ Creemos que los estudiantes en etapa de elección o cambio de carrera valorarán
 
   <tr>
     <td>
-      Creemos que los estudiantes podrán tomar mejores decisiones académicas
-      y profesionales si reciben orientación personalizada mediante una
-      aplicación de IA que integre evaluaciones vocacionales, simulaciones e
-      información del mercado laboral.
-    </td>
-    <td>
       <ul>
-        <li>Validar si los psicólogos están dispuestos a integrar la herramienta.</li>
-        <li>Validar el nivel de confianza de los estudiantes en la IA.</li>
-        <li>Determinar si la aplicación reduce la indecisión y ansiedad.</li>
+        <li><b>H1:</b> Creemos que lograremos un incremento del 25 % en las recomendaciones de la plataforma y en el crecimiento de la base de usuarios Si los estudiantes de secundaria y educación superior de 17 a 25 años Logran mayor certeza, claridad y menor ansiedad en sus decisiones de elección académica Con un test vocacional adaptativo e interactivo impulsado por inteligencia artificial.</li>
+        <li><b>H2:</b> Creemos que lograremos una tasa de satisfacción de usuarios del 80 % (calificación ≥ 4/5 en escala Likert) sobre la utilidad de la aplicación Si los estudiantes en etapa de elección o cambio de carrera profesional Logran expectativas reales sobre el mercado laboral actual y mayor seguridad en su futuro profesional Con simulaciones interactivas de escenarios profesionales con información de empleabilidad en tiempo real.</li>
+        <li><b>H3:</b> Creemos que lograremos una reducción del 30 % en el tiempo promedio de evaluación vocacional por estudiante Si los psicólogos educativos y orientadores vocacionales de 30 a 60 años Logran optimizar su flujo de trabajo diagnóstico y elevar la precisión de sus recomendaciones clínicas Con un generador de reportes automatizados de evaluación vocacional consolidados por la plataforma.</li>
+        <li><b>H4:</b> Creemos que lograremos un incremento del 35 % en la retención y uso activo de la plataforma por parte de los profesionales Si los psicólogos educativos y orientadores vocacionales Logran una gestión eficiente de sus consultas y un monitoreo continuo del progreso y nivel de indecisión de sus estudiantes Con un panel de control (dashboard) con alertas automáticas y seguimiento de sesiones vocacionales.</li>
+        <li><b>H5:</b> Creemos que lograremos un incremento en los usuarios activos mensuales y la obtención de reseñas y evaluaciones positivas Si los estudiantes en búsqueda de orientación académica Logran disminuir el temor al fracaso y la ansiedad compartiendo experiencias y dudas con sus pares Con foros comunitarios e interactivos de orientación vocacional entre estudiantes.</li>
       </ul>
     </td>
     <td>
-      Investigar y validar el apoyo de profesionales de psicología en la
-      orientación vocacional y realizar pruebas con estudiantes para conocer
-      su percepción y confianza en la solución.
+      <ul>
+        <li>Validar si los estudiantes confían en las recomendaciones, diagnósticos y simulaciones generadas por la IA.</li>
+        <li>Validar si los psicólogos están dispuestos a integrar los reportes automatizados en su práctica profesional diaria para reducir su tiempo operativo en un 30 %.</li>
+      </ul>
+    </td>
+    <td>
+      Ejecutar un piloto con un <b>Prototipo Mínimo Viable (MVP Concierge/Interactive)</b> que incluya una <i>Landing Page</i> explicativa y un prototipo navegable del test de IA y reporte diagnóstico. Probar con una muestra controlada de <b>20 estudiantes</b> y <b>5 psicólogos</b> para medir percepción de valor, nivel de confianza en el diagnóstico y tasa de ahorro de tiempo.
     </td>
   </tr>
 </table>
@@ -649,8 +725,31 @@ deserción o insatisfacción académica?
 
 
 ### 2.2.2. Registro de entrevistas
-**Segmento 1**
+**Segmento 1: ESTUDIANTES**
+<br>
+
+**Entrevista 1:**
+<br>
+**Entrevistador(a):** >Luciana Angielina Ravello Cárdenas
+<br>
+
+Datos del entrevistada:
+  * **Nombre:** Liz
+  * **Apellido:** Anahua
+  * **Edad:** 22 años
+  * **Distrito:** –
+  * **Timing:** 00:03
+
+<p align="center"><img alt="Entrevista-Luciana1" src="images/entrevista-luciana-ev2.png" /></p>
+  <p align="center"><img alt="Entrevista-Luciana1" src="images/entrevista-luciana-ev1.png" /></p>
+<p align="center"><i>Evidencia de entrevista: Liz </i></p>
+
+**Resumen descriptivo:**
+En la entrevista con Liz, una estudiante, ella misma nos dice que la elección de carrera le generó mucha ansiedad por expectativas externas y temor al error. Ella se sintió perdida debido a la gran cantidad de información en internet que resulta poco confiable y difícil de interpretar, además de un mercado laboral cambiante donde las carreras tradicionales ofrecen menores oportunidades. A Liz le agrada la idea de una aplicación que cuente con Inteligencia Artificial (IA) que la ayude con un simulador de trayectoria profesional para tener la decisión mucho más clara.
+
+
 **Entrevista 2:**
+<br>
 **Entrevistador(a):** >Jesus Angel Yvan Miranda Cordova
 
 Datos del entrevistado:
@@ -663,27 +762,12 @@ Datos del entrevistado:
 <p align="center"><i>Evidencia de entrevista: Joaquin </i></p>
 
 
-**Entrevista 3:**
-**Entrevistador(a):** > Alisee Muriel Torres Juárez
-
-Datos del entrevistado:
-* **Nombre:** Michell
-* **Apellido:** Mendoza
-* **Edad:** 17 años
-* **Distrito:** Surco
-* **Timing:** 02:47 min
-<p align="center"><img alt="entrevista-michell" src="images/entrevista-michell.png" /></p>
-<p align="center"><i>Evidencia de entrevista: Fabián </i></p>
-
-
-**Resumen descriptivo:**
-La entrevista con Michelle, una estudiante de 16 años, muestra que se siente confundida y presionada por elegir carrera este año. Para ella, los test tradicionales son aburridos y lentos, por lo que prefiere herramientas accesibles con IA que hagan el proceso más dinámico, sin dejar de lado el acompañamiento de un psicólogo para tomar una decisión segura.**Enlace del video:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202624323_upc_edu_pe/IQDIZLef5vzNSZHlPv_rUUSmARu3CMTMnInOV-NpN90MbSk?e=ag9J4P&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
-
 **Resumen descriptivo:**
 La entrevista con Joaquin, un estudiante, muestra que investiga por su cuenta de forma básica ,ha dado algunos test por parte de su colegio, pero aun se siente inseguro con respecto a que carreras escoger y a su futuro. El considera que sería útil contar con una plataforma con IA, que le ayude a ampliar sus conocimientos sobre carreras que le podrían interesar.
 
-**Segmento 2**
+**Segmento 2: PSICÓLOGOS**
+<br>
+
 **Entrevista 1:**
 **Entrevistador(a):** >Joaquin Cruzalegui Herrera
 
@@ -721,25 +805,6 @@ El psicólogo Víctor Paz señala que los test vocacionales convencionales prese
 Ante este panorama, considera que una aplicación interactiva y las herramientas digitales son apoyos bienvenidos tanto para el estudiante como para el profesional. No obstante, subraya que estas plataformas deben funcionar como un complemento y no como un reemplazo, siendo indispensable la asesoría personalizada del psicólogo para contrastar las respuestas cuantitativas con el testimonio y el sentir genuino de la persona.
 
 **Enlace del video:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411261_upc_edu_pe/IQC7ixQ3sUbPSo3fHhyXFmKiAdRbTO0KwG08G-QHDK8I3oY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=KupKxd)
-
-**Entrevista 2:**
-**Entrevistador(a):** > Alisee Muriel Torres Juárez
-
-Datos del entrevistado:
-* **Nombre:** Fabián
-* **Apellido:** García 
-* **Edad:** 26 años
-* **Distrito:** México
-* **Timing:** 03:58 min
-<p align="center"><img alt="Entrevista-Fabian" src="images/entrevista-fabian.png" /></p>
-<p align="center"><i>Evidencia de entrevista: Fabián </i></p>
-
-
-**Resumen descriptivo:**
-El psicólogo Fabián García sostiene que los test vocacionales tradicionales sufren de obsolescencia operativa: al ser estáticos, extenuantes y lentos de procesar, generan aburrimiento y frustración en los estudiantes, lo que puede distorsionar los diagnósticos. Ante esto, García plantea que la integración de inteligencia artificial no reemplaza la empatía ni la contención humana del profesional, sino que optimiza drásticamente los tiempos de evaluación. De este modo, la tecnología sirve como un catalizador para cruzar de manera precisa los rasgos del estudiante (intereses, habilidades y personalidad) con la realidad del mercado laboral actual, reduciendo el desajuste de expectativas y la deserción académica.
-**Enlace del video:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202624323_upc_edu_pe/IQBYqR9CrsOLRL341u2ftu3sAdW6HXoNcptQgn1v_eQkf-c?e=dDqjIb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
-
 ### 2.2.3. Análisis de entrevistas
 ### Análisis General de Entrevistas a Estudiantes
 Los estudiantes presentan un panorama de desorientación e inseguridad marcado por la falta de un acompañamiento vocacional efectivo, pues consideran que la orientación brindada por sus colegios y los test convencionales son deficientes, ambiguos o insuficientes para tomar una decisión clara. Esta carencia los expone a una sobrecarga de información confusa y poco confiable en internet, lo que genera estados emocionales de ansiedad y presión frente a su futuro profesional. Ante esta problemática, surge la necesidad de contar con herramientas tecnológicas avanzadas, como NetPath, que entregue respuestas sobre carreras concretas y faciliten un proceso de exploración más estructurado, accesible y adaptado a sus intereses reales. 
@@ -927,7 +992,7 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
 
 # Capítulo III: Requirements Specification
 
-## 3.1. User Stories
+## 3.1. User Stories And Technical Stories
 
 <!-- HU 01 -->
 <table>
@@ -2288,7 +2353,708 @@ Para una mejor visualización, se adjunta aquí el [enlace a nuestro tablero de 
   </tbody>
 </table>
 
+<!-- HU 42 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 42</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-11</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Conocer la propuesta de valor de NextPath</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO visitante QUIERO conocer la propuesta de valor de NextPath PARA comprender cómo la plataforma puede ayudarme en mi proceso de orientación vocacional.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Presentación de la propuesta de valor</b><br><br>
+        <b>Scenario 1: Consulta de la propuesta de valor</b><br>
+        GIVEN que el visitante accede a la Landing Page de NextPath,<br>
+        WHEN consulta la sección de inicio,<br>
+        THEN el sistema presenta información sobre la propuesta de valor de NextPath y su enfoque de orientación vocacional.<br><br>
+        <b>Scenario 2: Acceso a la sección de inicio</b><br>
+        GIVEN que el visitante se encuentra en otra sección de la Landing Page,<br>
+        WHEN selecciona la opción Inicio,<br>
+        THEN el sistema dirige al visitante a la sección principal de la Landing Page.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 43 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 43</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-11</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Conocer el propósito de NextPath</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO visitante QUIERO conocer el propósito y enfoque de NextPath PARA comprender cómo la plataforma contribuye a la orientación vocacional de los estudiantes.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Información sobre NextPath</b><br><br>
+        <b>Scenario 1: Consulta de información institucional</b><br>
+        GIVEN que el visitante accede a la sección Sobre nosotros,<br>
+        WHEN consulta la información disponible,<br>
+        THEN el sistema presenta información sobre el propósito de NextPath y su enfoque de orientación vocacional asistida por tecnología.<br><br>
+        <b>Scenario 2: Acceso a la sección Sobre nosotros</b><br>
+        GIVEN que el visitante se encuentra en la Landing Page,<br>
+        WHEN selecciona la opción Sobre nosotros,<br>
+        THEN el sistema dirige al visitante a la sección correspondiente.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 44 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 44</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-11</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Comprender cómo funciona NextPath</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO visitante QUIERO conocer cómo funciona NextPath PARA comprender las etapas que forman parte de su proceso de orientación vocacional.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Explicación del funcionamiento de NextPath</b><br><br>
+        <b>Scenario 1: Consulta del proceso de orientación</b><br>
+        GIVEN que el visitante accede a la sección ¿Cómo funciona?,<br>
+        WHEN consulta la información disponible,<br>
+        THEN el sistema presenta las etapas principales del proceso de NextPath: Descúbrete, Conecta y Traza tu plan.<br><br>
+        <b>Scenario 2: Acceso a la sección ¿Cómo funciona?</b><br>
+        GIVEN que el visitante se encuentra en la Landing Page,<br>
+        WHEN selecciona la opción ¿Cómo funciona?,<br>
+        THEN el sistema dirige al visitante a la sección que explica el proceso de NextPath.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 45 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 45</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-11</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Acceder a la experiencia de NextPath</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO visitante QUIERO acceder a la experiencia de NextPath PARA comenzar a utilizar la solución de orientación vocacional.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Acceso a la experiencia de NextPath</b><br><br>
+        <b>Scenario 1: Consulta de las opciones para comenzar</b><br>
+        GIVEN que el visitante accede a la sección Comenzar ahora,<br>
+        WHEN consulta las opciones disponibles,<br>
+        THEN el sistema presenta los enlaces disponibles para acceder a la experiencia de NextPath.<br><br>
+        <b>Scenario 2: Acceso mediante una opción disponible</b><br>
+        GIVEN que el visitante consulta las opciones disponibles para comenzar,<br>
+        WHEN selecciona una de ellas,<br>
+        THEN el sistema dirige al visitante al recurso correspondiente para iniciar la experiencia de NextPath.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- HU 46 -->
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">HU 46</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-11</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Acceder a los canales de contacto de NextPath</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO visitante QUIERO acceder a los canales de contacto de NextPath PARA obtener información adicional sobre la solución.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Canales de contacto</b><br><br>
+        <b>Scenario 1: Consulta de los canales de contacto</b><br>
+        GIVEN que el visitante accede a la sección Contáctanos,<br>
+        WHEN consulta la información disponible,<br>
+        THEN el sistema presenta los canales digitales oficiales de contacto de NextPath.<br><br>
+        <b>Scenario 2: Acceso a un canal externo</b><br>
+        GIVEN que el visitante consulta los canales de contacto disponibles,<br>
+        WHEN selecciona uno de los canales publicados,<br>
+        THEN el sistema dirige al visitante al recurso externo correspondiente.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!--TECHNICAL STORIES-->
+<br>
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">TS 01</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-01</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Autenticar usuarios mediante la API</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO Developer QUIERO implementar un servicio RESTful para autenticar usuarios mediante sus credenciales PARA permitir que las aplicaciones cliente validen el acceso de los usuarios registrados.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Servicio RESTful de Autenticación</b><br><br>
+        <b>Scenario 1: Autenticación exitosa</b><br>
+        GIVEN que existen credenciales válidas de un usuario registrado,<br>
+        WHEN el cliente envía una solicitud POST con las credenciales al endpoint de autenticación,<br>
+        THEN la API responde con código HTTP 200 y devuelve la información necesaria para mantener la sesión autenticada.<br><br>
+        <b>Scenario 2: Credenciales inválidas</b><br>
+        GIVEN que las credenciales enviadas no corresponden a un usuario registrado,<br>
+        WHEN el cliente realiza una solicitud POST al endpoint de autenticación,<br>
+        THEN la API responde con código HTTP 401 indicando que las credenciales no son válidas.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+<br>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">TS 02</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-01</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Registrar respuestas del test vocacional mediante la API</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO Developer QUIERO implementar un servicio RESTful para registrar las respuestas proporcionadas durante el test vocacional PARA permitir que el sistema almacene la información necesaria para generar el perfil vocacional.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Registro de Respuestas del Test Vocacional</b><br><br>
+        <b>Scenario 1: Registrar respuesta correctamente</b><br>
+        GIVEN que existe un estudiante y una pregunta válida del test vocacional,<br>
+        WHEN el cliente envía una solicitud POST con la respuesta seleccionada,<br>
+        THEN la API responde con código HTTP 201 y registra correctamente la respuesta asociada al estudiante.<br><br>
+        <b>Scenario 2: Datos de respuesta inválidos</b><br>
+        GIVEN que la solicitud contiene una pregunta o respuesta que no corresponde al test,<br>
+        WHEN el cliente envía la solicitud POST,<br>
+        THEN la API responde con código HTTP 400 indicando que los datos enviados son inválidos.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">TS 03</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-01</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Procesar el perfil vocacional del estudiante</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO Developer QUIERO implementar un servicio RESTful para procesar las respuestas completas de un test vocacional PARA generar el perfil de intereses y aptitudes del estudiante.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Procesamiento del Perfil Vocacional</b><br><br>
+        <b>Scenario 1: Generar perfil vocacional</b><br>
+        GIVEN que el estudiante ha registrado todas las respuestas requeridas del test,<br>
+        WHEN el cliente envía una solicitud para procesar los resultados,<br>
+        THEN la API responde con código HTTP 200 y devuelve el perfil vocacional calculado.<br><br>
+        <b>Scenario 2: Test incompleto</b><br>
+        GIVEN que el estudiante no ha completado todas las respuestas requeridas,<br>
+        WHEN el cliente solicita procesar el perfil vocacional,<br>
+        THEN la API responde con código HTTP 400 indicando que el test está incompleto.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">TS 04</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-01</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Consultar resultados vocacionales mediante la API</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO Developer QUIERO implementar un servicio RESTful para consultar los resultados vocacionales de un estudiante PARA permitir que las aplicaciones cliente obtengan su perfil, porcentajes y recomendaciones de carrera.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Consulta de Resultados Vocacionales</b><br><br>
+        <b>Scenario 1: Obtener resultados existentes</b><br>
+        GIVEN que el estudiante posee resultados vocacionales registrados,<br>
+        WHEN el cliente realiza una solicitud GET al endpoint de resultados,<br>
+        THEN la API responde con código HTTP 200 y devuelve el perfil vocacional, porcentajes y recomendaciones correspondientes.<br><br>
+        <b>Scenario 2: Resultados no encontrados</b><br>
+        GIVEN que el estudiante no posee resultados vocacionales registrados,<br>
+        WHEN el cliente realiza una solicitud GET al endpoint de resultados,<br>
+        THEN la API responde con código HTTP 404 indicando que no existen resultados disponibles.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">TS 05</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-02</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Consultar información vocacional de estudiantes</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO Developer QUIERO implementar un servicio RESTful para consultar la información vocacional de los estudiantes asignados a un psicólogo PARA permitir el acceso controlado a sus resultados y evolución.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Consulta de Información de Estudiantes</b><br><br>
+        <b>Scenario 1: Consultar estudiante asignado</b><br>
+        GIVEN que el psicólogo autenticado tiene asignado al estudiante consultado,<br>
+        WHEN el cliente realiza una solicitud GET al endpoint correspondiente,<br>
+        THEN la API responde con código HTTP 200 y devuelve la información vocacional autorizada del estudiante.<br><br>
+        <b>Scenario 2: Consultar estudiante no asignado</b><br>
+        GIVEN que el estudiante consultado no pertenece a los estudiantes asignados al psicólogo,<br>
+        WHEN el cliente realiza una solicitud GET al endpoint correspondiente,<br>
+        THEN la API responde con código HTTP 403 indicando que el acceso no está autorizado.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">TS 06</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-02</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Gestionar sesiones de orientación mediante la API</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO Developer QUIERO implementar servicios RESTful para registrar y consultar sesiones de orientación PARA permitir que el sistema gestione el acompañamiento entre psicólogos y estudiantes.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Gestión de Sesiones de Orientación</b><br><br>
+        <b>Scenario 1: Registrar una sesión de orientación</b><br>
+        GIVEN que existe un psicólogo y un estudiante válidamente registrados,<br>
+        WHEN el cliente envía una solicitud POST con los datos de la sesión,<br>
+        THEN la API responde con código HTTP 201 y registra la sesión de orientación.<br><br>
+        <b>Scenario 2: Datos de sesión inválidos</b><br>
+        GIVEN que la solicitud contiene una fecha, hora o estudiante inválido,<br>
+        WHEN el cliente envía la solicitud POST,<br>
+        THEN la API responde con código HTTP 400 indicando que los datos de la sesión son inválidos.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">TS 07</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-03</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Gestionar actividades y recursos vocacionales</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO Developer QUIERO implementar servicios RESTful para registrar y consultar actividades y recursos vocacionales PARA permitir que las aplicaciones cliente administren el contenido de orientación disponible.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Gestión de Actividades y Recursos Vocacionales</b><br><br>
+        <b>Scenario 1: Registrar actividad o recurso</b><br>
+        GIVEN que los datos de la actividad o recurso son válidos,<br>
+        WHEN el cliente envía una solicitud POST al endpoint correspondiente,<br>
+        THEN la API responde con código HTTP 201 y registra el nuevo recurso.<br><br>
+        <b>Scenario 2: Consultar recursos vocacionales</b><br>
+        GIVEN que existen recursos registrados,<br>
+        WHEN el cliente realiza una solicitud GET al endpoint de recursos,<br>
+        THEN la API responde con código HTTP 200 y devuelve la colección de recursos disponibles.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">TS 08</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-04</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Registrar progreso y observaciones vocacionales</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO Developer QUIERO implementar un servicio RESTful para registrar el progreso y las observaciones realizadas durante el acompañamiento vocacional PARA mantener actualizado el historial del estudiante.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Registro de Progreso y Observaciones</b><br><br>
+        <b>Scenario 1: Registrar una observación</b><br>
+        GIVEN que existe un estudiante asignado al psicólogo autenticado,<br>
+        WHEN el cliente envía una solicitud POST con una observación válida,<br>
+        THEN la API responde con código HTTP 201 y registra la observación en el historial del estudiante.<br><br>
+        <b>Scenario 2: Usuario no autorizado</b><br>
+        GIVEN que el usuario autenticado no tiene autorización para modificar el historial del estudiante,<br>
+        WHEN el cliente envía la solicitud POST,<br>
+        THEN la API responde con código HTTP 403 indicando que la operación no está autorizada.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">TS 09</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-05</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Buscar carreras mediante filtros</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO Developer QUIERO implementar un servicio RESTful para buscar carreras utilizando criterios de filtrado PARA permitir que las aplicaciones cliente obtengan opciones profesionales relacionadas con los intereses del estudiante.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Búsqueda de Carreras</b><br><br>
+        <b>Scenario 1: Buscar carreras con filtros válidos</b><br>
+        GIVEN que existen carreras registradas que coinciden con los criterios de búsqueda,<br>
+        WHEN el cliente realiza una solicitud GET enviando los filtros correspondientes,<br>
+        THEN la API responde con código HTTP 200 y devuelve las carreras que cumplen con los criterios.<br><br>
+        <b>Scenario 2: Búsqueda sin coincidencias</b><br>
+        GIVEN que ninguna carrera coincide con los filtros proporcionados,<br>
+        WHEN el cliente realiza una solicitud GET,<br>
+        THEN la API responde con código HTTP 200 y devuelve una colección vacía.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">TS 10</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-05</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Consultar compatibilidad entre estudiante y carrera</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO Developer QUIERO implementar un servicio RESTful para calcular y consultar la compatibilidad entre el perfil vocacional de un estudiante y una carrera PARA proporcionar información que apoye la exploración profesional.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Compatibilidad Vocacional</b><br><br>
+        <b>Scenario 1: Calcular compatibilidad</b><br>
+        GIVEN que el estudiante posee un perfil vocacional y la carrera posee información registrada,<br>
+        WHEN el cliente solicita la compatibilidad entre ambos elementos,<br>
+        THEN la API responde con código HTTP 200 y devuelve el porcentaje de compatibilidad correspondiente.<br><br>
+        <b>Scenario 2: Perfil vocacional inexistente</b><br>
+        GIVEN que el estudiante no posee un perfil vocacional generado,<br>
+        WHEN el cliente solicita el cálculo de compatibilidad,<br>
+        THEN la API responde con código HTTP 404 indicando que no existe un perfil disponible.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">TS 11</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-05</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Gestionar carreras favoritas</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO Developer QUIERO implementar servicios RESTful para registrar y eliminar carreras favoritas de un estudiante PARA permitir que las aplicaciones cliente administren sus opciones profesionales de interés.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Gestión de Carreras Favoritas</b><br><br>
+        <b>Scenario 1: Registrar carrera favorita</b><br>
+        GIVEN que existe una carrera válida y un estudiante autenticado,<br>
+        WHEN el cliente envía una solicitud POST para agregar la carrera a favoritos,<br>
+        THEN la API responde con código HTTP 201 y registra la relación entre el estudiante y la carrera.<br><br>
+        <b>Scenario 2: Eliminar carrera favorita</b><br>
+        GIVEN que la carrera se encuentra registrada como favorita del estudiante,<br>
+        WHEN el cliente envía una solicitud DELETE,<br>
+        THEN la API responde con código HTTP 204 y elimina la relación de favoritos.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">TS 12</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-06</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Gestionar el plan vocacional personalizado</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO Developer QUIERO implementar servicios RESTful para crear y actualizar el plan vocacional personalizado de un estudiante PARA permitir que las aplicaciones cliente administren su trayectoria profesional.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Gestión del Plan Vocacional</b><br><br>
+        <b>Scenario 1: Crear plan vocacional</b><br>
+        GIVEN que existe un estudiante con un perfil vocacional registrado,<br>
+        WHEN el cliente envía una solicitud POST con los datos del plan,<br>
+        THEN la API responde con código HTTP 201 y registra el plan vocacional personalizado.<br><br>
+        <b>Scenario 2: Actualizar plan vocacional</b><br>
+        GIVEN que el estudiante posee un plan vocacional registrado,<br>
+        WHEN el cliente envía una solicitud PUT con los nuevos datos del plan,<br>
+        THEN la API responde con código HTTP 200 y devuelve el plan actualizado.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">TS 13</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-07</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Gestionar comunicación entre estudiante y psicólogo</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO Developer QUIERO implementar servicios RESTful para registrar y consultar mensajes entre estudiantes y psicólogos PARA permitir la comunicación relacionada con el proceso de orientación vocacional.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Mensajería entre Estudiante y Psicólogo</b><br><br>
+        <b>Scenario 1: Enviar mensaje correctamente</b><br>
+        GIVEN que el estudiante y el psicólogo se encuentran registrados y tienen una relación de orientación válida,<br>
+        WHEN el cliente envía una solicitud POST con el contenido del mensaje,<br>
+        THEN la API responde con código HTTP 201 y registra el mensaje para el destinatario.<br><br>
+        <b>Scenario 2: Destinatario no autorizado</b><br>
+        GIVEN que el destinatario no tiene una relación válida de orientación con el remitente,<br>
+        WHEN el cliente intenta registrar el mensaje,<br>
+        THEN la API responde con código HTTP 403 indicando que la comunicación no está autorizada.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">TS 14</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-07</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Gestionar notificaciones de la plataforma</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO Developer QUIERO implementar servicios RESTful para registrar y consultar notificaciones PARA permitir que las aplicaciones cliente informen a los usuarios sobre actualizaciones relacionadas con su proceso vocacional.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Gestión de Notificaciones</b><br><br>
+        <b>Scenario 1: Registrar notificación</b><br>
+        GIVEN que existe un usuario destinatario y un evento válido de la plataforma,<br>
+        WHEN el sistema envía una solicitud para registrar la notificación,<br>
+        THEN la API responde con código HTTP 201 y almacena la notificación asociada al usuario.<br><br>
+        <b>Scenario 2: Consultar notificaciones</b><br>
+        GIVEN que el usuario posee notificaciones registradas,<br>
+        WHEN el cliente realiza una solicitud GET al endpoint correspondiente,<br>
+        THEN la API responde con código HTTP 200 y devuelve las notificaciones disponibles para el usuario.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="20%"><b>USER STORY ID</b></td>
+      <td width="30%">TS 15</td>
+      <td width="20%"><b>EPIC ID</b></td>
+      <td width="30%">E-08</td>
+    </tr>
+    <tr>
+      <td><b>Title:</b></td>
+      <td colspan="3">Consultar información analítica vocacional</td>
+    </tr>
+    <tr>
+      <td><b>Description:</b></td>
+      <td colspan="3">COMO Developer QUIERO implementar servicios RESTful para consultar métricas y datos analíticos de los estudiantes PARA permitir que las aplicaciones cliente generen información sobre evolución, tendencias y resultados vocacionales.</td>
+    </tr>
+    <tr>
+      <td><b>Acceptance criteria:</b></td>
+      <td colspan="3">
+        <b>Feature: Servicios de Información Analítica</b><br><br>
+        <b>Scenario 1: Consultar métricas autorizadas</b><br>
+        GIVEN que el usuario autenticado posee permisos para consultar información analítica,<br>
+        WHEN el cliente realiza una solicitud GET al endpoint de métricas,<br>
+        THEN la API responde con código HTTP 200 y devuelve los indicadores correspondientes.<br><br>
+        <b>Scenario 2: Consulta sin autorización</b><br>
+        GIVEN que el usuario autenticado no posee permisos para consultar las métricas,<br>
+        WHEN el cliente realiza una solicitud GET al endpoint analítico,<br>
+        THEN la API responde con código HTTP 403 indicando que el acceso no está autorizado.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## 3.2. Impact Mapping
+
+### Escenario 1: Incremento de la Participación Activa de Psicólogos
 
 El objetivo de este escenario es incrementar la participación activa de los psicólogos registrados en NextPath, promoviendo una interacción constante y de valor con los estudiantes que utilizan la plataforma. Actualmente, se identifica que ciertos profesionales mantienen perfiles con baja frecuencia de uso o inactividad prolongada, lo cual limita el impacto del acompañamiento vocacional personalizado.
 
@@ -2296,9 +3062,33 @@ Para revertir esta situación, el propósito es lograr que al menos el 40% de lo
 
 Este objetivo refuerza la propuesta de valor de NextPath al asegurar un seguimiento psicopedagógico cercano, riguroso y humano, sustentado en la confianza y la continuidad. Asimismo, consolida una relación de beneficio mutuo: mientras los estudiantes reciben orientación profesional adaptada a sus perfiles vocacionales, los psicólogos potencian su visibilidad, reputación profesional y oportunidades de consulta dentro de la plataforma.
 
-![ImpactMapping2](images/impact-mapping/Impact-map-1.png)
+![ImpactMapping1](images/impact-mapping/Impact-map-1.png)
 
+### Escenario 2: Captación, Finalización y Satisfacción del Test Vocacional con IA
+
+El objetivo de este segundo escenario es maximizar la tasa de activación, completitud y satisfacción de los estudiantes que ingresan a NextPath. Uno de los problemas más comunes en las plataformas vocacionales tradicionales es el abandono del test por fatiga, desinterés o resultados ambiguos.
+
+Para revertir esta situación, el propósito es lograr que el 75% de los estudiantes registrados completen el test vocacional con IA y que más del 80% califique la utilidad de la experiencia con más de 3/5 puntos durante los primeros 2 meses de uso.
+
+Este objetivo refuerza la propuesta de valor central de NextPath al asegurar que los estudiantes reconozcan un valor diferenciador inmediato gracias a la personalización con Inteligencia Artificial. Asimismo, consolida el ciclo de vida del usuario en la plataforma: un diagnóstico fluido y motivador incrementa la confianza en los resultados obtenidos, impulsando a los alumnos a explorar activamente carreras afines, simular escenarios profesionales futuros y solicitar acompañamiento especializado.
+
+![ImpactMapping2](images/impact-mapping/Impact-map-2.png)
 ## 3.3. Product Backlog
+
+A continuación, se presenta el Product Backlog del proyecto incluyendo las User Stories ordenadas, con su Épica correspondiente y sus Story Point designados. 
+
+>Evidencia del uso de la herramienta (Trello):
+
+![Product Backlog 1](images/product-backlog-1.png)
+![Product Backlog 2](images/product-backlog-2.png)
+![Product Backlog 3](images/product-backlog-3.png)
+
+
+>URL Público del board:
+https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2cb06a2a0cB717020D/nextpath
+
+
+
 
 | N° | Story ID | Épica | Título | Descripción | Story Points |
 |:---:|:---:|:---:|---|---|:---:|
@@ -2343,6 +3133,11 @@ Este objetivo refuerza la propuesta de valor de NextPath al asegurar un seguimie
 | 39 | US39 | E-10 – Monitoreo e Intervención Temprana | Aplicar filtros de riesgo y participación | COMO psicólogo QUIERO aplicar filtros de riesgo o baja participación PARA priorizar mi acompañamiento en los casos más críticos. | 3 |
 | 40 | US40 | E-10 – Monitoreo e Intervención Temprana | Registrar observaciones e intervenciones | COMO psicólogo QUIERO registrar observaciones e intervenciones en la ficha del alumno PARA dar seguimiento a sus avances y acuerdos. | 3 |
 | 41 | US41 | E-10 – Monitoreo e Intervención Temprana | Recibir recomendaciones de acción | COMO psicólogo QUIERO recibir sugerencias automáticas de intervención PARA actuar oportunamente ante bajas de participación o alertas de indecisión. | 5 |
+| 42 | US42 | E-11 – Landing Page | Conocer la propuesta de valor de NextPath | COMO visitante QUIERO conocer la propuesta de valor de NextPath PARA comprender cómo la plataforma puede ayudarme en mi proceso de orientación vocacional. | 3 |
+| 43 | US43 | E-11 – Landing Page | Conocer el propósito de NextPath | COMO visitante QUIERO conocer el propósito y enfoque de NextPath PARA comprender cómo la plataforma contribuye a la orientación vocacional de los estudiantes. | 3 |
+| 44 | US44 | E-11 – Landing Page | Comprender cómo funciona NextPath | COMO visitante QUIERO conocer cómo funciona NextPath PARA comprender las etapas que forman parte de su proceso de orientación vocacional. | 3 |
+| 45 | US45 | E-11 – Landing Page | Acceder a la experiencia de NextPath | COMO visitante QUIERO acceder a la experiencia de NextPath PARA comenzar a utilizar la solución de orientación vocacional. | 5 |
+| 46 | US46 | E-11 – Landing Page | Acceder a los canales de contacto de NextPath | COMO visitante QUIERO acceder a los canales de contacto de NextPath PARA obtener información adicional sobre la solución. | 2 |
 
 # Capítulo IV: Product Design
 
@@ -2572,37 +3367,61 @@ El sistema de navegación de NextPath está diseñado para guiar al usuario de f
 
 En esta sección se presenta la propuesta de diseño de la interfaz de usuario para la Landing Page de NextPath. El objetivo es reflejar de manera visual las decisiones tomadas durante la fase de arquitectura de información, garantizando una experiencia clara, atractiva y coherente con la identidad de marca.
 
-### 4.3.1. Landing Page Wireframe
+### 4.3.1. Landing Page MockUp
 
 **Desktop Web browser:**
 
 * **Inicio:**
   Presenta el hero banner con la frase “Conviértete en un profesional” y el CTA “Comenzar”. El fondo con imagen de aula refuerza el contexto educativo. Los principios aplicados son el de jerarquía visual y contraste.
 
-  ![Landing Page Wireframe - Inicio](images/style-guidelines/landing-page-preview.png)
+  ![Landing Page MockUp - Inicio](images/landing%20WandM/m1.png)
 
 * **Sobre nosotros:**
   Integra texto informativo con el personaje panda como elemento visual que genera empatía. Los principios aplicados son el de consistencia visual y relación con el mundo real.
 
-  ![Landing Page Wireframe - Sobre Nosotros](images/style-guidelines/Quienes-Somos.png)
+  ![Landing Page MockUp - Sobre Nosotros](images/landing%20WandM/m2.png)
 
 * **¿Cómo funciona?:**
   Se divide en tres tarjetas explicativas: *Descúbrete*, *Conecta*, *Traza tu plan*, cada una con ícono y texto breve. El principio aplicado es el de relación con el mundo real.
 
-  ![Landing Page Wireframe - Cómo Funciona](images/style-guidelines/Como-Funciona.png)
+  ![Landing Page MockUp - Cómo Funciona](images/landing%20WandM/m3.png)
 
 * **Descargar (Comenzar ahora):**
   Presenta botones de descarga y reitera el valor de la app, acompañada del panda. Los principios aplicados son minimalismo, accesibilidad y claridad.
 
-  ![Landing Page Wireframe - Descargar](images/style-guidelines/Comenzar-Ahora.png)
+  ![Landing Page MockUp - Descargar](images/landing%20WandM/m4.png)
 
 * **Contáctanos:**
   Sección inferior con accesos a redes sociales.
 
-  ![Landing Page Wireframe - Contáctanos](images/style-guidelines/Contactanos.png)
+  ![Landing Page MockUp - Contáctanos](images/landing%20WandM/m5.png)
 
-### 4.3.2. Landing Page Mock-up
+### 4.3.2. Landing Page WireFrame
 
+* **Inicio:**
+  Presenta el hero banner con la frase “Conviértete en un profesional” y el CTA “Comenzar”. El fondo con imagen de aula refuerza el contexto educativo. Los principios aplicados son el de jerarquía visual y contraste.
+
+  ![Landing Page Wirefrmae - Inicio](images/landing%20WandM/w1.png)
+
+* **Sobre nosotros:**
+  Integra texto informativo con el personaje panda como elemento visual que genera empatía. Los principios aplicados son el de consistencia visual y relación con el mundo real.
+
+  ![Landing Page Wirefrmae - Sobre Nosotros](images/landing%20WandM/w2.png)
+
+* **¿Cómo funciona?:**
+  Se divide en tres tarjetas explicativas: *Descúbrete*, *Conecta*, *Traza tu plan*, cada una con ícono y texto breve. El principio aplicado es el de relación con el mundo real.
+
+  ![Landing Page Wirefrmae - Cómo Funciona](images/landing%20WandM/w3.png)
+
+* **Descargar (Comenzar ahora):**
+  Presenta botones de descarga y reitera el valor de la app, acompañada del panda. Los principios aplicados son minimalismo, accesibilidad y claridad.
+
+  ![Landing Page Wirefrmae - Descargar](images/landing%20WandM/w4.png)
+
+* **Contáctanos:**
+  Sección inferior con accesos a redes sociales.
+
+  ![Landing Page Wirefrmae - Contáctanos](images/landing%20WandM/w5.png)
 
 
 ## 4.4. Web Applications UX/UI Design
@@ -2759,36 +3578,39 @@ Esta sección incluye secciones internas donde se presenta y explica la propuest
 <b> Mock-up 17: Diseño de Menu material vocacional </b><br>
 <img src="images/mock-ups/mock-up-16.png" alt="Mock-up 17" size = 500><br>
 ### 4.4.4. Web Applications User Flow Diagrams
-1) **User flow 1:**
-<img src="images/user-flow/user-flow-1.png" alt="User-flow 1" size = 500><br>
-2) **User flow 2:**
-<img src="images/user-flow/user-flow-2.png" alt="User-flow 1" size = 500><br>
-3) **User flow 3:**
-<img src="images/user-flow/user-flow-3.png" alt="User-flow 1" size = 500><br>
-4) **User flow 4:**
-<img src="images/user-flow/user-flow-4.png" alt="User-flow 1" size = 500><br>
-5) **User flow 5:**
-<img src="images/user-flow/user-flow-5.png" alt="User-flow 1" size = 500><br>
-6) **User flow 6:**
-<img src="images/user-flow/user-flow-6.png" alt="User-flow 1" size = 500><br>
-7) **User flow 7:**
-<img src="images/user-flow/user-flow-7.png" alt="User-flow 1" size = 500><br>
-8) **User flow 8:**
-<img src="images/user-flow/user-flow-8.png" alt="User-flow 1" size = 500><br>
-9) **User flow 9:**
-<img src="images/user-flow/user-flow-9.png" alt="User-flow 1" size = 500><br>
-10) **User flow 10:**
-<img src="images/user-flow/user-flow-10.png" alt="User-flow 1" size = 500><br>
-11) **User flow 11:**
-<img src="images/user-flow/user-flow-11.png" alt="User-flow 1" size = 500><br>
-12) **User flow 12:**
-<img src="images/user-flow/user-flow-12.png" alt="User-flow 1" size = 500><br>
-13) **User flow 13:**
-<img src="images/user-flow/user-flow-13.png" alt="User-flow 1" size = 500><br>
-14) **User flow 14:**
-<img src="images/user-flow/user-flow-14.png" alt="User-flow 1" size = 500><br>
-15) **User flow 15:**
-<img src="images/user-flow/user-flow-1.png" alt="User-flow 1" size = 500><br>
+1) **User flow 1:**  Como usuario, quiero iniciar sesion en la plataforma
+<img src="images/user-flow/user-flow-Frame 1.png" alt="User-flow 1" size = 500><br>
+<img src="images/user-flow/user-flow-Frame 1-2.png" alt="User-flow 1" size = 500><br>
+2) **User flow 2:**  Como usuario, quiero Registrarme en la plataforma
+<img src="images/user-flow/user-flow-Frame 2.png" alt="User-flow 1" size = 500><br>
+3) **User flow 3:**  Como Estudiante, quiero Realizar un Test Vocacional con IA y Obtener Resultados
+<img src="images/user-flow/user-flow-Frame 3.png" alt="User-flow 1" size = 500><br>
+4) **User flow 4:**  Como Estudiante, quiero Tener acceso a la simulación de futuro profesional
+<img src="images/user-flow/user-flow-Frame 4.png" alt="User-flow 1" size = 500><br>
+5) **User flow 5:**  Como Estudiante, quiero Tener acceso a la comparacion de carreras
+<img src="images/user-flow/user-flow-Frame 5.png" alt="User-flow 1" size = 500><br>
+6) **User flow 6:**  Como Estudiante, quiero agregar carreras a mis favoritos
+<img src="images/user-flow/user-flow-Frame 6.png" alt="User-flow 1" size = 500><br>
+7) **User flow 7:**  Como estudiante, quiero visualizar mis tareas y recomendaciones 
+<img src="images/user-flow/user-flow-Frame 7.png" alt="User-flow 1" size = 500><br>
+8) **User flow 8:**  Como Estudiante, quiero unirme a una sesión en vivo con mi psicólogo
+<img src="images/user-flow/user-flow-Frame 8.png" alt="User-flow 1" size = 500><br>
+9) **User flow 9:**  Como Estudiante, quiero acceder a la comunidad
+<img src="images/user-flow/user-flow-Frame 9.png" alt="User-flow 1" size = 500><br>
+10) **User flow 10:** Como Estudiante, quiero acceder al Centro de Mensajería
+<img src="images/user-flow/user-flow-Frame 10.png" alt="User-flow 1" size = 500><br>
+11) **User flow 11:** Como Psicologo, quiero monitorear el desempeño de un estudiante
+<img src="images/user-flow/user-flow-Frame 11.png" alt="User-flow 1" size = 500><br>
+12) **User flow 12:** Como Psicologo, quiero acceder a una comparativa grupal de los estudiantes
+<img src="images/user-flow/user-flow-Frame 12.png" alt="User-flow 1" size = 500><br>
+13) **User flow 13:** Como Psicólogo, quiero unirme a las sesiones ya agendadas
+<img src="images/user-flow/user-flow-Frame 13.png" alt="User-flow 1" size = 500><br>
+14) **User flow 14:** Como Psicólogo, quiero crear una nueva sesión y agendarla
+<img src="images/user-flow/user-flow-Frame 14.png" alt="User-flow 1" size = 500><br>
+15) **User flow 15:** Como Psicólogo, quiero compartir material didáctico con los estudiantes
+<img src="images/user-flow/user-flow-Frame 15.png" alt="User-flow 1" size = 500><br>
+16) **User flow 16:** Como Psicólogo, quiero comunicarme directamente con los estudiantes
+<img src="images/user-flow/user-flow-Frame 16.png" alt="User-flow 1" size = 500><br>
  
 
 ## 4.5. Web Applications Prototyping
@@ -2824,11 +3646,12 @@ El Context Diagram presenta a VocaFy como el sistema central de la solución, mo
 El Container Diagram representa los principales elementos de alto nivel que conforman la arquitectura de software de VocaFy. En este nivel se muestran los containers, las tecnologías utilizadas y la distribución de responsabilidades, así como las principales interacciones y comunicaciones entre ellos.
 
 <div align="center">
-  <img src="images/container.png.png" alt="Software Architecture Container Diagram">
+  <img src="images/container.png" alt="Software Architecture Container Diagram">
 </div>
 
 ### 4.6.4. Software Architecture Components Diagrams
-#### IAM & Auth Service
+
+IAM & Auth Service
 
 El Component Diagram de IAM & Auth Service muestra la descomposición del servicio encargado de gestionar la identidad, autenticación y autorización de los usuarios de VocaFy. Sus componentes permiten administrar el acceso de los usuarios y controlar los permisos necesarios para utilizar las funcionalidades de la plataforma.
 
@@ -2846,7 +3669,7 @@ El Component Diagram de Assessment Service muestra la descomposición del servic
 </div>
 
 
-#### Career Planning Service
+Career Planning Service
 
 El Component Diagram de Career Planning Service muestra la descomposición del servicio encargado de apoyar la exploración y planificación de la trayectoria profesional de los estudiantes. Sus componentes permiten gestionar la exploración de carreras, la planificación de objetivos profesionales y el seguimiento de las decisiones relacionadas con el desarrollo profesional.
 
@@ -2855,7 +3678,7 @@ El Component Diagram de Career Planning Service muestra la descomposición del s
 </div>
 
 
-#### Billing Service
+Billing Service
 
 El Component Diagram de Billing Service representa los componentes encargados de gestionar las suscripciones premium, el procesamiento de pagos y el registro de las transacciones. El servicio mantiene la información relacionada con la facturación y se comunica con el Payment Gateway para procesar los pagos.
 
@@ -2864,7 +3687,7 @@ El Component Diagram de Billing Service representa los componentes encargados de
 </div>
 
 
-#### Community Service
+Community Service
 
 El Component Diagram de Community Service representa los componentes responsables de gestionar las comunidades, publicaciones, comentarios, reacciones, moderación, mensajería privada y recomendaciones de hilos. Los componentes interactúan entre sí y utilizan la base de datos del servicio para almacenar la información relacionada con las actividades de la comunidad.
 
@@ -2873,7 +3696,7 @@ El Component Diagram de Community Service representa los componentes responsable
 </div>
 
 
-#### Advisory Service
+Advisory Service
 
 El Component Diagram de Advisory Service muestra los componentes relacionados con la gestión de sesiones de orientación, la vinculación entre estudiantes y psicólogos, la comunicación durante las sesiones, el registro de notas y reportes y el seguimiento de los estudiantes. Estos componentes trabajan conjuntamente para gestionar el proceso de orientación dentro de VocaFy.
 
@@ -2882,7 +3705,7 @@ El Component Diagram de Advisory Service muestra los componentes relacionados co
 </div>
 
 
-#### Analytics & AI Service
+Analytics & AI Service
 
 El Component Diagram de Analytics & AI Service representa los componentes encargados de recopilar y procesar datos, realizar análisis, generar recomendaciones mediante capacidades de inteligencia artificial, producir reportes y administrar modelos de machine learning. El servicio utiliza una base de datos para almacenar información analítica y se comunica con la AI API para utilizar capacidades de inteligencia artificial.
 
@@ -3050,7 +3873,6 @@ El entorno de desarrollo de NextPath ha sido configurado considerando la colabor
 Las herramientas utilizadas se organizan de acuerdo con las siguientes actividades: Project Management, Requirements Management, Product UX/UI Design, Software Development, Software Deployment y Software Documentation.
 
 Project Management
-
 <table>
 <thead>
 <tr>
@@ -3061,8 +3883,13 @@ Project Management
 </thead>
 <tbody>
 <tr>
-<td>GitHub Projects</td>
-<td>Planificación, organización y seguimiento de las actividades, issues, user stories y tareas relacionadas con el desarrollo de NextPath.</td>
+<td>Trello</td>
+<td>Herramienta de soporte para Agile Development utilizada para la planificación, asignación y seguimiento del Product Backlog y Sprint Backlog (User Stories y Engineering Tasks). Permite evidenciar la evolución del tablero a través de los estados: <b>To Do, In Process, To Review y Done</b>.</td>
+<td>https://trello.com/</td>
+</tr>
+<tr>
+<td>GitHub Projects / Issues</td>
+<td>Registro, organización y seguimiento de requerimientos técnicos, control de incidencias a nivel de repositorio y problemas identificados durante la integración del código fuente.</td>
 <td>https://github.com/features/issues</td>
 </tr>
 </tbody>
@@ -3397,7 +4224,7 @@ Entre las actividades principales planificadas se incluyeron:
 * Desarrollo del bloque de conversión **Comenzar ahora** con enlaces hacia tiendas móviles (*App Store*, *Google Play*) acompañado de la mascota institucional Panda.
 * Creación del pie de página **Contáctanos** con enlaces a redes sociales oficiales (*Instagram*, *Facebook*, *LinkedIn*) y derechos reservados.
 * Ajustes de estilos CSS y validación de diseño responsive para pantallas de escritorio y dispositivos móviles.
-* Configuración del flujo de despliegue continuo mediante Netlify.
+* Configuración del flujo de despliegue continuo mediante Github Pages.
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -3407,7 +4234,7 @@ Entre las actividades principales planificadas se incluyeron:
 | **Time** | 6:00 PM |
 | **Location** | Reunión virtual mediante la plataforma Google Meet |
 | **Prepared By** | Equipo NextPath |
-| **Attendees (to planning meeting)** | [Nombres de los integrantes de tu equipo] |
+| **Attendees (to planning meeting)** | Cruzalegui, Joaquin; Ravello, Luciana; Miranda, Jesús; Torres, Alisee; Pérez, Sebastián. |
 | **Sprint 0 Review Summary** | Durante el Sprint 0 se completó la fase de investigación, definición de arquitectura base (modelo C4) y especificación de requerimientos del sistema. Se definieron las épicas, historias de usuario y prototipos de alta fidelidad, permitiendo al equipo iniciar la fase de implementación de la Landing Page con especificaciones claras de UI/UX. |
 | **Sprint 0 Retrospective Summary** | El equipo demostró sincronización y compromiso técnico en el Sprint 0; no obstante, se identificó la necesidad de reforzar la gestión de ramas bajo GitFlow y la coordinación en la integración de estilos para evitar conflictos en el desarrollo colaborativo del código frontend. |
 | **Sprint 1 Goal** | Desarrollar, maquetar e implementar completamente la Landing Page institucional de NextPath y realizar su despliegue continuo. El resultado permitirá dar a conocer la solución, explicar el proceso de orientación vocacional asistida por IA y captar el interés tanto de estudiantes como de psicólogos orientadores. Esto se validará cuando las secciones de Inicio, Sobre nosotros, Cómo funciona, Comenzar ahora y Contáctanos se encuentren completamente publicadas y accesibles vía web. |
@@ -3430,29 +4257,30 @@ A continuación, se presenta la matriz LACX (*Leadership-and-Collaboration Matri
 
 #### 5.2.1.3. Sprint Backlog 1
 
-**Objetivo del Sprint:** Publicar la landing page funcional de NextPath que comunique la propuesta de valor de orientación vocacional asistida por IA, permita a estudiantes y psicólogos conocer la plataforma y habilite los primeros canales de captación y contacto — convirtiendo visitantes en usuarios potenciales registrados[cite: 9, 10, 18].
+**Objetivo del Sprint:** Publicar la landing page funcional de NextPath que comunique la propuesta de valor de orientación vocacional asistida por IA, permita a estudiantes y psicólogos conocer la plataforma y habilite los primeros canales de captación y contacto — convirtiendo visitantes en usuarios potenciales registrados.
 
-**Sprint Goal:** *Un estudiante o psicólogo educativo puede ingresar a la landing page, comprender qué resuelve NextPath, explorar cómo funciona el proceso vocacional guiado, interactuar con el llamado a la acción y acceder a los canales de contacto — todo de manera fluida y responsive[cite: 9, 10, 18].*
+**Sprint Goal:** *Un estudiante o psicólogo educativo puede ingresar a la landing page, comprender qué resuelve NextPath, explorar cómo funciona el proceso vocacional guiado, interactuar con el llamado a la acción y acceder a los canales de contacto — todo de manera fluida y responsive.*
 
-**Story Points comprometidos: 9 SP | Duración: 2 semanas | Stack: HTML5 / CSS3 / JavaScript vanilla**[cite: 9, 10]
+**Story Points comprometidos: 9 SP | Duración: 2 semanas | Stack: HTML5 / CSS3 / JavaScript vanilla**
+
+>Evidencia del Board:
+<div align="center">
+  <img src="images/sprint-backlog-1.png" alt="sprint"><br><br>
+</div>
+
+>URL público del Board:
+https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2cb06a2a0cB717020D/nextpath
+
 
 | Sprint # | User Story ID | User Story Título | SP | Work-Item / Task ID | Task Título | Descripción | Estimación | Asignado a | Status |
-| :--- | :--- | :--- | :---: | :--- | :--- | :--- | :---: | :--- | :---: |
-| Sprint 1 | US01 | Comunicar propuesta de valor para captar postulantes y orientadores | 2 | T01 | Maquetar Hero section | Diseñar y maquetar hero section con HTML y CSS puro: titular principal ("Conviértete en un profesional"), subtítulo descriptivo enfocado en autoconocimiento vocacional y botón CTA ("Comenzar") visible above the fold. | 4h | Sebastián Pérez | Done |
-| Sprint 1 | US01 | Comunicar propuesta de valor para captar postulantes y orientadores | 2 | T02 | Implementar navegación del CTA principal | Configurar evento click en el botón CTA mediante JavaScript vanilla para ejecutar un desplazamiento suave directo hacia la sección de conversión 'Comenzar ahora'. | 2h | Sebastián Pérez | Done |
-| Sprint 1 | US01 | Comunicar propuesta de valor para captar postulantes y orientadores | 2 | T03 | Validar diseño responsive en Hero | Validar breakpoints en mobile (375px), tablet (768px) y desktop (1280px), verificando alineación de textos y adaptabilidad de la imagen de fondo educativo sin cortes visuales. | 2h | Sebastián Pérez | Done |
-| Sprint 1 | US02 | Presentar identidad de marca y enfoque vocacional con IA | 2 | T04 | Maquetar sección Sobre nosotros | Construir contenedor en HTML5 y estilos CSS para presentar la misión de NextPath, integrando texto explicativo sobre IA y autoconocimiento junto al logotipo oficial de marca. | 3h | Joaquin Cruzalegui | Done |
-| Sprint 1 | US02 | Presentar identidad de marca y enfoque vocacional con IA | 2 | T05 | Integrar componentes gráficos de marca | Incorporar elementos SVG de la identidad corporativa y optimizar la disposición flexbox/grid para mantener balance y legibilidad en diferentes resoluciones. | 2h | Joaquin Cruzalegui | Done |
-| Sprint 1 | US03 | Explicar el funcionamiento secuencial del acompañamiento vocacional | 1 | T06 | Maquetar tarjetas explicativas de proceso | Maquetar tres cards modulares ('Descúbrete', 'Conecta', 'Traza tu plan') con HTML y CSS, asociando cada una a su ícono temático y descripción del flujo paso a paso. | 3h | Luciana Ravello | Done |
-| Sprint 1 | US03 | Explicar el funcionamiento secuencial del acompañamiento vocacional | 1 | T07 | Añadir efectos de interacción en cards | Implementar microinteracciones en CSS (:hover, transiciones suaves de escala y elevación de sombras) para destacar cada paso de la metodología al pasar el cursor. | 2h | Luciana Ravello | Done |
-| Sprint 1 | US04 | Presentar llamado a la acción y disponibilidad de acceso | 2 | T08 | Maquetar tarjeta de conversión y mascota Panda | Maquetar contenedor central con la ilustración oficial de la mascota Panda de NextPath, mensaje motivacional y botones de acceso/descarga ('App Store' y 'Google Play'). | 3h | Jesús Miranda | Done |
-| Sprint 1 | US04 | Presentar llamado a la acción y disponibilidad de acceso | 2 | T09 | Configurar interactividad de botones de acceso | Añadir lógica en JavaScript para gestionar eventos de clic en los botones de acceso, configurando redirecciones consistentes o retroalimentación accesible al usuario. | 2h | Jesús Miranda | Done |
-| Sprint 1 | US05 | Proveer canales de contacto y pie de página institucional | 2 | T10 | Maquetar sección de contacto y pie institucional | Maquetar bloque inferior con fondo verde petróleo, título 'Contáctanos', botones hacia redes sociales y franja de copyright 2026. | 3h | Alisee Torres | Done |
-| Sprint 1 | US05 | Proveer canales de contacto y pie de página institucional | 2 | T11 | Configurar hipervínculos de comunidades oficiales | Enlazar botones con accesos externos a perfiles oficiales (Instagram, Facebook, LinkedIn) configurando atributos de apertura segura `target="_blank"` y `rel="noopener noreferrer"`. | 2h | Alisee Torres | Done |
-| Sprint 1 | — | Setup del proyecto | — | T12 | Estructuración base del repositorio web | Crear estructura de carpetas (`css/`, `js/`, `assets/img/`, `assets/icons/`) y archivos base (`index.html`, `styles.css`, `main.js`), verificando enlace libre de errores en consola. | 2h | Sebastián Pérez | Done |
-| Sprint 1 | — | Setup del proyecto | — | T13 | Configuración de variables CSS y tokens | Declarar en `:root` de CSS la paleta de colores oficial (verde petróleo, fondos oscuros, textos neutros), tipografías, variables de espaciado y breakpoints responsive. | 2h | Sebastián Pérez | Done |
-| Sprint 1 | — | Setup del proyecto | — | T14 | Configuración de navegación y smooth scrolling | Implementar en JavaScript vanilla o CSS nativo el desplazamiento suave (*smooth scroll*) al hacer clic en los enlaces del Navbar hacia sus respectivas secciones ancla. | 1h | Sebastián Pérez | Done |
-| Sprint 1 | — | Setup del proyecto | — | T15 | Auditoría de accesibilidad y despliegue continuo | Validar contrastes de color, textos alternativos, etiquetas semánticas y configurar el despliegue automático del repositorio mediante Netlify. | 2h | Team | Done |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sprint 1** | US01 | Comunicar propuesta de valor para captar postulantes y orientadores | 2 | T01 | Maquetado, navegación y responsive de Hero section | Diseñar y maquetar hero section (HTML/CSS), configurar evento click en CTA con JS vanilla y validar breakpoints responsive (375px, 768px, 1280px). | 5h | Sebastián Pérez | Done |
+| **Sprint 1** | US02 | Presentar identidad de marca y enfoque vocacional con IA | 2 | T02 | Maquetación e integración gráfica de Sobre Nosotros | Construir contenedor HTML5/CSS con misión de NextPath, texto de IA, logotipo oficial y componentes SVG corporativos. | 5h | Joaquin Cruzalegui | Done |
+| **Sprint 1** | US03 | Explicar el funcionamiento secuencial del acompañamiento vocacional | 1 | T03 | Maquetación e interacción de tarjetas de proceso | Maquetar cards modulares ('Descúbrete', 'Conecta', 'Traza tu plan') e implementar microinteracciones CSS (:hover, escala y sombras). | 4h | Luciana Ravello | Done |
+| **Sprint 1** | US04 | Presentar llamado a la acción y disponibilidad de acceso | 2 | T04 | Maquetado e interactividad de tarjeta de conversión con Panda | Maquetar contenedor con ilustración de Panda, botones ('App Store' / 'Google Play') y configurar lógica JS de eventos e interactividad. | 5h | Jesús Miranda | Done |
+| **Sprint 1** | US05 | Proveer canales de contacto y pie de página institucional | 2 | T05 | Maquetación de contacto, pie institucional y redes sociales | Maquetar bloque inferior (verde petróleo, copyright 2026) y configurar hipervínculos seguros a redes sociales oficiales. | 4h | Alisee Torres | Done |
+| **Sprint 1** | — | Setup del proyecto | — | T06 | Setup de repositorio, variables CSS y smooth scroll | Crear estructura de carpetas/archivos base, declarar variables CSS :root y configurar desplazamiento suave en navegación. | 4h | Sebastián Pérez | Done |
+| **Sprint 1** | — | Setup del proyecto | — | T07 | Auditoría de accesibilidad y despliegue continuo | Validar contrastes de color, textos alternativos, etiquetas semánticas y despliegue automático en Netlify. | 3h | Team | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -3631,6 +4459,510 @@ Durante el Sprint también se utilizaron mensajes de commit bajo el estándar de
 
 <br>
 
+### 5.2.2. Sprint 2
+
+### 5.2.2.1. Sprint Planning 2
+
+El Sprint Planning 2 tiene como objetivo organizar el desarrollo del frontend de NextPath a partir de los wireframes y mockups de la plataforma. Este sprint comprende las interfaces de estudiantes y psicólogos, así como la navegación y las interacciones necesarias para recorrer los principales flujos de orientación vocacional.
+
+Durante este sprint, el equipo implementará las pantallas de autenticación, perfil, evaluación vocacional, exploración de carreras, seguimiento de metas y acompañamiento profesional. Se mantendrá una identidad visual consistente mediante componentes reutilizables, estilos compartidos y un diseño adaptable a pantallas de escritorio y dispositivos móviles.
+
+El alcance contempla la maquetación, la navegación entre vistas, las validaciones de formularios en el cliente y la representación de los estados de cada interfaz. Para demostrar los flujos que dependan de servicios de backend, se utilizarán datos de prueba y respuestas simuladas.
+
+Entre las actividades principales planificadas se incluyen:
+
+- Implementación de las pantallas de **inicio de sesión, registro y recuperación de contraseña**, junto con las vistas de **perfil y configuración** del usuario.
+- Desarrollo del **menú de tests vocacionales**, el **formulario dinámico** de preguntas y la presentación de **resultados y feedback**.
+- Construcción del **catálogo de carreras**, la **ficha técnica**, el **comparador** y la interfaz de **simulación**.
+- Implementación del **dashboard del estudiante**, el **plan vocacional**, la gestión visual de **metas** y el **feed de comunidad**.
+- Desarrollo del **dashboard del psicólogo**, el **monitoreo de estudiantes**, la **agenda de citas** y la interfaz de **chat**.
+- Integración de las pantallas mediante rutas y elementos de navegación para los perfiles de estudiante y psicólogo.
+- Incorporación de validaciones, mensajes de error, estados vacíos, indicadores de carga y confirmaciones de acciones.
+- Revisión del diseño responsive y de la consistencia de botones, formularios, tarjetas y menús.
+- Integración del trabajo de los cinco integrantes en el repositorio y publicación de una versión de prueba del frontend.
+
+| Campo | Detalle |
+|---|---|
+| **Sprint #** | Sprint 2 |
+| **Sprint Planning Background** | Tras el desarrollo de la Landing Page en el Sprint 1, este sprint aborda la construcción del frontend de la plataforma NextPath. Se tomarán como referencia los wireframes y mockups de los módulos asignados a cada integrante para implementar las interfaces de estudiantes y psicólogos. El propósito es disponer de una versión navegable que permita demostrar los flujos de evaluación vocacional, exploración de carreras, seguimiento de metas y acompañamiento profesional, utilizando datos de prueba cuando sea necesario. |
+| **Date** | 2026/09/28 |
+| **Time** | 6:00 PM |
+| **Location** | Reunión virtual mediante la plataforma Google Meet. |
+| **Prepared By** | Equipo NextPath. |
+| **Attendees (to planning meeting)** | Cruzalegui, Joaquin; Ravello, Luciana; Miranda, Jesús; Torres, Alisee; Pérez, Sebastián. |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 se completó la Landing Page de NextPath con las secciones de Inicio, Sobre nosotros, Cómo funciona, Comenzar ahora y Contáctanos. El resultado cumplió con lo esperado por el equipo y no se identificaron cambios necesarios en la Landing Page. Con esta etapa finalizada, el Sprint 2 se enfocará en el desarrollo del frontend de los módulos para estudiantes y psicólogos. |
+| **Sprint 1 Retrospective Summary** | El desarrollo del Sprint 1 fue satisfactorio, ya que la Landing Page cumplió con los objetivos establecidos y no requirió modificaciones. Para el Sprint 2, se propone mantener las prácticas de trabajo que dieron buenos resultados y una distribución clara de responsabilidades. La comunicación entre integrantes y la revisión conjunta de los avances permitirán coordinar la integración de los módulos del frontend. |
+| **Sprint 2 Goal** | Implementar e integrar una versión navegable y responsive del frontend de NextPath que permita recorrer los principales flujos de estudiantes y psicólogos. El objetivo se considerará alcanzado cuando las pantallas de los cinco módulos estén conectadas, los formularios incluyan validaciones en el cliente y las interacciones puedan demostrarse con datos de prueba, sin enlaces internos rotos ni errores que impidan completar los recorridos definidos. |
+| **Sprint 2 Velocity** | 27 |
+| **Sum of Story Points** | 27 |
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+A continuación, se presenta la matriz LACX (*Leadership-and-Collaboration Matrix*) para la asignación de responsabilidades durante el desarrollo del frontend de NextPath. Cada integrante liderará el módulo asignado y colaborará en la revisión e integración de los demás módulos, con el fin de mantener una experiencia de usuario consistente.
+
+| Team Member | GitHub Username | A1: Autenticación, perfil y configuración | A2: Test vocacional y feedback | A3: Explorador, comparador y simulación | A4: Dashboard estudiante, metas y comunidad | A5: Panel de psicólogo, monitoreo y citas |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| Cruzalegui, Joaquin | JoaquinCruzalegui | **L** | C | C | C | C |
+| Ravello, Luciana | Lucyrcar-ID | C | **L** | C | C | C |
+| Miranda, Jesús | Jesus-Miranda-678 | C | C | **L** | C | C |
+| Torres, Alisee | ILisee1 | C | C | C | **L** | C |
+| Pérez, Sebastián | FernBellido22 | C | C | C | C | **L** |
+
+> **L = Leader | C = Collaborator**
+
+#### 5.2.2.3. Sprint Backlog 2
+**Objetivo del Sprint:**  
+Desarrollar, maquetar e implementar la primera versión funcional (MVP) de la aplicación web **NextPath**, desplegando las vistas principales e interfaces de usuario tanto para el módulo del **Estudiante** (test con IA, explorador/simulador de carreras, plan vocacional y comunidad) como para el módulo del **Psicólogo** (tablero de monitoreo de riesgo, ficha diagnóstica, agenda de citas y analítica grupal).
+
+**Sprint Goal:**  
+*"Un estudiante puede completar su test vocacional con IA, explorar y simular su futuro profesional en carreras afines, mientras que un psicólogo asignado puede visualizar el tablero de monitoreo de alumnos en riesgo, revisar diagnósticos automáticos e interactuar mediante la agenda de sesiones y mensajería en vivo dentro de la plataforma web."*
+
+**Métricas y Configuración del Sprint 2:**
+
+**Story Points comprometidos: 27 SP | Duración: 2 semanas **
+
+>Evidencia del Board:
+<div align="center">
+  <img src="images/Sprint-backlog-2.png" alt="sprint"><br><br>
+</div>
+
+>URL público del Board:
+https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2cb06a2a0cB717020D/nextpath
+
+| Sprint | User Story ID | User Story Título | Task ID | Task Título | Descripción | SP | Estimación | Asignado a | Status |
+| :--- | :--- | :--- | :---: | :--- | :--- | :---: | :---: | :--- | :---: |
+| **Sprint 2** | TS 01 | Autenticar usuarios | T1.1 | Login, Registro y Recuperación | Maquetar formulario de acceso y registro por rol (Estudiante / Psicólogo) y modal de recuperación de contraseña vía correo. | 3 | 4h |  Cruzalegui, Joaquin (JoaquinCruzalegui) | Done |
+| **Sprint 2** | HU 06, HU 25, HU 27 | Comunicación psicólogo-estudiante | T1.2 | Centro de Mensajería | Chat 1 a 1 entre psicólogo y estudiante con lista de conversaciones y estado de lectura. | 1 | 4h* | Cruzalegui, Joaquin (JoaquinCruzalegui) | Done |
+| **Sprint 2** | HU 01 | Realizar test vocacional | T2.1 | Catálogo y Cuestionario | Catálogo de tests (NextPath IA, Holland, MBTI) y cuestionario dinámico con barra de progreso y navegación. | 5 | 4h | Ravello, Luciana (Lucyrcar-ID) | Done |
+| **Sprint 2** | HU 02, HU 03, HU 26 | Resultados, feedback y seguimiento | T2.2 | Resultados RIASEC y Seguimiento | Gráfico de araña, diagnóstico de IA, carreras afines e historial comparativo de evaluaciones. | 3 | 4h | Ravello, Luciana (Lucyrcar-ID) | Done |
+| **Sprint 2** | HU 15, HU 16, HU 17, HU 19 | Explorar carreras | T3.1 | Explorador y Ficha de Carrera | Buscador con filtros (Área, Duración, Modalidad), badge de % de compatibilidad, ficha detallada y favoritos. | 2 | 4h* | Miranda, Jesús (Jesus-Miranda-678) | Done |
+| **Sprint 2** | HU 18, HU 20 | Comparar y simular carreras | T3.2 | Comparador y Simulador | Tabla comparativa de hasta 3 carreras y timeline de simulación del futuro profesional. | 3 | 4.5h | Miranda, Jesús (Jesus-Miranda-678) | Done |
+| **Sprint 2** | HU 21, HU 22, HU 24, HU 33, HU 34, HU 35 | Progreso, plan vocacional y comunidad | T4.1 | Dashboard, Plan y Comunidad | Dashboard de progreso, plan con tareas e historial de logros y muro de comunidad con publicaciones y comentarios. | 5 | 6h | 	Torres, Alisee (lLisee1)  | Done |
+| **Sprint 2** | HU 04, HU 12, HU 14, HU 38, HU 39, HU 40, HU 41 | Monitoreo y diagnóstico | T5.1 | Tablero y Ficha Diagnóstica |Lista de alumnos, barras de avance, filtros de riesgo y sugerencias de IA, y expediente individual con reporte automático. | 3 | 4h | Torres, Pérez, Fernando (FernBellido22| Done |
+| **Sprint 2** | HU 05, HU 08, HU 10, HU 13, HU 28, HU 30, HU 32 | Sesiones y analítica grupal | T5.2 | Agenda y Panel Analítico | Citas individuales/grupales,  Gráficos de tendencias por corte y exportación a PDF/Excel. | 2 | 4h* | Pérez, Fernando (FernBellido22) | Done |
+
+
+
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo trabajó colaborativamente en el repositorio NextPath-WebPage, aplicando GitFlow y utilizando la convención de Conventional Commits para registrar y organizar los cambios realizados durante la implementación de la primera versión de la Web Application.
+
+A continuación, se muestra en detalle los commits realizados por cada miembro del equipo y organizados en una tabla. 
+
+<table>
+  <thead>
+    <tr>
+      <th width="20%">Repository</th>
+      <th width="10%">Branch</th>
+      <th width="10%">Commit Id</th>
+      <th width="30%">Commit Message</th>
+      <th width="15%">Commit Message Body</th>
+      <th width="15%">Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>b1c477b</td>
+      <td>Add README.md</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+   <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>56f4c4b</td>
+      <td>feat: add :carreer-entities</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>c0f0168</td>
+      <td>feat: add :carreer-assembler</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>ead2ab6</td>
+      <td>feat: add :carreer-api</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>009dbbd</td>
+      <td>feat: add :carreer-card</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>4ecdb777</td>
+      <td>feat: add :carreer-comparison</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>f71ef7d</td>
+      <td>feat: add :carreer-details</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>72675c9</td>
+      <td>feat: add :carreer-details-list</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>33eb6f8</td>
+      <td>feat: add :carreer-favourites</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>4ba92e1</td>
+      <td>feat: add :carreer-exploration-routes</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>ae5e229</td>
+      <td>feat(tasks): add student task entity</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>c1cc91c</td>
+      <td>feat(tasks): add tasks store</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>0197853</td>
+      <td>feat: add domain/model iam</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>da5375d</td>
+      <td>feat(tasks): add task board view</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>7faafa4</td>
+      <td>feat(tasks): add tasks api</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>8aaca92</td>
+      <td>feat: add: vocational test files vue</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>947ec76</td>
+      <td>feat: add: vocational test files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>4a2ade7</td>
+      <td>feat: add: vocational results</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>83dfe7a</td>
+      <td>feat: add: vocational assessments</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>ca30313</td>
+      <td>feat: add: test files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>0617ebf</td>
+      <td>feat: add: test question files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>cbd9e2e</td>
+      <td>feat: add: assessments files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>8b7814c</td>
+      <td>feat: add: affinity files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>59ec318</td>
+      <td>feat: add files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>8a63803</td>
+      <td>feat(tasks): add student task assembler</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>65eaa0a</td>
+      <td>feat: add application counseling</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>e89b1d9</td>
+      <td>feat: add infrastructure counseling</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>d37c0f1</td>
+      <td>feat(community): add community forum and community routes</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>fe3623a</td>
+      <td>feat: add domain/model counseling</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>331200f</td>
+      <td>feat(community): add community store</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>06754b5</td>
+      <td>feat(community): add assemblers and community api</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>7514898</td>
+      <td>feat: add presentation iam</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>f9c31d0</td>
+      <td>feat(community): add thread entity</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>026fe1c</td>
+      <td>feat: add presentation iam</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>70fa7fc</td>
+      <td>feat(community): add community entity</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>52d91ee</td>
+      <td>feat(community): add structure and comment entity</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>826fab0</td>
+      <td>feat: add infrastructure iam</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>b30b677</td>
+      <td>feat(tasks): add task routes</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>945f001</td>
+      <td>Delete src/carrer-exploration directory</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>06c1b3a</td>
+      <td>Delete src/carrer-exploration directory</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>43d4f7e</td>
+      <td>Merge pull request #3 from VocaFyTeam/feature/iam-counseling</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>aeaac82</td>
+      <td>feat: add presentation counseling</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>212683b</td>
+  <td>feat: add: stylecss archive</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+<tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>3f69b95</td>
+  <td>feat: add: route js archive</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+<tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>30c6c0b</td>
+  <td>feat: add: pinia js archive</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+<tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>8212dbb</td>
+  <td>feat: add: main js archive</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+<tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>2524f40</td>
+  <td>feat: add: i18n archive</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+<tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>d65e13c</td>
+  <td>feat: add: app vue</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+  </tbody>
+</table>
+
+<br>
+Se han seleccionado algunos commits para evitar una larga extensión de la tabla presentada.
+
+<br><br>
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
@@ -3660,3 +4992,19 @@ Durante el Sprint también se utilizaron mensajes de commit bajo el estándar de
 # Bibliografía
 
 # Anexos
+**URL del repositorio (NextPath-report):** https://github.com/VocaFyTeam/NextPath-Report.git
+
+**URL del repositorio (NextPath-LandingPage)** https://github.com/VocaFyTeam/NextPath-LandingPage.git
+
+**URL de landing page :** https://vocafyteam.github.io/NextPath-LandingPage/
+
+**URL de webapp:** 
+
+**Link del EventStorming (Miro):** https://miro.com/welcomeonboard/MEljTU1nWW9FSEhGU2RvcnRPQWJ0VFVxOGlzME9QR2M2a3kxdFRGVWUvUjMzU0RGN21qM3cyWjExV1krQSsvalVoblhxZlplK3BSUU0xV29mTGRtbUY3bEhWV2hMWDN1UjZ1bkVieUYyREtkcnR2eFBCb3dIcFFPRUdMZStsYlBBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=62509929931.
+
+**Repositorio de la API simulada:** https://github.com/VocaFyTeam/NextPath-Mockups-Api.git
+
+**Repositorio de la webApp en Github:** 
+**TB1 Expo:**  
+
+**URL de la API simulada desplegada:** https://nextpath-mockups-api.onrender.com/
