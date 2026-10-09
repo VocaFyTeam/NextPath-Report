@@ -5022,7 +5022,7 @@ Datos semilla de la API simulada: 9 usuarios (6 estudiantes y 3 psicólogos), 5 
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-En el Sprint 2 se desplegaron dos componentes: la API simulada en Render y la Web Application en Vercel.
+En el Sprint 2 se desplegaron dos componentes: la API simulada en Render y la Web Application
 
 **Actividades de despliegue realizadas**
 
