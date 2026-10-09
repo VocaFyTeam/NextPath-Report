@@ -778,6 +778,22 @@ Datos del entrevistado:
 **Resumen descriptivo:**
 La entrevista con Joaquin, un estudiante, muestra que investiga por su cuenta de forma básica ,ha dado algunos test por parte de su colegio, pero aun se siente inseguro con respecto a que carreras escoger y a su futuro. El considera que sería útil contar con una plataforma con IA, que le ayude a ampliar sus conocimientos sobre carreras que le podrían interesar.
 
+**Entrevista 3:**
+**Entrevistador(a):** > Alisee Muriel Torres Juárez
+
+Datos del entrevistado:
+* **Nombre:** Michell
+* **Apellido:** Mendoza
+* **Edad:** 17 años
+* **Distrito:** Surco
+* **Timing:** 02:47 min
+<p align="center"><img alt="entrevista-michell" src="images/entrevista-michell.png" /></p>
+<p align="center"><i>Evidencia de entrevista: Michell </i></p>
+
+
+**Resumen descriptivo:**
+La entrevista con Michell, una estudiante de 16 años, muestra que se siente confundida y presionada por elegir carrera este año. Para ella, los test tradicionales son aburridos y lentos, por lo que prefiere herramientas accesibles con IA que hagan el proceso más dinámico, sin dejar de lado el acompañamiento de un psicólogo para tomar una decisión segura.**Enlace del video:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202624323_upc_edu_pe/IQDIZLef5vzNSZHlPv_rUUSmARu3CMTMnInOV-NpN90MbSk?e=ag9J4P&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 **Segmento 2: PSICÓLOGOS**
 <br>
 
@@ -799,7 +815,7 @@ La experta Silvia sostiene que los test vocacionales tradicionales presentan lim
 
 Frente a este escenario, Silvia propone la incorporación de la Inteligencia Artificial (IA) y los medios digitales como un soporte técnico valioso dentro de la orientación. Sin embargo, enfatiza que estas soluciones tecnológicas deben funcionar como herramientas complementarias y nunca como un reemplazo de la labor profesional del psicólogo, debiendo integrarse siempre bajo el marco del criterio, la contención y el acompañamiento clínico.
 
-**Entrevista 1:**
+**Entrevista 2:**
 **Entrevistador(a):** >Fernando Sebastián Pérez Bellido
 
 Datos del entrevistado:
@@ -818,6 +834,24 @@ El psicólogo Víctor Paz señala que los test vocacionales convencionales prese
 Ante este panorama, considera que una aplicación interactiva y las herramientas digitales son apoyos bienvenidos tanto para el estudiante como para el profesional. No obstante, subraya que estas plataformas deben funcionar como un complemento y no como un reemplazo, siendo indispensable la asesoría personalizada del psicólogo para contrastar las respuestas cuantitativas con el testimonio y el sentir genuino de la persona.
 
 **Enlace del video:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411261_upc_edu_pe/IQC7ixQ3sUbPSo3fHhyXFmKiAdRbTO0KwG08G-QHDK8I3oY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=KupKxd)
+
+**Entrevista 3:**
+**Entrevistador(a):** > Alisee Muriel Torres Juárez
+
+Datos del entrevistado:
+* **Nombre:** Fabián
+* **Apellido:** García
+* **Edad:** 26 años
+* **Distrito:** México
+* **Timing:** 03:58 min
+<p align="center"><img alt="Entrevista-Fabian" src="images/entrevista-fabian.png" /></p>
+<p align="center"><i>Evidencia de entrevista: Fabián </i></p>
+
+
+**Resumen descriptivo:**
+El psicólogo Fabián García sostiene que los test vocacionales tradicionales sufren de obsolescencia operativa: al ser estáticos, extenuantes y lentos de procesar, generan aburrimiento y frustración en los estudiantes, lo que puede distorsionar los diagnósticos. Ante esto, García plantea que la integración de inteligencia artificial no reemplaza la empatía ni la contención humana del profesional, sino que optimiza drásticamente los tiempos de evaluación. De este modo, la tecnología sirve como un catalizador para cruzar de manera precisa los rasgos del estudiante (intereses, habilidades y personalidad) con la realidad del mercado laboral actual, reduciendo el desajuste de expectativas y la deserción académica.
+**Enlace del video:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202624323_upc_edu_pe/IQBYqR9CrsOLRL341u2ftu3sAdW6HXoNcptQgn1v_eQkf-c?e=dDqjIb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 ### 2.2.3. Análisis de entrevistas
 ### Análisis General de Entrevistas a Estudiantes
 Los estudiantes presentan un panorama de desorientación e inseguridad marcado por la falta de un acompañamiento vocacional efectivo, pues consideran que la orientación brindada por sus colegios y los test convencionales son deficientes, ambiguos o insuficientes para tomar una decisión clara. Esta carencia los expone a una sobrecarga de información confusa y poco confiable en internet, lo que genera estados emocionales de ansiedad y presión frente a su futuro profesional. Ante esta problemática, surge la necesidad de contar con herramientas tecnológicas avanzadas, como NetPath, que entregue respuestas sobre carreras concretas y faciliten un proceso de exploración más estructurado, accesible y adaptado a sus intereses reales. 
@@ -5042,6 +5076,7 @@ En el Sprint 2 se desplegaron dos componentes: la API simulada en Render y la We
   <img src="images/despliegue.png" width="700" alt="Web Application "/>
   <br/><i>Web Application desplegada </i>
 </p>
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 **Dinámica de trabajo**
