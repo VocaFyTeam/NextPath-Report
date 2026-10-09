@@ -189,7 +189,9 @@ del ABET – EAC - Student Outcome 3.
             <p>Durante el proyecto, trabajé en equipo para poder contribuir de forma significativa al proceso entero de Big Picture Event Storming, mapeando los procesos del negocio con detalle. También hice grandes contribuciones en el Design Level Event Storming. </p>
             <br><br>
             <b></b><br>
-            <u> Joaquin Cruzalegui Herrera AV1: Durante el proyecto NextPath asumí un liderazgo técnico compartido, coordinando con mis compañeros las principales decisiones de diseño del sistema. Guié al equipo en el modelado de los diagramas C4 (Contexto, Contenedores y Componentes) tomando como base nuestro EventStorming. </u><br>
+            <u> Joaquin Cruzalegui Herrera AV1: Durante el proyecto NextPath asumí un liderazgo técnico compartido, coordinando con mis compañeros las principales decisiones de diseño del sistema. Guié al equipo en el modelado de los diagramas C4 (Contexto, Contenedores y Componentes) tomando como base nuestro EventStorming. </u>
+		  	<br>
+		  	<u> Joaquin Cruzalegui Herrera AV2: Durante este avance de NextPath ejercí un liderazgo técnico y metodológico compartido: redacté el Sprint Planning y elaboré la matriz Aspect Leaders and Collaborators (LACX) para distribuir los roles del equipo, además de liderar en el código frontend la implementación modular y estructurada de los módulos de IAM y Counseling. </u><br>
             <br><br>
             <b></b><br>
             <u> Fernando Sebastian Perez Bellido AV1: Realice en conjunto la landing page, diagrama de componentes y parte del capitulo 5</u><br>
