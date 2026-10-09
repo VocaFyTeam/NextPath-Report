@@ -189,8 +189,15 @@ del ABET – EAC - Student Outcome 3.
             <p>Durante el proyecto, trabajé en equipo para poder contribuir de forma significativa al proceso entero de Big Picture Event Storming, mapeando los procesos del negocio con detalle. También hice grandes contribuciones en el Design Level Event Storming. </p>
             <br><br>
             <b></b><br>
-            <u> Joaquin Cruzalegui Herrera AV1: Durante el proyecto NextPath asumí un liderazgo técnico compartido, coordinando con mis compañeros las principales decisiones de diseño del sistema. Guié al equipo en el modelado de los diagramas C4 (Contexto, Contenedores y Componentes) tomando como base nuestro EventStorming. </u><br>
-            <br><br>
+            <u> Joaquin Cruzalegui Herrera AV1: Durante el proyecto NextPath asumí un liderazgo técnico compartido, coordinando con mis compañeros las principales decisiones de diseño del sistema. Guié al equipo en el modelado de los diagramas C4 (Contexto, Contenedores y Componentes) tomando como base nuestro EventStorming. </u>
+		  	<br><br>
+		  	<u> Joaquin Cruzalegui Herrera Tb1: Durante este avance de NextPath ejercí un liderazgo técnico y metodológico compartido: redacté el Sprint Planning y elaboré la matriz Aspect Leaders and Collaborators (LACX) para distribuir los roles del equipo, además de liderar en el código frontend la implementación modular y estructurada de los módulos de IAM y Counseling. </u>
+		  	<br>
+            <br><br><b></b><br>
+			<u>Tb1: Jesus Angel Yvan Miranda Cordova</u>
+			<br>
+			<p>Asumí el liderazgo del módulo de exploración y simulación de carreras en el frontend de la Web Application, responsabilizándome del explorador con filtros y porcentaje de compatibilidad, la ficha detallada con favoritos, la tabla comparativa de hasta tres carreras y el simulador de futuro profesional. Tomé las decisiones de diseño de estas vistas en coordinación con el resto del equipo para mantener la coherencia con los módulos de test, comunidad y psicólogo.</p>
+<br><br>
             <b></b><br>
             <u> Fernando Sebastian Perez Bellido AV1: Realice en conjunto la landing page, diagrama de componentes y parte del capitulo 5</u><br>
             <br><br>
@@ -214,8 +221,14 @@ del ABET – EAC - Student Outcome 3.
             <p>Logré crear y contribuir a un buen ambiente colaborativo cumpliendo con mis metas y objetivos a tiempo, como la realización de los dos tipos de event storming, las tags y el lenguaje ubiquo. </p>
             <br><br>
             <b></b><br>
-            <u>Joaquin Cruzalegui AV1: Promoví un ambiente de trabajo abierto durante la planificación del Sprint 1, escuchando las propuestas de todos para estimar los Story Points y repartir las tareas de forma justa en la matriz LACX. Participé directamente en organizar las tareas del Sprint Backlog para construir la Landing Page y documentar la arquitectura, fijando metas y fechas claras de entrega. Gracias a la coordinación constante y al apoyo mutuo al revisar el código y los diagramas, logramos realizar grandes avances y desplegar la Landing Page</u><br>
+            <u>Joaquin Cruzalegui AV1: Promoví un ambiente de trabajo abierto durante la planificación del Sprint 1, escuchando las propuestas de todos para estimar los Story Points y repartir las tareas de forma justa en la matriz LACX. Participé directamente en organizar las tareas del Sprint Backlog para construir la Landing Page y documentar la arquitectura, fijando metas y fechas claras de entrega. Gracias a la coordinación constante y al apoyo mutuo al revisar el código y los diagramas, logramos realizar grandes avances y desplegar la Landing Page</u>
+		  	<br><br>
+		  	<u> Joaquin Cruzalegui Herrera Tb1: Fomenté un entorno colaborativo y ordenado durante la planificación del nuevo sprint, estructurando el Sprint Planning y definiendo metas claras mediante la matriz LACX para repartir los módulos frontend de forma equitativa. Planifiqué y ejecuté las tareas correspondientes a la arquitectura e integración de los módulos de IAM y Counseling, coordinando con el equipo el versionado de ramas y commits en GitHub para asegurar el cumplimiento de los objetivos y la estabilidad de la plataforma web. </u>
             <br><br>
+		  <b></b><br>
+<u>Tb1: Jesus Angel Yvan Miranda Cordova</u><br>
+<p>Planifiqué y ejecuté mis tareas del Sprint 2 (T3.1 y T3.2), cumpliendo las estimaciones definidas en el Sprint Backlog y las metas del sprint. Trabajé con el flujo de ramas y commits del equipo en GitHub y coordiné con mis compañeros el consumo de los recursos de carreras y favoritos de la API simulada, para integrar mi módulo sin afectar los demás.</p>
+<br><br>
             <b></b><br>
             <u>Fernando Sebastian Perez Bellido AV1: colaboré en la realización de los diagramas de C4</u><br>
             <br><br>
@@ -4959,10 +4972,119 @@ Se han seleccionado algunos commits para evitar una larga extensión de la tabla
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 
+En el Sprint 2 la Web Application consume una API REST simulada con **json-server**, desplegada en Render. Los datos salen de un archivo `db.json` con 16 colecciones del dominio, y cada una expone las operaciones REST estándar (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`). El servidor atiende cada recurso directamente desde la URL base (por ejemplo, `/careers`), y el frontend accede a ellos desde la capa `infrastructure` de cada Bounded Context. Al reemplazar la URL base por la del RESTful API real (TS01–TS15), ningún componente de presentación cambia.
+
+Datos semilla de la API simulada: 9 usuarios (6 estudiantes y 3 psicólogos), 5 tests vocacionales con 26 preguntas, 12 resultados de test, 6 carreras, 6 sesiones de orientación (4 individuales y 2 grupales), 6 conversaciones con 21 mensajes, 3 comunidades y 3 recursos.
+
+| **Endpoint** | **Acción (HTTP)** | **Parámetros** | **Descripción del Response** | **User Story** |
+| :--- | :---: | :--- | :--- | :---: |
+| `/users?email={email}&password={password}` | GET | `email`, `password` | `200 OK` con la lista de usuarios que coinciden; una lista vacía equivale a credenciales incorrectas. Incluye `role` (`student` o `psychologist`). | TS01 |
+| `/users` | POST | `firstName`, `lastName`, `email`, `password`, `role`, `avatarUrl` | `201 Created` con el usuario registrado. | TS01 |
+| `/users/{id}` | GET / PUT | `id` y datos del usuario | `200 OK` con el perfil del usuario o actualizado. | TS01 |
+| `/vocational-tests` | GET | `_sort=order` | `200 OK` con el catálogo de 5 tests: NextPath (IA), Holland, Aptitudes Diferenciales, 16Personalities y Kuder. Cada uno trae `type` (`open` o `choice`), `durationMinutes`, `instructions` y `featured`. | US01 |
+| `/test-questions?testId={testId}&_sort=order` | GET | `testId` | `200 OK` con las preguntas del test; las de tipo `choice` incluyen `options` con su `area` RIASEC (artistic, social, investigative, enterprising, conventional). | US01 |
+| `/test-results?studentId={studentId}` | GET | `studentId`, `testId` (opcional) | `200 OK` con el historial de resultados: `scores` por área, `careerMatches` con su `compatibility`, `date`, `version` y `status`. | US02, US03 |
+| `/test-results` | POST | `studentId`, `testId`, `date`, `version`, `status`, `summary`, `scores`, `careerMatches`, `answers` | `201 Created` con el resultado registrado. | US01, US26 |
+| `/test-results/{id}` | PATCH | `status: completed`, `scores`, `careerMatches` | `200 OK` con el resultado de seguimiento actualizado (`pending` a `completed`). | US03 |
+| `/careers?area={area}&modality={modality}&durationYears={n}&q={texto}` | GET | `area`, `modality`, `durationYears`, `q` | `200 OK` con las carreras que cumplen los filtros; una lista vacía si ninguna coincide. | US15 |
+| `/careers/{id}` | GET | `id` | `200 OK` con la ficha completa: `universities`, `fieldOfWork`, `skills`, `salaryRange`, `employabilityRate`, `demandLevel`, `projection` por etapa y `recommendations`. | US16, US20 |
+| `/careers?id={id1}&id={id2}&id={id3}` | GET | Hasta 3 `id` | `200 OK` con las carreras a comparar lado a lado. | US18 |
+| `/favorites?studentId={studentId}` | GET | `studentId` | `200 OK` con las carreras favoritas del estudiante (`careerId`). | US19 |
+| `/favorites` | POST | `studentId`, `careerId` | `201 Created` con la relación estudiante-carrera. | US19 |
+| `/favorites/{id}` | DELETE | `id` | `200 OK`; la carrera se quita de favoritos. | US19 |
+| `/tasks?studentId={studentId}&_sort=order` | GET / POST | `studentId`, `title`, `status`, `dueDate`, `order` | `200 OK` con las tareas del plan vocacional o `201 Created` con la tarea creada. | US21, US22 |
+| `/tasks/{id}` | PATCH | `status: completed` | `200 OK` con la tarea completada, que alimenta el avance y el historial de logros. | US21, US23, US24 |
+| `/counseling-sessions?psychologistId={id}&studentId={id}&status={status}` | GET | `psychologistId`, `studentId`, `groupId`, `status` | `200 OK` con las sesiones: `type` (`INDIVIDUAL` o `GROUP`), `date`, `time`, `notes`, `meetLink` y `studentIds`. | US05, US13 |
+| `/counseling-sessions` | POST | `title`, `type`, `psychologistId`, `studentIds`, `groupId`, `date`, `time`, `notes`, `meetLink`, `status` | `201 Created` con la sesión programada (`SCHEDULED`). | US05, US28 |
+| `/student-groups?psychologistId={id}` | GET | `psychologistId` | `200 OK` con los grupos del psicólogo (Grupo A y Grupo B). | US05, US28 |
+| `/student-profiles?psychologistId={id}&groupId={id}` | GET | `psychologistId`, `groupId` | `200 OK` con los expedientes: `flags` de riesgo (`inactivity`, `lowParticipation`, `inconsistent`), `observation` y `lastActivityDate`. | US04, US38, US39 |
+| `/student-profiles/{id}` | PATCH | `observation`, `flags` | `200 OK` con el expediente actualizado con las observaciones del psicólogo. | US40 |
+| `/conversations?studentId={id}` o `?psychologistId={id}` | GET | `studentId`, `psychologistId` | `200 OK` con las conversaciones 1 a 1 entre psicólogo y estudiante. | US25, US27 |
+| `/messages?conversationId={id}&_sort=sentAt` | GET | `conversationId` | `200 OK` con los mensajes en orden cronológico: `senderRole`, `text`, `sentAt`, `read` y `attachment` opcional. | US25, US27 |
+| `/messages` | POST | `conversationId`, `senderRole`, `text`, `sentAt`, `read`, `attachment` | `201 Created` con el mensaje enviado; puede adjuntar un recurso (`resourceId`, `title`, `fileUrl`). | US06, US25, US27 |
+| `/messages/{id}` | PATCH | `read: true` | `200 OK` con el mensaje marcado como leído. | US27, US29 |
+| `/resources?category={category}&_sort=updatedAt&_order=desc` | GET | `category` | `200 OK` con la biblioteca de recursos (`Guía`, `Lectura recomendada`) ordenada por actualización. | US09 |
+| `/resources` | POST | `title`, `category`, `description`, `coverUrl`, `fileUrl`, `psychologistId` | `201 Created` con el recurso registrado. | US09, US11 |
+| `/communities` | GET | — | `200 OK` con las comunidades y sus `memberIds`. | US33 |
+| `/communities/{id}` | PATCH | `memberIds` | `200 OK` con la comunidad a la que el estudiante se unió. | US33 |
+| `/threads?communityId={id}&_sort=createdAt&_order=desc` | GET / POST | `communityId`, `authorName`, `content`, `commentsCount`, `createdAt` | `200 OK` con las publicaciones o `201 Created` con la nueva. | US34 |
+| `/comments?threadId={id}` | GET / POST | `threadId`, `authorName`, `content`, `createdAt` | `200 OK` con los comentarios del hilo o `201 Created` con el nuevo comentario. | US34 |
+
+
+**Alcance de la API simulada.** 
+ 
+* **Repositorio de la API simulada:** https://github.com/VocaFyTeam/NextPath-Mockups-Api.git
+* **URL de la API simulada desplegada:** https://nextpath-mockups-api.onrender.com/
+<p align="center">
+  <img src="images/fake-api.png" width="700" alt="API simulada en Render"/>
+  <br/><i>API simulada desplegada en Render</i>
+</p>
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
+En el Sprint 2 se desplegaron dos componentes: la API simulada en Render y la Web Application
 
+**Actividades de despliegue realizadas**
+
+1. Se publicó la API simulada en Render como servicio Node.js (`server.js` con json-server y el archivo `db.json`), con CORS habilitado. El servidor atiende cada colección directamente desde la URL base (por ejemplo, `/careers`) 
+2. Se configuraron los entornos de la Web Application ([`environment.ts` y `environment.prod.ts`]) para que la URL base apunte a la API desplegada.
+3. Se configuró en git pages el proyecto `NextPath`, conectado a la rama `main` del repositorio `NextPath-Webpage`.
+4. Se verificaron en producción el inicio de sesión por rol (estudiante y psicólogo), la recarga de rutas internas y las redirecciones de los guards según el rol del usuario.
+
+* **URL de la API simulada:** https://nextpath-mockups-api.onrender.com/
+* **URL de la Web Application desplegada:** https://vocafyteam.github.io/NextPath-WebPage/
+<p align="center">
+  <img src="images/despliegue-render.png" width="700" alt="API simulada en Render"/>
+  <br/><i>API simulada desplegada en Render</i>
+</p>
+
+<p align="center">
+  <img src="images/despliegue.png" width="700" alt="Web Application "/>
+  <br/><i>Web Application desplegada </i>
+</p>
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+
+**Dinámica de trabajo**
+  En total se integraron 7 Pull Requests en `develop` . Aplicando la mejora de la retrospectiva del Sprint 1, cada rama corresponde a una capa o tarea y cada commit indica el contexto en su mensaje (`
+feat(community): add community entity`, `feat(tasks): add student task entity`, ). Las tareas se gestionaron en trello.
+
+**Aporte por integrante**
+
+| **Integrante** | **GitHub** | **Aporte principal en el Sprint 2** | **Horas asignadas** | **Commits (NextPath-Webpage / report)** | **Pull Requests integrados (NextPath-Webpage  / report)** |
+| :--- | :--- | :--- | :---: | :---: | :---: |
+| Cruzalegui Herrera, Joaquin | JoaquinCruzalegui | Autenticación y acceso por rol: login, registro y recuperación de contraseña (TS01); Centro de Mensajería entre psicólogo y estudiante (US06, US25, US27) | 8.0 | 8 / 5  | 1 / 1 |
+| Ravello Cárdenas, Luciana Angelina | Lucyrcar-ID | Test vocacional: catálogo de tests y cuestionario dinámico (US01); resultados RIASEC, feedback de IA y tests de seguimiento (US02, US03, US26) | 8.0 | 14 / 10 | 1  / 2 |
+| Miranda Cordova, Jesus Angel Yvan | Jesus-Miranda-678 | Exploración de carreras: explorador con filtros y compatibilidad, ficha detallada, favoritos, comparador y simulador de futuro profesional (US15, US16, US17, US18, US19, US20) | 8.5 | 34 / 10 | 2 / 3 |
+| Torres Juárez, Alisee Muriel | lLisee1  | Dashboard de progreso (US21), plan vocacional e historial de logros (US22, US24) y muro de comunidad (US33, US34, US35) | 6.0 | 12 / 3 | 1 / 1 |
+|  Pérez Bellido, Fernando Sebastián | FernBellido22 | Módulo del psicólogo: tablero de monitoreo y ficha diagnóstica (US04, US12, US14, US38, US39, US40, US41); agenda de sesiones y panel analítico grupal (US05, US08, US10, US13, US28, US30, US32) | 8.0 | 25 / 7 | 3 / 1 |
+
+
+**Lecciones para el Sprint 3**
+
+1. **Revisión cruzada:** cada Pull Request lo aprobará un integrante distinto de su autor antes del merge. [En el Sprint 2 algunos autores integraron sus propios PR / Describir cómo se integraron los PR en el Sprint 2.]
+2. **Nada directo en `develop`:** todo cambio entrará por Pull Request, y `develop` quedará protegida con una regla de rama. [En este Sprint algunos cambios se subieron directamente, por ejemplo los de IAM y Counseling / Ajustar según lo ocurrido.] Esto refuerza la lección del Sprint 0 sobre la gestión de ramas bajo GitFlow.
+3. **Compilar antes de integrar:** cada PR debe pasar `npm run build` y las pruebas automatizadas ([`npm test` / `ng test`]). Se agregará una verificación automática con GitHub Actions para que un error de compilación no llegue a `develop`.
+4. **Integración en el mismo Sprint:** registrar las rutas y la opción del menú en el PR de routing de cada módulo (test vocacional, carreras, comunidad, psicólogo, mensajería), para que toda pantalla integrada sea accesible desde la navegación. Esto evita pantallas terminadas pero inalcanzables, y coordina los estilos compartidos entre módulos.
+
+**Evidencia:** contribuciones por integrante en `[NextPath-Webpage]`.
+
+<p align="center">
+  <img src="images/contributors-webapp.png" width="700" alt="Contribuciones por integrante en la Web App"/>
+  <br/><i>Contribuciones por integrante en [NextPath-Webpage] (GitHub Insights)</i>
+</p>
+**Evidencia: Pull Requests integrados en   `NextPath-Webpage`**
+ 
+<p align="center">
+  <img src="images/s2-pull-requests-webapp.png" width="700" alt="Pull Requests "/>
+  <br/><i>Pull Requests #1 a #8 integrados en develop</i>
+</p>
+**Evidencia:** contribuciones por integrante en `NextPath-Report` 
+ 
+<p align="center">
+  <img src="images/contributors-report.png" width="700" alt="Grafo de ramas de"/>
+  <br/><i>Insights → >Contribuciones por integrante en [NextPath-Report] (GitHub Insights)</i>
+</p>
+ 
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
@@ -4998,13 +5120,14 @@ Se han seleccionado algunos commits para evitar una larga extensión de la tabla
 
 **URL de landing page :** https://vocafyteam.github.io/NextPath-LandingPage/
 
-**URL de webapp:** 
+**URL de webapp:** https://vocafyteam.github.io/NextPath-WebPage/
 
 **Link del EventStorming (Miro):** https://miro.com/welcomeonboard/MEljTU1nWW9FSEhGU2RvcnRPQWJ0VFVxOGlzME9QR2M2a3kxdFRGVWUvUjMzU0RGN21qM3cyWjExV1krQSsvalVoblhxZlplK3BSUU0xV29mTGRtbUY3bEhWV2hMWDN1UjZ1bkVieUYyREtkcnR2eFBCb3dIcFFPRUdMZStsYlBBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=62509929931.
 
 **Repositorio de la API simulada:** https://github.com/VocaFyTeam/NextPath-Mockups-Api.git
 
-**Repositorio de la webApp en Github:** 
+**Repositorio de la webApp en Github:** https://github.com/VocaFyTeam/NextPath-WebPage.git
+
 **TB1 Expo:**  
 
 **URL de la API simulada desplegada:** https://nextpath-mockups-api.onrender.com/
