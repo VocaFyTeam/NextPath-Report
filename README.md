@@ -4551,6 +4551,14 @@ https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
+ 
+ 
+* **Repositorio de la API simulada:** https://github.com/VocaFyTeam/NextPath-Mockups-Api.git
+* **URL de la API simulada desplegada:** https://nextpath-mockups-api.onrender.com/
+<p align="center">
+  <img src="assets/img/chapter-05/fake-api.png" width="700" alt="API simulada en Render"/>
+  <br/><i>API simulada desplegada en Render</i>
+</p>
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
@@ -4597,7 +4605,8 @@ https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2
 
 **Repositorio de la API simulada:** https://github.com/VocaFyTeam/NextPath-Mockups-Api.git
 
-**Repositorio de la webApp en Github:** 
+**Repositorio de la webApp en Github:** https://github.com/VocaFyTeam/NextPath-WebPage.git
+
 **TB1 Expo:**  
 
 **URL de la API simulada desplegada:** https://nextpath-mockups-api.onrender.com/
