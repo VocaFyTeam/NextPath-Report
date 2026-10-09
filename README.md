@@ -200,6 +200,7 @@ del ABET – EAC - Student Outcome 3.
 <br><br>
             <b></b><br>
             <u> Fernando Sebastian Perez Bellido AV1: Realice en conjunto la landing page, diagrama de componentes y parte del capitulo 5</u><br>
+		  	<u> Fernando Sebastian Perez Bellido TB1: Asumí el liderazgo para la parte de programación de la web application logrando integrar cada uno de los avances de mis compañeros y dando solución a los errores finales antes del despliegue total.</u><br>
             <br><br>
 		  <b></b><br>
 		  <u>Tb1: Luciana Angielina Ravello Cárdenas</u>
@@ -209,6 +210,7 @@ del ABET – EAC - Student Outcome 3.
         </td>
         <td>
             <u>AV1: Se desarrolló hasta el capitulo 5 en conjunto con la landing page y su despliegue</u><br>
+			<u>TB1: Se desarrolló hasta el capitulo 5 Sprint 2 en conjunto con la Web Application y su despliegue</u><br>
         </td>
     </tr>
       <tr>
@@ -242,6 +244,7 @@ del ABET – EAC - Student Outcome 3.
 
  <b></b><br>
             <u>Fernando Sebastian Perez Bellido AV1: colaboré en la realización de los diagramas de C4</u><br>
+			<u>Fernando Sebastian Perez BellidoTB1: Planifiqué y asumí el liderezgo de todo lo que viene a ser la codificación de las web application donde pude lograr una buena integración luego de los commits de mis compañeros y a asu vez dar soluciòn antes del debido despliegue a traves de ensayo y error.</u><br>
             <br><br>
         </td>
         <td>
