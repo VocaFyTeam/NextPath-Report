@@ -4546,6 +4546,413 @@ https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
+Durante el Sprint 2, el equipo trabajó colaborativamente en el repositorio NextPath-WebPage, aplicando GitFlow y utilizando la convención de Conventional Commits para registrar y organizar los cambios realizados durante la implementación de la primera versión de la Web Application.
+
+A continuación, se muestra en detalle los commits realizados por cada miembro del equipo y organizados en una tabla. 
+
+<table>
+  <thead>
+    <tr>
+      <th width="20%">Repository</th>
+      <th width="10%">Branch</th>
+      <th width="10%">Commit Id</th>
+      <th width="30%">Commit Message</th>
+      <th width="15%">Commit Message Body</th>
+      <th width="15%">Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>b1c477b</td>
+      <td>Add README.md</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+   <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>56f4c4b</td>
+      <td>feat: add :carreer-entities</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>c0f0168</td>
+      <td>feat: add :carreer-assembler</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>ead2ab6</td>
+      <td>feat: add :carreer-api</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>009dbbd</td>
+      <td>feat: add :carreer-card</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>4ecdb777</td>
+      <td>feat: add :carreer-comparison</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>f71ef7d</td>
+      <td>feat: add :carreer-details</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>72675c9</td>
+      <td>feat: add :carreer-details-list</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>33eb6f8</td>
+      <td>feat: add :carreer-favourites</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>4ba92e1</td>
+      <td>feat: add :carreer-exploration-routes</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>ae5e229</td>
+      <td>feat(tasks): add student task entity</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>c1cc91c</td>
+      <td>feat(tasks): add tasks store</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>0197853</td>
+      <td>feat: add domain/model iam</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>da5375d</td>
+      <td>feat(tasks): add task board view</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>7faafa4</td>
+      <td>feat(tasks): add tasks api</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>8aaca92</td>
+      <td>feat: add: vocational test files vue</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>947ec76</td>
+      <td>feat: add: vocational test files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>4a2ade7</td>
+      <td>feat: add: vocational results</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>83dfe7a</td>
+      <td>feat: add: vocational assessments</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>ca30313</td>
+      <td>feat: add: test files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>0617ebf</td>
+      <td>feat: add: test question files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>cbd9e2e</td>
+      <td>feat: add: assessments files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>8b7814c</td>
+      <td>feat: add: affinity files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>59ec318</td>
+      <td>feat: add files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>8a63803</td>
+      <td>feat(tasks): add student task assembler</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>65eaa0a</td>
+      <td>feat: add application counseling</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>e89b1d9</td>
+      <td>feat: add infrastructure counseling</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>d37c0f1</td>
+      <td>feat(community): add community forum and community routes</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>fe3623a</td>
+      <td>feat: add domain/model counseling</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>331200f</td>
+      <td>feat(community): add community store</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>06754b5</td>
+      <td>feat(community): add assemblers and community api</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>7514898</td>
+      <td>feat: add presentation iam</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>f9c31d0</td>
+      <td>feat(community): add thread entity</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>026fe1c</td>
+      <td>feat: add presentation iam</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>70fa7fc</td>
+      <td>feat(community): add community entity</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>52d91ee</td>
+      <td>feat(community): add structure and comment entity</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>826fab0</td>
+      <td>feat: add infrastructure iam</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>b30b677</td>
+      <td>feat(tasks): add task routes</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>945f001</td>
+      <td>Delete src/carrer-exploration directory</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>06c1b3a</td>
+      <td>Delete src/carrer-exploration directory</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>43d4f7e</td>
+      <td>Merge pull request #3 from VocaFyTeam/feature/iam-counseling</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>aeaac82</td>
+      <td>feat: add presentation counseling</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>212683b</td>
+  <td>feat: add: stylecss archive</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+<tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>3f69b95</td>
+  <td>feat: add: route js archive</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+<tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>30c6c0b</td>
+  <td>feat: add: pinia js archive</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+<tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>8212dbb</td>
+  <td>feat: add: main js archive</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+<tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>2524f40</td>
+  <td>feat: add: i18n archive</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+<tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>d65e13c</td>
+  <td>feat: add: app vue</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+  </tbody>
+</table>
+
+<br>
+Se han seleccionado algunos commits para evitar una larga extensión de la tabla presentada.
+
+<br><br>
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
