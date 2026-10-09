@@ -63,21 +63,21 @@ Proyecto:
 
   <tr>
     <td><b>Primera Entrega (AV1)</b></td>
-    <td>XX/09/2026</td>
+    <td>18/09/2026</td>
     <td>
-       <br>
+     Fernando Sebastian Pérez Bellido
       <br>
       <p></p>
-       <br>
+     Joaquin Cruzalegui Herrera
       <br>
       <p></p>
-     <br>
+      Miranda Cordova, Jesus Angel Yvan
       <br>
       <p></p>
-       <br>
+      Luciana Angelina Ravello Cárdenas
       <br>
       <p></p>
-       <br>
+      Alisee Muriel Torres Juárez
     </td>
     <td>
       Capítulo I: 
@@ -97,14 +97,60 @@ Proyecto:
     <br>
     </td>
   </tr>
+  <tr>
+    <td><b>Segunda Entrega (TB1)</b></td>
+    <td>09/10/2026</td>
+    <td>
+     Fernando Sebastian Pérez Bellido
+      <br>
+      <p></p>
+     Joaquin Cruzalegui Herrera
+      <br>
+      <p></p>
+      Miranda Cordova, Jesus Angel Yvan
+      <br>
+      <p></p>
+      Luciana Angelina Ravello Cárdenas
+      <br>
+      <p></p>
+      Alisee Muriel Torres Juárez
+    </td>
+    <td>
+      Corrección del reporte AV1
+    <br> 
+      Primera versión desplegada de Frontend Web Applications
+    <br>
+      Capítulo V:
+      Product Implementation, Validation & Deployment (sprint 2)
+    <br>
+    </td>
+  </tr>
   </table>
 
  ---
  # Project Report Collaboration Insights
 
-
+URL del repositorio (report): https://github.com/VocaFyTeam/NextPath-Report.git<br>
 
 **Primera Entrega (AV1)**
+
+El equipo elaboró el Project Report mediante un trabajo coordinado, distribuyendo las distintas secciones entre los integrantes. Cada participante aportó activamente en la redacción de contenidos, el diseño y ajuste de diagramas, la recopilación de evidencias, el control de formato y la revisión integral del documento previo a la entrega.
+
+En paralelo, se avanzó con el diseño y construcción de la landing page de StockIA. Dicha labor quedó registrada en el informe y respaldada en su respectivo repositorio, incorporando pruebas de su implementación, despliegue técnico y alineación con la propuesta de valor de la solución.
+
+Para la gestión colaborativa se empleó GitHub, plataforma que facilitó el seguimiento de modificaciones mediante commits, la estructuración de las tareas y el respaldo cronológico del avance, tanto del reporte como de la página web. De igual forma, las métricas de colaboración y el historial de versiones sirven como constancia de la participación de cada integrante.
+
+
+**Trabajo Parcial (TB1)**
+
+El equipo realizó la corrección del reporte AV1, afinando la redacción, ajustando el formato y reforzando la coherencia entre las secciones para garantizar un documento más sólido y alineado con los objetivos del curso. Esta nueva versión quedó registrada en el repositorio y constituye la base documental del avance del proyecto.
+
+
+El progreso quedó documentado en el Capítulo V: Product Implementation, Validation & Deployment (sprint 2), donde se detallan las pruebas realizadas, la validación de funcionalidades y el proceso de despliegue técnico. Dicho capítulo evidencia la integración entre la propuesta de valor y su materialización en artefactos funcionales.
+
+Para la gestión colaborativa se continuó utilizando GitHub, que permitió coordinar commits, organizar tareas y mantener un historial cronológico del avance. Las métricas de colaboración y el registro de versiones respaldan la participación activa de cada integrante, asegurando transparencia y trazabilidad en el desarrollo del proyecto
+
+
 
 ---
 # Student Outcome
@@ -143,14 +189,28 @@ del ABET – EAC - Student Outcome 3.
             <p>Durante el proyecto, trabajé en equipo para poder contribuir de forma significativa al proceso entero de Big Picture Event Storming, mapeando los procesos del negocio con detalle. También hice grandes contribuciones en el Design Level Event Storming. </p>
             <br><br>
             <b></b><br>
-            <u> Joaquin Cruzalegui Herrera AV1: Durante el proyecto NextPath asumí un liderazgo técnico compartido, coordinando con mis compañeros las principales decisiones de diseño del sistema. Guié al equipo en el modelado de los diagramas C4 (Contexto, Contenedores y Componentes) tomando como base nuestro EventStorming. </u><br>
-            <br><br>
+            <u> Joaquin Cruzalegui Herrera AV1: Durante el proyecto NextPath asumí un liderazgo técnico compartido, coordinando con mis compañeros las principales decisiones de diseño del sistema. Guié al equipo en el modelado de los diagramas C4 (Contexto, Contenedores y Componentes) tomando como base nuestro EventStorming. </u>
+		  	<br><br>
+		  	<u> Joaquin Cruzalegui Herrera Tb1: Durante este avance de NextPath ejercí un liderazgo técnico y metodológico compartido: redacté el Sprint Planning y elaboré la matriz Aspect Leaders and Collaborators (LACX) para distribuir los roles del equipo, además de liderar en el código frontend la implementación modular y estructurada de los módulos de IAM y Counseling. </u>
+		  	<br>
+            <br><br><b></b><br>
+			<u>Tb1: Jesus Angel Yvan Miranda Cordova</u>
+			<br>
+			<p>Asumí el liderazgo del módulo de exploración y simulación de carreras en el frontend de la Web Application, responsabilizándome del explorador con filtros y porcentaje de compatibilidad, la ficha detallada con favoritos, la tabla comparativa de hasta tres carreras y el simulador de futuro profesional. Tomé las decisiones de diseño de estas vistas en coordinación con el resto del equipo para mantener la coherencia con los módulos de test, comunidad y psicólogo.</p>
+<br><br>
             <b></b><br>
             <u> Fernando Sebastian Perez Bellido AV1: Realice en conjunto la landing page, diagrama de componentes y parte del capitulo 5</u><br>
+		  	<u> Fernando Sebastian Perez Bellido TB1: Asumí el liderazgo para la parte de programación de la web application logrando integrar cada uno de los avances de mis compañeros y dando solución a los errores finales antes del despliegue total.</u><br>
             <br><br>
+		  <b></b><br>
+		  <u>Tb1: Luciana Angielina Ravello Cárdenas</u>
+		  <br>
+		  <p>Asumió un liderazgo compartido al exponer de forma clara en las reuniones de coordinación el progreso visual del frontend y la Landing Page. Explicó a sus compañeros de equipo qué capturas de pantalla (screenshots) y evidencias debían priorizarse para el informe.</p>
+		  <br><br>
         </td>
         <td>
             <u>AV1: Se desarrolló hasta el capitulo 5 en conjunto con la landing page y su despliegue</u><br>
+			<u>TB1: Se desarrolló hasta el capitulo 5 Sprint 2 en conjunto con la Web Application y su despliegue</u><br>
         </td>
     </tr>
       <tr>
@@ -168,10 +228,23 @@ del ABET – EAC - Student Outcome 3.
             <p>Logré crear y contribuir a un buen ambiente colaborativo cumpliendo con mis metas y objetivos a tiempo, como la realización de los dos tipos de event storming, las tags y el lenguaje ubiquo. </p>
             <br><br>
             <b></b><br>
-            <u>Joaquin Cruzalegui AV1: Promoví un ambiente de trabajo abierto durante la planificación del Sprint 1, escuchando las propuestas de todos para estimar los Story Points y repartir las tareas de forma justa en la matriz LACX. Participé directamente en organizar las tareas del Sprint Backlog para construir la Landing Page y documentar la arquitectura, fijando metas y fechas claras de entrega. Gracias a la coordinación constante y al apoyo mutuo al revisar el código y los diagramas, logramos realizar grandes avances y desplegar la Landing Page</u><br>
+            <u>Joaquin Cruzalegui AV1: Promoví un ambiente de trabajo abierto durante la planificación del Sprint 1, escuchando las propuestas de todos para estimar los Story Points y repartir las tareas de forma justa en la matriz LACX. Participé directamente en organizar las tareas del Sprint Backlog para construir la Landing Page y documentar la arquitectura, fijando metas y fechas claras de entrega. Gracias a la coordinación constante y al apoyo mutuo al revisar el código y los diagramas, logramos realizar grandes avances y desplegar la Landing Page</u>
+		  	<br><br>
+		  	<u> Joaquin Cruzalegui Herrera Tb1: Fomenté un entorno colaborativo y ordenado durante la planificación del nuevo sprint, estructurando el Sprint Planning y definiendo metas claras mediante la matriz LACX para repartir los módulos frontend de forma equitativa. Planifiqué y ejecuté las tareas correspondientes a la arquitectura e integración de los módulos de IAM y Counseling, coordinando con el equipo el versionado de ramas y commits en GitHub para asegurar el cumplimiento de los objetivos y la estabilidad de la plataforma web. </u>
             <br><br>
-            <b></b><br>
+		  <b></b><br>
+<u>Tb1: Jesus Angel Yvan Miranda Cordova</u><br>
+<p>Planifiqué y ejecuté mis tareas del Sprint 2 (T3.1 y T3.2), cumpliendo las estimaciones definidas en el Sprint Backlog y las metas del sprint. Trabajé con el flujo de ramas y commits del equipo en GitHub y coordiné con mis compañeros el consumo de los recursos de carreras y favoritos de la API simulada, para integrar mi módulo sin afectar los demás.</p>
+<br><br>
+<b></b><br>
+<u>Tb1: Luciana Angielina Ravello Cárdenas </u><br>
+<p>Redactó las secciones de evidencias de desarrollo y ejecución (5.2.2.4 y 5.2.2.5). Se encargó de elaborar explicaciones detalladas y fáciles de entender para cada captura de pantalla del frontend, logrando que el lector comprenda la interacción del usuario. Además, documentó de forma clara y organizada la tabla de commits de GitHub, asegurando un registro profesional del esfuerzo del equipo sin afectar negativamente a nadie del equipo.</p>
+<br><br>
+<b></b><br>
+
+ <b></b><br>
             <u>Fernando Sebastian Perez Bellido AV1: colaboré en la realización de los diagramas de C4</u><br>
+			<u>Fernando Sebastian Perez BellidoTB1: Planifiqué y asumí el liderezgo de todo lo que viene a ser la codificación de las web application donde pude lograr una buena integración luego de los commits de mis compañeros y a asu vez dar soluciòn antes del debido despliegue a traves de ensayo y error.</u><br>
             <br><br>
         </td>
         <td>
@@ -679,8 +752,31 @@ deserción o insatisfacción académica?
 
 
 ### 2.2.2. Registro de entrevistas
-**Segmento 1**
+**Segmento 1: ESTUDIANTES**
+<br>
+
+**Entrevista 1:**
+<br>
+**Entrevistador(a):** >Luciana Angielina Ravello Cárdenas
+<br>
+
+Datos del entrevistada:
+  * **Nombre:** Liz
+  * **Apellido:** Anahua
+  * **Edad:** 22 años
+  * **Distrito:** –
+  * **Timing:** 00:03
+
+<p align="center"><img alt="Entrevista-Luciana1" src="images/entrevista-luciana-ev2.png" /></p>
+  <p align="center"><img alt="Entrevista-Luciana1" src="images/entrevista-luciana-ev1.png" /></p>
+<p align="center"><i>Evidencia de entrevista: Liz </i></p>
+
+**Resumen descriptivo:**
+En la entrevista con Liz, una estudiante, ella misma nos dice que la elección de carrera le generó mucha ansiedad por expectativas externas y temor al error. Ella se sintió perdida debido a la gran cantidad de información en internet que resulta poco confiable y difícil de interpretar, además de un mercado laboral cambiante donde las carreras tradicionales ofrecen menores oportunidades. A Liz le agrada la idea de una aplicación que cuente con Inteligencia Artificial (IA) que la ayude con un simulador de trayectoria profesional para tener la decisión mucho más clara.
+
+
 **Entrevista 2:**
+<br>
 **Entrevistador(a):** >Jesus Angel Yvan Miranda Cordova
 
 Datos del entrevistado:
@@ -696,7 +792,9 @@ Datos del entrevistado:
 **Resumen descriptivo:**
 La entrevista con Joaquin, un estudiante, muestra que investiga por su cuenta de forma básica ,ha dado algunos test por parte de su colegio, pero aun se siente inseguro con respecto a que carreras escoger y a su futuro. El considera que sería útil contar con una plataforma con IA, que le ayude a ampliar sus conocimientos sobre carreras que le podrían interesar.
 
-**Segmento 2**
+**Segmento 2: PSICÓLOGOS**
+<br>
+
 **Entrevista 1:**
 **Entrevistador(a):** >Joaquin Cruzalegui Herrera
 
@@ -3802,7 +3900,6 @@ El entorno de desarrollo de NextPath ha sido configurado considerando la colabor
 Las herramientas utilizadas se organizan de acuerdo con las siguientes actividades: Project Management, Requirements Management, Product UX/UI Design, Software Development, Software Deployment y Software Documentation.
 
 Project Management
-
 <table>
 <thead>
 <tr>
@@ -3813,8 +3910,13 @@ Project Management
 </thead>
 <tbody>
 <tr>
-<td>GitHub Projects</td>
-<td>Planificación, organización y seguimiento de las actividades, issues, user stories y tareas relacionadas con el desarrollo de NextPath.</td>
+<td>Trello</td>
+<td>Herramienta de soporte para Agile Development utilizada para la planificación, asignación y seguimiento del Product Backlog y Sprint Backlog (User Stories y Engineering Tasks). Permite evidenciar la evolución del tablero a través de los estados: <b>To Do, In Process, To Review y Done</b>.</td>
+<td>https://trello.com/</td>
+</tr>
+<tr>
+<td>GitHub Projects / Issues</td>
+<td>Registro, organización y seguimiento de requerimientos técnicos, control de incidencias a nivel de repositorio y problemas identificados durante la integración del código fuente.</td>
 <td>https://github.com/features/issues</td>
 </tr>
 </tbody>
@@ -4149,7 +4251,7 @@ Entre las actividades principales planificadas se incluyeron:
 * Desarrollo del bloque de conversión **Comenzar ahora** con enlaces hacia tiendas móviles (*App Store*, *Google Play*) acompañado de la mascota institucional Panda.
 * Creación del pie de página **Contáctanos** con enlaces a redes sociales oficiales (*Instagram*, *Facebook*, *LinkedIn*) y derechos reservados.
 * Ajustes de estilos CSS y validación de diseño responsive para pantallas de escritorio y dispositivos móviles.
-* Configuración del flujo de despliegue continuo mediante Netlify.
+* Configuración del flujo de despliegue continuo mediante Github Pages.
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -4159,7 +4261,7 @@ Entre las actividades principales planificadas se incluyeron:
 | **Time** | 6:00 PM |
 | **Location** | Reunión virtual mediante la plataforma Google Meet |
 | **Prepared By** | Equipo NextPath |
-| **Attendees (to planning meeting)** | [Nombres de los integrantes de tu equipo] |
+| **Attendees (to planning meeting)** | Cruzalegui, Joaquin; Ravello, Luciana; Miranda, Jesús; Torres, Alisee; Pérez, Sebastián. |
 | **Sprint 0 Review Summary** | Durante el Sprint 0 se completó la fase de investigación, definición de arquitectura base (modelo C4) y especificación de requerimientos del sistema. Se definieron las épicas, historias de usuario y prototipos de alta fidelidad, permitiendo al equipo iniciar la fase de implementación de la Landing Page con especificaciones claras de UI/UX. |
 | **Sprint 0 Retrospective Summary** | El equipo demostró sincronización y compromiso técnico en el Sprint 0; no obstante, se identificó la necesidad de reforzar la gestión de ramas bajo GitFlow y la coordinación en la integración de estilos para evitar conflictos en el desarrollo colaborativo del código frontend. |
 | **Sprint 1 Goal** | Desarrollar, maquetar e implementar completamente la Landing Page institucional de NextPath y realizar su despliegue continuo. El resultado permitirá dar a conocer la solución, explicar el proceso de orientación vocacional asistida por IA y captar el interés tanto de estudiantes como de psicólogos orientadores. Esto se validará cuando las secciones de Inicio, Sobre nosotros, Cómo funciona, Comenzar ahora y Contáctanos se encuentren completamente publicadas y accesibles vía web. |
@@ -4386,56 +4488,817 @@ Durante el Sprint también se utilizaron mensajes de commit bajo el estándar de
 
 ### 5.2.2. Sprint 2
 
-#### 5.2.2.1. Sprint Planning 2
+### 5.2.2.1. Sprint Planning 2
 
+El Sprint Planning 2 tiene como objetivo organizar el desarrollo del frontend de NextPath a partir de los wireframes y mockups de la plataforma. Este sprint comprende las interfaces de estudiantes y psicólogos, así como la navegación y las interacciones necesarias para recorrer los principales flujos de orientación vocacional.
 
-#### 5.2.2.2. Aspect Leaders and Collaborators
+Durante este sprint, el equipo implementará las pantallas de autenticación, perfil, evaluación vocacional, exploración de carreras, seguimiento de metas y acompañamiento profesional. Se mantendrá una identidad visual consistente mediante componentes reutilizables, estilos compartidos y un diseño adaptable a pantallas de escritorio y dispositivos móviles.
+
+El alcance contempla la maquetación, la navegación entre vistas, las validaciones de formularios en el cliente y la representación de los estados de cada interfaz. Para demostrar los flujos que dependan de servicios de backend, se utilizarán datos de prueba y respuestas simuladas.
+
+Entre las actividades principales planificadas se incluyen:
+
+- Implementación de las pantallas de **inicio de sesión, registro y recuperación de contraseña**, junto con las vistas de **perfil y configuración** del usuario.
+- Desarrollo del **menú de tests vocacionales**, el **formulario dinámico** de preguntas y la presentación de **resultados y feedback**.
+- Construcción del **catálogo de carreras**, la **ficha técnica**, el **comparador** y la interfaz de **simulación**.
+- Implementación del **dashboard del estudiante**, el **plan vocacional**, la gestión visual de **metas** y el **feed de comunidad**.
+- Desarrollo del **dashboard del psicólogo**, el **monitoreo de estudiantes**, la **agenda de citas** y la interfaz de **chat**.
+- Integración de las pantallas mediante rutas y elementos de navegación para los perfiles de estudiante y psicólogo.
+- Incorporación de validaciones, mensajes de error, estados vacíos, indicadores de carga y confirmaciones de acciones.
+- Revisión del diseño responsive y de la consistencia de botones, formularios, tarjetas y menús.
+- Integración del trabajo de los cinco integrantes en el repositorio y publicación de una versión de prueba del frontend.
+
+| Campo | Detalle |
+|---|---|
+| **Sprint #** | Sprint 2 |
+| **Sprint Planning Background** | Tras el desarrollo de la Landing Page en el Sprint 1, este sprint aborda la construcción del frontend de la plataforma NextPath. Se tomarán como referencia los wireframes y mockups de los módulos asignados a cada integrante para implementar las interfaces de estudiantes y psicólogos. El propósito es disponer de una versión navegable que permita demostrar los flujos de evaluación vocacional, exploración de carreras, seguimiento de metas y acompañamiento profesional, utilizando datos de prueba cuando sea necesario. |
+| **Date** | 2026/09/28 |
+| **Time** | 6:00 PM |
+| **Location** | Reunión virtual mediante la plataforma Google Meet. |
+| **Prepared By** | Equipo NextPath. |
+| **Attendees (to planning meeting)** | Cruzalegui, Joaquin; Ravello, Luciana; Miranda, Jesús; Torres, Alisee; Pérez, Sebastián. |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 se completó la Landing Page de NextPath con las secciones de Inicio, Sobre nosotros, Cómo funciona, Comenzar ahora y Contáctanos. El resultado cumplió con lo esperado por el equipo y no se identificaron cambios necesarios en la Landing Page. Con esta etapa finalizada, el Sprint 2 se enfocará en el desarrollo del frontend de los módulos para estudiantes y psicólogos. |
+| **Sprint 1 Retrospective Summary** | El desarrollo del Sprint 1 fue satisfactorio, ya que la Landing Page cumplió con los objetivos establecidos y no requirió modificaciones. Para el Sprint 2, se propone mantener las prácticas de trabajo que dieron buenos resultados y una distribución clara de responsabilidades. La comunicación entre integrantes y la revisión conjunta de los avances permitirán coordinar la integración de los módulos del frontend. |
+| **Sprint 2 Goal** | Implementar e integrar una versión navegable y responsive del frontend de NextPath que permita recorrer los principales flujos de estudiantes y psicólogos. El objetivo se considerará alcanzado cuando las pantallas de los cinco módulos estén conectadas, los formularios incluyan validaciones en el cliente y las interacciones puedan demostrarse con datos de prueba, sin enlaces internos rotos ni errores que impidan completar los recorridos definidos. |
+| **Sprint 2 Velocity** | 27 |
+| **Sum of Story Points** | 27 |
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+A continuación, se presenta la matriz LACX (*Leadership-and-Collaboration Matrix*) para la asignación de responsabilidades durante el desarrollo del frontend de NextPath. Cada integrante liderará el módulo asignado y colaborará en la revisión e integración de los demás módulos, con el fin de mantener una experiencia de usuario consistente.
+
+| Team Member | GitHub Username | A1: Autenticación, perfil y configuración | A2: Test vocacional y feedback | A3: Explorador, comparador y simulación | A4: Dashboard estudiante, metas y comunidad | A5: Panel de psicólogo, monitoreo y citas |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| Cruzalegui, Joaquin | JoaquinCruzalegui | **L** | C | C | C | C |
+| Ravello, Luciana | Lucyrcar-ID | C | **L** | C | C | C |
+| Miranda, Jesús | Jesus-Miranda-678 | C | C | **L** | C | C |
+| Torres, Alisee | ILisee1 | C | C | C | **L** | C |
+| Pérez, Sebastián | FernBellido22 | C | C | C | C | **L** |
+
+> **L = Leader | C = Collaborator**
 
 #### 5.2.2.3. Sprint Backlog 2
 **Objetivo del Sprint:**  
-Desarrollar, maquetar e implementar la primera versión funcional (MVP) de la aplicación web **NextPath**, desplegando las vistas principales e interfaces de usuario tanto para el módulo del **Estudiante** (test con IA, explorador/simulador de carreras, plan vocacional y comunidad) como para el módulo del **Psicólogo / Tutor** (tablero de monitoreo de riesgo, ficha diagnóstica, agenda de citas y analítica grupal).
+Desarrollar, maquetar e implementar la primera versión funcional (MVP) de la aplicación web **NextPath**, desplegando las vistas principales e interfaces de usuario tanto para el módulo del **Estudiante** (test con IA, explorador/simulador de carreras, plan vocacional y comunidad) como para el módulo del **Psicólogo** (tablero de monitoreo de riesgo, ficha diagnóstica, agenda de citas y analítica grupal).
 
 **Sprint Goal:**  
 *"Un estudiante puede completar su test vocacional con IA, explorar y simular su futuro profesional en carreras afines, mientras que un psicólogo asignado puede visualizar el tablero de monitoreo de alumnos en riesgo, revisar diagnósticos automáticos e interactuar mediante la agenda de sesiones y mensajería en vivo dentro de la plataforma web."*
 
 **Métricas y Configuración del Sprint 2:**
-* **Story Points comprometidos:** 32 SP
-* **Esfuerzo Total Estimado:** 39.0 Horas Hombre
-* **Duración:** 2 semanas
 
-| Sprint | US ID | Requerimiento / Título de US | Task ID | Título y Descripción de la Tarea | Responsable | SP | Estimación (Horas) | Estado |
-| :---: | :--- | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
-| **Sprint 2** | `SETUP-AUTH` | Autenticación y acceso a la plataforma | **T1.1** | **Maquetar Login y Registro:** Formulario responsivo para acceso y registro segregando roles (Estudiante / Psicólogo). | Pérez Bellido, Fernando Sebastián | 2 SP | 2.5 h | Done |
-| **Sprint 2** | `SETUP-AUTH` | Recuperación de cuenta | **T1.2** | **Implementar Recuperación de Contraseña:** Modal para solicitud de restauración de clave vía correo. | Pérez Bellido, Fernando Sebastián | 1 SP | 1.5 h | Done |
-| **Sprint 2** | `HU 06, HU 25` | Recuperación de cuenta | **T1.2** | **Implementar Centro de Mensajería e Intervención**  Chat en vivo 1 a 1 entre Psicólogo y Estudiante,  | Pérez Bellido, Fernando Sebastián | 1 SP | 3.5 h | Done |
-| **Sprint 2** | `HU01` | Realizar test vocacional | **T2.1** | **Maquetar Catálogo de Tests:** Vista de selección con Test NextPath (IA) y pruebas estandarizadas (Holland, MBTI). | Cruzalegui Herrera, Joaquin | 2 SP | 1.5 h | Done |
-| **Sprint 2** | `HU01` | Realizar test vocacional | **T2.2** | **Desarrollar Cuestionario Dinámico:** Interfaz de preguntas paso a paso con barra de progreso % y navegación. | Cruzalegui Herrera, Joaquin | 3 SP | 2.5 h | Done |
-| **Sprint 2** | `HU02, HU26` | Visualizar resultados y feedback inmediato | **T2.3** | **Implementar Pantalla de Resultados RIASEC:** Renderizar gráfico de araña, diagnóstico de IA y carreras afines. | Cruzalegui Herrera, Joaquin | 2 SP | 2.5 h | Done |
-| **Sprint 2** | `HU03` | Realizar test de seguimiento | **T2.4** | **Módulo de Tests de Seguimiento:** Historial comparativo entre evaluaciones pasadas para medir evolución. | Cruzalegui Herrera, Joaquin | 1 SP | 1.5 h | Done |
-| **Sprint 2** | `HU15, HU17` | Búsqueda con filtros e indicador de compatibilidad | **T3.1** | **Construir Explorador de Carreras:** Buscador con filtros (Área, Duración, Modalidad) y badge de % de compatibilidad. | Miranda Cordova, Jesus Angel Yvan | 1 SP | 2.0 h | Done |
-| **Sprint 2** | `HU16, HU19` | Ficha de carrera y guardar favoritos | **T3.2** | **Desarrollar Ficha Detallada:** Malla curricular, empleabilidad, universidades, salarios y botón de favorito. | Miranda Cordova, Jesus Angel Yvan | 1 SP | 1.5 h | Done |
-| **Sprint 2** | `HU18` | Comparar carreras seleccionadas | **T3.3** | **Implementar Tabla Comparativa:** Matriz comparativa lado a lado para evaluar hasta 3 carreras seleccionadas desde Favoritos. | Miranda Cordova, Jesus Angel Yvan | 1 SP | 1.5 h | Done |
-| **Sprint 2** | `HU20` | Simular futuro profesional según perfil | **T3.4** | **Construir Simulador de Futuro Profesional:** Timeline de progresión laboral e indicadores. | Miranda Cordova, Jesus Angel Yvan | 3 SP | 3.0 h | Done |
-| **Sprint 2** | `HU21` | Visualizar dashboard de progreso | **T4.1** | **Maquetar Dashboard Principal:** Saludo, accesos directos rápidos, barra de avance % y resumen de actividades. | Ravello Cárdenas, Luciana Angelina | 1 SP | 1.5 h | Done |
-| **Sprint 2** | `HU22, HU24` | Plan personalizado e historial de logros | **T4.2** | **Desarrollar Gestor de Plan Vocacional:** Lista de tareas cronológicas con fechas límite e historial de logros. | Ravello Cárdenas, Luciana Angelina | 2 SP | 2.5 h | Done |
-| **Sprint 2** | `HU34, HU35` | Unirse a comunidades y publicar | **T4.3** | **Implementar Muro de Comunidad:** Catálogo de grupos por carrera, creador de publicaciones y comentarios. | Ravello Cárdenas, Luciana Angelina | 2 SP | 2.0 h | Done |
-| **Sprint 2** | `HU39, HU40, HU42`| Tablero de alumnos, filtros y sugerencias IA | **T5.1** | **Desarrollar Tablero de Monitoreo:** Lista de alumnos, barras de avance, filtros de riesgo y sugerencias automáticas de IA. | Torres Juárez, Alisee Muriel | 2 SP | 2.0 h | Done |
-| **Sprint 2** | `HU04, HU12, HU14`| Consulta de resultados, historial y reporte | **T5.2** | **Construir Ficha Diagnóstica:** Expediente individual con gráfico RIASEC, notas profesionales y reporte automático de IA. | Torres Juárez, Alisee Muriel | 2 SP | 2.0 h | Done |
-| **Sprint 2** | `HU05, HU13, HU28, HU30`| Programar sesiones, alertas y citas | **T5.3** | **Implementar Agenda de Sesiones:** Gestor de citas individuales/grupales y solicitudes de citas enviadas por estudiantes. | Torres Juárez, Alisee Muriel | 1 SP | 1.5 h | Done |
-| **Sprint 2** | `HU08, HU10, HU32`| Reportes estadísticos y analítica grupal | **T5.4** | **Desarrollar Panel Analítico Grupal:** Gráficos de tendencias por cohorte y exportación a formatos PDF/Excel. | Torres Juárez, Alisee Muriel | 1 SP | 2.0 h | Done |
+**Story Points comprometidos: 27 SP | Duración: 2 semanas **
+
+>Evidencia del Board:
+<div align="center">
+  <img src="images/Sprint-backlog-2.png" alt="sprint"><br><br>
+</div>
+
+>URL público del Board:
+https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2cb06a2a0cB717020D/nextpath
+
+| Sprint | User Story ID | User Story Título | Task ID | Task Título | Descripción | SP | Estimación | Asignado a | Status |
+| :--- | :--- | :--- | :---: | :--- | :--- | :---: | :---: | :--- | :---: |
+| **Sprint 2** | TS 01 | Autenticar usuarios | T1.1 | Login, Registro y Recuperación | Maquetar formulario de acceso y registro por rol (Estudiante / Psicólogo) y modal de recuperación de contraseña vía correo. | 3 | 4h |  Cruzalegui, Joaquin (JoaquinCruzalegui) | Done |
+| **Sprint 2** | HU 06, HU 25, HU 27 | Comunicación psicólogo-estudiante | T1.2 | Centro de Mensajería | Chat 1 a 1 entre psicólogo y estudiante con lista de conversaciones y estado de lectura. | 1 | 4h* | Cruzalegui, Joaquin (JoaquinCruzalegui) | Done |
+| **Sprint 2** | HU 01 | Realizar test vocacional | T2.1 | Catálogo y Cuestionario | Catálogo de tests (NextPath IA, Holland, MBTI) y cuestionario dinámico con barra de progreso y navegación. | 5 | 4h | Ravello, Luciana (Lucyrcar-ID) | Done |
+| **Sprint 2** | HU 02, HU 03, HU 26 | Resultados, feedback y seguimiento | T2.2 | Resultados RIASEC y Seguimiento | Gráfico de araña, diagnóstico de IA, carreras afines e historial comparativo de evaluaciones. | 3 | 4h | Ravello, Luciana (Lucyrcar-ID) | Done |
+| **Sprint 2** | HU 15, HU 16, HU 17, HU 19 | Explorar carreras | T3.1 | Explorador y Ficha de Carrera | Buscador con filtros (Área, Duración, Modalidad), badge de % de compatibilidad, ficha detallada y favoritos. | 2 | 4h* | Miranda, Jesús (Jesus-Miranda-678) | Done |
+| **Sprint 2** | HU 18, HU 20 | Comparar y simular carreras | T3.2 | Comparador y Simulador | Tabla comparativa de hasta 3 carreras y timeline de simulación del futuro profesional. | 3 | 4.5h | Miranda, Jesús (Jesus-Miranda-678) | Done |
+| **Sprint 2** | HU 21, HU 22, HU 24, HU 33, HU 34, HU 35 | Progreso, plan vocacional y comunidad | T4.1 | Dashboard, Plan y Comunidad | Dashboard de progreso, plan con tareas e historial de logros y muro de comunidad con publicaciones y comentarios. | 5 | 6h | 	Torres, Alisee (lLisee1)  | Done |
+| **Sprint 2** | HU 04, HU 12, HU 14, HU 38, HU 39, HU 40, HU 41 | Monitoreo y diagnóstico | T5.1 | Tablero y Ficha Diagnóstica |Lista de alumnos, barras de avance, filtros de riesgo y sugerencias de IA, y expediente individual con reporte automático. | 3 | 4h | Torres, Pérez, Fernando (FernBellido22| Done |
+| **Sprint 2** | HU 05, HU 08, HU 10, HU 13, HU 28, HU 30, HU 32 | Sesiones y analítica grupal | T5.2 | Agenda y Panel Analítico | Citas individuales/grupales,  Gráficos de tendencias por corte y exportación a PDF/Excel. | 2 | 4h* | Pérez, Fernando (FernBellido22) | Done |
+
+
+
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
+Durante el Sprint 2, el equipo trabajó colaborativamente en el repositorio NextPath-WebPage, aplicando GitFlow y utilizando la convención de Conventional Commits para registrar y organizar los cambios realizados durante la implementación de la primera versión de la Web Application.
+
+A continuación, se muestra en detalle los commits realizados por cada miembro del equipo y organizados en una tabla. 
+
+<table>
+  <thead>
+    <tr>
+      <th width="20%">Repository</th>
+      <th width="10%">Branch</th>
+      <th width="10%">Commit Id</th>
+      <th width="30%">Commit Message</th>
+      <th width="15%">Commit Message Body</th>
+      <th width="15%">Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>b1c477b</td>
+      <td>Add README.md</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+   <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>56f4c4b</td>
+      <td>feat: add :carreer-entities</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>c0f0168</td>
+      <td>feat: add :carreer-assembler</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>ead2ab6</td>
+      <td>feat: add :carreer-api</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>009dbbd</td>
+      <td>feat: add :carreer-card</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>4ecdb777</td>
+      <td>feat: add :carreer-comparison</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>f71ef7d</td>
+      <td>feat: add :carreer-details</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>72675c9</td>
+      <td>feat: add :carreer-details-list</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>33eb6f8</td>
+      <td>feat: add :carreer-favourites</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>4ba92e1</td>
+      <td>feat: add :carreer-exploration-routes</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>ae5e229</td>
+      <td>feat(tasks): add student task entity</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>c1cc91c</td>
+      <td>feat(tasks): add tasks store</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>0197853</td>
+      <td>feat: add domain/model iam</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>da5375d</td>
+      <td>feat(tasks): add task board view</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>7faafa4</td>
+      <td>feat(tasks): add tasks api</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>8aaca92</td>
+      <td>feat: add: vocational test files vue</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>947ec76</td>
+      <td>feat: add: vocational test files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>4a2ade7</td>
+      <td>feat: add: vocational results</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>83dfe7a</td>
+      <td>feat: add: vocational assessments</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>ca30313</td>
+      <td>feat: add: test files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>0617ebf</td>
+      <td>feat: add: test question files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>cbd9e2e</td>
+      <td>feat: add: assessments files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>8b7814c</td>
+      <td>feat: add: affinity files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>59ec318</td>
+      <td>feat: add files</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>8a63803</td>
+      <td>feat(tasks): add student task assembler</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>65eaa0a</td>
+      <td>feat: add application counseling</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>e89b1d9</td>
+      <td>feat: add infrastructure counseling</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>d37c0f1</td>
+      <td>feat(community): add community forum and community routes</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>fe3623a</td>
+      <td>feat: add domain/model counseling</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>331200f</td>
+      <td>feat(community): add community store</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>06754b5</td>
+      <td>feat(community): add assemblers and community api</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>7514898</td>
+      <td>feat: add presentation iam</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>f9c31d0</td>
+      <td>feat(community): add thread entity</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>026fe1c</td>
+      <td>feat: add presentation iam</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>70fa7fc</td>
+      <td>feat(community): add community entity</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>52d91ee</td>
+      <td>feat(community): add structure and comment entity</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>826fab0</td>
+      <td>feat: add infrastructure iam</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>b30b677</td>
+      <td>feat(tasks): add task routes</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>945f001</td>
+      <td>Delete src/carrer-exploration directory</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>06c1b3a</td>
+      <td>Delete src/carrer-exploration directory</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>43d4f7e</td>
+      <td>Merge pull request #3 from VocaFyTeam/feature/iam-counseling</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - WebSite</td>
+      <td>develop</td>
+      <td>aeaac82</td>
+      <td>feat: add presentation counseling</td>
+      <td>-</td>
+      <td>08/10/2026</td>
+    </tr>
+    <tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>212683b</td>
+  <td>feat: add: stylecss archive</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+<tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>3f69b95</td>
+  <td>feat: add: route js archive</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+<tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>30c6c0b</td>
+  <td>feat: add: pinia js archive</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+<tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>8212dbb</td>
+  <td>feat: add: main js archive</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+<tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>2524f40</td>
+  <td>feat: add: i18n archive</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+<tr>
+  <td>NextPath - WebSite</td>
+  <td>develop</td>
+  <td>d65e13c</td>
+  <td>feat: add: app vue</td>
+  <td>-</td>
+  <td>08/10/2026</td>
+</tr>
+  </tbody>
+</table>
+
+<br>
+Se han seleccionado algunos commits para evitar una larga extensión de la tabla presentada.
+
+<br><br>
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
+
+En esta sección se explican y presentan los avances de implementación correspondientes al Sprint 2, cuyo alcance principal fue el desarrollo de la primera versión de la Frontend Web Application. A lo largo de este sprint, el equipo colaboró de forma estructurada para lograr la implementación de distintas pestañas de la aplicación como mensajes, tests vocacionales, carreras, entre otros.
+
+A continuación, se presentan las evidencias de ejecución de las principales funcionalidades y secciones implementadas durante el Sprint 2.
+
+### Inicio de sesión
+<div align="center">
+    <img src="images/inicio-sesion.png" alt="iniciosesion">
+  </div>
+<br>
+  <div align="center">
+    <img src="images/reigstrar-nuevo-usuario.png" alt="iniciosesion">
+  </div>
+<br>
+  En esta primera pantalla tenemos las opciones de inicio de sesión. Permite al usuario ingresar con su cuenta si ya la tiene registrada. En caso contrario, también permite crear una nueva cuenta.
+
+<br> Ahora, pasaremos a dividir las evidencias en dos apartados: Estudiante y Psicólogo.
+
+### Estudiante
+#### Pantalla de Inicio
+
+<div align="center">
+    <img src="images/pantalla-inicio.png" alt="iniciosesion">
+  </div>
+
+En esta pantalla se le permite al usuario navegar por las distintas secciones del servicio web. Además, deja ver un pequeño resumen de su perfil que incluye su perfil vocacional, sus tareas pendientes, distintas opciones de botones y su historial. 
+
+<br>
+
+#### Sección de favoritos
+<div align="center">
+    <img src="images/apartado-favoritos.png" alt="iniciosesion">
+  </div>
+
+  <div align="center">
+    <img src="images/seleccionar-una-carrera.png" alt="iniciosesion">
+  </div>
+
+En esta pantalla se le permite al usuario visualizar sus carreras favoritas, así como ver el detalle de las mismas. En la segunda pantalla, se muestran los datos de la carrera seleccionada, así como botones con redireccionamiento a las distintas páginas de las universidades mostradas para brindar mayor información.
+
+<br>
+
+#### Sección de carreras
+<div align="center">
+    <img src="images/apartado-carreras.png" alt="iniciosesion">
+  </div>
+
+  <div align="center">
+    <img src="images/comparar-dos-carreras.png" alt="iniciosesion">
+  </div>
+
+  <div align="center">
+    <img src="images/comparar-tres-carreras.png" alt="iniciosesion">
+  </div>
+
+Aquí el estudiante puede visualizar todas las carreras disponibles. Tiene una barra de búsqueda y filtros para una mejor navegación y se le permite al estudiante comparar de dos a tres carreras, así como ver el detalle de las mismas.
+
+<br>
+
+#### Simulación profesional
+
+<div align="center">
+    <img src="images/seleccionar-una-carrera.png" alt="iniciosesion">
+  </div>
+
+  <div align="center">
+    <img src="images/simulador-de-carrera.png" alt="iniciosesion">
+  </div>
+
+Desde el detalle de cada carrera, el estudiante tiene la posibilidad de visualizar su simulación profesional. Aquí, se le muestra una línea de tiempo con su posible futuro profesional y las recomendaciones de desarrollo y acción.
+
+<br>
+
+#### Sección de tests vocacionales
+
+<div align="center">
+    <img src="images/tests-vocacionales.png" alt="iniciosesion">
+  </div>
+
+  <div align="center">
+    <img src="images/haciendo-test.png" alt="iniciosesion">
+  </div>
+
+En esta sección se encuentran los tests vocacionales que puede realizar el alumno.
+
+<br>
+
+#### Tareas
+
+<div align="center">
+    <img src="images/tareas-seccion.png" alt="iniciosesion">
+  </div>
+
+  <div align="center">
+    <img src="images/reporte-de-un-test.png" alt="iniciosesion">
+  </div>
+
+En este apartado el estudiante puede visualizar sus tareas completadas y las que aún faltan desarrollar. También puede encontrar los reportes de sus evaluaciones vocacionales ya realizadas y descargarlas.
+
+<br>
+
+#### Apartado de sesiones de orientación
+
+<div align="center">
+    <img src="images/sesiones-orientacion.png" alt="iniciosesion">
+  </div>
+
+En este apartado el estudiante puede visualizar el detalle de cada sesion programada con un psicólogo, sus observaciones y un link directo a la llamada en cuestión.
+
+<br>
+
+#### Sección de mensajes
+
+<div align="center">
+    <img src="images/mensajes.png" alt="iniciosesion">
+  </div>
+
+<br>
+
+#### Comunidad
+
+<div align="center">
+    <img src="images/comunidad.png" alt="iniciosesion">
+  </div>
+
+  <div align="center">
+    <img src="images/comentar.png" alt="iniciosesion">
+  </div>
+
+En esta sección se le permite al estudiante interactuar con otros usuarios de sus mismos intereses o afines. Tiene la posibilidad de publicar un comentario que podrá ser respondido por otros estudiantes.
+
+<br>
+
+### Psicólogo
+#### Pantalla de Inicio
+
+<div align="center">
+    <img src="images/pantalla-inicio-psicologo.png" alt="iniciosesion">
+  </div>
+
+En esta pantalla se le permite al psicólogo navegar por las distintas secciones del servicio web. Aquí se puede ver cuantos estudiantes tiene a su cargo, cuantos tests rendidos por sus alumnos hay, alertas de riesgo y citas pendientes. También puede visualizar el avance vocacional de cada estudiante y sugerencias.
+
+<br>
+
+#### Sección de resultados de los alumnos
+
+<div align="center">
+    <img src="images/resultados-alumnos-psicologo.png" alt="iniciosesion">
+  </div>
+
+En este apartado se le permite al psicólogo ver los resultados de los alumnos en cada test vocacional realizado, así como un reporte general para su análisis. 
+
+<br>
+
+#### Sección de reporte y analítica
+
+<div align="center">
+    <img src="images/reporte-y-analitica.png" alt="iniciosesion">
+  </div>
+
+<div align="center">
+  <img src="images/programar-sesion-orientacion.png"
+  alt="programarsesion">
+</div>
+
+En este apartado el psicólogo educativo puede analizar grupos de estudiantes mediante la opción de comparar de perfiles entre grupos, carreras más demandadas y hallazgos clave y conclusiones. También le da la opción de crear un taller grupal.
+
+<br>
+
+#### Sección de programación de sesiones de orientación
+
+<div align="center">
+  <img src="images/programar-sesion-orientacion.png"
+  alt="programarsesion">
+</div>
+
+En este apartado se puede acceder de manera más directa a la opción de agregar y programar nuevas sesiones de orientación.
+
+<br>
+
+#### Recursos vocacionales
+
+<div align="center">
+  <img src="images/recursos-vocacionales.png"
+  alt="programarsesion">
+</div>
+
+Aquí el psicólogo puede agregar distintos recursos vocacionales para entregar a sus estudiantes, tales como libros, resúmenes de psicólogía, reportes de análisis, etc.
+
+<br>
+
+#### Sección de mensajes con estudiantes
+
+<div align="center">
+  <img src="images/mensajes-psicologo.png"
+  alt="programarsesion">
+</div>
+
+<br>
+
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 
+En el Sprint 2 la Web Application consume una API REST simulada con **json-server**, desplegada en Render. Los datos salen de un archivo `db.json` con 16 colecciones del dominio, y cada una expone las operaciones REST estándar (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`). El servidor atiende cada recurso directamente desde la URL base (por ejemplo, `/careers`), y el frontend accede a ellos desde la capa `infrastructure` de cada Bounded Context. Al reemplazar la URL base por la del RESTful API real (TS01–TS15), ningún componente de presentación cambia.
+
+Datos semilla de la API simulada: 9 usuarios (6 estudiantes y 3 psicólogos), 5 tests vocacionales con 26 preguntas, 12 resultados de test, 6 carreras, 6 sesiones de orientación (4 individuales y 2 grupales), 6 conversaciones con 21 mensajes, 3 comunidades y 3 recursos.
+
+| **Endpoint** | **Acción (HTTP)** | **Parámetros** | **Descripción del Response** | **User Story** |
+| :--- | :---: | :--- | :--- | :---: |
+| `/users?email={email}&password={password}` | GET | `email`, `password` | `200 OK` con la lista de usuarios que coinciden; una lista vacía equivale a credenciales incorrectas. Incluye `role` (`student` o `psychologist`). | TS01 |
+| `/users` | POST | `firstName`, `lastName`, `email`, `password`, `role`, `avatarUrl` | `201 Created` con el usuario registrado. | TS01 |
+| `/users/{id}` | GET / PUT | `id` y datos del usuario | `200 OK` con el perfil del usuario o actualizado. | TS01 |
+| `/vocational-tests` | GET | `_sort=order` | `200 OK` con el catálogo de 5 tests: NextPath (IA), Holland, Aptitudes Diferenciales, 16Personalities y Kuder. Cada uno trae `type` (`open` o `choice`), `durationMinutes`, `instructions` y `featured`. | US01 |
+| `/test-questions?testId={testId}&_sort=order` | GET | `testId` | `200 OK` con las preguntas del test; las de tipo `choice` incluyen `options` con su `area` RIASEC (artistic, social, investigative, enterprising, conventional). | US01 |
+| `/test-results?studentId={studentId}` | GET | `studentId`, `testId` (opcional) | `200 OK` con el historial de resultados: `scores` por área, `careerMatches` con su `compatibility`, `date`, `version` y `status`. | US02, US03 |
+| `/test-results` | POST | `studentId`, `testId`, `date`, `version`, `status`, `summary`, `scores`, `careerMatches`, `answers` | `201 Created` con el resultado registrado. | US01, US26 |
+| `/test-results/{id}` | PATCH | `status: completed`, `scores`, `careerMatches` | `200 OK` con el resultado de seguimiento actualizado (`pending` a `completed`). | US03 |
+| `/careers?area={area}&modality={modality}&durationYears={n}&q={texto}` | GET | `area`, `modality`, `durationYears`, `q` | `200 OK` con las carreras que cumplen los filtros; una lista vacía si ninguna coincide. | US15 |
+| `/careers/{id}` | GET | `id` | `200 OK` con la ficha completa: `universities`, `fieldOfWork`, `skills`, `salaryRange`, `employabilityRate`, `demandLevel`, `projection` por etapa y `recommendations`. | US16, US20 |
+| `/careers?id={id1}&id={id2}&id={id3}` | GET | Hasta 3 `id` | `200 OK` con las carreras a comparar lado a lado. | US18 |
+| `/favorites?studentId={studentId}` | GET | `studentId` | `200 OK` con las carreras favoritas del estudiante (`careerId`). | US19 |
+| `/favorites` | POST | `studentId`, `careerId` | `201 Created` con la relación estudiante-carrera. | US19 |
+| `/favorites/{id}` | DELETE | `id` | `200 OK`; la carrera se quita de favoritos. | US19 |
+| `/tasks?studentId={studentId}&_sort=order` | GET / POST | `studentId`, `title`, `status`, `dueDate`, `order` | `200 OK` con las tareas del plan vocacional o `201 Created` con la tarea creada. | US21, US22 |
+| `/tasks/{id}` | PATCH | `status: completed` | `200 OK` con la tarea completada, que alimenta el avance y el historial de logros. | US21, US23, US24 |
+| `/counseling-sessions?psychologistId={id}&studentId={id}&status={status}` | GET | `psychologistId`, `studentId`, `groupId`, `status` | `200 OK` con las sesiones: `type` (`INDIVIDUAL` o `GROUP`), `date`, `time`, `notes`, `meetLink` y `studentIds`. | US05, US13 |
+| `/counseling-sessions` | POST | `title`, `type`, `psychologistId`, `studentIds`, `groupId`, `date`, `time`, `notes`, `meetLink`, `status` | `201 Created` con la sesión programada (`SCHEDULED`). | US05, US28 |
+| `/student-groups?psychologistId={id}` | GET | `psychologistId` | `200 OK` con los grupos del psicólogo (Grupo A y Grupo B). | US05, US28 |
+| `/student-profiles?psychologistId={id}&groupId={id}` | GET | `psychologistId`, `groupId` | `200 OK` con los expedientes: `flags` de riesgo (`inactivity`, `lowParticipation`, `inconsistent`), `observation` y `lastActivityDate`. | US04, US38, US39 |
+| `/student-profiles/{id}` | PATCH | `observation`, `flags` | `200 OK` con el expediente actualizado con las observaciones del psicólogo. | US40 |
+| `/conversations?studentId={id}` o `?psychologistId={id}` | GET | `studentId`, `psychologistId` | `200 OK` con las conversaciones 1 a 1 entre psicólogo y estudiante. | US25, US27 |
+| `/messages?conversationId={id}&_sort=sentAt` | GET | `conversationId` | `200 OK` con los mensajes en orden cronológico: `senderRole`, `text`, `sentAt`, `read` y `attachment` opcional. | US25, US27 |
+| `/messages` | POST | `conversationId`, `senderRole`, `text`, `sentAt`, `read`, `attachment` | `201 Created` con el mensaje enviado; puede adjuntar un recurso (`resourceId`, `title`, `fileUrl`). | US06, US25, US27 |
+| `/messages/{id}` | PATCH | `read: true` | `200 OK` con el mensaje marcado como leído. | US27, US29 |
+| `/resources?category={category}&_sort=updatedAt&_order=desc` | GET | `category` | `200 OK` con la biblioteca de recursos (`Guía`, `Lectura recomendada`) ordenada por actualización. | US09 |
+| `/resources` | POST | `title`, `category`, `description`, `coverUrl`, `fileUrl`, `psychologistId` | `201 Created` con el recurso registrado. | US09, US11 |
+| `/communities` | GET | — | `200 OK` con las comunidades y sus `memberIds`. | US33 |
+| `/communities/{id}` | PATCH | `memberIds` | `200 OK` con la comunidad a la que el estudiante se unió. | US33 |
+| `/threads?communityId={id}&_sort=createdAt&_order=desc` | GET / POST | `communityId`, `authorName`, `content`, `commentsCount`, `createdAt` | `200 OK` con las publicaciones o `201 Created` con la nueva. | US34 |
+| `/comments?threadId={id}` | GET / POST | `threadId`, `authorName`, `content`, `createdAt` | `200 OK` con los comentarios del hilo o `201 Created` con el nuevo comentario. | US34 |
+
+
+**Alcance de la API simulada.** 
+ 
+* **Repositorio de la API simulada:** https://github.com/VocaFyTeam/NextPath-Mockups-Api.git
+* **URL de la API simulada desplegada:** https://nextpath-mockups-api.onrender.com/
+<p align="center">
+  <img src="images/fake-api.png" width="700" alt="API simulada en Render"/>
+  <br/><i>API simulada desplegada en Render</i>
+</p>
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
+En el Sprint 2 se desplegaron dos componentes: la API simulada en Render y la Web Application
 
+**Actividades de despliegue realizadas**
+
+1. Se publicó la API simulada en Render como servicio Node.js (`server.js` con json-server y el archivo `db.json`), con CORS habilitado. El servidor atiende cada colección directamente desde la URL base (por ejemplo, `/careers`) 
+2. Se configuraron los entornos de la Web Application ([`environment.ts` y `environment.prod.ts`]) para que la URL base apunte a la API desplegada.
+3. Se configuró en git pages el proyecto `NextPath`, conectado a la rama `main` del repositorio `NextPath-Webpage`.
+4. Se verificaron en producción el inicio de sesión por rol (estudiante y psicólogo), la recarga de rutas internas y las redirecciones de los guards según el rol del usuario.
+
+* **URL de la API simulada:** https://nextpath-mockups-api.onrender.com/
+* **URL de la Web Application desplegada:** https://vocafyteam.github.io/NextPath-WebPage/
+<p align="center">
+  <img src="images/despliegue-render.png" width="700" alt="API simulada en Render"/>
+  <br/><i>API simulada desplegada en Render</i>
+</p>
+
+<p align="center">
+  <img src="images/despliegue.png" width="700" alt="Web Application "/>
+  <br/><i>Web Application desplegada </i>
+</p>
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+
+**Dinámica de trabajo**
+  En total se integraron 7 Pull Requests en `develop` . Aplicando la mejora de la retrospectiva del Sprint 1, cada rama corresponde a una capa o tarea y cada commit indica el contexto en su mensaje (`
+feat(community): add community entity`, `feat(tasks): add student task entity`, ). Las tareas se gestionaron en trello.
+
+**Aporte por integrante**
+
+| **Integrante** | **GitHub** | **Aporte principal en el Sprint 2** | **Horas asignadas** | **Commits (NextPath-Webpage / report)** | **Pull Requests integrados (NextPath-Webpage  / report)** |
+| :--- | :--- | :--- | :---: | :---: | :---: |
+| Cruzalegui Herrera, Joaquin | JoaquinCruzalegui | Autenticación y acceso por rol: login, registro y recuperación de contraseña (TS01); Centro de Mensajería entre psicólogo y estudiante (US06, US25, US27) | 8.0 | 8 / 5  | 1 / 1 |
+| Ravello Cárdenas, Luciana Angelina | Lucyrcar-ID | Test vocacional: catálogo de tests y cuestionario dinámico (US01); resultados RIASEC, feedback de IA y tests de seguimiento (US02, US03, US26) | 8.0 | 14 / 10 | 1  / 2 |
+| Miranda Cordova, Jesus Angel Yvan | Jesus-Miranda-678 | Exploración de carreras: explorador con filtros y compatibilidad, ficha detallada, favoritos, comparador y simulador de futuro profesional (US15, US16, US17, US18, US19, US20) | 8.5 | 34 / 10 | 2 / 3 |
+| Torres Juárez, Alisee Muriel | lLisee1  | Dashboard de progreso (US21), plan vocacional e historial de logros (US22, US24) y muro de comunidad (US33, US34, US35) | 6.0 | 12 / 3 | 1 / 1 |
+|  Pérez Bellido, Fernando Sebastián | FernBellido22 | Módulo del psicólogo: tablero de monitoreo y ficha diagnóstica (US04, US12, US14, US38, US39, US40, US41); agenda de sesiones y panel analítico grupal (US05, US08, US10, US13, US28, US30, US32) | 8.0 | 25 / 7 | 3 / 1 |
+
+
+**Lecciones para el Sprint 3**
+
+1. **Revisión cruzada:** cada Pull Request lo aprobará un integrante distinto de su autor antes del merge. [En el Sprint 2 algunos autores integraron sus propios PR / Describir cómo se integraron los PR en el Sprint 2.]
+2. **Nada directo en `develop`:** todo cambio entrará por Pull Request, y `develop` quedará protegida con una regla de rama. [En este Sprint algunos cambios se subieron directamente, por ejemplo los de IAM y Counseling / Ajustar según lo ocurrido.] Esto refuerza la lección del Sprint 0 sobre la gestión de ramas bajo GitFlow.
+3. **Compilar antes de integrar:** cada PR debe pasar `npm run build` y las pruebas automatizadas ([`npm test` / `ng test`]). Se agregará una verificación automática con GitHub Actions para que un error de compilación no llegue a `develop`.
+4. **Integración en el mismo Sprint:** registrar las rutas y la opción del menú en el PR de routing de cada módulo (test vocacional, carreras, comunidad, psicólogo, mensajería), para que toda pantalla integrada sea accesible desde la navegación. Esto evita pantallas terminadas pero inalcanzables, y coordina los estilos compartidos entre módulos.
+
+**Evidencia:** contribuciones por integrante en `[NextPath-Webpage]`.
+
+<p align="center">
+  <img src="images/contributors-webapp.png" width="700" alt="Contribuciones por integrante en la Web App"/>
+  <br/><i>Contribuciones por integrante en [NextPath-Webpage] (GitHub Insights)</i>
+</p>
+**Evidencia: Pull Requests integrados en   `NextPath-Webpage`**
+ 
+<p align="center">
+  <img src="images/s2-pull-requests-webapp.png" width="700" alt="Pull Requests "/>
+  <br/><i>Pull Requests #1 a #8 integrados en develop</i>
+</p>
+**Evidencia:** contribuciones por integrante en `NextPath-Report` 
+ 
+<p align="center">
+  <img src="images/contributors-report.png" width="700" alt="Grafo de ramas de"/>
+  <br/><i>Insights → >Contribuciones por integrante en [NextPath-Report] (GitHub Insights)</i>
+</p>
+ 
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
@@ -4465,3 +5328,20 @@ Desarrollar, maquetar e implementar la primera versión funcional (MVP) de la ap
 # Bibliografía
 
 # Anexos
+**URL del repositorio (NextPath-report):** https://github.com/VocaFyTeam/NextPath-Report.git
+
+**URL del repositorio (NextPath-LandingPage)** https://github.com/VocaFyTeam/NextPath-LandingPage.git
+
+**URL de landing page :** https://vocafyteam.github.io/NextPath-LandingPage/
+
+**URL de webapp:** https://vocafyteam.github.io/NextPath-WebPage/
+
+**Link del EventStorming (Miro):** https://miro.com/welcomeonboard/MEljTU1nWW9FSEhGU2RvcnRPQWJ0VFVxOGlzME9QR2M2a3kxdFRGVWUvUjMzU0RGN21qM3cyWjExV1krQSsvalVoblhxZlplK3BSUU0xV29mTGRtbUY3bEhWV2hMWDN1UjZ1bkVieUYyREtkcnR2eFBCb3dIcFFPRUdMZStsYlBBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=62509929931.
+
+**Repositorio de la API simulada:** https://github.com/VocaFyTeam/NextPath-Mockups-Api.git
+
+**Repositorio de la webApp en Github:** https://github.com/VocaFyTeam/NextPath-WebPage.git
+
+**TB1 Expo:**  
+
+**URL de la API simulada desplegada:** https://nextpath-mockups-api.onrender.com/
