@@ -4969,6 +4969,206 @@ Se han seleccionado algunos commits para evitar una larga extensión de la tabla
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
+En esta sección se explican y presentan los avances de implementación correspondientes al Sprint 2, cuyo alcance principal fue el desarrollo de la primera versión de la Frontend Web Application. A lo largo de este sprint, el equipo colaboró de forma estructurada para lograr la implementación de distintas pestañas de la aplicación como mensajes, tests vocacionales, carreras, entre otros.
+
+A continuación, se presentan las evidencias de ejecución de las principales funcionalidades y secciones implementadas durante el Sprint 2.
+
+### Inicio de sesión
+<div align="center">
+    <img src="images/inicio-sesion.png" alt="iniciosesion">
+  </div>
+<br>
+  <div align="center">
+    <img src="images/reigstrar-nuevo-usuario.png" alt="iniciosesion">
+  </div>
+<br>
+  En esta primera pantalla tenemos las opciones de inicio de sesión. Permite al usuario ingresar con su cuenta si ya la tiene registrada. En caso contrario, también permite crear una nueva cuenta.
+
+<br> Ahora, pasaremos a dividir las evidencias en dos apartados: Estudiante y Psicólogo.
+
+### Estudiante
+#### Pantalla de Inicio
+
+<div align="center">
+    <img src="images/pantalla-inicio.png" alt="iniciosesion">
+  </div>
+
+En esta pantalla se le permite al usuario navegar por las distintas secciones del servicio web. Además, deja ver un pequeño resumen de su perfil que incluye su perfil vocacional, sus tareas pendientes, distintas opciones de botones y su historial. 
+
+<br>
+
+#### Sección de favoritos
+<div align="center">
+    <img src="images/apartado-favoritos.png" alt="iniciosesion">
+  </div>
+
+  <div align="center">
+    <img src="images/seleccionar-una-carrera.png" alt="iniciosesion">
+  </div>
+
+En esta pantalla se le permite al usuario visualizar sus carreras favoritas, así como ver el detalle de las mismas. En la segunda pantalla, se muestran los datos de la carrera seleccionada, así como botones con redireccionamiento a las distintas páginas de las universidades mostradas para brindar mayor información.
+
+<br>
+
+#### Sección de carreras
+<div align="center">
+    <img src="images/apartado-carreras.png" alt="iniciosesion">
+  </div>
+
+  <div align="center">
+    <img src="images/comparar-dos-carreras.png" alt="iniciosesion">
+  </div>
+
+  <div align="center">
+    <img src="images/comparar-tres-carreras.png" alt="iniciosesion">
+  </div>
+
+Aquí el estudiante puede visualizar todas las carreras disponibles. Tiene una barra de búsqueda y filtros para una mejor navegación y se le permite al estudiante comparar de dos a tres carreras, así como ver el detalle de las mismas.
+
+<br>
+
+#### Simulación profesional
+
+<div align="center">
+    <img src="images/seleccionar-una-carrera.png" alt="iniciosesion">
+  </div>
+
+  <div align="center">
+    <img src="images/simulador-de-carrera.png" alt="iniciosesion">
+  </div>
+
+Desde el detalle de cada carrera, el estudiante tiene la posibilidad de visualizar su simulación profesional. Aquí, se le muestra una línea de tiempo con su posible futuro profesional y las recomendaciones de desarrollo y acción.
+
+<br>
+
+#### Sección de tests vocacionales
+
+<div align="center">
+    <img src="images/tests-vocacionales.png" alt="iniciosesion">
+  </div>
+
+  <div align="center">
+    <img src="images/haciendo-test.png" alt="iniciosesion">
+  </div>
+
+En esta sección se encuentran los tests vocacionales que puede realizar el alumno.
+
+<br>
+
+#### Tareas
+
+<div align="center">
+    <img src="images/tareas-seccion.png" alt="iniciosesion">
+  </div>
+
+  <div align="center">
+    <img src="images/reporte-de-un-test.png" alt="iniciosesion">
+  </div>
+
+En este apartado el estudiante puede visualizar sus tareas completadas y las que aún faltan desarrollar. También puede encontrar los reportes de sus evaluaciones vocacionales ya realizadas y descargarlas.
+
+<br>
+
+#### Apartado de sesiones de orientación
+
+<div align="center">
+    <img src="images/sesiones-orientacion.png" alt="iniciosesion">
+  </div>
+
+En este apartado el estudiante puede visualizar el detalle de cada sesion programada con un psicólogo, sus observaciones y un link directo a la llamada en cuestión.
+
+<br>
+
+#### Sección de mensajes
+
+<div align="center">
+    <img src="images/mensajes.png" alt="iniciosesion">
+  </div>
+
+<br>
+
+#### Comunidad
+
+<div align="center">
+    <img src="images/comunidad.png" alt="iniciosesion">
+  </div>
+
+  <div align="center">
+    <img src="images/comentar.png" alt="iniciosesion">
+  </div>
+
+En esta sección se le permite al estudiante interactuar con otros usuarios de sus mismos intereses o afines. Tiene la posibilidad de publicar un comentario que podrá ser respondido por otros estudiantes.
+
+<br>
+
+### Psicólogo
+#### Pantalla de Inicio
+
+<div align="center">
+    <img src="images/pantalla-inicio-psicologo.png" alt="iniciosesion">
+  </div>
+
+En esta pantalla se le permite al psicólogo navegar por las distintas secciones del servicio web. Aquí se puede ver cuantos estudiantes tiene a su cargo, cuantos tests rendidos por sus alumnos hay, alertas de riesgo y citas pendientes. También puede visualizar el avance vocacional de cada estudiante y sugerencias.
+
+<br>
+
+#### Sección de resultados de los alumnos
+
+<div align="center">
+    <img src="images/resultados-alumnos-psicologo.png" alt="iniciosesion">
+  </div>
+
+En este apartado se le permite al psicólogo ver los resultados de los alumnos en cada test vocacional realizado, así como un reporte general para su análisis. 
+
+<br>
+
+#### Sección de reporte y analítica
+
+<div align="center">
+    <img src="images/reporte-y-analitica.png" alt="iniciosesion">
+  </div>
+
+<div align="center">
+  <img src="images/programar-sesion-orientacion.png"
+  alt="programarsesion">
+</div>
+
+En este apartado el psicólogo educativo puede analizar grupos de estudiantes mediante la opción de comparar de perfiles entre grupos, carreras más demandadas y hallazgos clave y conclusiones. También le da la opción de crear un taller grupal.
+
+<br>
+
+#### Sección de programación de sesiones de orientación
+
+<div align="center">
+  <img src="images/programar-sesion-orientacion.png"
+  alt="programarsesion">
+</div>
+
+En este apartado se puede acceder de manera más directa a la opción de agregar y programar nuevas sesiones de orientación.
+
+<br>
+
+#### Recursos vocacionales
+
+<div align="center">
+  <img src="images/recursos-vocacionales.png"
+  alt="programarsesion">
+</div>
+
+Aquí el psicólogo puede agregar distintos recursos vocacionales para entregar a sus estudiantes, tales como libros, resúmenes de psicólogía, reportes de análisis, etc.
+
+<br>
+
+#### Sección de mensajes con estudiantes
+
+<div align="center">
+  <img src="images/mensajes-psicologo.png"
+  alt="programarsesion">
+</div>
+
+<br>
+
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 
