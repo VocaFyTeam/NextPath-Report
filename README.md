@@ -5075,13 +5075,13 @@ feat(community): add community entity`, `feat(tasks): add student task entity`, 
 **Evidencia: Pull Requests integrados en   `NextPath-Webpage`**
  
 <p align="center">
-  <img src="images/s2-pull-requests-webapp.png" width="700" alt="Pull Requests de stockia-webapp"/>
+  <img src="images/s2-pull-requests-webapp.png" width="700" alt="Pull Requests "/>
   <br/><i>Pull Requests #1 a #8 integrados en develop</i>
 </p>
 **Evidencia:** contribuciones por integrante en `NextPath-Report` 
  
 <p align="center">
-  <img src="assets/img/chapter-05/contributors-report.png" width="700" alt="Grafo de ramas de stockia-webapp"/>
+  <img src="images/contributors-report.png" width="700" alt="Grafo de ramas de"/>
   <br/><i>Insights → >Contribuciones por integrante en [NextPath-Report] (GitHub Insights)</i>
 </p>
  
