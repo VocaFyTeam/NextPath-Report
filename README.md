@@ -192,8 +192,7 @@ del ABET – EAC - Student Outcome 3.
             <u> Joaquin Cruzalegui Herrera AV1: Durante el proyecto NextPath asumí un liderazgo técnico compartido, coordinando con mis compañeros las principales decisiones de diseño del sistema. Guié al equipo en el modelado de los diagramas C4 (Contexto, Contenedores y Componentes) tomando como base nuestro EventStorming. </u>
 		  	<br><br>
 		  	<u> Joaquin Cruzalegui Herrera AV2: Durante este avance de NextPath ejercí un liderazgo técnico y metodológico compartido: redacté el Sprint Planning y elaboré la matriz Aspect Leaders and Collaborators (LACX) para distribuir los roles del equipo, además de liderar en el código frontend la implementación modular y estructurada de los módulos de IAM y Counseling. </u>
-		  	<br><br>
-		  	<u> Joaquin Cruzalegui Herrera AV2: Fomenté un entorno colaborativo y ordenado durante la planificación del nuevo sprint, estructurando el Sprint Planning y definiendo metas claras mediante la matriz LACX para repartir los módulos frontend de forma equitativa. Planifiqué y ejecuté las tareas correspondientes a la arquitectura e integración de los módulos de IAM y Counseling, coordinando con el equipo el versionado de ramas y commits en GitHub para asegurar el cumplimiento de los objetivos y la estabilidad de la plataforma web. </u>
+		  	<br>
             <br><br>
             <b></b><br>
             <u> Fernando Sebastian Perez Bellido AV1: Realice en conjunto la landing page, diagrama de componentes y parte del capitulo 5</u><br>
@@ -218,7 +217,9 @@ del ABET – EAC - Student Outcome 3.
             <p>Logré crear y contribuir a un buen ambiente colaborativo cumpliendo con mis metas y objetivos a tiempo, como la realización de los dos tipos de event storming, las tags y el lenguaje ubiquo. </p>
             <br><br>
             <b></b><br>
-            <u>Joaquin Cruzalegui AV1: Promoví un ambiente de trabajo abierto durante la planificación del Sprint 1, escuchando las propuestas de todos para estimar los Story Points y repartir las tareas de forma justa en la matriz LACX. Participé directamente en organizar las tareas del Sprint Backlog para construir la Landing Page y documentar la arquitectura, fijando metas y fechas claras de entrega. Gracias a la coordinación constante y al apoyo mutuo al revisar el código y los diagramas, logramos realizar grandes avances y desplegar la Landing Page</u><br>
+            <u>Joaquin Cruzalegui AV1: Promoví un ambiente de trabajo abierto durante la planificación del Sprint 1, escuchando las propuestas de todos para estimar los Story Points y repartir las tareas de forma justa en la matriz LACX. Participé directamente en organizar las tareas del Sprint Backlog para construir la Landing Page y documentar la arquitectura, fijando metas y fechas claras de entrega. Gracias a la coordinación constante y al apoyo mutuo al revisar el código y los diagramas, logramos realizar grandes avances y desplegar la Landing Page</u>
+		  	<br><br>
+		  	<u> Joaquin Cruzalegui Herrera AV2: Fomenté un entorno colaborativo y ordenado durante la planificación del nuevo sprint, estructurando el Sprint Planning y definiendo metas claras mediante la matriz LACX para repartir los módulos frontend de forma equitativa. Planifiqué y ejecuté las tareas correspondientes a la arquitectura e integración de los módulos de IAM y Counseling, coordinando con el equipo el versionado de ramas y commits en GitHub para asegurar el cumplimiento de los objetivos y la estabilidad de la plataforma web. </u>
             <br><br>
             <b></b><br>
             <u>Fernando Sebastian Perez Bellido AV1: colaboré en la realización de los diagramas de C4</u><br>
