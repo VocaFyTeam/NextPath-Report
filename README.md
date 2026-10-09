@@ -5063,7 +5063,7 @@ feat(community): add community entity`, `feat(tasks): add student task entity`, 
 
 1. **Revisión cruzada:** cada Pull Request lo aprobará un integrante distinto de su autor antes del merge. [En el Sprint 2 algunos autores integraron sus propios PR / Describir cómo se integraron los PR en el Sprint 2.]
 2. **Nada directo en `develop`:** todo cambio entrará por Pull Request, y `develop` quedará protegida con una regla de rama. [En este Sprint algunos cambios se subieron directamente, por ejemplo los de IAM y Counseling / Ajustar según lo ocurrido.] Esto refuerza la lección del Sprint 0 sobre la gestión de ramas bajo GitFlow.
-3. **Compilar antes de integrar:** cada PR debe pasar `npm run build` y las pruebas automatizadas ([`npm test` / `ng test`]). Se agregará una verificación automática con GitHub Actions para que un error de compilación [como el ocurrido en el módulo de ___] no llegue a `develop`.
+3. **Compilar antes de integrar:** cada PR debe pasar `npm run build` y las pruebas automatizadas ([`npm test` / `ng test`]). Se agregará una verificación automática con GitHub Actions para que un error de compilación no llegue a `develop`.
 4. **Integración en el mismo Sprint:** registrar las rutas y la opción del menú en el PR de routing de cada módulo (test vocacional, carreras, comunidad, psicólogo, mensajería), para que toda pantalla integrada sea accesible desde la navegación. Esto evita pantallas terminadas pero inalcanzables, y coordina los estilos compartidos entre módulos.
 
 **Evidencia:** contribuciones por integrante en `[NextPath-Webpage]`.
