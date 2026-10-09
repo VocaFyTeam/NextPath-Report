@@ -5022,7 +5022,7 @@ Datos semilla de la API simulada: 9 usuarios (6 estudiantes y 3 psicólogos), 5 
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-En el Sprint 2 se desplegaron dos componentes: la API simulada en Render y la Web Application en Vercel.
+En el Sprint 2 se desplegaron dos componentes: la API simulada en Render y la Web Application
 
 **Actividades de despliegue realizadas**
 
@@ -5043,6 +5043,48 @@ En el Sprint 2 se desplegaron dos componentes: la API simulada en Render y la We
   <br/><i>Web Application desplegada </i>
 </p>
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+
+**Dinámica de trabajo**
+  En total se integraron 7 Pull Requests en `develop` . Aplicando la mejora de la retrospectiva del Sprint 1, cada rama corresponde a una capa o tarea y cada commit indica el contexto en su mensaje (`
+feat(community): add community entity`, `feat(tasks): add student task entity`, ). Las tareas se gestionaron en trello.
+
+**Aporte por integrante**
+
+| **Integrante** | **GitHub** | **Aporte principal en el Sprint 2** | **Horas asignadas** | **Commits (NextPath-Webpage / report)** | **Pull Requests integrados (NextPath-Webpage  / report)** |
+| :--- | :--- | :--- | :---: | :---: | :---: |
+| Cruzalegui Herrera, Joaquin | JoaquinCruzalegui | Autenticación y acceso por rol: login, registro y recuperación de contraseña (TS01); Centro de Mensajería entre psicólogo y estudiante (US06, US25, US27) | 8.0 | 8 / 5  | 1 / 1 |
+| Ravello Cárdenas, Luciana Angelina | Lucyrcar-ID | Test vocacional: catálogo de tests y cuestionario dinámico (US01); resultados RIASEC, feedback de IA y tests de seguimiento (US02, US03, US26) | 8.0 | 14 / 10 | 1  / 2 |
+| Miranda Cordova, Jesus Angel Yvan | Jesus-Miranda-678 | Exploración de carreras: explorador con filtros y compatibilidad, ficha detallada, favoritos, comparador y simulador de futuro profesional (US15, US16, US17, US18, US19, US20) | 8.5 | 34 / 10 | 2 / 3 |
+| Torres Juárez, Alisee Muriel | lLisee1  | Dashboard de progreso (US21), plan vocacional e historial de logros (US22, US24) y muro de comunidad (US33, US34, US35) | 6.0 | 12 / 3 | 1 / 1 |
+|  Pérez Bellido, Fernando Sebastián | FernBellido22 | Módulo del psicólogo: tablero de monitoreo y ficha diagnóstica (US04, US12, US14, US38, US39, US40, US41); agenda de sesiones y panel analítico grupal (US05, US08, US10, US13, US28, US30, US32) | 8.0 | 25 / 7 | 3 / 1 |
+
+
+**Lecciones para el Sprint 3**
+
+1. **Revisión cruzada:** cada Pull Request lo aprobará un integrante distinto de su autor antes del merge. [En el Sprint 2 algunos autores integraron sus propios PR / Describir cómo se integraron los PR en el Sprint 2.]
+2. **Nada directo en `develop`:** todo cambio entrará por Pull Request, y `develop` quedará protegida con una regla de rama. [En este Sprint algunos cambios se subieron directamente, por ejemplo los de IAM y Counseling / Ajustar según lo ocurrido.] Esto refuerza la lección del Sprint 0 sobre la gestión de ramas bajo GitFlow.
+3. **Compilar antes de integrar:** cada PR debe pasar `npm run build` y las pruebas automatizadas ([`npm test` / `ng test`]). Se agregará una verificación automática con GitHub Actions para que un error de compilación [como el ocurrido en el módulo de ___] no llegue a `develop`.
+4. **Integración en el mismo Sprint:** registrar las rutas y la opción del menú en el PR de routing de cada módulo (test vocacional, carreras, comunidad, psicólogo, mensajería), para que toda pantalla integrada sea accesible desde la navegación. Esto evita pantallas terminadas pero inalcanzables, y coordina los estilos compartidos entre módulos.
+
+**Evidencia:** contribuciones por integrante en `[NextPath-Webpage]`.
+
+<p align="center">
+  <img src="images/contributors-webapp.png" width="700" alt="Contribuciones por integrante en la Web App"/>
+  <br/><i>Contribuciones por integrante en [NextPath-Webpage] (GitHub Insights)</i>
+</p>
+**Evidencia: Pull Requests integrados en   `NextPath-Webpage`**
+ 
+<p align="center">
+  <img src="images/s2-pull-requests-webapp.png" width="700" alt="Pull Requests "/>
+  <br/><i>Pull Requests #1 a #8 integrados en develop</i>
+</p>
+**Evidencia:** contribuciones por integrante en `NextPath-Report` 
+ 
+<p align="center">
+  <img src="images/contributors-report.png" width="700" alt="Grafo de ramas de"/>
+  <br/><i>Insights → >Contribuciones por integrante en [NextPath-Report] (GitHub Insights)</i>
+</p>
+ 
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
