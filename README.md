@@ -5022,7 +5022,26 @@ Datos semilla de la API simulada: 9 usuarios (6 estudiantes y 3 psicólogos), 5 
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
+En el Sprint 2 se desplegaron dos componentes: la API simulada en Render y la Web Application en Vercel.
 
+**Actividades de despliegue realizadas**
+
+1. Se publicó la API simulada en Render como servicio Node.js (`server.js` con json-server y el archivo `db.json`), con CORS habilitado. El servidor atiende cada colección directamente desde la URL base (por ejemplo, `/careers`) 
+2. Se configuraron los entornos de la Web Application ([`environment.ts` y `environment.prod.ts`]) para que la URL base apunte a la API desplegada.
+3. Se configuró en git pages el proyecto `NextPath`, conectado a la rama `main` del repositorio `NextPath-Webpage`.
+4. Se verificaron en producción el inicio de sesión por rol (estudiante y psicólogo), la recarga de rutas internas y las redirecciones de los guards según el rol del usuario.
+
+* **URL de la API simulada:** https://nextpath-mockups-api.onrender.com/
+* **URL de la Web Application desplegada:** https://vocafyteam.github.io/NextPath-WebPage/
+<p align="center">
+  <img src="images/despliegue-render.png" width="700" alt="API simulada en Render"/>
+  <br/><i>API simulada desplegada en Render</i>
+</p>
+
+<p align="center">
+  <img src="images/despliegue.png" width="700" alt="Web Application "/>
+  <br/><i>Web Application desplegada </i>
+</p>
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 ## 5.3. Validation Interviews
 
