@@ -4224,7 +4224,7 @@ Entre las actividades principales planificadas se incluyeron:
 * Desarrollo del bloque de conversión **Comenzar ahora** con enlaces hacia tiendas móviles (*App Store*, *Google Play*) acompañado de la mascota institucional Panda.
 * Creación del pie de página **Contáctanos** con enlaces a redes sociales oficiales (*Instagram*, *Facebook*, *LinkedIn*) y derechos reservados.
 * Ajustes de estilos CSS y validación de diseño responsive para pantallas de escritorio y dispositivos móviles.
-* Configuración del flujo de despliegue continuo mediante Netlify.
+* Configuración del flujo de despliegue continuo mediante Github Pages.
 
 | Campo | Detalle |
 | :--- | :--- |
