@@ -14,7 +14,7 @@ NRC
 
 **16127**
 
-**Informe del AV1**
+**Informe del AV2**
 
 Docente:
 **Oscar Ivan Villafuerte Bazan**
@@ -45,7 +45,7 @@ Proyecto:
 
 **Periodo 202620**
 
-**Septiembre, 2026**
+**Noviembre, 2026**
 
 </div>
 
@@ -4241,7 +4241,7 @@ Deployment Configuration Summary
 
 El Sprint Planning 1 tuvo como objetivo principal completar, maquetar y desplegar la Landing Page del proyecto NextPath, estableciendo así la presencia digital inicial de la plataforma orientada a la orientación vocacional estudiantil y el acompañamiento profesional.
 
-Durante este sprint, el equipo definió las tareas técnicas necesarias para implementar la estructura visual responsive a partir de HTML5, CSS3 y JavaScript, asegurando una experiencia de usuario fluida, limpia y alineada a las guías de estilo de la marca (paleta basada en verde petróleo y la integración de la mascota Panda). Asimismo, se configuró el repositorio oficial en GitHub y la integración continua para el despliegue automático en la plataforma Netlify.
+Durante este sprint, el equipo definió las tareas técnicas necesarias para implementar la estructura visual responsive a partir de HTML5, CSS3 y JavaScript, asegurando una experiencia de usuario fluida, limpia y alineada a las guías de estilo de la marca (paleta basada en verde petróleo y la integración de la mascota Panda). Asimismo, se configuró el repositorio oficial en GitHub y la integración continua para el despliegue automático en la plataforma Git Pages.
 
 Entre las actividades principales planificadas se incluyeron:
 * Implementación de la barra de navegación fija (*Navbar*) con accesos directos (*Inicio*, *Sobre nosotros*, *Cómo funciona*, *Comenzar ahora*, *Contáctanos*).
@@ -4307,7 +4307,7 @@ https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2
 | **Sprint 1** | US04 | Presentar llamado a la acción y disponibilidad de acceso | 2 | T04 | Maquetado e interactividad de tarjeta de conversión con Panda | Maquetar contenedor con ilustración de Panda, botones ('App Store' / 'Google Play') y configurar lógica JS de eventos e interactividad. | 5h | Jesús Miranda | Done |
 | **Sprint 1** | US05 | Proveer canales de contacto y pie de página institucional | 2 | T05 | Maquetación de contacto, pie institucional y redes sociales | Maquetar bloque inferior (verde petróleo, copyright 2026) y configurar hipervínculos seguros a redes sociales oficiales. | 4h | Alisee Torres | Done |
 | **Sprint 1** | — | Setup del proyecto | — | T06 | Setup de repositorio, variables CSS y smooth scroll | Crear estructura de carpetas/archivos base, declarar variables CSS :root y configurar desplazamiento suave en navegación. | 4h | Sebastián Pérez | Done |
-| **Sprint 1** | — | Setup del proyecto | — | T07 | Auditoría de accesibilidad y despliegue continuo | Validar contrastes de color, textos alternativos, etiquetas semánticas y despliegue automático en Netlify. | 3h | Team | Done |
+| **Sprint 1** | — | Setup del proyecto | — | T07 | Auditoría de accesibilidad y despliegue continuo | Validar contrastes de color, textos alternativos, etiquetas semánticas y despliegue automático en Git pages. | 3h | Team | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -4565,7 +4565,7 @@ https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2
 | **Sprint 2** | HU 15, HU 16, HU 17, HU 19 | Explorar carreras | T3.1 | Explorador y Ficha de Carrera | Buscador con filtros (Área, Duración, Modalidad), badge de % de compatibilidad, ficha detallada y favoritos. | 2 | 4h* | Miranda, Jesús (Jesus-Miranda-678) | Done |
 | **Sprint 2** | HU 18, HU 20 | Comparar y simular carreras | T3.2 | Comparador y Simulador | Tabla comparativa de hasta 3 carreras y timeline de simulación del futuro profesional. | 3 | 4.5h | Miranda, Jesús (Jesus-Miranda-678) | Done |
 | **Sprint 2** | HU 21, HU 22, HU 24, HU 33, HU 34, HU 35 | Progreso, plan vocacional y comunidad | T4.1 | Dashboard, Plan y Comunidad | Dashboard de progreso, plan con tareas e historial de logros y muro de comunidad con publicaciones y comentarios. | 5 | 6h | 	Torres, Alisee (lLisee1)  | Done |
-| **Sprint 2** | HU 04, HU 12, HU 14, HU 38, HU 39, HU 40, HU 41 | Monitoreo y diagnóstico | T5.1 | Tablero y Ficha Diagnóstica |Lista de alumnos, barras de avance, filtros de riesgo y sugerencias de IA, y expediente individual con reporte automático. | 3 | 4h | Torres, Pérez, Fernando (FernBellido22| Done |
+| **Sprint 2** | HU 04, HU 12, HU 14, HU 38, HU 39, HU 40, HU 41 | Monitoreo y diagnóstico | T5.1 | Tablero y Ficha Diagnóstica |Lista de alumnos, barras de avance, filtros de riesgo y sugerencias de IA, y expediente individual con reporte automático. | 3 | 4h | Pérez, Fernando (FernBellido22)| Done |
 | **Sprint 2** | HU 05, HU 08, HU 10, HU 13, HU 28, HU 30, HU 32 | Sesiones y analítica grupal | T5.2 | Agenda y Panel Analítico | Citas individuales/grupales,  Gráficos de tendencias por corte y exportación a PDF/Excel. | 2 | 4h* | Pérez, Fernando (FernBellido22) | Done |
 
 
@@ -5275,8 +5275,8 @@ feat(community): add community entity`, `feat(tasks): add student task entity`, 
 
 **Lecciones para el Sprint 3**
 
-1. **Revisión cruzada:** cada Pull Request lo aprobará un integrante distinto de su autor antes del merge. [En el Sprint 2 algunos autores integraron sus propios PR / Describir cómo se integraron los PR en el Sprint 2.]
-2. **Nada directo en `develop`:** todo cambio entrará por Pull Request, y `develop` quedará protegida con una regla de rama. [En este Sprint algunos cambios se subieron directamente, por ejemplo los de IAM y Counseling / Ajustar según lo ocurrido.] Esto refuerza la lección del Sprint 0 sobre la gestión de ramas bajo GitFlow.
+1. **Revisión cruzada:** cada Pull Request lo aprobará un integrante distinto de su autor antes del merge.
+2. **Nada directo en `develop`:** todo cambio entrará por Pull Request, y `develop` quedará protegida con una regla de rama. Esto refuerza la lección del Sprint 0 sobre la gestión de ramas bajo GitFlow.
 3. **Compilar antes de integrar:** cada PR debe pasar `npm run build` y las pruebas automatizadas ([`npm test` / `ng test`]). Se agregará una verificación automática con GitHub Actions para que un error de compilación no llegue a `develop`.
 4. **Integración en el mismo Sprint:** registrar las rutas y la opción del menú en el PR de routing de cada módulo (test vocacional, carreras, comunidad, psicólogo, mensajería), para que toda pantalla integrada sea accesible desde la navegación. Esto evita pantallas terminadas pero inalcanzables, y coordina los estilos compartidos entre módulos.
 
