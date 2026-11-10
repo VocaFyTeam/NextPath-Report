@@ -5298,7 +5298,57 @@ feat(community): add community entity`, `feat(tasks): add student task entity`, 
   <img src="images/contributors-report.png" width="700" alt="Grafo de ramas de"/>
   <br/><i>Insights → >Contribuciones por integrante en [NextPath-Report] (GitHub Insights)</i>
 </p>
- 
+
+
+
+### 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning 3
+
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+#### 5.2.3.3. Sprint Backlog 3
+
+**Objetivo del Sprint:**  
+Implementar y desplegar el backend de producción de NextPath basado en Domain-Driven Design (DDD) y .NET Core, integrando la base de datos relacional y configurando los controladores REST para dar soporte a los flujos de estudiantes y psicólogos.
+
+**Sprint Goal:**  
+*"El backend modular de NextPath se encuentra operativo en .NET Core, permitiendo que la aplicación web procese de manera persistente la autenticación JWT, las evaluaciones vocacionales , el catálogo y simulador de carreras, el agendamiento de citas, la comunidad y el monitoreo de riesgo clínico."*
+
+**Métricas y Configuración del Sprint 2:**
+
+**Story Points comprometidos: 29 SP | Duración: 2 semanas **
+
+>Evidencia del Board:
+<div align="center">
+  <img src="images/Sprint-backlog-2.png" alt="sprint"><br><br>
+</div>
+
+>URL público del Board:
+https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2cb06a2a0cB717020D/nextpath
+
+| Sprint # | User Story ID | User Story Título | SP | Task ID | Task Título | Descripción | Estimación | Asignado a | Status | 
+| :---: | :---: | :--- | :---: | :---: | :--- | :--- | :---: | :--- | :---: |
+| **Sprint 3** | TS 01 | Autenticar usuarios mediante la API | 3 | T3.1 | Endpoints de IAM &amp; Authentication | Implementar \`AuthController\` y \`UsersController\` en \`IAM/\` con controladores REST, generación de tokens JWT, hashing de contraseñas y gestión de roles (\`Student\`/\`Psychologist\`). | 5h | Pérez, Fernando (\`FernBellido22\`) | Done |
+| **Sprint 3** | TS 07 | Gestionar actividades y recursos vocacionales | 2 | T3.2 | Endpoints de Biblioteca de Recursos | Implementar \`ResourcesController\` en \`Resources/\` para registro, filtrado por categoría y consulta de guías o libros descargables. | 4h | Pérez, Fernando (\`FernBellido22\`) | Done | 
+| **Sprint 3** | TS 09, TS 10 | Buscar carreras y consultar compatibilidad | 5 | \*\*T3.3\*\* | Endpoints de Búsqueda, Compatibilidad y Simulador | Implementar \`CareersController\` en \`CareerExploration/\` con filtros combinados (área, duración, modalidad), cálculo de afinidad por IA y simulación de trayectoria profesional. | 6h | Miranda, Jesús (\`Jesus-Miranda-678\`) | Done | 
+| **Sprint 3** | TS 11 | Gestionar carreras favoritas mediante la API | 2 | T3.4 | Endpoints de Carreras Favoritas | Implementar \`FavoritesController\` en \`CareerExploration/\` para agregar (\`POST\`), listar (\`GET\`) y remover (\`DELETE\`) carreras en la lista de favoritos del estudiante. | 4h | Miranda, Jesús (\`Jesus-Miranda-678\`) | Done |
+| **Sprint 3** | TS 12 | Gestionar plan vocacional y metas del estudiante | 3 | T3.5 | Endpoints de Plan Vocacional y Tareas | Implementar \`StudentTasksController\` en \`Tasks/\` para la gestión CRUD de tareas del plan de desarrollo, control de fechas límite y actualización de estado. | 5h | Miranda, Jesús (\`Jesus-Miranda-678\`) | Done | 
+| **Sprint 3** | TS 06 | Gestionar sesiones de orientación mediante la API | 3 | T3.6 | Endpoints de Agendamiento de Sesiones | Implementar \`CounselingSessionsController\` en \`Counseling/\` para programación de citas individuales/grupales,validación de fechas, vinculación estudiante-psicólogo y registro de observaciones de sesión. | 6h | Torres, Alisee (\`ILisee1\`) | Done |
+| **Sprint 3** | TS 02, TS 03, TS 04 | Registrar, procesar y consultar tests vocacionales | 5 | T3.7 | Endpoints de Evaluaciones Vocacionales  | Implementar \`VocationalTestsController\` y \`TestResultsController\` en \`Assessments/\` para banco de preguntas, persistencia transaccional de respuestas  | 7h | Cruzalegui, Joaquin (\`JoaquinCruzalegui\`) | Done | 
+| **Sprint 3** | TS 13 | Administrar comunidad y foros en la API | 3 | T3.8 | Endpoints de Comunidad, Hilos y Comentarios | Implementar \`CommunitiesController\`, \`ThreadsController\` y \`CommentsController\` en \`Community/\` para publicación de posts, reacciones, moderación y mensajes de foro. | 6h | Cruzalegui, Joaquin (\`JoaquinCruzalegui\`) | Done | 
+| **Sprint 3** | TS 05, TS 08 | Consultar expediente y registrar progreso clínico | 3 | T3.9 | Endpoints de Tablero de Monitoreo y Ficha Diagnóstica | Implementar \`StudentProfilesController\` en \`Monitoring/\` para filtrado por grupo de alumnos, \*flags\* de riesgo (inactividad/baja participación) y notas de seguimiento clínico. | 6h | Ravello, Luciana (\`Lucyrcar-ID\`) | Done | | **Sprint 3** | TS 15 | Consultar información analítica vocacional | 4 | T3.10 | Endpoints de Analítica Avanzada y Reportes IA | Implementar servicios en \`Monitoring/\` (o \`Reports/\`) para generación de reportes psicológicos automáticos con IA, analítica comparativa de cohortes y exportación de datos. | 5h | Ravello, Luciana (\`Lucyrcar-ID\`) | Done |
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
