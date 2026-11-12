@@ -5400,6 +5400,41 @@ https://trello.com/invite/b/6af4000b58f4ebe6ea0a7dec/ATTIdc2403d2f47ede80c8541a0
 
 ### 5.3.1. Diseño de Entrevistas
 
+##### Protocolo de Ejecución de la Sesión
+1. **Introducción y Propósito:** Al inicio de la grabación, el moderador explica brevemente el objetivo de la sesión (evaluar la plataforma, no al usuario).
+2. **Enfoque en *User Goals* :** Se asignan escenarios y tareas basadas directamente en los *User Goals* de los *User Personas* creados. **No se indican pasos específicos, rutas de menú ni nombres de botones**, permitiendo que el usuario explore libremente las interfaces bajo la técnica *Thinking Aloud* (pensar en voz alta).
+3. **Exploración del Landing Page y Aplicaciones:** Se evalúa primero el primer contacto con el *Landing Page* y posteriormente la ejecución de los *User Flows* principales dentro de la aplicación.
+4. **Cierre y Cuestionario de Validación:** Al finalizar las tareas, se aplica una entrevista semiestructurada con preguntas abiertas y directas para recoger percepciones sobre usabilidad, contenido y consistencia visual.
+
+##### Guía de Preguntas de la Entrevista de Validación
+
+Las preguntas han sido formuladas con un lenguaje claro, cercano y libre de tecnicismos para facilitar respuestas espontáneas y honestas por parte de los entrevistados:
+
+**1. Datos Demográficos Básicos (Validación de Perfil / Arquetipo)**
+* ¿Cuál es tu edad y en qué distrito resides?
+
+**2. Preguntas sobre la Primera Impresión (Landing Page)**
+* ¿Qué es lo primero que notas al entrar al *landing page* de VocaFy?
+* ¿Qué tan claro te resulta el propósito de la plataforma?
+* ¿Te parece atractivo y confiable el diseño inicial?
+
+**3. Preguntas sobre Navegación y Usabilidad (Aplicaciones Web / Mobile)**
+* ¿Encontraste fácilmente la sección o información que buscabas (como el test vocacional, el buscador de carreras o el panel de seguimiento)?
+* ¿Hubo algún momento en el que te confundiste sobre qué hacer a continuación?
+* ¿Qué tan intuitivo te resultó completar la tarea asignada en la aplicación?
+
+**4. Preguntas sobre Contenido y Comunicación**
+* ¿Los textos y elementos visuales te ayudaron a entender cómo funciona la orientación vocacional?
+* ¿Hay algo que consideres innecesario o que sientas que falta en la plataforma?
+* ¿El lenguaje utilizado es claro y fácil de comprender para ti?
+
+**5. Preguntas sobre Experiencia General y Validación Heurística**
+* ¿Qué tan satisfecho estás con la interacción general en la aplicación?
+* ¿Tuviste algún problema para reconocer los botones, enlaces o menús interactivos?
+* ¿Los mensajes, alertas o avisos del sistema fueron suficientes y claros?
+* ¿Qué mejorarías en el flujo de la aplicación?
+* ¿Recomendarías esta aplicación a alguien más? ¿Por qué?
+
 ### 5.3.2. Registro de Entrevistas
 
 **SEGMENTO 1: ESTUDIANTES**
