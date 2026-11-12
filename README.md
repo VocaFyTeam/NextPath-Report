@@ -5355,7 +5355,9 @@ https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2
 
 ### 5.3.2. Registro de Entrevistas
 
-# Segmento 1: ESTUDIANTES
+**SEGMENTO 1: ESTUDIANTES**
+<BR>
+
 **Entrevista 1:**
 <br>
 **Entrevistador(a):** >Luciana Angielina Ravello Cárdenas
