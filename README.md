@@ -5369,11 +5369,11 @@ Implementar y desplegar el backend de producción de NextPath basado en Domain-D
 
 >Evidencia del Board:
 <div align="center">
-  <img src="images/Sprint-backlog-2.png" alt="sprint"><br><br>
+  <img src="images/sprint-backlog-3.png" alt="sprint"><br><br>
 </div>
 
 >URL público del Board:
-https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2cb06a2a0cB717020D/nextpath
+https://trello.com/invite/b/6af4000b58f4ebe6ea0a7dec/ATTIdc2403d2f47ede80c8541a0c67dcaa489119E05A/nextpath
 
 | Sprint # | User Story ID | User Story Título | SP | Task ID | Task Título | Descripción | Estimación | Asignado a | Status | 
 | :---: | :---: | :--- | :---: | :---: | :--- | :--- | :---: | :--- | :---: |
