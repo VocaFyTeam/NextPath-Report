@@ -5391,6 +5391,181 @@ https://trello.com/invite/b/6af4000b58f4ebe6ea0a7dec/ATTIdc2403d2f47ede80c8541a0
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
+En este apartado se explican y presentan los avances de implementación correspondientes al Sprint 3, cuyo alcance principal fue el desarrollo de la primera versión de los Web Services. A lo largo de este sprint, el equipo colaboró de forma estructurada para lograr la implementación de distintas pestañas de la aplicación en la base de datos como mensajes, tests vocacionales, carreras, reportes, comparaciones, entre otros.
+
+A continuación, se presentan las evidencias de ejecución del sprint 3.
+
+### Branches evidence
+
+<div align="center">
+    <img src="images/branches-evidence.png" alt="iniciosesion">
+  </div>
+
+<br>
+
+Se tuvo en cuenta cada bounded context previamente definido para la creación de las ramas, así como distintos contextos necesarios (en nuestro caso, nuestra rama "feature/deploy").
+
+### User endpoints evidence
+
+**Iam**
+
+<div align="center">
+    <img src="images/iam-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/iam-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/iam-evidence3.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/iam-evidence4.png" alt="iniciosesion">
+  </div>
+
+<br>
+
+Está relacionado a la autenticación, registro y roles.
+
+* Bounded Context asociado(s): Iam Context and Profiles & Preferences Context
+
+<br>
+
+**Assessments**
+<div align="center">
+    <img src="images/asssessments-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/assessments-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/assessments-evidence3.png" alt="iniciosesion">
+  </div>
+
+<br>
+
+Está relacionado con las asignaciones al estudiante (tests vocacionales, banco de preguntas, el procesamiento con IA de las mismas, etc ).
+
+* Bounded Context asociado(s): Vocational Education Context
+
+<br>
+
+**Career Exploration**
+
+<div align="center">
+    <img src="images/careerexploration-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/careerexploration-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/careerexploration-evidence3.png" alt="iniciosesion">
+  </div>
+
+  <br>
+
+Relacionado al catálogo de carreras, comparador y simulador, así como también al buscador y a los filtros inteligentes.
+
+* Bounded Context asociado(s): Career Exploration & Planning Context and Search & Discovery Context
+
+<br>
+
+**Community**
+
+<div align="center">
+    <img src="images/community-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/community-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/community-evidence3.png" alt="iniciosesion">
+  </div>
+
+  <br>
+
+  Relacionado a los foros, hilos de discusión, comentarios, acciones y mensajería en tiempo real.
+
+  * Bounded Context asociado(s): Community and Chat Context
+
+  <br>
+
+  **Counseling**
+
+  <div align="center">
+    <img src="images/counseling-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/counseling-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/counseling-evidence3.png" alt="iniciosesion">
+  </div>
+
+  <br>
+
+  Relacionado al agendamiento de citas individuales y grupales y al enlace entre alumno y psicólogo.
+
+  * Bounded Context asociado(s): Advisory Context
+
+  <br>
+
+  **Monitoring**
+
+  <div align="center">
+    <img src="images/monitoring-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/monitoring-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/monitoring-evidence3.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/monitoring-evidence4.png" alt="iniciosesion">
+  </div>
+
+  <br>
+
+  Relacionado a las fichas clínicas del psicólogo, notas de seguimiento, validación de reportes de evolución y analítica de grupos de estudiantes.
+
+  * Bounded Context asociado(s): Student Monitoring Context and Reports Context
+
+  <br>
+
+**Tasks**
+
+<div align="center">
+    <img src="images/tasks-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/tasks-evidence2.png" alt="iniciosesion">
+  </div>
+
+Relacionado a la gestión de metas, asiganciones y seguimiento de tareas del estudiante.
+
+  * Bounded Context asociado(s): Task & Goal Management Context
+
+  <br>
+
+  **Vocational Resources**
+
+  <div align="center">
+    <img src="images/vocationalresources-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/vocationalresources-evidence2.png" alt="iniciosesion">
+  </div>
+
+Relacionado con la biblioteca de guías, libros y material descargable.
+
+  * Bounded Context asociado(s): Resources Context
+
+  <br>
+
+  
+
+
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 
