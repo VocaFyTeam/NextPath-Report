@@ -5355,6 +5355,28 @@ https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2
 
 ### 5.3.2. Registro de Entrevistas
 
+# Segmento 1: ESTUDIANTES
+**Entrevista 1:**
+<br>
+**Entrevistador(a):** >Luciana Angielina Ravello Cárdenas
+
+Datos del entrevistada:
+
+* Nombre: Liz
+* Apellido: Anahua
+* Edad: 22 años
+* Distrito: San Borja
+* Timing: 0:10
+
+
+<p align="center"><img alt="Entrevista-Luciana1.2" src="images/evidencia-entrevista.png" /></p>
+  <p align="center"><img alt="Entrevista-Luciana1" src="images/evidencia-entrevista-1.2.png" /></p>
+<p align="center"><i>Evidencia de entrevista: Liz </i></p>
+
+**Resumen descriptivo:** En la entrevista, la estudiante comentó que la plataforma contaba con un diseño amigable y afirmó que sí la recomendaría a otros alumnos. Además, valoró positivamente la fluidez en los cuestionarios dinámicos y en el simulador de trayectorias, ya que facilitan la visualización del futuro. También consideró que la navegación es intuitiva y no tuvo problemas con los menús y las notificaciones.
+
+
+
 ### 5.3.3. Evaluaciones según heurísticas
 
 ## 5.4. Video About-the-Product
