@@ -5305,8 +5305,55 @@ feat(community): add community entity`, `feat(tasks): add student task entity`, 
 
 ### 5.2.3.1. Sprint Planning 3
 
+El Sprint Planning 3 tiene como objetivo organizar el desarrollo del backend de NextPath mediante la implementación de una API RESTful que permita gestionar las principales funcionalidades de la plataforma. Este sprint se enfoca en construir los servicios necesarios para procesar y almacenar la información de los usuarios, evaluaciones vocacionales, recursos de orientación, exploración de carreras y comunidad.
+
+Durante este sprint, el equipo desarrollará los componentes del backend utilizando C# y ASP.NET Core, aplicando los principios de Domain-Driven Design (DDD) para mantener una arquitectura modular y una adecuada separación de responsabilidades. La implementación se organizará mediante Bounded Contexts, contemplando las capas de Domain, Application, Infrastructure e Interfaces.
+
+El alcance comprende la implementación de entidades de dominio, servicios de aplicación, repositorios y controladores REST. Asimismo, se buscará establecer las bases para la persistencia de información y la posterior integración con el frontend desarrollado durante el Sprint 2.
+
+Entre las principales actividades planificadas se incluyen:
+
+- Implementación de los Bounded Contexts IAM, Resources y Shared, encargados de la gestión de identidades, recursos y componentes compartidos del sistema.
+- Desarrollo de los Bounded Contexts Career Exploration y Task, relacionados con la exploración de opciones profesionales y la gestión de actividades.
+- Implementación del Bounded Context Counseling para gestionar las funcionalidades de orientación y acompañamiento.
+- Desarrollo del Bounded Context Assessments para la gestión de evaluaciones vocacionales y sus resultados.
+- Implementación del Bounded Context Community para administrar las funcionalidades de interacción y participación entre usuarios.
+- Desarrollo del Bounded Context Monitoring para el seguimiento y monitoreo de las actividades de los usuarios.
+- Implementación de endpoints REST para permitir la comunicación entre los servicios del backend y las aplicaciones cliente.
+- Organización del trabajo mediante ramas independientes en GitHub para facilitar el desarrollo y la revisión de cada Bounded Context.
+- Revisión de la estructura del proyecto, las dependencias y el funcionamiento de los servicios implementados.
+
+| Campo | Detalle |
+|---|---|
+| **Sprint #** | Sprint 3 |
+| **Sprint Planning Background** | Después del desarrollo del frontend durante el Sprint 2, el equipo continuará con la implementación del backend de NextPath. En esta etapa se desarrollará una API RESTful utilizando C# y ASP.NET Core, organizada mediante nueve Bounded Contexts y siguiendo los principios de Domain-Driven Design (DDD). El propósito es implementar los componentes que permitirán gestionar la información y las principales operaciones del sistema, estableciendo las bases para su integración con la aplicación web. |
+| **Date** | November 8, 2026 |
+| **Time** | 6:00 PM |
+| **Location** | Virtual meeting via Google Meet. |
+| **Prepared By** | Equipo NextPath. |
+| **Attendees (to planning meeting)** | Cruzalegui, Joaquin; Ravello, Luciana; Miranda, Jesús; Torres, Alisee; Pérez, Sebastián. |
+| **Sprint 2 Review Summary** | Durante el Sprint 2 se desarrolló la primera versión del frontend de NextPath, incorporando las interfaces de autenticación, evaluaciones vocacionales, exploración de carreras, seguimiento del estudiante y acompañamiento psicológico. También se utilizó una API REST simulada mediante json-server para representar las operaciones y los datos necesarios. Con estos avances, el equipo cuenta con una base sobre la cual continuar el desarrollo de los servicios reales del backend. |
+| **Sprint 2 Retrospective Summary** | El Sprint 2 permitió avanzar en la implementación de las interfaces de la plataforma y en la coordinación del trabajo mediante GitHub. Sin embargo, se identificaron oportunidades de mejora relacionadas con la revisión de Pull Requests, la organización de ramas y la integración de cambios. Para el Sprint 3, se priorizará una distribución clara de responsabilidades, el desarrollo independiente de los Bounded Contexts y la revisión de los componentes antes de integrarlos al proyecto principal. |
+| **Sprint 3 Goal** | Desarrollar una primera versión funcional del backend de NextPath mediante una API RESTful organizada con Domain-Driven Design (DDD). El objetivo será implementar los componentes de dominio, aplicación, infraestructura e interfaces correspondientes a los nueve Bounded Contexts definidos, permitiendo gestionar las operaciones principales del sistema y preparando su posterior integración con el frontend. |
+| **Sprint 3 Velocity** | Por definir según el Sprint Backlog 3. |
+| **Sum of Story Points** | Por definir según las historias técnicas seleccionadas. |
+
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
+
+A continuación, se presenta la matriz LACX (Leadership-and-Collaboration Matrix), utilizada para organizar las responsabilidades del equipo durante el desarrollo del backend de NextPath. Las actividades se distribuirán considerando los nueve Bounded Contexts definidos para la plataforma, asignando a cada integrante el liderazgo de los componentes correspondientes y la colaboración en los demás contextos.
+
+Esta distribución permitirá que los integrantes trabajen de manera independiente en sus respectivos contextos, manteniendo una estructura modular basada en Domain-Driven Design (DDD). Asimismo, se promoverá la colaboración entre los miembros del equipo durante la revisión del código, la resolución de problemas técnicos y la integración de los servicios desarrollados.
+
+| Team Member | GitHub Username | IAM | Resources | Shared | Career Exploration | Task | Counseling | Assessments | Community | Monitoring |
+|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Pérez, Sebastián | FernBellido22 | **L** | **L** | **L** | C | C | C | C | C | C |
+| Miranda, Jesús | Jesus-Miranda-678 | C | C | C | **L** | **L** | C | C | C | C |
+| Torres, Alisee | lLisee1 | C | C | C | C | C | **L** | C | C | C |
+| Cruzalegui, Joaquin | JoaquinCruzalegui | C | C | C | C | C | C | **L** | **L** | C |
+| Ravello, Luciana | Lucyrcar-ID | C | C | C | C | C | C | C | C | **L** |
+
+**L = Leader | C = Collaborator**
 
 #### 5.2.3.3. Sprint Backlog 3
 
