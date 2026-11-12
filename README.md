@@ -5346,7 +5346,7 @@ A continuación, se presenta la matriz LACX (Leadership-and-Collaboration Matrix
 Esta distribución permitirá que los integrantes trabajen de manera independiente en sus respectivos contextos, manteniendo una estructura modular basada en Domain-Driven Design (DDD). Asimismo, se promoverá la colaboración entre los miembros del equipo durante la revisión del código, la resolución de problemas técnicos y la integración de los servicios desarrollados.
 
 | Team Member | GitHub Username | IAM | Resources | Shared | Career Exploration | Task | Counseling | Assessments | Community | Monitoring |
-|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Pérez, Sebastián | FernBellido22 | **L** | **L** | **L** | C | C | C | C | C | C |
 | Miranda, Jesús | Jesus-Miranda-678 | C | C | C | **L** | **L** | C | C | C | C |
 | Torres, Alisee | lLisee1 | C | C | C | C | C | **L** | C | C | C |
