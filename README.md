@@ -5497,8 +5497,8 @@ Datos del entrevistada:
 * Timing: 15:05
 
 
-<p align="center"><img alt="Entrevista-Joaquin1.2" src="images/evidencia-entrevista-joaquin1.2.png" /></p>
-  <p align="center"><img alt="Entrevista-Joaquin1" src="images/evidencia-entrevista-joaquin.2.png" /></p>
+<p align="center"><img alt="Entrevista-Joaquin1.2" src="images/evidencia-entrevista-joaquin-silvia-1.png" /></p>
+  <p align="center"><img alt="Entrevista-Joaquin1" src="images/evidencia-entrevista-joaquin-silvia-2.png" /></p>
 <p align="center"><i>Evidencia de entrevista: Silvia </i></p>
 
 **Resumen descriptivo:** En la entrevista, la psicóloga Silvia Herrera valoró positivamente el diseño y la organización de NextPath, destacando que la navegación es intuitiva y que las funcionalidades son fáciles de identificar. Asimismo, consideró útiles las herramientas de seguimiento de estudiantes, consulta de resultados vocacionales, reportes y programación de sesiones, ya que pueden facilitar el trabajo de los psicólogos. Como sugerencia de mejora, mencionó la incorporación de indicaciones más claras y recomendaciones personalizadas para los estudiantes. Finalmente, señaló que recomendaría la plataforma, pues considera que puede ser un buen complemento para el proceso de orientación vocacional sin reemplazar el acompañamiento profesional.
