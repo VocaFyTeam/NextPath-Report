@@ -5898,7 +5898,27 @@ Datos del entrevistada:
 **Resumen descriptivo:** En la entrevista, la estudiante comentó que la plataforma contaba con un diseño llamativo y afirmó que sí la recomendaría a otros alumnos. 
 Además,considera que el flujo de las actividades es correcto y completo , valoro en  gran medida el el flujo para la realizacion de los test y el resultado d eestos.Por otro lado , si bien joaquin se encuentra satisfecho con la interacción general de al aplicación, él considera que seria un buen agregado mover el aaprtado de favoritos mas cerca del apartado de carreras.
 
+**SEGMENTO 2: PSICÓLOGOS**
+<BR>
 
+**Entrevista 1:**
+<br>
+**Entrevistador(a):** >Joaquin Cruzalegui Herrera
+
+Datos del entrevistada:
+
+* Nombre: Silvia
+* Apellido: Herrera
+* Edad: 29 años
+* Distrito: Santiago de Surco
+* Timing: 15:05
+
+
+<p align="center"><img alt="Entrevista-Joaquin1.2" src="images/evidencia-entrevista-joaquin1.2.png" /></p>
+  <p align="center"><img alt="Entrevista-Joaquin1" src="images/evidencia-entrevista-joaquin.2.png" /></p>
+<p align="center"><i>Evidencia de entrevista: Silvia </i></p>
+
+**Resumen descriptivo:** En la entrevista, la psicóloga Silvia Herrera valoró positivamente el diseño y la organización de NextPath, destacando que la navegación es intuitiva y que las funcionalidades son fáciles de identificar. Asimismo, consideró útiles las herramientas de seguimiento de estudiantes, consulta de resultados vocacionales, reportes y programación de sesiones, ya que pueden facilitar el trabajo de los psicólogos. Como sugerencia de mejora, mencionó la incorporación de indicaciones más claras y recomendaciones personalizadas para los estudiantes. Finalmente, señaló que recomendaría la plataforma, pues considera que puede ser un buen complemento para el proceso de orientación vocacional sin reemplazar el acompañamiento profesional.
 
 ### 5.3.3. Evaluaciones según heurísticas
 
