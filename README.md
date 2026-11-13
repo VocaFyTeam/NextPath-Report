@@ -5386,7 +5386,250 @@ https://trello.com/invite/b/6af4000b58f4ebe6ea0a7dec/ATTIdc2403d2f47ede80c8541a0
 | **Sprint 3** | TS 02, TS 03, TS 04 | Registrar, procesar y consultar tests vocacionales | 5 | T3.7 | Endpoints de Evaluaciones Vocacionales  | Implementar \`VocationalTestsController\` y \`TestResultsController\` en \`Assessments/\` para banco de preguntas, persistencia transaccional de respuestas  | 7h | Cruzalegui, Joaquin (\`JoaquinCruzalegui\`) | Done | 
 | **Sprint 3** | TS 13 | Administrar comunidad y foros en la API | 3 | T3.8 | Endpoints de Comunidad, Hilos y Comentarios | Implementar \`CommunitiesController\`, \`ThreadsController\` y \`CommentsController\` en \`Community/\` para publicación de posts, reacciones, moderación y mensajes de foro. | 6h | Cruzalegui, Joaquin (\`JoaquinCruzalegui\`) | Done | 
 | **Sprint 3** | TS 05, TS 08 | Consultar expediente y registrar progreso clínico | 3 | T3.9 | Endpoints de Tablero de Monitoreo y Ficha Diagnóstica | Implementar \`StudentProfilesController\` en \`Monitoring/\` para filtrado por grupo de alumnos, \*flags\* de riesgo (inactividad/baja participación) y notas de seguimiento clínico. | 6h | Ravello, Luciana (\`Lucyrcar-ID\`) | Done | | **Sprint 3** | TS 15 | Consultar información analítica vocacional | 4 | T3.10 | Endpoints de Analítica Avanzada y Reportes IA | Implementar servicios en \`Monitoring/\` (o \`Reports/\`) para generación de reportes psicológicos automáticos con IA, analítica comparativa de cohortes y exportación de datos. | 5h | Ravello, Luciana (\`Lucyrcar-ID\`) | Done |
+
+
 #### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo trabajó colaborativamente en el repositorio NextPath-Platform-Api, aplicando GitFlow y utilizando la convención de Conventional Commits para registrar y organizar los cambios realizados durante la implementación de la primera versión de los Web Services.
+
+A continuación, se muestra en detalle los commits realizados por cada miembro del equipo y organizados en una tabla.
+
+<table>
+  <thead>
+    <tr>
+      <th width="20%">Repository</th>
+      <th width="10%">Branch</th>
+      <th width="10%">Commit Id</th>
+      <th width="30%">Commit Message</th>
+      <th width="15%">Commit Message Body</th>
+      <th width="15%">Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>8601949</td>
+      <td>Delete Iam directory</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>95ad6e4</td>
+      <td>feat(counseling): implement counseling bounded</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>b68b356</td>
+      <td>feat(VocationalResources): implement vocational resources</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>4d07717</td>
+      <td>feat(Iam): implement identity and access management</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>ad514a9</td>
+      <td>feat(sahred): implement shared</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>0cf6744</td>
+      <td>Move Shared folder to repository root</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>fbbda3d</td>
+      <td>chore(shared): remove duplicated root Shared directory</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>e76445a</td>
+      <td>feat(shared): implement shared components</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>5929442</td>
+      <td>chore(shared): remove other bounded context directories</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>2794a4c</td>
+      <td>feat(shared): add domain and persistence components</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>617556f</td>
+      <td>chore: move backend structure to repository root</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>f5f0b07</td>
+      <td>chore: add initial backend folder structure</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>40c9e64</td>
+      <td>feat(carrerExploration) add CareerExplorationServiceCollectionExtensions</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>4cd3b75</td>
+      <td>feat(carrerExploration) add CareerExplorationErrors</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>00af32b</td>
+      <td>feat(carrerExploration) add CareerExplorationError</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>2ea4512</td>
+      <td>feat(carrerExploration) add CareerExplorationContextFacade.cs</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>6890696</td>
+      <td>feat(carrerExploration) add CareerExplorationActionResultAssembler</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>21e96a5</td>
+      <td>feat(carrerExploration) add CareerCompatibilityResource</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>b613414</td>
+      <td>feat(carrerExploration) add CareerCompatibility</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>4cb7442</td>
+      <td>feat(carrerExploration) add CareerCommandService.cs</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>b43bc0d</td>
+      <td>feat(carrerExploration) add CareerCatalogSeeder</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>cbdff68</td>
+      <td>feat(carrerExploration) add Career</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>c5070c8</td>
+      <td>feat(carrerExploration) add FavoriteCareerResourceFromEntityAssembler</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>70f5ef3</td>
+      <td>feat(carrerExploration) add favotireCarrerCommand</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>1f22907</td>
+      <td>feat(assessments): implement bounded context</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>b8f98c6</td>
+      <td>feat: add Monitoring module</td>
+      <td>-</td>
+      <td>12/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>0db98fe</td>
+      <td>feat(community): implement bounded context</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+Se han seleccionado algunos commits para evitar una larga extensión de la tabla presentada.
+
+
+
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
