@@ -5460,6 +5460,27 @@ Datos del entrevistada:
 **Resumen descriptivo:** En la entrevista, la estudiante comentó que la plataforma contaba con un diseño amigable y afirmó que sí la recomendaría a otros alumnos. Además, valoró positivamente la fluidez en los cuestionarios dinámicos y en el simulador de trayectorias, ya que facilitan la visualización del futuro. También consideró que la navegación es intuitiva y no tuvo problemas con los menús y las notificaciones.
 
 
+**Entrevista 2:**
+<br>
+**Entrevistador(a):** >Jesus Angel Yvan Miranda Cordova
+
+Datos del entrevistada:
+
+* Nombre: Joaquin
+* Apellido: Zavala
+* Edad: 17 años
+* Distrito: trujillo
+* Timing: 8:20
+
+
+<p align="center"><img alt="Entrevista-jesus" src="images/evidencia-entrevista-2.png" /></p>
+  <p align="center"><img alt="Entrevista-jesus" src="images/evidencia-entrevista-2-1.png" /></p>
+<p align="center"><i>Evidencia de entrevista: joaquin </i></p>
+
+**Resumen descriptivo:** En la entrevista, la estudiante comentó que la plataforma contaba con un diseño llamativo y afirmó que sí la recomendaría a otros alumnos. 
+Además,considera que el flujo de las actividades es correcto y completo , valoro en  gran medida el el flujo para la realizacion de los test y el resultado d eestos.Por otro lado , si bien joaquin se encuentra satisfecho con la interacción general de al aplicación, él considera que seria un buen agregado mover el aaprtado de favoritos mas cerca del apartado de carreras.
+
+
 
 ### 5.3.3. Evaluaciones según heurísticas
 
