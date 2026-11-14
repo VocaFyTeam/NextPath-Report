@@ -5815,6 +5815,32 @@ Relacionado con la biblioteca de guías, libros y material descargable.
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+En el Sprint 3 la Web Application consume un Web Service implementado con **Scalar**, desplegada en Azure. Los datos se crean y se extraen de una base de datos SQL con colecciones del dominio, y cada una expone las operaciones REST estándar (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`). 
+
+Estos son algunos Endpoint implementados:
+
+
+| **Endpoint** | **Acción (HTTP)** | **Parámetros** | **Descripción del Response** | **User Story** |
+| :--- | :---: | :--- | :--- | :---: |
+| `/api/v1/users` | POST | `email`, `password`,`role`,`schoolOrUniversity`,`currentCycle`,`linkedPsychologistCode`,`professionalLicense`,`specialty`| `201 Created` con la lista de usuarios que coinciden; una lista vacía equivale a credenciales incorrectas y lleva a `401 Bad Request`. Incluye `role` (`student` o `psychologist`). | TS01 |
+| `/api/v1/users` | GET | - | `201 OK` con los usuarios registrados. | TS01 |
+| `/api/v1/users/{userId}` | GET | `userId` | `200 OK` con el perfil del usuario y `404 Not Found `| TS01 |
+| `/api/v1/vocational-tests` | GET | | `200 OK` con el catálogo de 5 tests: NextPath (IA), Holland, Aptitudes Diferenciales, 16Personalities y Kuder. Cada uno trae `type` (`open` o `choice`), `durationMinutes`, `instructions` y `featured`. | US01 |
+| `/api/v1/vocational-tests/{vocationalTestId}` | POST | `vocationalTestId` | `200 OK` con las preguntas del test; las de tipo `choice` incluyen `options` con su `area` RIASEC (artistic, social, investigative, enterprising, conventional). | US01 |
+| `/api/v1/test-results` | GET | `studentId` | `200 OK` con el historial de resultados: `scores` por área, `careerMatches` con su `compatibility`, `date`, `version` y `status`. | US02, US03 |
+| `/api/v1/test-results` | POST | `studentId`, `testId`, `status`, `compatibility`, `careerMatches`, `answers` | `201 Created` con el resultado registrado. | US01, US26 |
+| `/api/v1/test-results/{testResultId}` | PUT | `studentId`, `testId`, `status`,`answers`,`careerMateches` | `200 OK` con el resultado de seguimiento actualizado (`pending` a `completed`). | US03 |
+| `/api/v1/careers/{careerId}` | GET | `careerid` | `200 OK` con la ficha completa: `universities`, `fieldOfWork`, `skills`, `salaryRange`, `employabilityRate`, `demandLevel`, `projection` por etapa y `recommendations`. | US16, US20 |
+
+**Alcance de la API simulada.** 
+ 
+* **Repositorio del Web Service:** https://github.com/VocaFyTeam/NextPath-Platfomr-Api.git
+* **URL del Web Service desplegado:** https://vocafy-nextpath-api-b6c8drehfra7apgk.brazilsouth-01.azurewebsites.net/scalar/v1#tag/vocational-resources
+
+<p align="center">
+  <img src="images/api-evidencia.png" width="700" alt="API simulada en Render"/>
+  <br/><i>Web Service desplegad en Azure</i>
+</p>
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
