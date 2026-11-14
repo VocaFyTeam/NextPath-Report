@@ -5818,6 +5818,40 @@ Relacionado con la biblioteca de guías, libros y material descargable.
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+
+En este Sprint 3, los esfuerzos de despliegue se centraron en poner en producción los **RESTful Web Services (Backend)** desarrollados bajo una arquitectura DDD (Domain-Driven Design). El servicio backend fue desplegado en la nube de **Microsoft Azure** utilizando **Azure App Service**, asegurando la conectividad persistente con la base de datos relacional alojada en la nube y la exposición pública de los endpoints RESTful para su consumo desde el Frontend Web Application.
+
+Las principales actividades de despliegue realizadas durante este Sprint incluyeron:
+
+1. **Creación y Configuración del Servicio en Azure:** Se aprovisionó un recurso de tipo **Azure App Service** (App Service Plan configurado para entorno de producción) soportando el runtime correspondiente del proyecto backend.
+2. **Configuración de Variables de Entorno y Cadenas de Conexión:** Se establecieron las variables de entorno de producción  directamente en el panel de *Application Settings* de Azure para resguardar la seguridad de la aplicación.
+3. **Despliegue desde el Repositorio:** Se vinculó el repositorio oficial del backend (`VocaFyTeam/NextPath-Platfomr-Api`) para ejecutar y automatizar el flujo de publicación hacia Azure App Service.
+4. **Validación de Endpoints y Scalar UI:** Se comprobó el correcto arranque del servidor y la disponibilidad pública de la API mediante el acceso a la ruta base y la interfaz interactiva de Scalar desplegada en Azure.
+
+##### Tabla de Evidencia de Despliegue del Backend
+
+| **Evidencia** | **Dato real / Configuración** |
+| :--- | :--- |
+| **Repositorio del Backend** | https://github.com/VocaFyTeam/NextPath-Platfomr-Api |
+| **Cloud Provider** | Microsoft Azure |
+| **Servicio Cloud Utilizado** | Azure App Service (Web App) |
+| **Branch de Despliegue** | `main` |
+| **URL Pública del Backend (API Base)** | https://vocafy-nextpath-api-b6c8drehfra7apgk.brazilsouth-01.azurewebsites.net/scalar/v1 |
+| **Fecha de Despliegue** | 2026-11-13 |
+
+##### Evidencias Visuales de Despliegue
+
+
+
+*  Panel de control de **Azure App Service** mostrando el estado *Running* y el dominio asignado al servicio backend de NextPath.
+  ![Azure App Service Dashboard](images/azure.png)
+
+*  Configuración de base de datos  en el portal de Microsoft Azure.
+  ![Azure Environment Variables](images/azure2.png)
+
+*  Interfaz de **Scalar UI** desplegada en producción sobre el dominio de Azure, evidenciando la disponibilidad de los endpoints de IAM, Assessments, Career Exploration, Counseling, Monitoring, Community y Resources.
+  ![Swagger UI en Azure](images/api-evidencia.png)
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
