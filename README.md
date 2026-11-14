@@ -5386,15 +5386,497 @@ https://trello.com/invite/b/6af4000b58f4ebe6ea0a7dec/ATTIdc2403d2f47ede80c8541a0
 | **Sprint 3** | TS 02, TS 03, TS 04 | Registrar, procesar y consultar tests vocacionales | 5 | T3.7 | Endpoints de Evaluaciones Vocacionales  | Implementar \`VocationalTestsController\` y \`TestResultsController\` en \`Assessments/\` para banco de preguntas, persistencia transaccional de respuestas  | 7h | Cruzalegui, Joaquin (\`JoaquinCruzalegui\`) | Done | 
 | **Sprint 3** | TS 13 | Administrar comunidad y foros en la API | 3 | T3.8 | Endpoints de Comunidad, Hilos y Comentarios | Implementar \`CommunitiesController\`, \`ThreadsController\` y \`CommentsController\` en \`Community/\` para publicación de posts, reacciones, moderación y mensajes de foro. | 6h | Cruzalegui, Joaquin (\`JoaquinCruzalegui\`) | Done | 
 | **Sprint 3** | TS 05, TS 08 | Consultar expediente y registrar progreso clínico | 3 | T3.9 | Endpoints de Tablero de Monitoreo y Ficha Diagnóstica | Implementar \`StudentProfilesController\` en \`Monitoring/\` para filtrado por grupo de alumnos, \*flags\* de riesgo (inactividad/baja participación) y notas de seguimiento clínico. | 6h | Ravello, Luciana (\`Lucyrcar-ID\`) | Done | | **Sprint 3** | TS 15 | Consultar información analítica vocacional | 4 | T3.10 | Endpoints de Analítica Avanzada y Reportes IA | Implementar servicios en \`Monitoring/\` (o \`Reports/\`) para generación de reportes psicológicos automáticos con IA, analítica comparativa de cohortes y exportación de datos. | 5h | Ravello, Luciana (\`Lucyrcar-ID\`) | Done |
+
+
 #### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo trabajó colaborativamente en el repositorio NextPath-Platform-Api, aplicando GitFlow y utilizando la convención de Conventional Commits para registrar y organizar los cambios realizados durante la implementación de la primera versión de los Web Services.
+
+A continuación, se muestra en detalle los commits realizados por cada miembro del equipo y organizados en una tabla.
+
+<table>
+  <thead>
+    <tr>
+      <th width="20%">Repository</th>
+      <th width="10%">Branch</th>
+      <th width="10%">Commit Id</th>
+      <th width="30%">Commit Message</th>
+      <th width="15%">Commit Message Body</th>
+      <th width="15%">Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>8601949</td>
+      <td>Delete Iam directory</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>95ad6e4</td>
+      <td>feat(counseling): implement counseling bounded</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>b68b356</td>
+      <td>feat(VocationalResources): implement vocational resources</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>4d07717</td>
+      <td>feat(Iam): implement identity and access management</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>ad514a9</td>
+      <td>feat(sahred): implement shared</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>0cf6744</td>
+      <td>Move Shared folder to repository root</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>fbbda3d</td>
+      <td>chore(shared): remove duplicated root Shared directory</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>e76445a</td>
+      <td>feat(shared): implement shared components</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>5929442</td>
+      <td>chore(shared): remove other bounded context directories</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>2794a4c</td>
+      <td>feat(shared): add domain and persistence components</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>617556f</td>
+      <td>chore: move backend structure to repository root</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>f5f0b07</td>
+      <td>chore: add initial backend folder structure</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>40c9e64</td>
+      <td>feat(carrerExploration) add CareerExplorationServiceCollectionExtensions</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>4cd3b75</td>
+      <td>feat(carrerExploration) add CareerExplorationErrors</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>00af32b</td>
+      <td>feat(carrerExploration) add CareerExplorationError</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>2ea4512</td>
+      <td>feat(carrerExploration) add CareerExplorationContextFacade.cs</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>6890696</td>
+      <td>feat(carrerExploration) add CareerExplorationActionResultAssembler</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>21e96a5</td>
+      <td>feat(carrerExploration) add CareerCompatibilityResource</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>b613414</td>
+      <td>feat(carrerExploration) add CareerCompatibility</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>4cb7442</td>
+      <td>feat(carrerExploration) add CareerCommandService.cs</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>b43bc0d</td>
+      <td>feat(carrerExploration) add CareerCatalogSeeder</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>cbdff68</td>
+      <td>feat(carrerExploration) add Career</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>c5070c8</td>
+      <td>feat(carrerExploration) add FavoriteCareerResourceFromEntityAssembler</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>70f5ef3</td>
+      <td>feat(carrerExploration) add favotireCarrerCommand</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>1f22907</td>
+      <td>feat(assessments): implement bounded context</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>b8f98c6</td>
+      <td>feat: add Monitoring module</td>
+      <td>-</td>
+      <td>12/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>0db98fe</td>
+      <td>feat(community): implement bounded context</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+Se han seleccionado algunos commits para evitar una larga extensión de la tabla presentada.
+
+
+
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
+En este apartado se explican y presentan los avances de implementación correspondientes al Sprint 3, cuyo alcance principal fue el desarrollo de la primera versión de los Web Services. A lo largo de este sprint, el equipo colaboró de forma estructurada para lograr la implementación de distintas pestañas de la aplicación en la base de datos como mensajes, tests vocacionales, carreras, reportes, comparaciones, entre otros.
+
+A continuación, se presentan las evidencias de ejecución del sprint 3.
+
+### Branches evidence
+
+<div align="center">
+    <img src="images/branches-evidence.png" alt="iniciosesion">
+  </div>
+
+<br>
+
+Se tuvo en cuenta cada bounded context previamente definido para la creación de las ramas, así como distintos contextos necesarios (en nuestro caso, nuestra rama "feature/deploy").
+
+### User endpoints evidence
+
+**Iam**
+
+<div align="center">
+    <img src="images/iam-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/iam-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/iam-evidence3.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/iam-evidence4.png" alt="iniciosesion">
+  </div>
+
+<br>
+
+Está relacionado a la autenticación, registro y roles.
+
+* Bounded Context asociado(s): Iam Context and Profiles & Preferences Context
+
+<br>
+
+**Assessments**
+<div align="center">
+    <img src="images/asssessments-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/assessments-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/assessments-evidence3.png" alt="iniciosesion">
+  </div>
+
+<br>
+
+Está relacionado con las asignaciones al estudiante (tests vocacionales, banco de preguntas, el procesamiento con IA de las mismas, etc ).
+
+* Bounded Context asociado(s): Vocational Education Context
+
+<br>
+
+**Career Exploration**
+
+<div align="center">
+    <img src="images/careerexploration-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/careerexploration-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/careerexploration-evidence3.png" alt="iniciosesion">
+  </div>
+
+  <br>
+
+Relacionado al catálogo de carreras, comparador y simulador, así como también al buscador y a los filtros inteligentes.
+
+* Bounded Context asociado(s): Career Exploration & Planning Context and Search & Discovery Context
+
+<br>
+
+**Community**
+
+<div align="center">
+    <img src="images/community-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/community-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/community-evidence3.png" alt="iniciosesion">
+  </div>
+
+  <br>
+
+  Relacionado a los foros, hilos de discusión, comentarios, acciones y mensajería en tiempo real.
+
+  * Bounded Context asociado(s): Community and Chat Context
+
+  <br>
+
+  **Counseling**
+
+  <div align="center">
+    <img src="images/counseling-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/counseling-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/counseling-evidence3.png" alt="iniciosesion">
+  </div>
+
+  <br>
+
+  Relacionado al agendamiento de citas individuales y grupales y al enlace entre alumno y psicólogo.
+
+  * Bounded Context asociado(s): Advisory Context
+
+  <br>
+
+  **Monitoring**
+
+  <div align="center">
+    <img src="images/monitoring-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/monitoring-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/monitoring-evidence3.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/monitoring-evidence4.png" alt="iniciosesion">
+  </div>
+
+  <br>
+
+  Relacionado a las fichas clínicas del psicólogo, notas de seguimiento, validación de reportes de evolución y analítica de grupos de estudiantes.
+
+  * Bounded Context asociado(s): Student Monitoring Context and Reports Context
+
+  <br>
+
+**Tasks**
+
+<div align="center">
+    <img src="images/tasks-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/tasks-evidence2.png" alt="iniciosesion">
+  </div>
+
+Relacionado a la gestión de metas, asiganciones y seguimiento de tareas del estudiante.
+
+  * Bounded Context asociado(s): Task & Goal Management Context
+
+  <br>
+
+  **Vocational Resources**
+
+  <div align="center">
+    <img src="images/vocationalresources-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/vocationalresources-evidence2.png" alt="iniciosesion">
+  </div>
+
+Relacionado con la biblioteca de guías, libros y material descargable.
+
+  * Bounded Context asociado(s): Resources Context
+
+  <br>
+
+
+**ENDPOINTS ESTABLECIDOS**
+
+![Landing Page Wirefrmae - Inicio](images/api-evidencia.png)
+
+
+
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+En el Sprint 3 la Web Application consume un Web Service implementado con **Scalar**, desplegada en Azure. Los datos se crean y se extraen de una base de datos SQL con colecciones del dominio, y cada una expone las operaciones REST estándar (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`). 
+
+Estos son algunos Endpoint implementados:
+
+
+| **Endpoint** | **Acción (HTTP)** | **Parámetros** | **Descripción del Response** | **User Story** |
+| :--- | :---: | :--- | :--- | :---: |
+| `/api/v1/users` | POST | `email`, `password`,`role`,`schoolOrUniversity`,`currentCycle`,`linkedPsychologistCode`,`professionalLicense`,`specialty`| `201 Created` con la lista de usuarios que coinciden; una lista vacía equivale a credenciales incorrectas y lleva a `401 Bad Request`. Incluye `role` (`student` o `psychologist`). | TS01 |
+| `/api/v1/users` | GET | - | `201 OK` con los usuarios registrados. | TS01 |
+| `/api/v1/users/{userId}` | GET | `userId` | `200 OK` con el perfil del usuario y `404 Not Found `| TS01 |
+| `/api/v1/vocational-tests` | GET | | `200 OK` con el catálogo de 5 tests: NextPath (IA), Holland, Aptitudes Diferenciales, 16Personalities y Kuder. Cada uno trae `type` (`open` o `choice`), `durationMinutes`, `instructions` y `featured`. | US01 |
+| `/api/v1/vocational-tests/{vocationalTestId}` | POST | `vocationalTestId` | `200 OK` con las preguntas del test; las de tipo `choice` incluyen `options` con su `area` RIASEC (artistic, social, investigative, enterprising, conventional). | US01 |
+| `/api/v1/test-results` | GET | `studentId` | `200 OK` con el historial de resultados: `scores` por área, `careerMatches` con su `compatibility`, `date`, `version` y `status`. | US02, US03 |
+| `/api/v1/test-results` | POST | `studentId`, `testId`, `status`, `compatibility`, `careerMatches`, `answers` | `201 Created` con el resultado registrado. | US01, US26 |
+| `/api/v1/test-results/{testResultId}` | PUT | `studentId`, `testId`, `status`,`answers`,`careerMateches` | `200 OK` con el resultado de seguimiento actualizado (`pending` a `completed`). | US03 |
+| `/api/v1/careers/{careerId}` | GET | `careerid` | `200 OK` con la ficha completa: `universities`, `fieldOfWork`, `skills`, `salaryRange`, `employabilityRate`, `demandLevel`, `projection` por etapa y `recommendations`. | US16, US20 |
+
+**Alcance de la API simulada.** 
+ 
+* **Repositorio del Web Service:** https://github.com/VocaFyTeam/NextPath-Platfomr-Api.git
+* **URL del Web Service desplegado:** https://vocafy-nextpath-api-b6c8drehfra7apgk.brazilsouth-01.azurewebsites.net/scalar/v1#tag/vocational-resources
+
+<p align="center">
+  <img src="images/api-evidencia.png" width="700" alt="API simulada en Render"/>
+  <br/><i>Web Service desplegad en Azure</i>
+</p>
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+
+En este Sprint 3, los esfuerzos de despliegue se centraron en poner en producción los **RESTful Web Services (Backend)** desarrollados bajo una arquitectura DDD (Domain-Driven Design). El servicio backend fue desplegado en la nube de **Microsoft Azure** utilizando **Azure App Service**, asegurando la conectividad persistente con la base de datos relacional alojada en la nube y la exposición pública de los endpoints RESTful para su consumo desde el Frontend Web Application.
+
+Las principales actividades de despliegue realizadas durante este Sprint incluyeron:
+
+1. **Creación y Configuración del Servicio en Azure:** Se aprovisionó un recurso de tipo **Azure App Service** (App Service Plan configurado para entorno de producción) soportando el runtime correspondiente del proyecto backend.
+2. **Configuración de Variables de Entorno y Cadenas de Conexión:** Se establecieron las variables de entorno de producción  directamente en el panel de *Application Settings* de Azure para resguardar la seguridad de la aplicación.
+3. **Despliegue desde el Repositorio:** Se vinculó el repositorio oficial del backend (`VocaFyTeam/NextPath-Platfomr-Api`) para ejecutar y automatizar el flujo de publicación hacia Azure App Service.
+4. **Validación de Endpoints y Scalar UI:** Se comprobó el correcto arranque del servidor y la disponibilidad pública de la API mediante el acceso a la ruta base y la interfaz interactiva de Scalar desplegada en Azure.
+
+##### Tabla de Evidencia de Despliegue del Backend
+
+| **Evidencia** | **Dato real / Configuración** |
+| :--- | :--- |
+| **Repositorio del Backend** | https://github.com/VocaFyTeam/NextPath-Platfomr-Api |
+| **Cloud Provider** | Microsoft Azure |
+| **Servicio Cloud Utilizado** | Azure App Service (Web App) |
+| **Branch de Despliegue** | `main` |
+| **URL Pública del Backend (API Base)** | https://vocafy-nextpath-api-b6c8drehfra7apgk.brazilsouth-01.azurewebsites.net/scalar/v1 |
+| **Fecha de Despliegue** | 2026-11-13 |
+
+##### Evidencias Visuales de Despliegue
+
+
+
+*  Panel de control de **Azure App Service** mostrando el estado *Running* y el dominio asignado al servicio backend de NextPath.
+  ![Azure App Service Dashboard](images/azure.png)
+
+*  Configuración de base de datos  en el portal de Microsoft Azure.
+  ![Azure Environment Variables](images/azure2.png)
+
+*  Interfaz de **Scalar UI** desplegada en producción sobre el dominio de Azure, evidenciando la disponibilidad de los endpoints de IAM, Assessments, Career Exploration, Counseling, Monitoring, Community y Resources.
+  ![Swagger UI en Azure](images/api-evidencia.png)
 
 ## 5.3. Validation Interviews
 
