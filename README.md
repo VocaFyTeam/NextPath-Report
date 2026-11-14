@@ -14,7 +14,7 @@ NRC
 
 **16127**
 
-**Informe del AV1**
+**Informe del AV2**
 
 Docente:
 **Oscar Ivan Villafuerte Bazan**
@@ -45,7 +45,7 @@ Proyecto:
 
 **Periodo 202620**
 
-**Septiembre, 2026**
+**Noviembre, 2026**
 
 </div>
 
@@ -4241,7 +4241,7 @@ Deployment Configuration Summary
 
 El Sprint Planning 1 tuvo como objetivo principal completar, maquetar y desplegar la Landing Page del proyecto NextPath, estableciendo así la presencia digital inicial de la plataforma orientada a la orientación vocacional estudiantil y el acompañamiento profesional.
 
-Durante este sprint, el equipo definió las tareas técnicas necesarias para implementar la estructura visual responsive a partir de HTML5, CSS3 y JavaScript, asegurando una experiencia de usuario fluida, limpia y alineada a las guías de estilo de la marca (paleta basada en verde petróleo y la integración de la mascota Panda). Asimismo, se configuró el repositorio oficial en GitHub y la integración continua para el despliegue automático en la plataforma Netlify.
+Durante este sprint, el equipo definió las tareas técnicas necesarias para implementar la estructura visual responsive a partir de HTML5, CSS3 y JavaScript, asegurando una experiencia de usuario fluida, limpia y alineada a las guías de estilo de la marca (paleta basada en verde petróleo y la integración de la mascota Panda). Asimismo, se configuró el repositorio oficial en GitHub y la integración continua para el despliegue automático en la plataforma Git Pages.
 
 Entre las actividades principales planificadas se incluyeron:
 * Implementación de la barra de navegación fija (*Navbar*) con accesos directos (*Inicio*, *Sobre nosotros*, *Cómo funciona*, *Comenzar ahora*, *Contáctanos*).
@@ -4307,7 +4307,7 @@ https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2
 | **Sprint 1** | US04 | Presentar llamado a la acción y disponibilidad de acceso | 2 | T04 | Maquetado e interactividad de tarjeta de conversión con Panda | Maquetar contenedor con ilustración de Panda, botones ('App Store' / 'Google Play') y configurar lógica JS de eventos e interactividad. | 5h | Jesús Miranda | Done |
 | **Sprint 1** | US05 | Proveer canales de contacto y pie de página institucional | 2 | T05 | Maquetación de contacto, pie institucional y redes sociales | Maquetar bloque inferior (verde petróleo, copyright 2026) y configurar hipervínculos seguros a redes sociales oficiales. | 4h | Alisee Torres | Done |
 | **Sprint 1** | — | Setup del proyecto | — | T06 | Setup de repositorio, variables CSS y smooth scroll | Crear estructura de carpetas/archivos base, declarar variables CSS :root y configurar desplazamiento suave en navegación. | 4h | Sebastián Pérez | Done |
-| **Sprint 1** | — | Setup del proyecto | — | T07 | Auditoría de accesibilidad y despliegue continuo | Validar contrastes de color, textos alternativos, etiquetas semánticas y despliegue automático en Netlify. | 3h | Team | Done |
+| **Sprint 1** | — | Setup del proyecto | — | T07 | Auditoría de accesibilidad y despliegue continuo | Validar contrastes de color, textos alternativos, etiquetas semánticas y despliegue automático en Git pages. | 3h | Team | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -4565,7 +4565,7 @@ https://trello.com/invite/b/6abacd7cc025b29a44ca757a/ATTIea7d342280e8ee4c5812ea2
 | **Sprint 2** | HU 15, HU 16, HU 17, HU 19 | Explorar carreras | T3.1 | Explorador y Ficha de Carrera | Buscador con filtros (Área, Duración, Modalidad), badge de % de compatibilidad, ficha detallada y favoritos. | 2 | 4h* | Miranda, Jesús (Jesus-Miranda-678) | Done |
 | **Sprint 2** | HU 18, HU 20 | Comparar y simular carreras | T3.2 | Comparador y Simulador | Tabla comparativa de hasta 3 carreras y timeline de simulación del futuro profesional. | 3 | 4.5h | Miranda, Jesús (Jesus-Miranda-678) | Done |
 | **Sprint 2** | HU 21, HU 22, HU 24, HU 33, HU 34, HU 35 | Progreso, plan vocacional y comunidad | T4.1 | Dashboard, Plan y Comunidad | Dashboard de progreso, plan con tareas e historial de logros y muro de comunidad con publicaciones y comentarios. | 5 | 6h | 	Torres, Alisee (lLisee1)  | Done |
-| **Sprint 2** | HU 04, HU 12, HU 14, HU 38, HU 39, HU 40, HU 41 | Monitoreo y diagnóstico | T5.1 | Tablero y Ficha Diagnóstica |Lista de alumnos, barras de avance, filtros de riesgo y sugerencias de IA, y expediente individual con reporte automático. | 3 | 4h | Torres, Pérez, Fernando (FernBellido22| Done |
+| **Sprint 2** | HU 04, HU 12, HU 14, HU 38, HU 39, HU 40, HU 41 | Monitoreo y diagnóstico | T5.1 | Tablero y Ficha Diagnóstica |Lista de alumnos, barras de avance, filtros de riesgo y sugerencias de IA, y expediente individual con reporte automático. | 3 | 4h | Pérez, Fernando (FernBellido22)| Done |
 | **Sprint 2** | HU 05, HU 08, HU 10, HU 13, HU 28, HU 30, HU 32 | Sesiones y analítica grupal | T5.2 | Agenda y Panel Analítico | Citas individuales/grupales,  Gráficos de tendencias por corte y exportación a PDF/Excel. | 2 | 4h* | Pérez, Fernando (FernBellido22) | Done |
 
 
@@ -5275,8 +5275,8 @@ feat(community): add community entity`, `feat(tasks): add student task entity`, 
 
 **Lecciones para el Sprint 3**
 
-1. **Revisión cruzada:** cada Pull Request lo aprobará un integrante distinto de su autor antes del merge. [En el Sprint 2 algunos autores integraron sus propios PR / Describir cómo se integraron los PR en el Sprint 2.]
-2. **Nada directo en `develop`:** todo cambio entrará por Pull Request, y `develop` quedará protegida con una regla de rama. [En este Sprint algunos cambios se subieron directamente, por ejemplo los de IAM y Counseling / Ajustar según lo ocurrido.] Esto refuerza la lección del Sprint 0 sobre la gestión de ramas bajo GitFlow.
+1. **Revisión cruzada:** cada Pull Request lo aprobará un integrante distinto de su autor antes del merge.
+2. **Nada directo en `develop`:** todo cambio entrará por Pull Request, y `develop` quedará protegida con una regla de rama. Esto refuerza la lección del Sprint 0 sobre la gestión de ramas bajo GitFlow.
 3. **Compilar antes de integrar:** cada PR debe pasar `npm run build` y las pruebas automatizadas ([`npm test` / `ng test`]). Se agregará una verificación automática con GitHub Actions para que un error de compilación no llegue a `develop`.
 4. **Integración en el mismo Sprint:** registrar las rutas y la opción del menú en el PR de routing de cada módulo (test vocacional, carreras, comunidad, psicólogo, mensajería), para que toda pantalla integrada sea accesible desde la navegación. Esto evita pantallas terminadas pero inalcanzables, y coordina los estilos compartidos entre módulos.
 
@@ -5298,12 +5298,693 @@ feat(community): add community entity`, `feat(tasks): add student task entity`, 
   <img src="images/contributors-report.png" width="700" alt="Grafo de ramas de"/>
   <br/><i>Insights → >Contribuciones por integrante en [NextPath-Report] (GitHub Insights)</i>
 </p>
+
+
+
+### 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning 3
+
+El Sprint Planning 3 tiene como objetivo organizar el desarrollo del backend de NextPath mediante la implementación de una API RESTful que permita gestionar las principales funcionalidades de la plataforma. Este sprint se enfoca en construir los servicios necesarios para procesar y almacenar la información de los usuarios, evaluaciones vocacionales, recursos de orientación, exploración de carreras y comunidad.
+
+Durante este sprint, el equipo desarrollará los componentes del backend utilizando C# y ASP.NET Core, aplicando los principios de Domain-Driven Design (DDD) para mantener una arquitectura modular y una adecuada separación de responsabilidades. La implementación se organizará mediante Bounded Contexts, contemplando las capas de Domain, Application, Infrastructure e Interfaces.
+
+El alcance comprende la implementación de entidades de dominio, servicios de aplicación, repositorios y controladores REST. Asimismo, se buscará establecer las bases para la persistencia de información y la posterior integración con el frontend desarrollado durante el Sprint 2.
+
+Entre las principales actividades planificadas se incluyen:
+
+- Implementación de los Bounded Contexts IAM, Resources y Shared, encargados de la gestión de identidades, recursos y componentes compartidos del sistema.
+- Desarrollo de los Bounded Contexts Career Exploration y Task, relacionados con la exploración de opciones profesionales y la gestión de actividades.
+- Implementación del Bounded Context Counseling para gestionar las funcionalidades de orientación y acompañamiento.
+- Desarrollo del Bounded Context Assessments para la gestión de evaluaciones vocacionales y sus resultados.
+- Implementación del Bounded Context Community para administrar las funcionalidades de interacción y participación entre usuarios.
+- Desarrollo del Bounded Context Monitoring para el seguimiento y monitoreo de las actividades de los usuarios.
+- Implementación de endpoints REST para permitir la comunicación entre los servicios del backend y las aplicaciones cliente.
+- Organización del trabajo mediante ramas independientes en GitHub para facilitar el desarrollo y la revisión de cada Bounded Context.
+- Revisión de la estructura del proyecto, las dependencias y el funcionamiento de los servicios implementados.
+
+| Campo | Detalle |
+|---|---|
+| **Sprint #** | Sprint 3 |
+| **Sprint Planning Background** | Después del desarrollo del frontend durante el Sprint 2, el equipo continuará con la implementación del backend de NextPath. En esta etapa se desarrollará una API RESTful utilizando C# y ASP.NET Core, organizada mediante nueve Bounded Contexts y siguiendo los principios de Domain-Driven Design (DDD). El propósito es implementar los componentes que permitirán gestionar la información y las principales operaciones del sistema, estableciendo las bases para su integración con la aplicación web. |
+| **Date** | November 8, 2026 |
+| **Time** | 6:00 PM |
+| **Location** | Virtual meeting via Google Meet. |
+| **Prepared By** | Equipo NextPath. |
+| **Attendees (to planning meeting)** | Cruzalegui, Joaquin; Ravello, Luciana; Miranda, Jesús; Torres, Alisee; Pérez, Sebastián. |
+| **Sprint 2 Review Summary** | Durante el Sprint 2 se desarrolló la primera versión del frontend de NextPath, incorporando las interfaces de autenticación, evaluaciones vocacionales, exploración de carreras, seguimiento del estudiante y acompañamiento psicológico. También se utilizó una API REST simulada mediante json-server para representar las operaciones y los datos necesarios. Con estos avances, el equipo cuenta con una base sobre la cual continuar el desarrollo de los servicios reales del backend. |
+| **Sprint 2 Retrospective Summary** | El Sprint 2 permitió avanzar en la implementación de las interfaces de la plataforma y en la coordinación del trabajo mediante GitHub. Sin embargo, se identificaron oportunidades de mejora relacionadas con la revisión de Pull Requests, la organización de ramas y la integración de cambios. Para el Sprint 3, se priorizará una distribución clara de responsabilidades, el desarrollo independiente de los Bounded Contexts y la revisión de los componentes antes de integrarlos al proyecto principal. |
+| **Sprint 3 Goal** | Desarrollar una primera versión funcional del backend de NextPath mediante una API RESTful organizada con Domain-Driven Design (DDD). El objetivo será implementar los componentes de dominio, aplicación, infraestructura e interfaces correspondientes a los nueve Bounded Contexts definidos, permitiendo gestionar las operaciones principales del sistema y preparando su posterior integración con el frontend. |
+| **Sprint 3 Velocity** | Por definir según el Sprint Backlog 3. |
+| **Sum of Story Points** | Por definir según las historias técnicas seleccionadas. |
+
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+A continuación, se presenta la matriz LACX (Leadership-and-Collaboration Matrix), utilizada para organizar las responsabilidades del equipo durante el desarrollo del backend de NextPath. Las actividades se distribuirán considerando los nueve Bounded Contexts definidos para la plataforma, asignando a cada integrante el liderazgo de los componentes correspondientes y la colaboración en los demás contextos.
+
+Esta distribución permitirá que los integrantes trabajen de manera independiente en sus respectivos contextos, manteniendo una estructura modular basada en Domain-Driven Design (DDD). Asimismo, se promoverá la colaboración entre los miembros del equipo durante la revisión del código, la resolución de problemas técnicos y la integración de los servicios desarrollados.
+
+| Team Member | GitHub Username | IAM | Resources | Shared | Career Exploration | Task | Counseling | Assessments | Community | Monitoring |
+|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Pérez, Sebastián | FernBellido22 | **L** | **L** | **L** | C | C | C | C | C | C |
+| Miranda, Jesús | Jesus-Miranda-678 | C | C | C | **L** | **L** | C | C | C | C |
+| Torres, Alisee | lLisee1 | C | C | C | C | C | **L** | C | C | C |
+| Cruzalegui, Joaquin | JoaquinCruzalegui | C | C | C | C | C | C | **L** | **L** | C |
+| Ravello, Luciana | Lucyrcar-ID | C | C | C | C | C | C | C | C | **L** |
+
+**L = Leader | C = Collaborator**
+
+#### 5.2.3.3. Sprint Backlog 3
+
+**Objetivo del Sprint:**  
+Implementar y desplegar el backend de producción de NextPath basado en Domain-Driven Design (DDD) y .NET Core, integrando la base de datos relacional y configurando los controladores REST para dar soporte a los flujos de estudiantes y psicólogos.
+
+**Sprint Goal:**  
+*"El backend modular de NextPath se encuentra operativo en .NET Core, permitiendo que la aplicación web procese de manera persistente la autenticación JWT, las evaluaciones vocacionales , el catálogo y simulador de carreras, el agendamiento de citas, la comunidad y el monitoreo de riesgo clínico."*
+
+**Métricas y Configuración del Sprint 2:**
+
+**Story Points comprometidos: 29 SP | Duración: 2 semanas **
+
+>Evidencia del Board:
+<div align="center">
+  <img src="images/sprint-backlog-3.png" alt="sprint"><br><br>
+</div>
+
+>URL público del Board:
+https://trello.com/invite/b/6af4000b58f4ebe6ea0a7dec/ATTIdc2403d2f47ede80c8541a0c67dcaa489119E05A/nextpath
+
+| Sprint # | User Story ID | User Story Título | SP | Task ID | Task Título | Descripción | Estimación | Asignado a | Status | 
+| :---: | :---: | :--- | :---: | :---: | :--- | :--- | :---: | :--- | :---: |
+| **Sprint 3** | TS 01 | Autenticar usuarios mediante la API | 3 | T3.1 | Endpoints de IAM &amp; Authentication | Implementar \`AuthController\` y \`UsersController\` en \`IAM/\` con controladores REST, generación de tokens JWT, hashing de contraseñas y gestión de roles (\`Student\`/\`Psychologist\`). | 5h | Pérez, Fernando (\`FernBellido22\`) | Done |
+| **Sprint 3** | TS 07 | Gestionar actividades y recursos vocacionales | 2 | T3.2 | Endpoints de Biblioteca de Recursos | Implementar \`ResourcesController\` en \`Resources/\` para registro, filtrado por categoría y consulta de guías o libros descargables. | 4h | Pérez, Fernando (\`FernBellido22\`) | Done | 
+| **Sprint 3** | TS 09, TS 10 | Buscar carreras y consultar compatibilidad | 5 | \*\*T3.3\*\* | Endpoints de Búsqueda, Compatibilidad y Simulador | Implementar \`CareersController\` en \`CareerExploration/\` con filtros combinados (área, duración, modalidad), cálculo de afinidad por IA y simulación de trayectoria profesional. | 6h | Miranda, Jesús (\`Jesus-Miranda-678\`) | Done | 
+| **Sprint 3** | TS 11 | Gestionar carreras favoritas mediante la API | 2 | T3.4 | Endpoints de Carreras Favoritas | Implementar \`FavoritesController\` en \`CareerExploration/\` para agregar (\`POST\`), listar (\`GET\`) y remover (\`DELETE\`) carreras en la lista de favoritos del estudiante. | 4h | Miranda, Jesús (\`Jesus-Miranda-678\`) | Done |
+| **Sprint 3** | TS 12 | Gestionar plan vocacional y metas del estudiante | 3 | T3.5 | Endpoints de Plan Vocacional y Tareas | Implementar \`StudentTasksController\` en \`Tasks/\` para la gestión CRUD de tareas del plan de desarrollo, control de fechas límite y actualización de estado. | 5h | Miranda, Jesús (\`Jesus-Miranda-678\`) | Done | 
+| **Sprint 3** | TS 06 | Gestionar sesiones de orientación mediante la API | 3 | T3.6 | Endpoints de Agendamiento de Sesiones | Implementar \`CounselingSessionsController\` en \`Counseling/\` para programación de citas individuales/grupales,validación de fechas, vinculación estudiante-psicólogo y registro de observaciones de sesión. | 6h | Torres, Alisee (\`ILisee1\`) | Done |
+| **Sprint 3** | TS 02, TS 03, TS 04 | Registrar, procesar y consultar tests vocacionales | 5 | T3.7 | Endpoints de Evaluaciones Vocacionales  | Implementar \`VocationalTestsController\` y \`TestResultsController\` en \`Assessments/\` para banco de preguntas, persistencia transaccional de respuestas  | 7h | Cruzalegui, Joaquin (\`JoaquinCruzalegui\`) | Done | 
+| **Sprint 3** | TS 13 | Administrar comunidad y foros en la API | 3 | T3.8 | Endpoints de Comunidad, Hilos y Comentarios | Implementar \`CommunitiesController\`, \`ThreadsController\` y \`CommentsController\` en \`Community/\` para publicación de posts, reacciones, moderación y mensajes de foro. | 6h | Cruzalegui, Joaquin (\`JoaquinCruzalegui\`) | Done | 
+| **Sprint 3** | TS 05, TS 08 | Consultar expediente y registrar progreso clínico | 3 | T3.9 | Endpoints de Tablero de Monitoreo y Ficha Diagnóstica | Implementar \`StudentProfilesController\` en \`Monitoring/\` para filtrado por grupo de alumnos, \*flags\* de riesgo (inactividad/baja participación) y notas de seguimiento clínico. | 6h | Ravello, Luciana (\`Lucyrcar-ID\`) | Done | | **Sprint 3** | TS 15 | Consultar información analítica vocacional | 4 | T3.10 | Endpoints de Analítica Avanzada y Reportes IA | Implementar servicios en \`Monitoring/\` (o \`Reports/\`) para generación de reportes psicológicos automáticos con IA, analítica comparativa de cohortes y exportación de datos. | 5h | Ravello, Luciana (\`Lucyrcar-ID\`) | Done |
+
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo trabajó colaborativamente en el repositorio NextPath-Platform-Api, aplicando GitFlow y utilizando la convención de Conventional Commits para registrar y organizar los cambios realizados durante la implementación de la primera versión de los Web Services.
+
+A continuación, se muestra en detalle los commits realizados por cada miembro del equipo y organizados en una tabla.
+
+<table>
+  <thead>
+    <tr>
+      <th width="20%">Repository</th>
+      <th width="10%">Branch</th>
+      <th width="10%">Commit Id</th>
+      <th width="30%">Commit Message</th>
+      <th width="15%">Commit Message Body</th>
+      <th width="15%">Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>8601949</td>
+      <td>Delete Iam directory</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>95ad6e4</td>
+      <td>feat(counseling): implement counseling bounded</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>b68b356</td>
+      <td>feat(VocationalResources): implement vocational resources</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>4d07717</td>
+      <td>feat(Iam): implement identity and access management</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>ad514a9</td>
+      <td>feat(sahred): implement shared</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>0cf6744</td>
+      <td>Move Shared folder to repository root</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>fbbda3d</td>
+      <td>chore(shared): remove duplicated root Shared directory</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>e76445a</td>
+      <td>feat(shared): implement shared components</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>5929442</td>
+      <td>chore(shared): remove other bounded context directories</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>2794a4c</td>
+      <td>feat(shared): add domain and persistence components</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>617556f</td>
+      <td>chore: move backend structure to repository root</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>f5f0b07</td>
+      <td>chore: add initial backend folder structure</td>
+      <td>-</td>
+      <td>10/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>40c9e64</td>
+      <td>feat(carrerExploration) add CareerExplorationServiceCollectionExtensions</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>4cd3b75</td>
+      <td>feat(carrerExploration) add CareerExplorationErrors</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>00af32b</td>
+      <td>feat(carrerExploration) add CareerExplorationError</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>2ea4512</td>
+      <td>feat(carrerExploration) add CareerExplorationContextFacade.cs</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>6890696</td>
+      <td>feat(carrerExploration) add CareerExplorationActionResultAssembler</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>21e96a5</td>
+      <td>feat(carrerExploration) add CareerCompatibilityResource</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>b613414</td>
+      <td>feat(carrerExploration) add CareerCompatibility</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>4cb7442</td>
+      <td>feat(carrerExploration) add CareerCommandService.cs</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>b43bc0d</td>
+      <td>feat(carrerExploration) add CareerCatalogSeeder</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>cbdff68</td>
+      <td>feat(carrerExploration) add Career</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>c5070c8</td>
+      <td>feat(carrerExploration) add FavoriteCareerResourceFromEntityAssembler</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>70f5ef3</td>
+      <td>feat(carrerExploration) add favotireCarrerCommand</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>1f22907</td>
+      <td>feat(assessments): implement bounded context</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>b8f98c6</td>
+      <td>feat: add Monitoring module</td>
+      <td>-</td>
+      <td>12/11/2026</td>
+    </tr>
+    <tr>
+      <td>NextPath - Platform - Api</td>
+      <td>develop</td>
+      <td>0db98fe</td>
+      <td>feat(community): implement bounded context</td>
+      <td>-</td>
+      <td>11/11/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+Se han seleccionado algunos commits para evitar una larga extensión de la tabla presentada.
+
+
+
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+En este apartado se explican y presentan los avances de implementación correspondientes al Sprint 3, cuyo alcance principal fue el desarrollo de la primera versión de los Web Services. A lo largo de este sprint, el equipo colaboró de forma estructurada para lograr la implementación de distintas pestañas de la aplicación en la base de datos como mensajes, tests vocacionales, carreras, reportes, comparaciones, entre otros.
+
+A continuación, se presentan las evidencias de ejecución del sprint 3.
+
+### Branches evidence
+
+<div align="center">
+    <img src="images/branches-evidence.png" alt="iniciosesion">
+  </div>
+
+<br>
+
+Se tuvo en cuenta cada bounded context previamente definido para la creación de las ramas, así como distintos contextos necesarios (en nuestro caso, nuestra rama "feature/deploy").
+
+### User endpoints evidence
+
+**Iam**
+
+<div align="center">
+    <img src="images/iam-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/iam-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/iam-evidence3.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/iam-evidence4.png" alt="iniciosesion">
+  </div>
+
+<br>
+
+Está relacionado a la autenticación, registro y roles.
+
+* Bounded Context asociado(s): Iam Context and Profiles & Preferences Context
+
+<br>
+
+**Assessments**
+<div align="center">
+    <img src="images/asssessments-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/assessments-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/assessments-evidence3.png" alt="iniciosesion">
+  </div>
+
+<br>
+
+Está relacionado con las asignaciones al estudiante (tests vocacionales, banco de preguntas, el procesamiento con IA de las mismas, etc ).
+
+* Bounded Context asociado(s): Vocational Education Context
+
+<br>
+
+**Career Exploration**
+
+<div align="center">
+    <img src="images/careerexploration-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/careerexploration-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/careerexploration-evidence3.png" alt="iniciosesion">
+  </div>
+
+  <br>
+
+Relacionado al catálogo de carreras, comparador y simulador, así como también al buscador y a los filtros inteligentes.
+
+* Bounded Context asociado(s): Career Exploration & Planning Context and Search & Discovery Context
+
+<br>
+
+**Community**
+
+<div align="center">
+    <img src="images/community-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/community-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/community-evidence3.png" alt="iniciosesion">
+  </div>
+
+  <br>
+
+  Relacionado a los foros, hilos de discusión, comentarios, acciones y mensajería en tiempo real.
+
+  * Bounded Context asociado(s): Community and Chat Context
+
+  <br>
+
+  **Counseling**
+
+  <div align="center">
+    <img src="images/counseling-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/counseling-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/counseling-evidence3.png" alt="iniciosesion">
+  </div>
+
+  <br>
+
+  Relacionado al agendamiento de citas individuales y grupales y al enlace entre alumno y psicólogo.
+
+  * Bounded Context asociado(s): Advisory Context
+
+  <br>
+
+  **Monitoring**
+
+  <div align="center">
+    <img src="images/monitoring-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/monitoring-evidence2.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/monitoring-evidence3.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/monitoring-evidence4.png" alt="iniciosesion">
+  </div>
+
+  <br>
+
+  Relacionado a las fichas clínicas del psicólogo, notas de seguimiento, validación de reportes de evolución y analítica de grupos de estudiantes.
+
+  * Bounded Context asociado(s): Student Monitoring Context and Reports Context
+
+  <br>
+
+**Tasks**
+
+<div align="center">
+    <img src="images/tasks-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/tasks-evidence2.png" alt="iniciosesion">
+  </div>
+
+Relacionado a la gestión de metas, asiganciones y seguimiento de tareas del estudiante.
+
+  * Bounded Context asociado(s): Task & Goal Management Context
+
+  <br>
+
+  **Vocational Resources**
+
+  <div align="center">
+    <img src="images/vocationalresources-evidence1.png" alt="iniciosesion">
+  </div>
+  <div align="center">
+    <img src="images/vocationalresources-evidence2.png" alt="iniciosesion">
+  </div>
+
+Relacionado con la biblioteca de guías, libros y material descargable.
+
+  * Bounded Context asociado(s): Resources Context
+
+  <br>
+
+
+**ENDPOINTS ESTABLECIDOS**
+
+![Landing Page Wirefrmae - Inicio](images/api-evidencia.png)
+
+
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+En el Sprint 3 la Web Application consume un Web Service implementado con **Scalar**, desplegada en Azure. Los datos se crean y se extraen de una base de datos SQL con colecciones del dominio, y cada una expone las operaciones REST estándar (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`). 
+
+Estos son algunos Endpoint implementados:
+
+
+| **Endpoint** | **Acción (HTTP)** | **Parámetros** | **Descripción del Response** | **User Story** |
+| :--- | :---: | :--- | :--- | :---: |
+| `/api/v1/users` | POST | `email`, `password`,`role`,`schoolOrUniversity`,`currentCycle`,`linkedPsychologistCode`,`professionalLicense`,`specialty`| `201 Created` con la lista de usuarios que coinciden; una lista vacía equivale a credenciales incorrectas y lleva a `401 Bad Request`. Incluye `role` (`student` o `psychologist`). | TS01 |
+| `/api/v1/users` | GET | - | `201 OK` con los usuarios registrados. | TS01 |
+| `/api/v1/users/{userId}` | GET | `userId` | `200 OK` con el perfil del usuario y `404 Not Found `| TS01 |
+| `/api/v1/vocational-tests` | GET | | `200 OK` con el catálogo de 5 tests: NextPath (IA), Holland, Aptitudes Diferenciales, 16Personalities y Kuder. Cada uno trae `type` (`open` o `choice`), `durationMinutes`, `instructions` y `featured`. | US01 |
+| `/api/v1/vocational-tests/{vocationalTestId}` | POST | `vocationalTestId` | `200 OK` con las preguntas del test; las de tipo `choice` incluyen `options` con su `area` RIASEC (artistic, social, investigative, enterprising, conventional). | US01 |
+| `/api/v1/test-results` | GET | `studentId` | `200 OK` con el historial de resultados: `scores` por área, `careerMatches` con su `compatibility`, `date`, `version` y `status`. | US02, US03 |
+| `/api/v1/test-results` | POST | `studentId`, `testId`, `status`, `compatibility`, `careerMatches`, `answers` | `201 Created` con el resultado registrado. | US01, US26 |
+| `/api/v1/test-results/{testResultId}` | PUT | `studentId`, `testId`, `status`,`answers`,`careerMateches` | `200 OK` con el resultado de seguimiento actualizado (`pending` a `completed`). | US03 |
+| `/api/v1/careers/{careerId}` | GET | `careerid` | `200 OK` con la ficha completa: `universities`, `fieldOfWork`, `skills`, `salaryRange`, `employabilityRate`, `demandLevel`, `projection` por etapa y `recommendations`. | US16, US20 |
+
+**Alcance de la API simulada.** 
  
+* **Repositorio del Web Service:** https://github.com/VocaFyTeam/NextPath-Platfomr-Api.git
+* **URL del Web Service desplegado:** https://vocafy-nextpath-api-b6c8drehfra7apgk.brazilsouth-01.azurewebsites.net/scalar/v1#tag/vocational-resources
+
+<p align="center">
+  <img src="images/api-evidencia.png" width="700" alt="API simulada en Render"/>
+  <br/><i>Web Service desplegad en Azure</i>
+</p>
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+
+En este Sprint 3, los esfuerzos de despliegue se centraron en poner en producción los **RESTful Web Services (Backend)** desarrollados bajo una arquitectura DDD (Domain-Driven Design). El servicio backend fue desplegado en la nube de **Microsoft Azure** utilizando **Azure App Service**, asegurando la conectividad persistente con la base de datos relacional alojada en la nube y la exposición pública de los endpoints RESTful para su consumo desde el Frontend Web Application.
+
+Las principales actividades de despliegue realizadas durante este Sprint incluyeron:
+
+1. **Creación y Configuración del Servicio en Azure:** Se aprovisionó un recurso de tipo **Azure App Service** (App Service Plan configurado para entorno de producción) soportando el runtime correspondiente del proyecto backend.
+2. **Configuración de Variables de Entorno y Cadenas de Conexión:** Se establecieron las variables de entorno de producción  directamente en el panel de *Application Settings* de Azure para resguardar la seguridad de la aplicación.
+3. **Despliegue desde el Repositorio:** Se vinculó el repositorio oficial del backend (`VocaFyTeam/NextPath-Platfomr-Api`) para ejecutar y automatizar el flujo de publicación hacia Azure App Service.
+4. **Validación de Endpoints y Scalar UI:** Se comprobó el correcto arranque del servidor y la disponibilidad pública de la API mediante el acceso a la ruta base y la interfaz interactiva de Scalar desplegada en Azure.
+
+##### Tabla de Evidencia de Despliegue del Backend
+
+| **Evidencia** | **Dato real / Configuración** |
+| :--- | :--- |
+| **Repositorio del Backend** | https://github.com/VocaFyTeam/NextPath-Platfomr-Api |
+| **Cloud Provider** | Microsoft Azure |
+| **Servicio Cloud Utilizado** | Azure App Service (Web App) |
+| **Branch de Despliegue** | `main` |
+| **URL Pública del Backend (API Base)** | https://vocafy-nextpath-api-b6c8drehfra7apgk.brazilsouth-01.azurewebsites.net/scalar/v1 |
+| **Fecha de Despliegue** | 2026-11-13 |
+
+##### Evidencias Visuales de Despliegue
+
+
+
+*  Panel de control de **Azure App Service** mostrando el estado *Running* y el dominio asignado al servicio backend de NextPath.
+  ![Azure App Service Dashboard](images/azure.png)
+
+*  Configuración de base de datos  en el portal de Microsoft Azure.
+  ![Azure Environment Variables](images/azure2.png)
+
+*  Interfaz de **Scalar UI** desplegada en producción sobre el dominio de Azure, evidenciando la disponibilidad de los endpoints de IAM, Assessments, Career Exploration, Counseling, Monitoring, Community y Resources.
+  ![Swagger UI en Azure](images/api-evidencia.png)
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
 
+##### Protocolo de Ejecución de la Sesión
+1. **Introducción y Propósito:** Al inicio de la grabación, el moderador explica brevemente el objetivo de la sesión (evaluar la plataforma, no al usuario).
+2. **Enfoque en *User Goals* :** Se asignan escenarios y tareas basadas directamente en los *User Goals* de los *User Personas* creados. **No se indican pasos específicos, rutas de menú ni nombres de botones**, permitiendo que el usuario explore libremente las interfaces bajo la técnica *Thinking Aloud* (pensar en voz alta).
+3. **Exploración del Landing Page y Aplicaciones:** Se evalúa primero el primer contacto con el *Landing Page* y posteriormente la ejecución de los *User Flows* principales dentro de la aplicación.
+4. **Cierre y Cuestionario de Validación:** Al finalizar las tareas, se aplica una entrevista semiestructurada con preguntas abiertas y directas para recoger percepciones sobre usabilidad, contenido y consistencia visual.
+
+##### Guía de Preguntas de la Entrevista de Validación
+
+Las preguntas han sido formuladas con un lenguaje claro, cercano y libre de tecnicismos para facilitar respuestas espontáneas y honestas por parte de los entrevistados:
+
+**1. Datos Demográficos Básicos (Validación de Perfil / Arquetipo)**
+* ¿Cuál es tu edad y en qué distrito resides?
+
+**2. Preguntas sobre la Primera Impresión (Landing Page)**
+* ¿Qué es lo primero que notas al entrar al *landing page* de VocaFy?
+* ¿Qué tan claro te resulta el propósito de la plataforma?
+* ¿Te parece atractivo y confiable el diseño inicial?
+
+**3. Preguntas sobre Navegación y Usabilidad (Aplicaciones Web / Mobile)**
+* ¿Encontraste fácilmente la sección o información que buscabas (como el test vocacional, el buscador de carreras o el panel de seguimiento)?
+* ¿Hubo algún momento en el que te confundiste sobre qué hacer a continuación?
+* ¿Qué tan intuitivo te resultó completar la tarea asignada en la aplicación?
+
+**4. Preguntas sobre Contenido y Comunicación**
+* ¿Los textos y elementos visuales te ayudaron a entender cómo funciona la orientación vocacional?
+* ¿Hay algo que consideres innecesario o que sientas que falta en la plataforma?
+* ¿El lenguaje utilizado es claro y fácil de comprender para ti?
+
+**5. Preguntas sobre Experiencia General y Validación Heurística**
+* ¿Qué tan satisfecho estás con la interacción general en la aplicación?
+* ¿Tuviste algún problema para reconocer los botones, enlaces o menús interactivos?
+* ¿Los mensajes, alertas o avisos del sistema fueron suficientes y claros?
+* ¿Qué mejorarías en el flujo de la aplicación?
+* ¿Recomendarías esta aplicación a alguien más? ¿Por qué?
+
 ### 5.3.2. Registro de Entrevistas
+
+**SEGMENTO 1: ESTUDIANTES**
+<BR>
+
+**Entrevista 1:**
+<br>
+**Entrevistador(a):** >Luciana Angielina Ravello Cárdenas
+
+Datos del entrevistada:
+
+* Nombre: Liz
+* Apellido: Anahua
+* Edad: 22 años
+* Distrito: San Borja
+* Timing: 0:10
+
+
+<p align="center"><img alt="Entrevista-Luciana1.2" src="images/evidencia-entrevista.png" /></p>
+  <p align="center"><img alt="Entrevista-Luciana1" src="images/evidencia-entrevista-1.2.png" /></p>
+<p align="center"><i>Evidencia de entrevista: Liz </i></p>
+
+**Resumen descriptivo:** En la entrevista, la estudiante comentó que la plataforma contaba con un diseño amigable y afirmó que sí la recomendaría a otros alumnos. Además, valoró positivamente la fluidez en los cuestionarios dinámicos y en el simulador de trayectorias, ya que facilitan la visualización del futuro. También consideró que la navegación es intuitiva y no tuvo problemas con los menús y las notificaciones.
+
+
+**Entrevista 2:**
+<br>
+**Entrevistador(a):** >Jesus Angel Yvan Miranda Cordova
+
+Datos del entrevistada:
+
+* Nombre: Joaquin
+* Apellido: Zavala
+* Edad: 17 años
+* Distrito: trujillo
+* Timing: 8:20
+
+
+<p align="center"><img alt="Entrevista-jesus" src="images/evidencia-entrevista-2.png" /></p>
+  <p align="center"><img alt="Entrevista-jesus" src="images/evidencia-entrevista-2-1.png" /></p>
+<p align="center"><i>Evidencia de entrevista: joaquin </i></p>
+
+**Resumen descriptivo:** En la entrevista, la estudiante comentó que la plataforma contaba con un diseño llamativo y afirmó que sí la recomendaría a otros alumnos. 
+Además,considera que el flujo de las actividades es correcto y completo , valoro en  gran medida el el flujo para la realizacion de los test y el resultado d eestos.Por otro lado , si bien joaquin se encuentra satisfecho con la interacción general de al aplicación, él considera que seria un buen agregado mover el aaprtado de favoritos mas cerca del apartado de carreras.
+
+
+**SEGMENTO 2: PSICÓLOGOS**
+<BR>
+
+**Entrevista 1:**
+<br>
+**Entrevistador(a):** >Joaquin Cruzalegui Herrera
+
+Datos del entrevistada:
+
+* Nombre: Silvia
+* Apellido: Herrera
+* Edad: 49 años
+* Distrito: Santiago de Surco
+* Timing: 15:05
+
+
+<p align="center"><img alt="Entrevista-Joaquin1.2" src="images/evidencia-entrevista-joaquin-silvia-1.png" /></p>
+  <p align="center"><img alt="Entrevista-Joaquin1" src="images/evidencia-entrevista-joaquin-silvia-2.png" /></p>
+<p align="center"><i>Evidencia de entrevista: Silvia </i></p>
+
+**Resumen descriptivo:** En la entrevista, la psicóloga Silvia Herrera valoró positivamente el diseño y la organización de NextPath, destacando que la navegación es intuitiva y que las funcionalidades son fáciles de identificar. Asimismo, consideró útiles las herramientas de seguimiento de estudiantes, consulta de resultados vocacionales, reportes y programación de sesiones, ya que pueden facilitar el trabajo de los psicólogos. Como sugerencia de mejora, mencionó la incorporación de indicaciones más claras y recomendaciones personalizadas para los estudiantes. Finalmente, señaló que recomendaría la plataforma, pues considera que puede ser un buen complemento para el proceso de orientación vocacional sin reemplazar el acompañamiento profesional.
+
 
 ### 5.3.3. Evaluaciones según heurísticas
 
